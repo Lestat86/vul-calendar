@@ -119,8 +119,10 @@ export function extractYear(text, window = 600) {
 
   /* "anni 2000" e "primi anni '90" sono decenni, non anni. Vanno provati PRIMA
      del match esatto, che altrimenti legge "anni 2000" come l'anno 2000 e
-     spaccia per preciso un dato che copre dieci anni. */
-  const decade = head.match(/anni\s+[’']?(\d{2}|\d{4})\b/)
+     spaccia per preciso un dato che copre dieci anni.
+     L'apice va accettato in tre forme: ' tipografico ’ e ‘ (U+2018), che nei
+     testi veri compare eccome. */
+  const decade = head.match(/anni\s+[’'‘]?(\d{2}|\d{4})\b/i)
   if (decade) {
     const v = Number(decade[1])
     // due cifre = abbreviazione ("anni '90"); quattro = decennio pieno ("anni 2000")
@@ -130,15 +132,87 @@ export function extractYear(text, window = 600) {
   const named = head.match(new RegExp(`anni\\s+(${Object.keys(DECADI).join('|')})\\b`, 'i'))
   if (named) return { year: DECADI[named[1].toLowerCase()], precision: 'decennio' }
 
-  /* In italiano "alla fine del 1800" è il secolo, non l'anno: collocarlo nel
-     1800 sbaglia di novant'anni. Casi così restano senza anno e passano per
-     la curation a mano, che è meglio di un numero convincente e falso. */
-  if (/\b(?:fine|met[àa]|inizio|primi|inizi)\s+(?:del\s+|dell'|degli\s+)?1[6-9]00\b/i.test(head)) {
-    return null
-  }
+  const century = matchCentury(head)
+  if (century) return century
 
   const exact = head.match(/\b(1[0-9]{3}|20[0-2][0-9])\b/)
   if (exact) return { year: Number(exact[1]), precision: 'anno' }
 
   return null
 }
+
+/** Secoli scritti in parole: "metà dell'Ottocento". */
+const SECOLI_PAROLA = {
+  duecento: 1200, trecento: 1300, quattrocento: 1400, cinquecento: 1500,
+  seicento: 1600, settecento: 1700, ottocento: 1800, novecento: 1900,
+}
+
+/** Secoli in numeri romani: "fine del XIX secolo". */
+const SECOLI_ROMANI = {
+  XII: 1100, XIII: 1200, XIV: 1300, XV: 1400, XVI: 1500, XVII: 1600,
+  XVIII: 1700, XIX: 1800, XX: 1900, XXI: 2000,
+}
+
+/**
+ * Sposta dentro il secolo in base al qualificatore, invece di ancorare tutto
+ * al suo primo anno.
+ *
+ * "alla fine del 1800" non è l'anno 1800: è il decennio 1890, e collocarlo nel
+ * 1800 sbaglia di novant'anni — H.H. Holmes finirebbe prima della nascita di
+ * suo bisnonno. Con l'offset invece si atterra a un decennio di distanza, che
+ * è quanto quel modo di dire concede.
+ */
+const MEZZO = String.raw`(?:met[àa](?![a-z])|mezzo\b)`
+
+/* L'ordine conta: "prima metà" va riconosciuta PRIMA di "metà", altrimenti
+   "prima metà del Novecento" diventa il 1950, che è la fine di quella metà e
+   non il suo centro — Padre Pio ci finiva trent'anni dopo le stigmate. */
+const OFFSET = [
+  [new RegExp(String.raw`\bprima\s+${MEZZO}`, 'i'), 25, 'circa'],
+  [new RegExp(String.raw`\bseconda\s+${MEZZO}`, 'i'), 75, 'circa'],
+  [/\bfine\b/i, 90, 'decennio'],
+  // niente \b in coda su "metà": "à" non è un carattere di parola per JS,
+  // quindi dopo di esso il confine non esiste e /\bmetà\b/ non aggancia mai.
+  // Il lookahead serve invece a non prendere "metallo".
+  [new RegExp(String.raw`\b${MEZZO}`, 'i'), 50, 'decennio'],
+  [/\b(?:inizio|inizi|primi|prima)\b/i, 0, 'decennio'],
+]
+
+function matchCentury(head) {
+  /* "a cavallo del XX e del XXI secolo" indica un confine, non un secolo:
+     prendere il primo dei due sbaglia di cent'anni. Meglio tacere. */
+  if (/\ba cavallo\b/i.test(head)) return null
+
+  const patterns = [
+    // "metà dell'Ottocento"
+    [new RegExp(`\\b(${Object.keys(SECOLI_PAROLA).join('|')})\\b`, 'i'),
+      (m) => SECOLI_PAROLA[m.toLowerCase()]],
+    // "fine del XIX secolo"
+    [new RegExp(`\\b(${Object.keys(SECOLI_ROMANI).join('|')})\\s+secolo\\b`),
+      (m) => SECOLI_ROMANI[m]],
+    // "fine '800", "inizio 800", "primi anni del '900"
+    [/[’'‘]?\b([5-9]00)\b/, (m) => 1000 + Number(m)],
+    // "alla fine del 1800"
+    [/\b(1[5-9]00)\b/, (m) => Number(m)],
+  ]
+
+  for (const [re, toYear] of patterns) {
+    const hit = head.match(re)
+    if (!hit) continue
+    const base = toYear(hit[1])
+    // il qualificatore sta prima della menzione del secolo
+    const before = head.slice(0, hit.index)
+    const found = OFFSET.find(([q]) => q.test(before))
+    // senza qualificatore le forme numeriche sono ambigue: potrebbe essere un anno
+    if (!found) {
+      return re.source.includes('secolo') || /[a-z]/i.test(hit[1])
+        ? { year: base, precision: 'secolo' }
+        : null
+    }
+    return { year: base + found[1], precision: found[2] }
+  }
+  return null
+}
+
+/** "primi anni duemila" non è un decennio con le cifre, ma lo è. */
+DECADI.duemila = 2000

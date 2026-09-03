@@ -100,11 +100,13 @@ describe('extractYear — trappole trovate sui dati veri', () => {
       .toEqual({ year: 2010, precision: 'decennio' })
   })
 
-  it('"alla fine del 1800" è il secolo: meglio nessun anno che sbagliare di 90', () => {
-    // collocare H.H. Holmes nel 1800 invece che negli anni 1890
+  it('"alla fine del 1800" è il secolo, e il qualificatore dice dove dentro', () => {
+    // ancorare al primo anno del secolo metterebbe H.H. Holmes nel 1800
+    // invece che negli anni 1890: novant'anni di errore
     expect(extractYear("Chicago. Siamo alla fine del 1800, in un'epoca in cui la medicina"))
-      .toBeNull()
-    expect(extractYear('Roma, metà del 1900, la città cambia faccia')).toBeNull()
+      .toEqual({ year: 1890, precision: 'decennio' })
+    expect(extractYear('Roma, metà del 1900, la città cambia faccia'))
+      .toEqual({ year: 1950, precision: 'decennio' })
   })
 
   it('un anno vero che finisce per 00 resta un anno', () => {
@@ -118,5 +120,79 @@ describe('extractYear — trappole trovate sui dati veri', () => {
     expect(extractYear('New York, 2011. Sarma è la regina del crudismo'))
       .toEqual({ year: 2011, precision: 'anno' })
     expect(extractYear("anni '90 in Svezia")).toEqual({ year: 1990, precision: 'decennio' })
+  })
+})
+
+describe('extractYear — forme trovate leggendo i 63 episodi non datati', () => {
+  it('apici tipografici: ‘ U+2018 oltre a ’ e \'', () => {
+    expect(extractYear('Veneto, primi anni ‘80. Il mondo è diviso'))
+      .toEqual({ year: 1980, precision: 'decennio' })
+    expect(extractYear('Siamo in Francia, tra gli anni ‘60 e ‘70'))
+      .toEqual({ year: 1960, precision: 'decennio' })
+  })
+
+  it('"Anni" con la maiuscola', () => {
+    expect(extractYear("Channelview, Texas. Anni '90. In questa cittadina operaia"))
+      .toEqual({ year: 1990, precision: 'decennio' })
+  })
+
+  it('"anni duemila"', () => {
+    expect(extractYear("Siamo nei primi anni duemila, nell'internet lento"))
+      .toEqual({ year: 2000, precision: 'decennio' })
+  })
+
+  it('secoli apocopati: "fine \'800", "inizio 800"', () => {
+    expect(extractYear('provincia bergamasca di fine ‘800. Un uomo misterioso'))
+      .toEqual({ year: 1890, precision: 'decennio' })
+    expect(extractYear('Germania, inizio 800. Un medico incapace di curare'))
+      .toEqual({ year: 1800, precision: 'decennio' })
+    expect(extractYear("La Porte, Indiana. Nei primi anni del '900, questa cittadina"))
+      .toEqual({ year: 1900, precision: 'decennio' })
+  })
+
+  it('secoli in parole', () => {
+    expect(extractYear("Milano, metà dell'Ottocento. Nelle strade strette e buie"))
+      .toEqual({ year: 1850, precision: 'decennio' })
+    expect(extractYear('Il Novecento europeo comincia male'))
+      .toEqual({ year: 1900, precision: 'secolo' })
+  })
+
+  it('secoli in numeri romani', () => {
+    expect(extractYear('Siamo a New York, alla fine del XIX secolo. Decine di migliaia'))
+      .toEqual({ year: 1890, precision: 'decennio' })
+    expect(extractYear('Nel XVI secolo la stampa cambia tutto'))
+      .toEqual({ year: 1500, precision: 'secolo' })
+  })
+
+  it('"a cavallo di due secoli" indica un confine: meglio tacere', () => {
+    // prendere il primo dei due sbaglierebbe di cent'anni
+    expect(extractYear('Francia, a cavallo del XX e del XXI secolo. Una famiglia'))
+      .toBeNull()
+  })
+
+  it('il qualificatore sposta dentro il secolo, non lo ancora al primo anno', () => {
+    expect(extractYear('Chicago. Siamo alla fine del 1800, in un\'epoca in cui la medicina'))
+      .toEqual({ year: 1890, precision: 'decennio' })
+  })
+
+  it('"metallo" non è "metà"', () => {
+    expect(extractYear('Un pezzo di metallo ritrovato nel 1975'))
+      .toEqual({ year: 1975, precision: 'anno' })
+  })
+})
+
+describe('extractYear — mezzo secolo', () => {
+  it('"prima metà" non è "metà": il centro, non la fine', () => {
+    // ancorare al 1950 metteva Padre Pio trent'anni dopo le stigmate
+    expect(extractYear('Siamo in Puglia nella prima metà del Novecento. Una cittadina'))
+      .toEqual({ year: 1925, precision: 'circa' })
+  })
+  it('"seconda metà" sta nella metà giusta', () => {
+    expect(extractYear('Roma, seconda metà del XIX secolo, la città cambia faccia'))
+      .toEqual({ year: 1875, precision: 'circa' })
+  })
+  it('"metà" da sola resta il centro del secolo', () => {
+    expect(extractYear("Milano, metà dell'Ottocento. Nelle strade strette"))
+      .toEqual({ year: 1850, precision: 'decennio' })
   })
 })
