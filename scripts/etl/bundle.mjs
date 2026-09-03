@@ -80,9 +80,14 @@ const EPISODE_TIERS = new Set(['pubblico', 'esclusivo', 'episodio'])
 /** Trailer, interviste e confronti non raccontano un caso: non hanno un anno da collocare. */
 const NON_CASI = /trailer|l['’]intervista|confronto con/i
 const undated = []
+let skippedSpecials = 0
 for (const ep of [...naqpPub, ...naqpPat]) {
   if (!EPISODE_TIERS.has(ep.tier)) continue // via backstage, live, video, sondaggi
   if (NON_CASI.test(ep.title)) continue
+  /* Gli speciali sono antologie: coprono più casi in una puntata e non hanno
+     un anno per costruzione. Restare in coda li renderebbe un debito che non
+     si estingue mai, quindi escono dalla traccia e dal conteggio. */
+  if (ep.isSpecial) { skippedSpecials += 1; continue }
   const override = manualDates[ep.id]
   const year = override?.year ?? ep.year ?? null
   if (!year) {
@@ -163,3 +168,4 @@ console.log('\ntotali per traccia:', index.totals)
 console.log(`chunk: ${chunks.size}, anni VUL coperti: ${density.size}`)
 console.log(`range: ${index.range.minVul} → ${index.range.maxVul} VUL`)
 console.log(`episodi NAQP ancora senza anno: ${undated.length}`)
+console.log(`speciali esclusi per costruzione: ${skippedSpecials}`)
