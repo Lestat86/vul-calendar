@@ -1,84 +1,116 @@
 @import 'tailwindcss';
 
-@font-face {
-  font-family: 'Anton';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: local('Anton');
-}
+/* Estetica di riferimento: la bacheca delle prove di un caso di cronaca.
+   Fogli ingialliti appuntati con puntine, foto fotocopiate e retinate, cerchi
+   a pennarello rosso, un filo rosso che tiene insieme gli anni.
 
-/* Estetica di riferimento: cassetta / CD-ROM, Milano 1994.
-   Nero, giallo acido, magenta. Titoli condensati pesanti, retino tipografico. */
+   Il rosso è #ff1919, l'accent dichiarato da Non Aprite Quella Podcast nel CSS
+   del loro sito: è riservato alla traccia naqp e alle annotazioni a mano. */
 @theme {
-  --color-ink: #0a0a0b;
-  --color-ink-2: #141416;
-  --color-ink-3: #1e1e22;
-  --color-bone: #ece7dc;
-  --color-bone-dim: #9a958c;
-  --color-acid: #f2e529;
-  --color-magenta: #ff2e88;
-  --color-cyan: #35e0d8;
+  --color-wall: #33352f;
+  --color-wall-deep: #23251f;
+  --color-paper: #e9e0c8;
+  --color-paper-2: #ded3b6;
+  --color-paper-edge: #b6ab8c;
+  --color-ink: #221f19;
+  --color-ink-soft: #6d6552;
+  --color-ink-body: #3a3529;
+  --color-red: #ff1919;
+  --color-red-deep: #8a2b2b;
+  --color-marker: #f2e14a;
 
-  --font-display: 'Anton', 'Archivo Black', 'Haettenschweiler',
-    'Arial Narrow', system-ui, sans-serif;
-  --font-sans: ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif;
-  --font-mono: ui-monospace, 'SF Mono', 'Cascadia Mono', Menlo, monospace;
+  /* Special Elite ha UN SOLO PESO: non usare font-weight per la gerarchia,
+     il browser sintetizzerebbe un finto grassetto illeggibile a questi corpi.
+     La gerarchia si fa con corpo, colore e il passaggio a --font-hand. */
+  --font-type: 'Special Elite', 'Courier New', ui-monospace, monospace;
+  --font-hand: 'Rock Salt', 'Bradley Hand', cursive;
 }
 
 @layer base {
   html {
-    background: var(--color-ink);
+    background: var(--color-wall);
     color-scheme: dark;
     -webkit-text-size-adjust: 100%;
   }
   body {
     margin: 0;
-    background: var(--color-ink);
-    color: var(--color-bone);
-    font-family: var(--font-sans);
-    /* retino: due gradienti incrociati, costa zero e dà la grana da stampa */
-    background-image:
-      radial-gradient(circle at 1px 1px, rgb(255 255 255 / 0.035) 1px, transparent 0);
-    background-size: 4px 4px;
+    color: var(--color-paper);
+    font-family: var(--font-type);
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.55;
+    background: linear-gradient(180deg, var(--color-wall-deep), var(--color-wall) 28%);
+    background-attachment: fixed;
     overflow-x: hidden;
   }
+  /* Nessun elemento deve chiedere un peso che il font non ha. */
+  h1, h2, h3, h4, strong, b, th {
+    font-weight: 400;
+  }
   ::selection {
-    background: var(--color-acid);
+    background: var(--color-marker);
     color: var(--color-ink);
   }
   :focus-visible {
-    outline: 2px solid var(--color-acid);
+    outline: 3px solid var(--color-marker);
     outline-offset: 2px;
   }
 }
 
-@utility display {
-  font-family: var(--font-display);
-  font-weight: 400;
-  letter-spacing: -0.02em;
-  text-transform: uppercase;
-  line-height: 0.92;
+@utility hand {
+  font-family: var(--font-hand);
+  line-height: 1.05;
 }
 
-/* Nastro verticale della cassetta: la spina dorsale della timeline. */
-@utility tape-spine {
-  background:
-    linear-gradient(180deg, transparent, rgb(236 231 220 / 0.18) 8%,
-      rgb(236 231 220 / 0.18) 92%, transparent),
-    repeating-linear-gradient(180deg,
-      transparent 0 6px, rgb(236 231 220 / 0.07) 6px 7px);
+/* Foglio appuntato: l'unità di tutta l'interfaccia. */
+@utility sheet {
+  background: var(--color-paper);
+  color: var(--color-ink);
+  box-shadow: 3px 4px 10px rgb(0 0 0 / 0.45);
 }
 
-@utility scanline {
-  position: relative;
-}
-@utility scanline-on {
-  background: repeating-linear-gradient(180deg,
-    rgb(0 0 0 / 0.22) 0 1px, transparent 1px 3px);
+/* Nastro adesivo: giustifica l'unica barra che resta ferma mentre si scorre.
+   I bordi sono strappati, non tagliati con la forbice. */
+@utility tape {
+  background: rgb(232 223 198 / 0.94);
+  background-image: repeating-linear-gradient(
+    102deg, transparent 0 9px, rgb(0 0 0 / 0.035) 9px 18px
+  );
+  box-shadow: 0 3px 8px rgb(0 0 0 / 0.35);
+  clip-path: polygon(
+    0 6%, 3% 0, 17% 5%, 32% 1%, 49% 6%, 66% 1%, 81% 5%, 96% 0, 100% 7%,
+    100% 93%, 97% 100%, 83% 95%, 67% 99%, 50% 94%, 33% 99%, 18% 95%, 4% 100%, 0 94%
+  );
 }
 
-/* Chi ha impostato "riduci animazioni" non vuole lo scanline che pulsa. */
+/* Fotocopia retinata. Un vero retino modula il punto con la luminanza e in CSS
+   non si può: contrasto alto più griglia di punti in multiply ci va vicino. */
+@utility halftone {
+  filter: grayscale(1) contrast(1.7) brightness(1.12);
+}
+@utility halftone-dots {
+  background-image: radial-gradient(circle at 1px 1px, #000 0.9px, transparent 0);
+  background-size: 3px 3px;
+  mix-blend-mode: multiply;
+  opacity: 0.55;
+}
+
+/* Cerchio a pennarello: il raggio è irregolare su tutti e otto i valori,
+   altrimenti si vede che è un'ellisse. */
+@utility circled {
+  border: 2.5px solid var(--color-red);
+  border-radius: 52% 48% 47% 53% / 49% 52% 48% 51%;
+  transform: rotate(-3deg);
+}
+
+/* Evidenziatore passato sopra una riga di testo. */
+@utility highlighted {
+  background: var(--color-marker);
+  padding-inline: 3px;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+}
+
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after {
     animation-duration: 0.01ms !important;

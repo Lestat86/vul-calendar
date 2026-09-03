@@ -1,46 +1,49 @@
 import type { Track } from '../lib/data'
 
 /**
- * Le classi sono scritte per esteso e non composte a runtime: Tailwind fa
- * tree-shaking sul sorgente e una classe costruita con un template literal
- * non finisce nel bundle.
+ * Le tracce non si distinguono con un pallino colorato ma con il MODO in cui
+ * sono state annotate sul foglio: la storia è battuta a macchina, il lurido è
+ * passato a evidenziatore, NAQP è scritto in rosso e le sue foto sono cerchiate
+ * a pennarello.
+ *
+ * Le classi sono scritte per esteso: Tailwind fa tree-shaking sul sorgente e
+ * una classe composta a runtime non finisce nel bundle.
  */
 export const TRACK_META: Record<Track, {
   label: string
   blurb: string
-  dot: string
-  text: string
-  border: string
+  title: string
+  tag: string
   chipOn: string
-  chipOff: string
+  circled: boolean
 }> = {
   storia: {
     label: 'Storia',
     blurb: 'quello che è successo davvero',
-    dot: 'bg-bone',
-    text: 'text-bone',
-    border: 'border-bone/30',
-    chipOn: 'bg-bone text-ink border-bone',
-    chipOff: 'bg-transparent text-bone/60 border-bone/25',
+    title: 'text-ink',
+    tag: 'text-ink-soft',
+    chipOn: 'bg-white text-ink',
+    circled: false,
   },
   lurido: {
     label: 'Lurido',
     blurb: 'hip hop, Italia, anni novanta',
-    dot: 'bg-acid',
-    text: 'text-acid',
-    border: 'border-acid/40',
-    chipOn: 'bg-acid text-ink border-acid',
-    chipOff: 'bg-transparent text-acid/60 border-acid/30',
+    title: 'text-ink highlighted',
+    tag: 'text-ink-soft',
+    chipOn: 'bg-marker text-ink',
+    circled: false,
   },
   naqp: {
     label: 'NAQP',
     blurb: 'Non Aprite Quella Podcast, sull\'anno del caso',
-    dot: 'bg-magenta',
-    text: 'text-magenta',
-    border: 'border-magenta/40',
-    chipOn: 'bg-magenta text-ink border-magenta',
-    chipOff: 'bg-transparent text-magenta/60 border-magenta/30',
+    title: 'text-red',
+    tag: 'text-red-deep',
+    chipOn: 'bg-white text-red',
+    circled: true,
   },
 }
+
+export const CHIP_OFF =
+  'bg-transparent text-ink-soft/75 border border-dashed border-ink-soft'
 
 export const TRACK_ORDER: Track[] = ['storia', 'lurido', 'naqp']

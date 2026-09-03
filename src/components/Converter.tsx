@@ -19,7 +19,7 @@ export function Converter({ onGoTo }: { onGoTo: (vul: number) => void }) {
     try {
       if (direction === 'toVul') {
         if (n < 1) {
-          return { ok: false, error: "L'anno canonico parte da 1: non esiste l'anno 0 a.C./d.C." }
+          return { ok: false, error: "L'anno canonico parte da 1: non esiste l'anno 0." }
         }
         return { ok: true, vul: toVul({ year: n, era }), canonical: { year: n, era } }
       }
@@ -32,91 +32,92 @@ export function Converter({ onGoTo }: { onGoTo: (vul: number) => void }) {
   const cycle = result?.ok ? cycleOf(result.vul) : null
 
   return (
-    <div className="rounded-sm border border-bone/15 bg-ink-2/60 p-4">
-      <div className="mb-3 flex items-center justify-between gap-2">
-        <h2 className="display text-lg text-bone">Convertitore</h2>
+    <div className="sheet -rotate-[0.4deg] px-4 pt-4 pb-5">
+      <div className="mb-1 flex items-baseline justify-between gap-3">
+        <h2 className="hand text-[21px] text-ink">Da un calendario all'altro</h2>
         <button
           type="button"
           onClick={() => setDirection((d) => (d === 'toVul' ? 'fromVul' : 'toVul'))}
-          className="rounded-sm border border-bone/25 px-2 py-1 text-[11px] uppercase tracking-wide
-            text-bone-dim hover:border-acid/50 hover:text-acid"
+          className="shrink-0 border border-ink px-2 py-1 text-[11.5px] text-ink-soft
+            hover:bg-ink hover:text-paper"
         >
-          {direction === 'toVul' ? 'canonico → VUL' : 'VUL → canonico'} ⇄
+          {direction === 'toVul' ? 'canonico in VUL' : 'VUL in canonico'}
         </button>
       </div>
 
-      <div className="flex flex-wrap items-center gap-2">
+      <p className="mb-4 max-w-[46ch] text-[13px] text-ink-soft">
+        L'era VUL ha un anno zero, il {VUL_EPOCH}, perché l'anno zero è l'evento.
+        Il calendario canonico salta da 1 a.C. a 1 d.C., quindi la nascita di Cristo
+        cade nel {formatVul(toVul({ year: 1, era: 'dc' }))}.
+      </p>
+
+      <div className="mb-3 flex flex-wrap items-center gap-2">
+        <label htmlFor="conv-year" className="text-[12.5px] text-ink-soft">
+          {direction === 'toVul' ? 'anno canonico' : 'anno VUL'}
+        </label>
         <input
+          id="conv-year"
           type="text"
           inputMode="numeric"
           value={raw}
           onChange={(e) => setRaw(e.target.value.replace(/[^\d-]/g, ''))}
-          aria-label={direction === 'toVul' ? 'Anno canonico' : 'Anno VUL'}
-          className="w-28 rounded-sm border border-bone/25 bg-ink px-2.5 py-2 font-mono text-lg
-            text-bone outline-none focus:border-acid"
+          className="w-[110px] border-0 border-b-2 border-ink bg-[#fffdf5] px-2 py-1.5
+            text-[21px] text-ink outline-none focus:bg-marker"
         />
-
         {direction === 'toVul'
           ? (
-              <div className="flex overflow-hidden rounded-sm border border-bone/25">
+              <span className="flex border border-ink">
                 {(['ac', 'dc'] as const).map((e) => (
                   <button
                     key={e}
                     type="button"
+                    aria-pressed={era === e}
                     onClick={() => setEra(e)}
-                    className={`px-3 py-2 text-sm ${
-                      era === e ? 'bg-bone text-ink' : 'text-bone-dim hover:text-bone'}`}
+                    className={`px-2.5 py-1.5 text-[13px] ${
+                      era === e ? 'bg-ink text-paper' : 'text-ink-soft hover:text-ink'}`}
                   >
                     {e === 'ac' ? 'a.C.' : 'd.C.'}
                   </button>
                 ))}
-              </div>
+              </span>
             )
           : (
-              <span className="text-[11px] text-bone-dim">
-                negativo = aVUL, positivo = dVUL
+              <span className="text-[12px] text-ink-soft">
+                negativo per aVUL, positivo per dVUL
               </span>
             )}
       </div>
 
-      <div className="mt-4 border-t border-bone/10 pt-3">
-        {!result && <p className="text-sm text-bone-dim">Scrivi un anno.</p>}
-        {result && !result.ok && (
-          <p className="text-sm text-magenta">{result.error}</p>
-        )}
-        {result?.ok && (
-          <>
-            <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1">
-              <span className="display text-3xl text-acid">{formatVul(result.vul)}</span>
-              <span className="font-mono text-sm text-bone-dim">
-                = {result.canonical.year} {result.canonical.era === 'dc' ? 'd.C.' : 'a.C.'}
-              </span>
-            </div>
+      {!result && <p className="text-[13px] text-ink-soft">Scrivi un anno.</p>}
+      {result && !result.ok && <p className="text-[13px] text-red-deep">{result.error}</p>}
 
-            {cycle && (
-              <p className="mt-2 text-[12px] text-bone-dim">
-                Ciclo {cycle.cycle} di Articolo 31, anno {cycle.offset} su 31
-                {cycle.isJubilee && <span className="text-cyan"> · giubileo VUL</span>}
-              </p>
-            )}
+      {result?.ok && (
+        <>
+          {/* il risultato è l'impronta di un timbro, non una casella di output */}
+          <p className="hand inline-block -rotate-[2.2deg] rounded-[6px_10px_7px_9px]
+            border-[3px] border-red px-4 py-2.5 text-[27px] leading-none text-red opacity-95">
+            {formatVul(result.vul)}
+            <span className="mt-1.5 block text-[11.5px] leading-tight text-red-deep">
+              {result.canonical.year} {result.canonical.era === 'dc' ? 'd.C.' : 'a.C.'}
+              {cycle && (
+                <> &mdash; ciclo {cycle.cycle}, anno {cycle.offset} su 31
+                  {cycle.isJubilee && ' — giubileo'}</>
+              )}
+            </span>
+          </p>
 
+          <div>
             <button
               type="button"
               onClick={() => onGoTo(result.vul)}
-              className="mt-3 rounded-sm bg-acid px-3 py-1.5 text-[12px] font-bold uppercase
-                tracking-wide text-ink hover:bg-bone"
+              className="mt-4 border-2 border-ink bg-ink px-3 py-1.5 text-[13px] text-paper
+                hover:bg-red hover:border-red"
             >
-              vai in timeline
+              cerca quest'anno sulla bacheca
             </button>
-          </>
-        )}
-      </div>
-
-      <p className="mt-3 text-[11px] leading-relaxed text-bone-dim">
-        L'era VUL <strong className="text-bone">ha</strong> un anno zero, il {VUL_EPOCH}, perché
-        l'anno zero è l'evento. Il calendario canonico salta da 1 a.C. a 1 d.C., quindi la nascita
-        di Cristo cade nel {formatVul(toVul({ year: 1, era: 'dc' }))}.
-      </p>
+          </div>
+        </>
+      )}
     </div>
   )
 }

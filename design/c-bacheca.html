@@ -1,0 +1,438 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>C — Bacheca · VUL Calendar</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@400;600;700&family=Permanent+Marker&display=swap" rel="stylesheet">
+<style>
+:root{
+  --wall:#33352f;        /* muro dietro la bacheca */
+  --wall-dark:#23251f;
+  --paper:#e9e0c8;       /* foglio ingiallito */
+  --paper-2:#ded3b6;
+  --ink:#221f19;
+  --red:#ff1919;         /* pennarello, accent NAQP */
+  --marker:#f2e14a;      /* evidenziatore */
+  --soft:#6d6552;
+}
+*{box-sizing:border-box}
+html{background:var(--wall)}
+body{
+  margin:0;color:var(--paper);
+  font-family:'Archivo Narrow',system-ui,sans-serif;font-size:15.5px;line-height:1.5;
+  background:linear-gradient(180deg,var(--wall-dark),var(--wall) 30%);
+}
+.wrap{max-width:620px;margin:0 auto;padding:0 16px 90px;position:relative}
+/* il filo rosso che collega gli anni: è la timeline */
+.wrap::before{content:'';position:absolute;left:44px;top:170px;bottom:40px;width:2px;
+  background:var(--red);opacity:.75}
+
+header{padding:34px 0 10px;position:relative;z-index:2}
+h1{margin:0;font-family:'Permanent Marker',cursive;font-size:clamp(32px,9.5vw,50px);
+  line-height:.95;color:var(--paper);transform:rotate(-1.5deg)}
+h1 em{color:var(--red);font-style:normal}
+.sub{margin:10px 0 0;font-size:14px;color:#b6b3a3;max-width:40ch}
+.now{display:inline-block;margin:14px 0 0;background:var(--marker);color:var(--ink);
+  padding:2px 8px;font-weight:700;transform:rotate(-.8deg)}
+
+/* ---- un anno = un foglio appuntato ---- */
+.year{position:relative;margin:0 0 22px 0;z-index:1}
+.pin{position:absolute;left:38px;top:14px;width:14px;height:14px;border-radius:50%;
+  background:var(--red);box-shadow:0 2px 4px rgba(0,0,0,.6),inset -2px -2px 3px rgba(0,0,0,.3);z-index:3}
+.sheet{
+  margin-left:66px;background:var(--paper);color:var(--ink);
+  padding:12px 14px 14px;box-shadow:3px 4px 10px rgba(0,0,0,.45);
+  transform:rotate(-.5deg);
+}
+.year:nth-child(3n) .sheet{transform:rotate(.55deg)}
+.year:nth-child(3n+1) .sheet{transform:rotate(-.8deg)}
+.head{display:flex;align-items:baseline;gap:8px;border-bottom:2px solid var(--ink);
+  padding-bottom:5px;margin-bottom:9px}
+.head .n{font-family:'Permanent Marker',cursive;font-size:31px;line-height:.9;color:var(--red)}
+.head .u{font-size:12px;font-weight:700;color:var(--soft)}
+.head .ad{margin-left:auto;font-size:12.5px;color:var(--soft)}
+
+.item{padding:8px 0;border-bottom:1px dotted #b6ab8c}
+.item:last-child{border-bottom:0;padding-bottom:0}
+.item h3{margin:0;font-size:17.5px;font-weight:700;line-height:1.15}
+.item .tag{font-size:11.5px;color:var(--soft);margin-top:2px}
+.item p{margin:5px 0 0;font-size:13.5px;line-height:1.45;color:#3a3529}
+
+/* le tracce: come sono state annotate a mano sul foglio */
+.lurido h3{background:var(--marker);display:inline;padding:0 3px;box-decoration-break:clone}
+.naqp h3{color:var(--red)}
+.naqp .tag{color:#8a2b2b;font-weight:600}
+
+/* foto: fotocopia retinata, non fotografia */
+figure{margin:8px 0 0;position:relative;width:112px;float:right;margin-left:12px}
+figure img{width:100%;display:block;filter:grayscale(1) contrast(1.7) brightness(1.12)}
+figure::after{content:'';position:absolute;inset:0;mix-blend-mode:multiply;opacity:.55;
+  background-image:radial-gradient(circle at 1px 1px,#000 .9px,transparent 0);
+  background-size:3px 3px}
+/* il cerchio a pennarello attorno alla foto degli episodi NAQP */
+.naqp figure::before{content:'';position:absolute;inset:-7px -5px;border:2.5px solid var(--red);
+  border-radius:52% 48% 47% 53%/49% 52% 48% 51%;transform:rotate(-3deg);
+  pointer-events:none;z-index:2}
+
+/* ---- Anno Zero: il foglio centrale della bacheca ---- */
+.year.zero .sheet{background:var(--paper-2);transform:rotate(.9deg);
+  box-shadow:0 0 0 3px var(--red),5px 6px 14px rgba(0,0,0,.55)}
+.year.zero .head .n{font-size:46px}
+.zerotag{font-family:'Permanent Marker',cursive;color:var(--red);font-size:19px;
+  margin:0 0 8px;transform:rotate(-1.4deg);display:inline-block}
+.gap{margin:0 0 22px 66px;font-size:12.5px;color:#a09d8d;font-style:italic}
+
+/* ============ LINGUETTE CARTELLINE (sezioni) ============ */
+.tabs{display:flex;gap:4px;margin:18px 0 0;padding-left:2px;position:relative;z-index:4}
+.tab{
+  font:600 13.5px/1 'Archivo Narrow',sans-serif;letter-spacing:.01em;
+  background:#bdb298;color:#4a4436;border:0;cursor:pointer;
+  padding:9px 14px 11px;border-radius:3px 3px 0 0;
+  transform:translateY(4px);box-shadow:inset 0 -3px 6px rgba(0,0,0,.18);
+}
+.tab[aria-selected=true]{
+  background:var(--paper);color:var(--ink);transform:translateY(0);
+  box-shadow:0 -2px 6px rgba(0,0,0,.28);padding-bottom:13px;
+}
+.tab:focus-visible{outline:3px solid var(--marker);outline-offset:1px}
+
+/* ============ NASTRO ADESIVO (filtri, resta appiccicato) ============ */
+.tape{
+  position:sticky;top:0;z-index:5;margin:0 -6px 22px;padding:9px 14px 10px;
+  background:rgba(232,223,198,.93);color:var(--ink);
+  box-shadow:0 3px 8px rgba(0,0,0,.35);
+  /* bordi strappati: il nastro non è tagliato con la forbice */
+  clip-path:polygon(0 6%,3% 0,17% 5%,32% 1%,49% 6%,66% 1%,81% 5%,96% 0,100% 7%,
+                    100% 93%,97% 100%,83% 95%,67% 99%,50% 94%,33% 99%,18% 95%,4% 100%,0 94%);
+  background-image:repeating-linear-gradient(102deg,transparent 0 9px,rgba(0,0,0,.035) 9px 18px);
+}
+.tape-row{display:flex;align-items:center;gap:7px;flex-wrap:wrap}
+.tape-lab{font:600 11.5px/1 'Archivo Narrow',sans-serif;color:#7a7159;margin-right:2px}
+
+/* etichetta appuntata = filtro attivo */
+.flt{
+  position:relative;border:0;cursor:pointer;font-family:'Archivo Narrow',sans-serif;
+  font-size:13px;font-weight:700;line-height:1;padding:6px 10px 6px 18px;
+  background:#fff;color:var(--ink);box-shadow:1.5px 2px 4px rgba(0,0,0,.3);
+  transform:rotate(-.6deg);transition:transform .12s,opacity .12s;
+}
+.flt::before{ /* la puntina */
+  content:'';position:absolute;left:5px;top:50%;translate:0 -50%;
+  width:8px;height:8px;border-radius:50%;background:var(--red);
+  box-shadow:0 1px 2px rgba(0,0,0,.5),inset -1px -1px 2px rgba(0,0,0,.35);
+}
+.flt[aria-pressed=false]{
+  background:transparent;color:#8f8770;opacity:.5;
+  border:1.5px dashed #8f8770;box-shadow:none;transform:rotate(-3.2deg) translateY(2px);
+  padding-left:10px;
+}
+.flt[aria-pressed=false]::before{display:none} /* spuntata dalla bacheca */
+.flt-lurido[aria-pressed=true]{background:var(--marker)}
+.flt-naqp[aria-pressed=true]{color:var(--red)}
+.flt .cnt{font-weight:400;opacity:.6;margin-left:5px}
+.flt:focus-visible{outline:3px solid var(--red);outline-offset:2px}
+
+/* ============ TIMBRO ANNO ZERO ============ */
+.stampbtn{
+  position:fixed;right:16px;bottom:16px;bottom:max(16px,env(safe-area-inset-bottom));
+  z-index:9;width:82px;height:82px;border-radius:50%;cursor:pointer;
+  background:rgba(255,25,25,.93);border:3px solid #c00;color:#fff;
+  font-family:'Permanent Marker',cursive;line-height:1;
+  box-shadow:0 6px 16px rgba(0,0,0,.6);transform:rotate(-7deg);
+  display:flex;flex-direction:column;align-items:center;justify-content:center;gap:1px;
+  /* inchiostro di timbro: non uniforme */
+  background-image:radial-gradient(circle at 30% 25%,rgba(255,255,255,.22),transparent 60%);
+}
+.stampbtn .z{font-size:27px}
+.stampbtn .t{font-size:9.5px;letter-spacing:.04em}
+.stampbtn svg{width:13px;height:19px;margin-top:1px}
+.stampbtn[data-where=here]{background:rgba(255,25,25,.35);border-color:#7d2b2b}
+.stampbtn:focus-visible{outline:3px solid var(--marker);outline-offset:3px}
+
+/* ============ SCHEDA (convertitore / calendari) ============ */
+.card{margin-left:66px;background:var(--paper);color:var(--ink);padding:16px 16px 18px;
+  box-shadow:3px 4px 10px rgba(0,0,0,.45);transform:rotate(-.4deg)}
+.card h2{margin:0 0 3px;font-family:'Permanent Marker',cursive;font-size:22px;color:var(--ink)}
+.card .hint{margin:0 0 14px;font-size:13px;color:var(--soft);max-width:44ch}
+.field{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin:0 0 12px}
+.field label{font-size:12.5px;font-weight:700;color:var(--soft)}
+.field input{
+  font:700 21px/1 'Archivo Narrow',sans-serif;width:98px;padding:6px 8px;
+  background:#fffdf5;color:var(--ink);border:0;border-bottom:2px solid var(--ink);
+}
+.field input:focus{outline:0;background:var(--marker)}
+.era{display:flex;border:1.5px solid var(--ink)}
+.era button{border:0;background:transparent;font:700 13px 'Archivo Narrow',sans-serif;
+  padding:6px 10px;cursor:pointer;color:var(--soft)}
+.era button[aria-pressed=true]{background:var(--ink);color:var(--paper)}
+/* il risultato è un'impronta di timbro, non una casella */
+.impronta{display:inline-block;margin:4px 0 0;padding:9px 16px 10px;
+  border:3px solid var(--red);color:var(--red);font-family:'Permanent Marker',cursive;
+  font-size:29px;line-height:1;transform:rotate(-2.2deg);opacity:.92;
+  border-radius:6px 10px 7px 9px}
+.impronta small{display:block;font-family:'Archivo Narrow',sans-serif;font-size:12px;
+  font-weight:700;color:#8a2b2b;margin-top:3px}
+.note{margin:14px 0 0;font-size:12.5px;color:var(--soft);line-height:1.45;max-width:52ch}
+
+table{width:100%;border-collapse:collapse;margin-top:4px}
+th,td{text-align:left;padding:6px 4px;font-size:13.5px;border-bottom:1px dotted #b6ab8c}
+th{font-size:11.5px;color:var(--soft);font-weight:700}
+td.v{text-align:right;font-weight:700;white-space:nowrap}
+tr.vul td{background:var(--marker)}
+tr.out td{color:#a49a80}
+.hidden{display:none!important}
+
+@media (max-width:400px){
+  .wrap::before{left:26px}.pin{left:20px}.sheet,.card{margin-left:48px}
+  figure{width:88px}
+  .stampbtn{width:70px;height:70px}.stampbtn .z{font-size:23px}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+:focus-visible{outline:3px solid var(--marker);outline-offset:2px}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <h1>VUL <em>Calendar</em></h1>
+  <p class="sub">Tutta la storia riletta a partire dal 1994, l'anno in cui è uscita
+    <i>Voglio Una Lurida</i>. Prove raccolte, foto cerchiate.</p>
+  <p class="now">oggi: 32 dVUL</p>
+
+  <div class="tabs" role="tablist" aria-label="Sezioni">
+    <button class="tab" role="tab" aria-selected="true"  data-panel="board">Timeline</button>
+    <button class="tab" role="tab" aria-selected="false" data-panel="conv">Convertitore</button>
+    <button class="tab" role="tab" aria-selected="false" data-panel="cal">Calendari</button>
+  </div>
+</header>
+
+<div class="tape" id="tape">
+  <div class="tape-row">
+    <span class="tape-lab">sulla bacheca:</span>
+    <button class="flt flt-storia" aria-pressed="true"  data-track="storia">Storia <span class="cnt">2346</span></button>
+    <button class="flt flt-lurido" aria-pressed="true"  data-track="lurido">Lurido <span class="cnt">39</span></button>
+    <button class="flt flt-naqp"   aria-pressed="true"  data-track="naqp">NAQP <span class="cnt">223</span></button>
+  </div>
+</div>
+
+<main>
+  <div id="board"></div>
+
+  <section id="conv" class="card hidden" hidden>
+    <h2>Da un calendario all'altro</h2>
+    <p class="hint">L'era VUL <b>ha</b> un anno zero, il 1994, perché l'anno zero è
+      l'evento. Il calendario canonico salta da 1 a.C. a 1 d.C.</p>
+    <div class="field">
+      <label for="cy">anno canonico</label>
+      <input id="cy" type="text" inputmode="numeric" value="2026">
+      <span class="era">
+        <button type="button" data-era="ac" aria-pressed="false">a.C.</button>
+        <button type="button" data-era="dc" aria-pressed="true">d.C.</button>
+      </span>
+    </div>
+    <div class="impronta" id="out">32 dVUL<small>ciclo 1 di Articolo 31, anno 1 su 31</small></div>
+    <p class="note">La nascita di Cristo cade nel 1993 aVUL: il canonico non ha
+      l'anno zero, quindi 1 d.C. sta a 1994 anni dall'uscita del disco.</p>
+  </section>
+
+  <section id="cal" class="card hidden" hidden>
+    <h2>Lo stesso anno, altrove</h2>
+    <p class="hint">Quattordici modi di numerare lo stesso giro del Sole. Anno di
+      riferimento: 2026 d.C.</p>
+    <table>
+      <thead><tr><th>calendario</th><th class="v">anno</th></tr></thead>
+      <tbody id="calrows"></tbody>
+    </table>
+    <p class="note">Prima del 1582 il gregoriano è prolettico e non coincide col
+      giuliano: le conversioni antiche qui sono goliardiche, non filologiche.</p>
+  </section>
+</main>
+</div>
+
+<button class="stampbtn" id="stamp" data-where="below" aria-label="Torna all'Anno Zero, 1994">
+  <span class="z">0</span>
+  <span class="t">ANNO ZERO</span>
+  <svg viewBox="0 0 14 21" aria-hidden="true" fill="none" stroke="currentColor"
+       stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+    <!-- asta con una leggera oscillazione: il pennarello non fa linee rette -->
+    <path d="M7.2 1.6 C6.3 6.4 7.9 10.8 6.9 16.6"/>
+    <!-- punta: i due tratti non sono simmetrici, come quando si torna indietro -->
+    <path d="M2.2 11.9 L6.9 17.6 L11.6 11.2"/>
+  </svg>
+</button>
+<script>
+const EPOCH = 1994;
+const img = f => `https://commons.wikimedia.org/wiki/Special:FilePath/${encodeURIComponent(f)}?width=280`;
+const TAG = {
+  storia: e => e.kind || 'fatto storico',
+  lurido: e => e.kind || 'lurido',
+  naqp:   e => 'episodio' + (e.season ? ` S${e.season}E${e.episode}` : '')
+                          + (e.tier === 'esclusivo' ? ', esclusivo' : ''),
+};
+
+/* ---------------- bacheca ---------------- */
+const board = document.getElementById('board');
+fetch('slice.json').then(r => r.json()).then(years => {
+  let prev = null;
+  for (const y of years) {
+    if (prev !== null && y.vul - prev > 1) {
+      const g = document.createElement('p');
+      g.className = 'gap'; g.dataset.gap = '1';
+      g.textContent = `(${y.vul - prev - 1} anni senza prove)`;
+      board.append(g);
+    }
+    prev = y.vul;
+    const zero = y.vul === 0;
+    const s = document.createElement('section');
+    s.className = 'year' + (zero ? ' zero' : '');
+    s.dataset.vul = y.vul;
+    s.innerHTML = `<span class="pin"></span>
+      <div class="sheet">
+        <div class="head">
+          <span class="n">${zero ? '0' : Math.abs(y.vul)}</span>
+          <span class="u">${zero ? 'ANNO ZERO' : (y.vul > 0 ? 'dVUL' : 'aVUL')}</span>
+          <span class="ad">${y.events[0].year} ${y.events[0].era === 'dc' ? 'd.C.' : 'a.C.'}</span>
+        </div>
+        ${zero ? '<p class="zerotag">qui comincia tutto</p>' : ''}
+        ${y.events.map(e => `<div class="item ${e.track}" data-track="${e.track}">
+          ${e.image ? `<figure><img src="${img(e.image)}" alt="" loading="lazy"></figure>` : ''}
+          <h3>${e.title}</h3>
+          <p class="tag">${TAG[e.track](e)}${e.precision !== 'anno' ? ' — data ~' + e.precision : ''}</p>
+          ${e.summary ? `<p>${e.summary}</p>` : ''}
+        </div>`).join('')}
+      </div>`;
+    board.append(s);
+  }
+  applyFilters();
+  measureStamp();
+});
+
+/* ---------------- filtri: etichette appuntate ---------------- */
+const active = new Set(['storia', 'lurido', 'naqp']);
+
+function applyFilters() {
+  for (const item of board.querySelectorAll('.item')) {
+    item.hidden = !active.has(item.dataset.track);
+  }
+  // un anno senza voci visibili esce dalla bacheca, e con lui il suo salto
+  for (const year of board.querySelectorAll('.year')) {
+    const empty = !year.querySelector('.item:not([hidden])');
+    year.hidden = empty;
+  }
+  for (const gap of board.querySelectorAll('[data-gap]')) {
+    let n = gap.nextElementSibling;
+    while (n && n.hidden) n = n.nextElementSibling;
+    gap.hidden = !n;
+  }
+}
+
+for (const btn of document.querySelectorAll('.flt')) {
+  btn.addEventListener('click', () => {
+    const t = btn.dataset.track;
+    const on = btn.getAttribute('aria-pressed') === 'true';
+    if (on) active.delete(t); else active.add(t);
+    btn.setAttribute('aria-pressed', String(!on));
+    applyFilters();
+    measureStamp();
+  });
+}
+
+/* ---------------- linguette delle sezioni ---------------- */
+const tape = document.getElementById('tape');
+const stamp = document.getElementById('stamp');
+const panels = { board, conv: document.getElementById('conv'), cal: document.getElementById('cal') };
+
+for (const tab of document.querySelectorAll('.tab')) {
+  tab.addEventListener('click', () => {
+    for (const t of document.querySelectorAll('.tab')) {
+      t.setAttribute('aria-selected', String(t === tab));
+    }
+    for (const [k, el] of Object.entries(panels)) {
+      const show = k === tab.dataset.panel;
+      el.hidden = !show;
+      el.classList.toggle('hidden', !show);
+    }
+    // nastro e timbro appartengono alla bacheca: fuori da lì non servono
+    const onBoard = tab.dataset.panel === 'board';
+    tape.hidden = !onBoard;
+    stamp.hidden = !onBoard;
+  });
+}
+
+/* ---------------- timbro Anno Zero ---------------- */
+function measureStamp() {
+  const zero = board.querySelector('[data-vul="0"]');
+  if (!zero || zero.hidden) { stamp.dataset.where = 'here'; return; }
+  const r = zero.getBoundingClientRect();
+  const mid = r.top + r.height / 2, centre = innerHeight / 2;
+  stamp.dataset.where = Math.abs(mid - centre) < r.height / 2 ? 'here'
+                       : mid < centre ? 'above' : 'below';
+  stamp.querySelector('svg').style.transform =
+    stamp.dataset.where === 'above' ? 'rotate(180deg)' : '';
+}
+let raf = 0;
+addEventListener('scroll', () => { raf ||= requestAnimationFrame(() => { raf = 0; measureStamp(); }); }, { passive: true });
+stamp.addEventListener('click', () => {
+  const zero = board.querySelector('[data-vul="0"]');
+  zero?.scrollIntoView({ behavior: matchMedia('(prefers-reduced-motion:reduce)').matches ? 'auto' : 'smooth', block: 'center' });
+});
+
+/* ---------------- convertitore ---------------- */
+const cy = document.getElementById('cy'), out = document.getElementById('out');
+let era = 'dc';
+function convert() {
+  const n = parseInt(cy.value, 10);
+  if (!Number.isFinite(n) || n < 1) {
+    out.innerHTML = "—<small>l'anno canonico parte da 1</small>";
+    return;
+  }
+  const astro = era === 'dc' ? n : 1 - n;
+  const vul = astro - EPOCH;
+  const cycle = Math.floor(vul / 31), off = vul - cycle * 31;
+  const label = vul === 0 ? 'Anno Zero' : `${Math.abs(vul)} ${vul > 0 ? 'dVUL' : 'aVUL'}`;
+  out.innerHTML = `${label}<small>ciclo ${cycle} di Articolo 31, anno ${off} su 31${
+    off === 0 && vul !== 0 ? ' — giubileo' : ''}</small>`;
+}
+cy.addEventListener('input', () => { cy.value = cy.value.replace(/\D/g, ''); convert(); });
+for (const b of document.querySelectorAll('.era button')) {
+  b.addEventListener('click', () => {
+    era = b.dataset.era;
+    for (const o of document.querySelectorAll('.era button')) {
+      o.setAttribute('aria-pressed', String(o === b));
+    }
+    convert();
+  });
+}
+convert();
+
+/* ---------------- calendari ---------------- */
+const YEAR = 2026;
+const mid = new Date(Date.UTC(YEAR, 6, 1));
+const intl = cal => {
+  try {
+    return new Intl.DateTimeFormat('it', { calendar: cal, year: 'numeric' })
+      .formatToParts(mid).find(p => p.type === 'year')?.value ?? '—';
+  } catch { return '—'; }
+};
+const ROWS = [
+  ['VUL', `${YEAR - EPOCH} dVUL`, 'anno 0 = 1994', true],
+  ['Ebraico', intl('hebrew')], ['Islamico', intl('islamic')],
+  ['Persiano', intl('persian')], ['Buddista', intl('buddhist')],
+  ['Copto', intl('coptic')], ['Etiope', intl('ethiopic')],
+  ['Indiano (Saka)', intl('indian')], ['Giapponese', intl('japanese')],
+  ['Repubblica di Cina', intl('roc')],
+  ['Oloceno', `${YEAR + 10000} HE`, 'niente numeri negativi'],
+  ['Repubblicano francese', `an ${YEAR - 1791}`, 'abolito nel 1806'],
+  ['Discordiano', `${YEAR + 1166} YOLD`],
+  ['Unix', `${Math.trunc(Date.UTC(YEAR, 0, 1) / 1000).toLocaleString('it')} s`, 'secondi dal 1970'],
+];
+document.getElementById('calrows').innerHTML = ROWS.map(([name, val, note, isVul]) =>
+  `<tr class="${isVul ? 'vul' : ''}"><td>${name}${
+    note ? `<br><span style="font-size:11px;color:#8a8168">${note}</span>` : ''
+  }</td><td class="v">${val}</td></tr>`).join('');
+</script>
+</body>
+</html>

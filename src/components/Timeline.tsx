@@ -18,14 +18,16 @@ export interface FocusRequest {
   smooth: boolean
 }
 
+/** Nessun foglio è appuntato perfettamente diritto, ma la stessa riga deve
+ *  pendere sempre allo stesso modo: l'inclinazione si deriva dall'anno. */
+const TILT = [-0.5, 0.55, -0.85, 0.35]
+const tiltOf = (vul: number) => TILT[Math.abs(vul) % TILT.length]!
+
 function GapRow({ row }: { row: Extract<Row, { kind: 'gap' }> }) {
   return (
-    <div className="relative flex items-center gap-3 py-3 pl-[4.5rem] text-[11px] text-bone-dim">
-      <span className="absolute left-[3.4rem] h-full w-px border-l border-dashed border-bone/20" />
-      <span className="border border-bone/15 bg-ink px-2 py-0.5 font-mono">
-        {row.years === 1 ? '1 anno vuoto' : `${row.years.toLocaleString('it')} anni senza niente`}
-      </span>
-    </div>
+    <p className="ml-[66px] mb-5 text-[12.5px] italic text-paper/45 max-[400px]:ml-[48px]">
+      ({row.years === 1 ? 'un anno senza prove' : `${row.years.toLocaleString('it')} anni senza prove`})
+    </p>
   )
 }
 
@@ -50,66 +52,65 @@ function YearRow({ row, events, credits, tracks, highlighted }: {
     .reduce((n, t) => n + row.counts[t], 0)
 
   return (
-    <section
-      data-vul={vul}
-      className={`relative scroll-mt-28 py-2 transition-colors duration-500 ${
-        isZero ? 'bg-acid/[0.06]' : ''} ${
-        highlighted ? 'rounded-sm ring-1 ring-acid/60' : ''}`}
-    >
-      <div className="flex gap-3">
-        <div className="relative w-14 shrink-0 text-right">
-          <div
-            className={`display text-[26px] tabular-nums ${
-              isZero ? 'text-acid' : isJubilee ? 'text-cyan' : 'text-bone'}`}
-          >
+    <section data-vul={vul} className="relative mb-6 scroll-mt-28">
+      {/* la puntina che tiene il foglio */}
+      <span
+        aria-hidden
+        className={`absolute left-[38px] top-3.5 z-20 h-3.5 w-3.5 rounded-full
+          shadow-[0_2px_4px_rgba(0,0,0,.6),inset_-2px_-2px_3px_rgba(0,0,0,.3)]
+          max-[400px]:left-[20px] ${isJubilee ? 'bg-marker' : 'bg-red'}`}
+      />
+
+      <div
+        style={{ transform: `rotate(${isZero ? 0.9 : tiltOf(vul)}deg)` }}
+        className={`sheet ml-[66px] px-3.5 pt-3 pb-3.5 max-[400px]:ml-[48px]
+          ${isZero ? 'bg-paper-2 shadow-[0_0_0_3px_var(--color-red),5px_6px_14px_rgba(0,0,0,.55)]' : ''}
+          ${highlighted && !isZero ? 'shadow-[0_0_0_3px_var(--color-marker),3px_4px_10px_rgba(0,0,0,.45)]' : ''}`}
+      >
+        <div className="mb-2 flex items-baseline gap-2 border-b-2 border-ink pb-1.5">
+          <span className={`hand text-red ${isZero ? 'text-[44px]' : 'text-[29px]'}`}>
             {isZero ? '0' : Math.abs(vul)}
-          </div>
-          <div className="text-[9px] font-bold uppercase tracking-wider text-bone-dim">
+          </span>
+          <span className="text-[12px] text-ink-soft">
             {isZero ? 'anno zero' : vul > 0 ? 'dVUL' : 'aVUL'}
-          </div>
-          <div className="mt-0.5 font-mono text-[10px] text-bone-dim/70">
+          </span>
+          {isJubilee && <span className="text-[11px] text-ink-soft">giubileo</span>}
+          <span className="ml-auto text-[12.5px] text-ink-soft">
             {formatCanonical(canonical)}
-          </div>
-          {isJubilee && (
-            <div className="mt-1 text-[9px] uppercase leading-tight text-cyan">giubileo</div>
-          )}
+          </span>
         </div>
 
-        <div className="relative w-3 shrink-0">
-          <div className="tape-spine absolute left-1/2 h-full w-[3px] -translate-x-1/2" />
-          <div
-            className={`absolute left-1/2 top-3 h-2.5 w-2.5 -translate-x-1/2 rotate-45 border ${
-              isZero ? 'border-acid bg-acid' : 'border-bone/50 bg-ink'}`}
-          />
-        </div>
+        {isZero && (
+          <p className="hand mb-2 inline-block -rotate-[1.4deg] text-[17px] text-red">
+            qui comincia tutto
+          </p>
+        )}
 
-        <div className="min-w-0 flex-1 space-y-1.5 pb-1">
-          {events === undefined
-            ? Array.from({ length: Math.min(totalExpected, 2) }, (_, i) => (
-                <div key={i} className="h-14 animate-pulse rounded-sm bg-ink-2/60" />
-              ))
-            : visible.map((e) => <EventCard key={e.id} event={e} credits={credits} />)}
+        {events === undefined
+          ? Array.from({ length: Math.min(totalExpected, 2) }, (_, i) => (
+              <div key={i} className="my-2 h-12 animate-pulse bg-paper-edge/40" />
+            ))
+          : visible.map((e) => <EventCard key={e.id} event={e} credits={credits} />)}
 
-          {hidden > 0 && (
-            <button
-              type="button"
-              onClick={() => setExpanded(true)}
-              className="w-full rounded-sm border border-bone/15 py-1.5 text-[11px] text-bone-dim
-                hover:border-acid/40 hover:text-acid"
-            >
-              altri {hidden} in {formatVul(vul)}
-            </button>
-          )}
-          {expanded && shown.length > VISIBLE_PER_YEAR && (
-            <button
-              type="button"
-              onClick={() => setExpanded(false)}
-              className="text-[11px] text-bone-dim underline decoration-dotted"
-            >
-              richiudi
-            </button>
-          )}
-        </div>
+        {hidden > 0 && (
+          <button
+            type="button"
+            onClick={() => setExpanded(true)}
+            className="mt-2.5 w-full border border-dashed border-ink-soft py-1.5 text-[12.5px]
+              text-ink-soft hover:border-red hover:text-red-deep"
+          >
+            altre {hidden} prove in {formatVul(vul)}
+          </button>
+        )}
+        {expanded && shown.length > VISIBLE_PER_YEAR && (
+          <button
+            type="button"
+            onClick={() => setExpanded(false)}
+            className="mt-2 text-[12.5px] text-ink-soft underline decoration-dotted"
+          >
+            richiudi
+          </button>
+        )}
       </div>
     </section>
   )
@@ -128,7 +129,6 @@ export function Timeline({ index, tracks, credits, focus, byVul, ensureChunk, on
   const containerRef = useRef<HTMLDivElement>(null)
   const [landedVul, setLandedVul] = useState<number | null>(null)
 
-  /** Anni che hanno davvero una riga, con le tracce attive. */
   const yearsWithRows = useMemo(
     () => rows.filter((r): r is Extract<Row, { kind: 'year' }> => r.kind === 'year')
       .map((r) => r.vul),
@@ -164,7 +164,6 @@ export function Timeline({ index, tracks, credits, focus, byVul, ensureChunk, on
     const exact = nearest === vul
 
     await ensureChunk(chunkOf(nearest, index.chunkSize))
-    // un frame per far dipingere gli eventi appena arrivati
     await new Promise((r) => requestAnimationFrame(() => r(null)))
 
     const target = containerRef.current
@@ -191,7 +190,6 @@ export function Timeline({ index, tracks, credits, focus, byVul, ensureChunk, on
 
   useEffect(() => () => holdRef.current?.(), [])
 
-  // l'anello di atterraggio non deve restare acceso per sempre
   useEffect(() => {
     if (landedVul === null) return
     const id = window.setTimeout(() => setLandedVul(null), 2200)
@@ -199,7 +197,14 @@ export function Timeline({ index, tracks, credits, focus, byVul, ensureChunk, on
   }, [landedVul])
 
   return (
-    <div ref={containerRef} className="px-3 pb-28">
+    <div ref={containerRef} className="relative px-4 pb-32">
+      {/* il filo rosso che collega gli anni: è la timeline */}
+      {rows.length > 0 && (
+        <span
+          aria-hidden
+          className="absolute left-[44px] top-6 bottom-16 w-0.5 bg-red/75 max-[400px]:left-[26px]"
+        />
+      )}
       {rows.map((row) =>
         row.kind === 'gap'
           ? <GapRow key={`gap-${row.fromVul}`} row={row} />
@@ -214,8 +219,8 @@ export function Timeline({ index, tracks, credits, focus, byVul, ensureChunk, on
               />
             ))}
       {!rows.length && (
-        <p className="py-16 text-center text-sm text-bone-dim">
-          Nessuna traccia selezionata. Riaccendine una qui sopra.
+        <p className="py-16 text-center text-sm text-paper/60">
+          Nessuna traccia selezionata. Riappuntane una qui sopra.
         </p>
       )}
     </div>
