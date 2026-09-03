@@ -1,0 +1,89 @@
+@import 'tailwindcss';
+
+@font-face {
+  font-family: 'Anton';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Anton');
+}
+
+/* Estetica di riferimento: cassetta / CD-ROM, Milano 1994.
+   Nero, giallo acido, magenta. Titoli condensati pesanti, retino tipografico. */
+@theme {
+  --color-ink: #0a0a0b;
+  --color-ink-2: #141416;
+  --color-ink-3: #1e1e22;
+  --color-bone: #ece7dc;
+  --color-bone-dim: #9a958c;
+  --color-acid: #f2e529;
+  --color-magenta: #ff2e88;
+  --color-cyan: #35e0d8;
+
+  --font-display: 'Anton', 'Archivo Black', 'Haettenschweiler',
+    'Arial Narrow', system-ui, sans-serif;
+  --font-sans: ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-mono: ui-monospace, 'SF Mono', 'Cascadia Mono', Menlo, monospace;
+}
+
+@layer base {
+  html {
+    background: var(--color-ink);
+    color-scheme: dark;
+    -webkit-text-size-adjust: 100%;
+  }
+  body {
+    margin: 0;
+    background: var(--color-ink);
+    color: var(--color-bone);
+    font-family: var(--font-sans);
+    /* retino: due gradienti incrociati, costa zero e dà la grana da stampa */
+    background-image:
+      radial-gradient(circle at 1px 1px, rgb(255 255 255 / 0.035) 1px, transparent 0);
+    background-size: 4px 4px;
+    overflow-x: hidden;
+  }
+  ::selection {
+    background: var(--color-acid);
+    color: var(--color-ink);
+  }
+  :focus-visible {
+    outline: 2px solid var(--color-acid);
+    outline-offset: 2px;
+  }
+}
+
+@utility display {
+  font-family: var(--font-display);
+  font-weight: 400;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  line-height: 0.92;
+}
+
+/* Nastro verticale della cassetta: la spina dorsale della timeline. */
+@utility tape-spine {
+  background:
+    linear-gradient(180deg, transparent, rgb(236 231 220 / 0.18) 8%,
+      rgb(236 231 220 / 0.18) 92%, transparent),
+    repeating-linear-gradient(180deg,
+      transparent 0 6px, rgb(236 231 220 / 0.07) 6px 7px);
+}
+
+@utility scanline {
+  position: relative;
+}
+@utility scanline-on {
+  background: repeating-linear-gradient(180deg,
+    rgb(0 0 0 / 0.22) 0 1px, transparent 1px 3px);
+}
+
+/* Chi ha impostato "riduci animazioni" non vuole lo scanline che pulsa. */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
