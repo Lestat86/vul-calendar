@@ -89,6 +89,7 @@ describe('rendering', () => {
   it('il timbro per l\'Anno Zero c\'è, etichettato e con la freccia disegnata', () => {
     const html = render(<ZeroFab onJump={() => {}} />)
     expect(html).toContain("Torna all'Anno Zero, 1994")
+    expect(html).toContain('Voglio Una Lurida') // il click fa partire lo spezzone
     expect(html).toContain('ANNO ZERO')
     // la freccia è un tracciato, non un carattere tipografico
     expect(html).toContain('<svg')

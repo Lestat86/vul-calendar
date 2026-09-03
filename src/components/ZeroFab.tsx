@@ -1,5 +1,8 @@
 import { useEffect, useState } from 'react'
 import { VUL_EPOCH } from '../lib/vul'
+import { useClip } from '../lib/useClip'
+
+const CLIP = `${import.meta.env.BASE_URL}audio/lurida-cut.mp3`
 
 type Where = 'above' | 'below' | 'here'
 
@@ -31,6 +34,7 @@ function MarkerArrow({ flip }: { flip: boolean }) {
  */
 export function ZeroFab({ onJump }: { onJump: () => void }) {
   const [where, setWhere] = useState<Where>('here')
+  const clip = useClip(CLIP)
 
   useEffect(() => {
     let frame = 0
@@ -54,13 +58,16 @@ export function ZeroFab({ onJump }: { onJump: () => void }) {
     }
   }, [])
 
-  const spent = where === 'here'
+  // il timbro resta a inchiostro pieno mentre suona, anche se sei già sull'anno zero
+  const spent = where === 'here' && !clip.playing
 
   return (
     <button
       type="button"
-      onClick={onJump}
-      aria-label={`Torna all'Anno Zero, ${VUL_EPOCH}`}
+      onClick={() => { onJump(); clip.toggle() }}
+      aria-label={clip.playing
+        ? 'Ferma la musica'
+        : `Torna all'Anno Zero, ${VUL_EPOCH}, e senti Voglio Una Lurida`}
       className={`fixed right-4 bottom-[max(1rem,env(safe-area-inset-bottom))] z-30
         flex h-[82px] w-[82px] -rotate-[7deg] flex-col items-center justify-center gap-px
         rounded-full border-[3px] text-white shadow-[0_6px_16px_rgba(0,0,0,.6)]
