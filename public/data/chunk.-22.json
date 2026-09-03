@@ -1,0 +1,15 @@
+[
+  {
+    "id": "curated:pre1900:74",
+    "track": "storia",
+    "title": "Indipendenza degli Stati Uniti",
+    "summary": "Quattro luglio, tredici colonie, un documento.",
+    "year": 1776,
+    "era": "dc",
+    "vul": -218,
+    "kind": "politica",
+    "weight": 1000,
+    "curated": true,
+    "rank": 0
+  }
+]

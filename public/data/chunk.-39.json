@@ -1,0 +1,15 @@
+[
+  {
+    "id": "curated:pre1900:67",
+    "track": "storia",
+    "title": "Galileo punta il telescopio al cielo",
+    "summary": "Le lune di Giove, e il cielo smette di essere perfetto.",
+    "year": 1609,
+    "era": "dc",
+    "vul": -385,
+    "kind": "scienza",
+    "weight": 1000,
+    "curated": true,
+    "rank": 0
+  }
+]

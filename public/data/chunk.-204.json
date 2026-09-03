@@ -1,0 +1,15 @@
+[
+  {
+    "id": "curated:pre1900:24",
+    "track": "storia",
+    "title": "Assassinio di Giulio Cesare",
+    "summary": "Idi di marzo, ventitré coltellate, fine della Repubblica.",
+    "year": 44,
+    "era": "ac",
+    "vul": -2037,
+    "kind": "politica",
+    "weight": 1000,
+    "curated": true,
+    "rank": 0
+  }
+]

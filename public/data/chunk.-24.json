@@ -1,0 +1,15 @@
+[
+  {
+    "id": "curated:pre1900:72",
+    "track": "storia",
+    "title": "Terremoto di Lisbona",
+    "summary": "Trentamila morti in una mattina di Ognissanti: l'Illuminismo perde la fede.",
+    "year": 1755,
+    "era": "dc",
+    "vul": -239,
+    "kind": "disastro",
+    "weight": 1000,
+    "curated": true,
+    "rank": 0
+  }
+]

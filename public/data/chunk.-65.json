@@ -1,0 +1,15 @@
+[
+  {
+    "id": "curated:pre1900:47",
+    "track": "storia",
+    "title": "Peste nera in Europa",
+    "summary": "Muore fra un terzo e metà del continente.",
+    "year": 1348,
+    "era": "dc",
+    "vul": -646,
+    "kind": "epidemia",
+    "weight": 1000,
+    "curated": true,
+    "rank": 0
+  }
+]

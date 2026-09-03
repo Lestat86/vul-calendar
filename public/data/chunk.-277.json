@@ -1,0 +1,15 @@
+[
+  {
+    "id": "curated:pre1900:8",
+    "track": "storia",
+    "title": "Prime Olimpiadi ad Olimpia",
+    "summary": "L'unica cosa su cui i greci riuscivano a smettere di combattere.",
+    "year": 776,
+    "era": "ac",
+    "vul": -2769,
+    "kind": "sport",
+    "weight": 1000,
+    "curated": true,
+    "rank": 0
+  }
+]

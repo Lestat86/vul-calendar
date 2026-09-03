@@ -1,0 +1,15 @@
+[
+  {
+    "id": "curated:pre1900:64",
+    "track": "storia",
+    "title": "Battaglia di Lepanto",
+    "summary": "L'ultima grande battaglia navale a remi.",
+    "year": 1571,
+    "era": "dc",
+    "vul": -423,
+    "kind": "battaglia",
+    "weight": 1000,
+    "curated": true,
+    "rank": 0
+  }
+]

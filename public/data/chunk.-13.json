@@ -1,0 +1,28 @@
+[
+  {
+    "id": "curated:pre1900:87",
+    "track": "storia",
+    "title": "Restaurazione Meiji",
+    "summary": "Il Giappone decide di industrializzarsi in una generazione, e ci riesce.",
+    "year": 1868,
+    "era": "dc",
+    "vul": -126,
+    "kind": "politica",
+    "weight": 1000,
+    "curated": true,
+    "rank": 0
+  },
+  {
+    "id": "curated:pre1900:88",
+    "track": "storia",
+    "title": "Apertura del Canale di Suez",
+    "summary": "L'Asia si avvicina all'Europa di seimila chilometri.",
+    "year": 1869,
+    "era": "dc",
+    "vul": -125,
+    "kind": "infrastruttura",
+    "weight": 1000,
+    "curated": true,
+    "rank": 0
+  }
+]

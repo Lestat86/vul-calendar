@@ -1,0 +1,16 @@
+[
+  {
+    "id": "curated:pre1900:11",
+    "track": "storia",
+    "title": "Nasce il Buddha",
+    "summary": "Siddhartha Gautama: la prima grande dottrina senza dio.",
+    "year": 563,
+    "era": "ac",
+    "vul": -2556,
+    "precision": "circa",
+    "kind": "religione",
+    "weight": 1000,
+    "curated": true,
+    "rank": 0
+  }
+]

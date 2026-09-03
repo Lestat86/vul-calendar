@@ -1,0 +1,15 @@
+[
+  {
+    "id": "curated:pre1900:5",
+    "track": "storia",
+    "title": "Ramses II sale al trono",
+    "summary": "Sessantasei anni di regno e la prima grande campagna di propaganda.",
+    "year": 1279,
+    "era": "ac",
+    "vul": -3272,
+    "kind": "politica",
+    "weight": 1000,
+    "curated": true,
+    "rank": 0
+  }
+]

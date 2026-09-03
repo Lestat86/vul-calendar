@@ -1,0 +1,15 @@
+[
+  {
+    "id": "curated:pre1900:38",
+    "track": "storia",
+    "title": "Scisma d'Oriente",
+    "summary": "Roma e Costantinopoli si scomunicano a vicenda.",
+    "year": 1054,
+    "era": "dc",
+    "vul": -940,
+    "kind": "religione",
+    "weight": 1000,
+    "curated": true,
+    "rank": 0
+  }
+]

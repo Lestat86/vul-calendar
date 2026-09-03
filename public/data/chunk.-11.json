@@ -1,0 +1,55 @@
+[
+  {
+    "id": "curated:pre1900:92",
+    "track": "storia",
+    "title": "Conferenza di Berlino",
+    "summary": "L'Africa spartita a tavolino da chi non l'aveva mai vista.",
+    "year": 1884,
+    "era": "dc",
+    "vul": -110,
+    "kind": "politica",
+    "weight": 1000,
+    "curated": true,
+    "rank": 0
+  },
+  {
+    "id": "curated:pre1900:93",
+    "track": "storia",
+    "title": "Prima automobile di Benz",
+    "summary": "Tre ruote, un cilindro, 0,75 cavalli.",
+    "year": 1885,
+    "era": "dc",
+    "vul": -109,
+    "kind": "invenzione",
+    "weight": 1000,
+    "curated": true,
+    "rank": 0
+  },
+  {
+    "id": "curated:pre1900:94",
+    "track": "storia",
+    "title": "Torre Eiffel",
+    "summary": "Doveva essere temporanea.",
+    "year": 1889,
+    "era": "dc",
+    "vul": -105,
+    "kind": "architettura",
+    "weight": 1000,
+    "curated": true,
+    "rank": 0
+  },
+  {
+    "id": "patreon:137258153",
+    "track": "naqp",
+    "title": "Il Caso H.H. Holmes",
+    "year": 1893,
+    "era": "dc",
+    "vul": -101,
+    "kind": "caso",
+    "weight": 1000,
+    "tier": "esclusivo",
+    "dateSource": "manuale",
+    "url": "https://www.patreon.com/cw/NAQP",
+    "rank": 0
+  }
+]

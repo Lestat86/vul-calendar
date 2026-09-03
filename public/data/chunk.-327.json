@@ -1,0 +1,15 @@
+[
+  {
+    "id": "curated:pre1900:6",
+    "track": "storia",
+    "title": "Battaglia di Qadesh",
+    "summary": "Il primo trattato di pace di cui conosciamo il testo da entrambe le parti.",
+    "year": 1274,
+    "era": "ac",
+    "vul": -3267,
+    "kind": "battaglia",
+    "weight": 1000,
+    "curated": true,
+    "rank": 0
+  }
+]

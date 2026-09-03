@@ -1,0 +1,16 @@
+[
+  {
+    "id": "curated:pre1900:0",
+    "track": "storia",
+    "title": "Nasce la scrittura in Mesopotamia",
+    "summary": "I Sumeri incidono i primi cuneiformi: da qui in poi la storia è scritta.",
+    "year": 3300,
+    "era": "ac",
+    "vul": -5293,
+    "precision": "secolo",
+    "kind": "invenzione",
+    "weight": 1000,
+    "curated": true,
+    "rank": 0
+  }
+]

@@ -1,0 +1,15 @@
+[
+  {
+    "id": "curated:pre1900:29",
+    "track": "storia",
+    "title": "Editto di Milano",
+    "summary": "Costantino legalizza il cristianesimo.",
+    "year": 313,
+    "era": "dc",
+    "vul": -1681,
+    "kind": "religione",
+    "weight": 1000,
+    "curated": true,
+    "rank": 0
+  }
+]

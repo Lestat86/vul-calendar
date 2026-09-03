@@ -1,0 +1,15 @@
+[
+  {
+    "id": "curated:pre1900:10",
+    "track": "storia",
+    "title": "Distruzione del Tempio di Salomone",
+    "summary": "Nabucodonosor rade al suolo Gerusalemme: comincia l'esilio babilonese.",
+    "year": 586,
+    "era": "ac",
+    "vul": -2579,
+    "kind": "guerra",
+    "weight": 1000,
+    "curated": true,
+    "rank": 0
+  }
+]

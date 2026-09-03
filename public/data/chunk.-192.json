@@ -1,0 +1,28 @@
+[
+  {
+    "id": "curated:pre1900:26",
+    "track": "storia",
+    "title": "Eruzione del Vesuvio",
+    "summary": "Pompei ed Ercolano sottovuoto per diciassette secoli.",
+    "year": 79,
+    "era": "dc",
+    "vul": -1915,
+    "kind": "disastro",
+    "weight": 1000,
+    "curated": true,
+    "rank": 0
+  },
+  {
+    "id": "curated:pre1900:27",
+    "track": "storia",
+    "title": "Inaugurazione del Colosseo",
+    "summary": "Cento giorni di giochi per il taglio del nastro.",
+    "year": 80,
+    "era": "dc",
+    "vul": -1914,
+    "kind": "architettura",
+    "weight": 1000,
+    "curated": true,
+    "rank": 0
+  }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "id": "curated:pre1900:49",
+    "track": "storia",
+    "title": "Gutenberg e i caratteri mobili",
+    "summary": "La prima tecnologia che rende le idee incontenibili.",
+    "year": 1440,
+    "era": "dc",
+    "vul": -554,
+    "precision": "circa",
+    "kind": "invenzione",
+    "weight": 1000,
+    "curated": true,
+    "rank": 0
+  }
+]

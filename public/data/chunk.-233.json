@@ -1,0 +1,15 @@
+[
+  {
+    "id": "curated:pre1900:18",
+    "track": "storia",
+    "title": "Alessandro Magno prende il trono",
+    "summary": "In tredici anni arriva all'Indo.",
+    "year": 336,
+    "era": "ac",
+    "vul": -2329,
+    "kind": "politica",
+    "weight": 1000,
+    "curated": true,
+    "rank": 0
+  }
+]

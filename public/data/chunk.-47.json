@@ -1,0 +1,28 @@
+[
+  {
+    "id": "curated:pre1900:61",
+    "track": "storia",
+    "title": "Nasce l'impero Moghul",
+    "summary": "Babur vince a Panipat e apre tre secoli di splendore indiano.",
+    "year": 1526,
+    "era": "dc",
+    "vul": -468,
+    "kind": "politica",
+    "weight": 1000,
+    "curated": true,
+    "rank": 0
+  },
+  {
+    "id": "curated:pre1900:62",
+    "track": "storia",
+    "title": "Pizarro cattura Atahualpa",
+    "summary": "Centosessantotto uomini rovesciano l'impero Inca.",
+    "year": 1532,
+    "era": "dc",
+    "vul": -462,
+    "kind": "guerra",
+    "weight": 1000,
+    "curated": true,
+    "rank": 0
+  }
+]

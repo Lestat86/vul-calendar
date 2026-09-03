@@ -1,0 +1,15 @@
+[
+  {
+    "id": "curated:pre1900:79",
+    "track": "storia",
+    "title": "Waterloo",
+    "summary": "Fine di Napoleone e del sogno di un'Europa unificata con la forza.",
+    "year": 1815,
+    "era": "dc",
+    "vul": -179,
+    "kind": "battaglia",
+    "weight": 1000,
+    "curated": true,
+    "rank": 0
+  }
+]

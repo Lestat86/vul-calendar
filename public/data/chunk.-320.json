@@ -1,0 +1,16 @@
+[
+  {
+    "id": "curated:pre1900:7",
+    "track": "storia",
+    "title": "Crollo dell'età del bronzo",
+    "summary": "Nel giro di due generazioni sparisce quasi tutto il Mediterraneo civilizzato.",
+    "year": 1200,
+    "era": "ac",
+    "vul": -3193,
+    "precision": "secolo",
+    "kind": "crollo",
+    "weight": 1000,
+    "curated": true,
+    "rank": 0
+  }
+]

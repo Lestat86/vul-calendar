@@ -1,0 +1,15 @@
+[
+  {
+    "id": "curated:pre1900:34",
+    "track": "storia",
+    "title": "Battaglia di Poitiers",
+    "summary": "Carlo Martello ferma l'avanzata araba in Francia.",
+    "year": 732,
+    "era": "dc",
+    "vul": -1262,
+    "kind": "battaglia",
+    "weight": 1000,
+    "curated": true,
+    "rank": 0
+  }
+]

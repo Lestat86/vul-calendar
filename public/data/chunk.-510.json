@@ -1,0 +1,16 @@
+[
+  {
+    "id": "curated:pre1900:1",
+    "track": "storia",
+    "title": "Unificazione dell'Alto e Basso Egitto",
+    "summary": "Comincia la vicenda faraonica, con tremila anni di anticipo sull'Anno Zero.",
+    "year": 3100,
+    "era": "ac",
+    "vul": -5093,
+    "precision": "secolo",
+    "kind": "politica",
+    "weight": 1000,
+    "curated": true,
+    "rank": 0
+  }
+]

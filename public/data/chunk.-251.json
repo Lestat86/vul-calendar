@@ -1,0 +1,15 @@
+[
+  {
+    "id": "curated:pre1900:13",
+    "track": "storia",
+    "title": "Nasce la Repubblica romana",
+    "summary": "Cacciato l'ultimo re, Roma passa ai consoli.",
+    "year": 509,
+    "era": "ac",
+    "vul": -2502,
+    "kind": "politica",
+    "weight": 1000,
+    "curated": true,
+    "rank": 0
+  }
+]

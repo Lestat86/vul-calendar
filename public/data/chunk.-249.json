@@ -1,0 +1,15 @@
+[
+  {
+    "id": "curated:pre1900:14",
+    "track": "storia",
+    "title": "Battaglia di Maratona",
+    "summary": "Gli ateniesi fermano i persiani e inventano una gara di corsa.",
+    "year": 490,
+    "era": "ac",
+    "vul": -2483,
+    "kind": "battaglia",
+    "weight": 1000,
+    "curated": true,
+    "rank": 0
+  }
+]

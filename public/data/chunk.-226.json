@@ -1,0 +1,29 @@
+[
+  {
+    "id": "curated:pre1900:19",
+    "track": "storia",
+    "title": "Prima guerra punica",
+    "summary": "Roma capisce che le serve una flotta.",
+    "year": 264,
+    "era": "ac",
+    "vul": -2257,
+    "kind": "guerra",
+    "weight": 1000,
+    "curated": true,
+    "rank": 0
+  },
+  {
+    "id": "curated:pre1900:20",
+    "track": "storia",
+    "title": "Ashoka si converte al buddismo",
+    "summary": "Un imperatore vince una guerra, ne resta disgustato e cambia religione.",
+    "year": 260,
+    "era": "ac",
+    "vul": -2253,
+    "precision": "circa",
+    "kind": "politica",
+    "weight": 1000,
+    "curated": true,
+    "rank": 0
+  }
+]

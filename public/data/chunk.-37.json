@@ -1,0 +1,15 @@
+[
+  {
+    "id": "curated:pre1900:68",
+    "track": "storia",
+    "title": "Abiura di Galileo",
+    "summary": "Eppur si muove, ma a bassa voce.",
+    "year": 1633,
+    "era": "dc",
+    "vul": -361,
+    "kind": "scienza",
+    "weight": 1000,
+    "curated": true,
+    "rank": 0
+  }
+]

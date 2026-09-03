@@ -1,0 +1,45 @@
+[
+  {
+    "id": "naqp:56ef1a46-f2ed-11ef-8f38-4b98a284079a",
+    "track": "naqp",
+    "title": "Il Caso Bonanno - Pidocchi e Mariti",
+    "summary": "Offerta ESCLUSIVA NordVPN » Provate subito senza rischi con una garanzia di rimborso di 30 giorni. Palermo, 1788. In una città dominata da intrighi e superstizioni, una donna anziana si guadagna da vivere vendendo una misteriosa pozione. Quello che all'inizio sembra un innocuo rimedio contro i pidocchi si rivela presto un letale veleno, usato da mogli insoddisfatte per liberarsi dei mariti scomodi.",
+    "year": 1788,
+    "era": "dc",
+    "vul": -206,
+    "kind": "caso",
+    "weight": 1000,
+    "tier": "pubblico",
+    "season": 10,
+    "episode": 7,
+    "dateSource": "descrizione",
+    "url": "https://feeds.megaphone.fm/naqp",
+    "rank": 0
+  },
+  {
+    "id": "curated:pre1900:75",
+    "track": "storia",
+    "title": "Rivoluzione francese",
+    "summary": "Presa della Bastiglia. Inventeranno anche un calendario nuovo, e falliranno.",
+    "year": 1789,
+    "era": "dc",
+    "vul": -205,
+    "kind": "rivoluzione",
+    "weight": 1000,
+    "curated": true,
+    "rank": 0
+  },
+  {
+    "id": "curated:pre1900:76",
+    "track": "storia",
+    "title": "Rivoluzione haitiana",
+    "summary": "L'unica rivolta di schiavi che fonda uno stato.",
+    "year": 1791,
+    "era": "dc",
+    "vul": -203,
+    "kind": "rivoluzione",
+    "weight": 1000,
+    "curated": true,
+    "rank": 0
+  }
+]

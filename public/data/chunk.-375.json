@@ -1,0 +1,16 @@
+[
+  {
+    "id": "curated:pre1900:3",
+    "track": "storia",
+    "title": "Codice di Hammurabi",
+    "summary": "Occhio per occhio, messo per iscritto.",
+    "year": 1754,
+    "era": "ac",
+    "vul": -3747,
+    "precision": "circa",
+    "kind": "diritto",
+    "weight": 1000,
+    "curated": true,
+    "rank": 0
+  }
+]

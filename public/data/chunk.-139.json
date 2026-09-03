@@ -1,0 +1,16 @@
+[
+  {
+    "id": "curated:pre1900:32",
+    "track": "storia",
+    "title": "Gran Canale cinese completato",
+    "summary": "Millesettecento chilometri scavati a mano.",
+    "year": 610,
+    "era": "dc",
+    "vul": -1384,
+    "precision": "circa",
+    "kind": "infrastruttura",
+    "weight": 1000,
+    "curated": true,
+    "rank": 0
+  }
+]

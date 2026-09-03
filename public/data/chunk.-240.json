@@ -1,0 +1,15 @@
+[
+  {
+    "id": "curated:pre1900:17",
+    "track": "storia",
+    "title": "Condanna a morte di Socrate",
+    "summary": "Corruzione dei giovani: la prima censura contro un maestro scomodo.",
+    "year": 399,
+    "era": "ac",
+    "vul": -2392,
+    "kind": "cultura",
+    "weight": 1000,
+    "curated": true,
+    "rank": 0
+  }
+]

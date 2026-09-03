@@ -1,0 +1,15 @@
+[
+  {
+    "id": "curated:pre1900:9",
+    "track": "storia",
+    "title": "Fondazione di Roma",
+    "summary": "Data tradizionale, fratricidio incluso.",
+    "year": 753,
+    "era": "ac",
+    "vul": -2746,
+    "kind": "politica",
+    "weight": 1000,
+    "curated": true,
+    "rank": 0
+  }
+]

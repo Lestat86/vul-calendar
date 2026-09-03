@@ -1,0 +1,15 @@
+[
+  {
+    "id": "curated:pre1900:33",
+    "track": "storia",
+    "title": "Egira di Maometto",
+    "summary": "Anno zero del calendario islamico: un altro modo di contare gli anni.",
+    "year": 622,
+    "era": "dc",
+    "vul": -1372,
+    "kind": "religione",
+    "weight": 1000,
+    "curated": true,
+    "rank": 0
+  }
+]

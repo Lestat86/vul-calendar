@@ -1,0 +1,16 @@
+[
+  {
+    "id": "curated:pre1900:2",
+    "track": "storia",
+    "title": "Piramide di Cheope",
+    "summary": "Il monumento più alto del mondo per i successivi 3800 anni.",
+    "year": 2560,
+    "era": "ac",
+    "vul": -4553,
+    "precision": "circa",
+    "kind": "architettura",
+    "weight": 1000,
+    "curated": true,
+    "rank": 0
+  }
+]

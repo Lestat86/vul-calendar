@@ -1,0 +1,16 @@
+[
+  {
+    "id": "curated:pre1900:41",
+    "track": "storia",
+    "title": "Angkor Wat",
+    "summary": "Il più grande complesso religioso mai costruito.",
+    "year": 1150,
+    "era": "dc",
+    "vul": -844,
+    "precision": "circa",
+    "kind": "architettura",
+    "weight": 1000,
+    "curated": true,
+    "rank": 0
+  }
+]

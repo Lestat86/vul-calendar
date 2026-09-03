@@ -1,0 +1,49 @@
+[
+  {
+    "id": "naqp:954dce36-368b-11f0-b244-c3dc772422c7",
+    "track": "naqp",
+    "title": "Il Caso della Spedizione Donner - Paiute",
+    "summary": "Stati Uniti, 1846. Un gruppo di famiglie parte dall'Illinois per intraprendere un viaggio verso la California in cerca di fortuna, terre fertili e un futuro radioso. Per risparmiare tempo, decidono di prendere una scorciatoia mai testata prima attraverso le montagne della Sierra Nevada.",
+    "year": 1846,
+    "era": "dc",
+    "vul": -148,
+    "kind": "caso",
+    "weight": 1000,
+    "tier": "pubblico",
+    "season": 11,
+    "episode": 2,
+    "dateSource": "descrizione",
+    "url": "https://feeds.megaphone.fm/naqp",
+    "rank": 0
+  },
+  {
+    "id": "naqp:b5afae00-3bdc-11f0-997b-9f3e44efa5e4",
+    "track": "naqp",
+    "title": "Il Caso della Spedizione Donner - Una Famiglia Buona",
+    "summary": "Sierra Nevada, Stati Uniti, inverno del 1846. Un gruppo di 87 coloni americani viene intrappolato da una tempesta di neve in alta montagna, isolati per mesi sotto metri di neve. Senza viveri e senza possibilità di fuga, il gruppo vede implacabile l'avanzare della fame.",
+    "year": 1846,
+    "era": "dc",
+    "vul": -148,
+    "kind": "caso",
+    "weight": 1000,
+    "tier": "pubblico",
+    "season": 11,
+    "episode": 3,
+    "dateSource": "descrizione",
+    "url": "https://feeds.megaphone.fm/naqp",
+    "rank": 1
+  },
+  {
+    "id": "curated:pre1900:82",
+    "track": "storia",
+    "title": "Primavera dei popoli",
+    "summary": "Mezza Europa in rivolta nello stesso anno, e il Manifesto di Marx.",
+    "year": 1848,
+    "era": "dc",
+    "vul": -146,
+    "kind": "rivoluzione",
+    "weight": 1000,
+    "curated": true,
+    "rank": 0
+  }
+]

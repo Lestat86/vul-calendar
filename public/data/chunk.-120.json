@@ -1,0 +1,15 @@
+[
+  {
+    "id": "curated:pre1900:35",
+    "track": "storia",
+    "title": "Carlo Magno imperatore",
+    "summary": "Natale a San Pietro, e l'Occidente si rifà un impero.",
+    "year": 800,
+    "era": "dc",
+    "vul": -1194,
+    "kind": "politica",
+    "weight": 1000,
+    "curated": true,
+    "rank": 0
+  }
+]

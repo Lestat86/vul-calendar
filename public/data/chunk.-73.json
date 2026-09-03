@@ -1,0 +1,15 @@
+[
+  {
+    "id": "curated:pre1900:44",
+    "track": "storia",
+    "title": "Marco Polo parte per la Cina",
+    "summary": "Il primo grande racconto di viaggio europeo, forse un po' gonfiato.",
+    "year": 1271,
+    "era": "dc",
+    "vul": -723,
+    "kind": "viaggio",
+    "weight": 1000,
+    "curated": true,
+    "rank": 0
+  }
+]

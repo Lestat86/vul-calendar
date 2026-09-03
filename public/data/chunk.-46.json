@@ -1,0 +1,15 @@
+[
+  {
+    "id": "curated:pre1900:63",
+    "track": "storia",
+    "title": "Copernico sposta la Terra",
+    "summary": "Il De revolutionibus mette il Sole al centro.",
+    "year": 1543,
+    "era": "dc",
+    "vul": -451,
+    "kind": "scienza",
+    "weight": 1000,
+    "curated": true,
+    "rank": 0
+  }
+]

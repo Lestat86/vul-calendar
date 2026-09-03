@@ -1,0 +1,16 @@
+[
+  {
+    "id": "curated:pre1900:28",
+    "track": "storia",
+    "title": "Invenzione della carta in Cina",
+    "summary": "Millecinquecento anni prima che serva a Gutenberg.",
+    "year": 105,
+    "era": "dc",
+    "vul": -1889,
+    "precision": "circa",
+    "kind": "invenzione",
+    "weight": 1000,
+    "curated": true,
+    "rank": 0
+  }
+]

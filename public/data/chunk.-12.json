@@ -1,0 +1,41 @@
+[
+  {
+    "id": "curated:pre1900:89",
+    "track": "storia",
+    "title": "Bell brevetta il telefono",
+    "summary": "Meucci ci era arrivato prima, ma non aveva i soldi del brevetto.",
+    "year": 1876,
+    "era": "dc",
+    "vul": -118,
+    "kind": "invenzione",
+    "weight": 1000,
+    "curated": true,
+    "rank": 0
+  },
+  {
+    "id": "curated:pre1900:90",
+    "track": "storia",
+    "title": "Lampadina di Edison",
+    "summary": "La giornata di lavoro si allunga oltre il tramonto.",
+    "year": 1879,
+    "era": "dc",
+    "vul": -115,
+    "kind": "invenzione",
+    "weight": 1000,
+    "curated": true,
+    "rank": 0
+  },
+  {
+    "id": "curated:pre1900:91",
+    "track": "storia",
+    "title": "Eruzione del Krakatoa",
+    "summary": "Il boato più forte mai registrato: sentito a 4800 km.",
+    "year": 1883,
+    "era": "dc",
+    "vul": -111,
+    "kind": "disastro",
+    "weight": 1000,
+    "curated": true,
+    "rank": 0
+  }
+]

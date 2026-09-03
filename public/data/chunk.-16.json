@@ -1,0 +1,15 @@
+[
+  {
+    "id": "curated:pre1900:81",
+    "track": "storia",
+    "title": "Prima guerra dell'oppio",
+    "summary": "Il \"secolo dell'umiliazione\" cinese comincia per una questione di droga.",
+    "year": 1839,
+    "era": "dc",
+    "vul": -155,
+    "kind": "guerra",
+    "weight": 1000,
+    "curated": true,
+    "rank": 0
+  }
+]

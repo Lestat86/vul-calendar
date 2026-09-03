@@ -1,0 +1,28 @@
+[
+  {
+    "id": "curated:pre1900:77",
+    "track": "storia",
+    "title": "Napoleone si incorona imperatore",
+    "summary": "Si prende la corona dalle mani del papa e se la mette da solo.",
+    "year": 1804,
+    "era": "dc",
+    "vul": -190,
+    "kind": "politica",
+    "weight": 1000,
+    "curated": true,
+    "rank": 0
+  },
+  {
+    "id": "curated:pre1900:78",
+    "track": "storia",
+    "title": "Abolizione della tratta atlantica",
+    "summary": "Il Regno Unito mette fuori legge il commercio di schiavi.",
+    "year": 1807,
+    "era": "dc",
+    "vul": -187,
+    "kind": "diritto",
+    "weight": 1000,
+    "curated": true,
+    "rank": 0
+  }
+]

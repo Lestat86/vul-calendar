@@ -1,0 +1,15 @@
+[
+  {
+    "id": "curated:pre1900:31",
+    "track": "storia",
+    "title": "Cade l'Impero romano d'Occidente",
+    "summary": "Odoacre depone Romolo Augustolo. La data più convenzionale della storia.",
+    "year": 476,
+    "era": "dc",
+    "vul": -1518,
+    "kind": "crollo",
+    "weight": 1000,
+    "curated": true,
+    "rank": 0
+  }
+]

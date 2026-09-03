@@ -1,0 +1,16 @@
+[
+  {
+    "id": "curated:pre1900:36",
+    "track": "storia",
+    "title": "Al-Khwarizmi e l'algebra",
+    "summary": "Dal suo nome viene \"algoritmo\": tutta l'informatica gli deve il titolo.",
+    "year": 820,
+    "era": "dc",
+    "vul": -1174,
+    "precision": "circa",
+    "kind": "scienza",
+    "weight": 1000,
+    "curated": true,
+    "rank": 0
+  }
+]

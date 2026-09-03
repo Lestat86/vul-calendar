@@ -1,0 +1,54 @@
+[
+  {
+    "id": "curated:pre1900:83",
+    "track": "storia",
+    "title": "Rivolta indiana",
+    "summary": "Finisce la Compagnia delle Indie, comincia il Raj britannico.",
+    "year": 1857,
+    "era": "dc",
+    "vul": -137,
+    "kind": "rivoluzione",
+    "weight": 1000,
+    "curated": true,
+    "rank": 0
+  },
+  {
+    "id": "curated:pre1900:84",
+    "track": "storia",
+    "title": "L'origine delle specie",
+    "summary": "Darwin spiega da dove veniamo, e non piace a tutti.",
+    "year": 1859,
+    "era": "dc",
+    "vul": -135,
+    "kind": "scienza",
+    "weight": 1000,
+    "curated": true,
+    "rank": 0
+  },
+  {
+    "id": "curated:pre1900:85",
+    "track": "storia",
+    "title": "Proclamazione del Regno d'Italia",
+    "summary": "Fatta l'Italia, restava da fare il resto.",
+    "year": 1861,
+    "era": "dc",
+    "vul": -133,
+    "kind": "politica",
+    "weight": 1000,
+    "curated": true,
+    "rank": 0
+  },
+  {
+    "id": "curated:pre1900:86",
+    "track": "storia",
+    "title": "Proclama di emancipazione",
+    "summary": "Lincoln libera gli schiavi degli stati confederati.",
+    "year": 1863,
+    "era": "dc",
+    "vul": -131,
+    "kind": "diritto",
+    "weight": 1000,
+    "curated": true,
+    "rank": 0
+  }
+]

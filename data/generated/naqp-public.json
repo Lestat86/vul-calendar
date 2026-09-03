@@ -1,0 +1,2814 @@
+[
+  {
+    "id": "naqp:5a809ac0-a4b9-11f1-a4c6-ab37c2296cbf",
+    "track": "naqp",
+    "title": "Speciale Preti Malandrini",
+    "rawTitle": "S15 E01 Speciale Preti Malandrini",
+    "season": 15,
+    "episode": 1,
+    "tier": "pubblico",
+    "isSpecial": true,
+    "summary": "Italia o Vaticano, ma del resto che differenza c’è. Un parroco del Lago Maggiore straccia il proprio passaporto e lo butta nel water durante un coca party. Un altro si finge magistrato per rimorchiare escort a Napoli. Una madre superiora fonde l'oro della Madonna e lo trasforma in lingotti. E in una canonica di Padova, dietro una porta al secondo piano, c'è una stanza che nessun fedele avrebbe mai dovuto vedere.",
+    "year": null,
+    "precision": null,
+    "confidence": null,
+    "publishedAt": "2026-09-02",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:af1e38e2-698d-11f1-81e6-0312ce62e590",
+    "track": "naqp",
+    "title": "Il Caso Suor Mariangela",
+    "rawTitle": "S14 E10 Il Caso Suor Mariangela",
+    "season": 14,
+    "episode": 10,
+    "tier": "pubblico",
+    "isSpecial": false,
+    "summary": "Busto Arsizio, provincia di Varese, fine anni '90. Esiste un posto che ogni genitore italiano considera il più sicuro del mondo, quello dove mandi tuo figlio proprio perché lì, tra catechismo e tornei di pallacanestro, non può succedergli niente di male: l'oratorio. È qui che una ragazzina di quindici anni, fragile e in cerca di un posto nel mondo, incontra una suora carismatica, solare e amata da tutti.",
+    "year": 1990,
+    "precision": "decennio",
+    "confidence": "auto",
+    "publishedAt": "2026-06-17",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:0def1aaa-64e6-11f1-ad90-ab1d2e5ca76a",
+    "track": "naqp",
+    "title": "Il Caso della Rapina al Vomero Feat. Leonardo Notarbartolo",
+    "rawTitle": "S14 E09 - Il Caso della Rapina al Vomero Feat. Leonardo Notarbartolo",
+    "season": 14,
+    "episode": 9,
+    "tier": "pubblico",
+    "isSpecial": false,
+    "summary": "Siamo a Napoli, quartiere Vomero, giovedì 16 aprile 2026, ore 12 in punto. Piazza Medaglie d'Oro è immersa in una normalissima mattinata di metà aprile: le signore fanno la spesa, i pensionati chiacchierano alla fermata dei mezzi, i bambini escono dalla mensa della scuola. Dentro la filiale numero 10 della banca Crédit Agricole, venticinque persone stanno svolgendo le loro normalissime operazioni bancarie.",
+    "year": 2026,
+    "precision": "anno",
+    "confidence": "auto",
+    "publishedAt": "2026-06-10",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:f62d51c8-5f88-11f1-8273-4739ed46dd92",
+    "track": "naqp",
+    "title": "Il Caso Hitman - Libri Assassini",
+    "rawTitle": "S14 E08 Il Caso Hitman - Libri Assassini",
+    "season": 14,
+    "episode": 8,
+    "tier": "pubblico",
+    "isSpecial": false,
+    "summary": "Stati Uniti, 1993. Un uomo uccide un'intera famiglia su commissione, seguendo passo dopo passo le istruzioni di un libro. Non un romanzo, non un thriller, ma un manuale per aspiranti sicari venduto liberamente in libreria, scritto da un misterioso autore che si spaccia per killer professionista. La polizia trova il libro, la giustizia americana va in cortocircuito e il Primo Emendamento trema.",
+    "year": 1993,
+    "precision": "anno",
+    "confidence": "auto",
+    "publishedAt": "2026-06-03",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:a645e5b6-5a07-11f1-b771-d33146f3f39d",
+    "track": "naqp",
+    "title": "Il Caso Dana Sue Gray",
+    "rawTitle": "S14 E07 Il Caso Dana Sue Gray",
+    "season": 14,
+    "episode": 7,
+    "tier": "pubblico",
+    "isSpecial": false,
+    "summary": "Siamo nella Contea di Riverside, California, Stati Uniti, nel 1994. Una donna bionda, curata, atletica e con una dipendenza patologica dallo shopping decide che il modo migliore per finanziare i suoi acquisti compulsivi è strangolare e massacrare donne anziane nelle loro case.",
+    "year": 1994,
+    "precision": "anno",
+    "confidence": "auto",
+    "publishedAt": "2026-05-27",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:55e82f38-5463-11f1-8a39-5f812dfac34e",
+    "track": "naqp",
+    "title": "Il Caso Sekine",
+    "rawTitle": "S14 E06 Il Caso Sekine",
+    "season": 14,
+    "episode": 6,
+    "tier": "pubblico",
+    "isSpecial": false,
+    "summary": "Siamo nella prefettura di Saitama, Giappone, nel 1993. Un allevatore di cani di razza, celebre nel mondo cinofilo per aver portato gli Alaskan Malamute nel Paese del Sol Levante, gestisce un negozio chiamato \"Africa Kennel\" insieme alla sua compagna. Fuori, cani da migliaia di dollari. Dentro, sorrisi e strette di mano. Nel retro, capsule di stricnina e coltelli da cucina.",
+    "year": 1993,
+    "precision": "anno",
+    "confidence": "auto",
+    "publishedAt": "2026-05-20",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:13154ec6-4eae-11f1-8903-93c82e0ecb53",
+    "track": "naqp",
+    "title": "Il Caso Bivolaru",
+    "rawTitle": "S14 E05 Il Caso Bivolaru",
+    "season": 14,
+    "episode": 5,
+    "tier": "pubblico",
+    "isSpecial": false,
+    "summary": "Siamo in Romania, nel 1990. Il comunismo è appena crollato, Ceaușescu è stato fucilato il giorno di Natale e il paese è un enorme vuoto pneumatico: di idee, di leader, di punti di riferimento. In questo caos un uomo esce da un manicomio criminale, si presenta davanti a centinaia di persone e dice loro che lo yoga li renderà liberi.",
+    "year": 1990,
+    "precision": "anno",
+    "confidence": "auto",
+    "publishedAt": "2026-05-13",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:df113302-4984-11f1-836f-77588c28a585",
+    "track": "naqp",
+    "title": "Il Caso Andrea Guastalla",
+    "rawTitle": "S14 E04 Il Caso Andrea Guastalla",
+    "season": 14,
+    "episode": 4,
+    "tier": "pubblico",
+    "isSpecial": false,
+    "summary": "Siamo a Borgo Virgilio, provincia di Mantova, novembre 2025. Un uomo di 57 anni, ex infermiere, decide che il modo migliore per risolvere un problema burocratico sia infilarsi una parrucca, spalmarsi il fondotinta in faccia e presentarsi all'anagrafe del suo paese fingendosi sua madre. Il problema? Sua madre è morta da tre anni.",
+    "year": 2025,
+    "precision": "anno",
+    "confidence": "auto",
+    "publishedAt": "2026-05-06",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:efe07f64-43f1-11f1-93dc-5fcc91437610",
+    "track": "naqp",
+    "title": "Il Caso Kim Jong-nam",
+    "rawTitle": "S14 E03 Il Caso Kim Jong-nam",
+    "season": 14,
+    "episode": 3,
+    "tier": "pubblico",
+    "isSpecial": false,
+    "summary": "Kuala Lumpur, Malesia. 13 febbraio 2017. Un uomo sovrappeso, calvo, con uno zaino sulle spalle, si aggira nel terminal di un aeroporto low-cost per prendere un volo per Macao. Lo zaino contiene 120.000 dollari in contanti, otto valute diverse, quattro passaporti nordcoreani falsi e dodici fiale di antidoto per agenti nervini.",
+    "year": 2017,
+    "precision": "anno",
+    "confidence": "auto",
+    "publishedAt": "2026-04-29",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:d98a5854-3a62-11f1-9735-330baabbe917",
+    "track": "naqp",
+    "title": "Special Looksmaxxing",
+    "rawTitle": "S14 E02 Special Looksmaxxing",
+    "season": 14,
+    "episode": 2,
+    "tier": "pubblico",
+    "isSpecial": true,
+    "summary": "Siamo su internet. In uno di quei forum in cui, migliaia di ragazzi, spesso minorenni, si sono convinti che l'unica cosa che conta nella vita sia la larghezza della loro mascella. Questi giovani uomini si iniettano testosterone comprato online, si prendono a martellate sulle guance per allargarsi gli zigomi, si fanno rompere le ossa delle gambe per guadagnare qualche centimetro di altezza e fumano metanfetamina per…",
+    "year": null,
+    "precision": null,
+    "confidence": null,
+    "publishedAt": "2026-04-22",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:87265398-34e4-11f1-9456-0ff2dda7c725",
+    "track": "naqp",
+    "title": "Il Caso Afroman - Giustizia Poetica",
+    "rawTitle": "S14 E01 Il Caso Afroman - Giustizia Poetica",
+    "season": 14,
+    "episode": 1,
+    "tier": "pubblico",
+    "isSpecial": false,
+    "summary": "Siamo nell'Ohio, Stati Uniti, estate 2022. Un rapper finito nel dimenticatoio da vent'anni vive tranquillamente nella sua casa in campagna con la moglie e i due figli. Un giorno, la polizia della contea sfonda la sua porta d'ingresso con i fucili d'assalto spianati e minaccia i suoi figli. Non trovano nulla. Nessuna accusa viene mai formulata.",
+    "year": 2022,
+    "precision": "anno",
+    "confidence": "auto",
+    "publishedAt": "2026-04-15",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:93cb2484-1d79-11f1-a357-efc3302c57ad",
+    "track": "naqp",
+    "title": "Il Caso Kevin Davis",
+    "rawTitle": "S13 E10 Il Caso Kevin Davis",
+    "season": 13,
+    "episode": 10,
+    "tier": "pubblico",
+    "isSpecial": false,
+    "summary": "Siamo a Corpus Christi, Texas, nel marzo del 2014. Un ragazzo di 18 anni, annoiato dalla vita e disgustato dal genere umano, chiede alla madre il permesso di uccidersi. Lei, terrorizzata, cerca di dissuaderlo. Lui cambia idea: invece di togliersi la vita, sceglierà di uccidere. Il modo in cui sceglierà di farlo è qualcosa che nemmeno i detective più navigati della polizia del Texas avevano mai visto.",
+    "year": 2014,
+    "precision": "anno",
+    "confidence": "auto",
+    "publishedAt": "2026-03-11",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:619e5a38-1808-11f1-aa0f-b37675f25293",
+    "track": "naqp",
+    "title": "Il Caso El Mencho",
+    "rawTitle": "S13 E09 Il Caso El Mencho",
+    "season": 13,
+    "episode": 9,
+    "tier": "pubblico",
+    "isSpecial": false,
+    "summary": "Siamo nel Michoacán, Messico, nel 1966. In un villaggio di raccoglitori di avocado nasce un bambino che lascerà la scuola a 11 anni che si troverà a fondare il cartello della droga più violento che il Messico abbia mai conosciuto.",
+    "year": 1966,
+    "precision": "anno",
+    "confidence": "auto",
+    "publishedAt": "2026-03-04",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:7d3ebc64-1232-11f1-bb69-83cf2a8b3d71",
+    "track": "naqp",
+    "title": "Il Caso Ecatepec - Tacos al Cannibale",
+    "rawTitle": "S13 E08 Il Caso Ecatepec - Tacos al Cannibale",
+    "season": 13,
+    "episode": 8,
+    "tier": "pubblico",
+    "isSpecial": false,
+    "summary": "Siamo a nord di Città del Messico, in un quartiere popolare dove la gente vive ammassata in case di cemento grezzo, dove le donne escono di casa la mattina e pregano di ritornarci la sera. Un uomo e una donna, marito e moglie, quattro figli, un negozietto di vestiti usati e una porta che dall'esterno sembra identica a tutte le altre.",
+    "year": null,
+    "precision": null,
+    "confidence": null,
+    "publishedAt": "2026-02-25",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:c76c9d2c-0d16-11f1-8eb4-574f7d2d4b99",
+    "track": "naqp",
+    "title": "Il Caso Enfield - Il Poltergeist",
+    "rawTitle": "S13 E07 Il Caso Enfield - Il Poltergeist",
+    "season": 13,
+    "episode": 7,
+    "tier": "pubblico",
+    "isSpecial": false,
+    "summary": "Enfield, periferia nord di Londra, Inghilterra. Nell'agosto del 1977, all'interno di una modesta casa popolare, una madre divorziata e i suoi quattro figli iniziano a sentire colpi sulle pareti, a vedere mobili spostarsi da soli e giocattoli volare per la stanza. Quello che sembra uno scherzo di cattivo gusto si trasforma, nel giro di pochi giorni, nel caso di poltergeist più documentato della storia.",
+    "year": 1977,
+    "precision": "anno",
+    "confidence": "auto",
+    "publishedAt": "2026-02-18",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:9f0a2bb6-0775-11f1-9cd7-bb2806bde774",
+    "track": "naqp",
+    "title": "Il Caso Epstein Files - La Pista Italiana",
+    "rawTitle": "S13 E06 Il Caso Epstein Files - La Pista Italiana",
+    "season": 13,
+    "episode": 6,
+    "tier": "pubblico",
+    "isSpecial": false,
+    "summary": "New York, Parigi, Londra, e... Roma? Jeffrey Epstein, il finanziere pedofilo più protetto della storia americana, non si è limitato a tessere la sua rete di potere tra Manhattan e le isole caraibiche. Migliaia di email appena rilasciate dal Dipartimento di Giustizia rivelano connessioni inquietanti con l'elite italiana: imprenditori, nobili, dirigenti di grandi gruppi.",
+    "year": null,
+    "precision": null,
+    "confidence": null,
+    "publishedAt": "2026-02-11",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:a264f54c-fce0-11f0-aaf3-6bffc760669b",
+    "track": "naqp",
+    "title": "Speciale Orrori Sessuali #3",
+    "rawTitle": "S13 E05 Speciale Orrori Sessuali #3",
+    "season": 13,
+    "episode": 5,
+    "tier": "pubblico",
+    "isSpecial": true,
+    "summary": "Mentre la società dibatte sui confini del consenso e della libertà sessuale, nelle ombre del web e delle strade di tutto il mondo si muovono individui che hanno trasformato i propri desideri erotici in armi. Non sono i serial killer che popolano gli incubi collettivi, ma predatori silenziosi che usano pannolini, formaggio svizzero e gonfiabili per piscine per traumatizzare decine di vittime inconsapevoli.",
+    "year": null,
+    "precision": null,
+    "confidence": null,
+    "publishedAt": "2026-02-04",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:56fe0a7c-ebff-11f0-a27a-df65b2c4841a",
+    "track": "naqp",
+    "title": "Il Caso Rasputin",
+    "rawTitle": "S13 E04 Il Caso Rasputin",
+    "season": 13,
+    "episode": 4,
+    "tier": "pubblico",
+    "isSpecial": false,
+    "summary": "Russia, inizio del XX secolo. Un contadino sporco e puzzolente dalla Siberia sta per cambiare il corso della storia mondiale. Con i suoi occhi ipnotici, il suo enorme appetito per l'alcol e le donne, e un misterioso potere di guarigione, quest'uomo riuscirà a infiltrarsi nel cuore della famiglia imperiale russa proprio mentre l'impero sta per crollare.",
+    "year": null,
+    "precision": null,
+    "confidence": null,
+    "publishedAt": "2026-01-28",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:33ebf08c-eaf9-11f0-84cf-ff1c1acf98a0",
+    "track": "naqp",
+    "title": "Il Caso Zizians - Jedi Vegani",
+    "rawTitle": "S13 E03 Il Caso Zizians - Jedi Vegani",
+    "season": 13,
+    "episode": 3,
+    "tier": "pubblico",
+    "isSpecial": false,
+    "summary": "Bay Area, California, Stati Uniti. Nel 2016, una giovane programmatrice dell'Alaska si trasferisce in una delle zone più costose d'America per unirsi a una comunità online dedicata a salvare l'umanità dall'intelligenza artificiale. La sua missione: assicurarsi che il robot-dio del futuro si preoccupi degli animali quanto degli umani.",
+    "year": 2016,
+    "precision": "anno",
+    "confidence": "auto",
+    "publishedAt": "2026-01-21",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:755584be-e88a-11f0-9eb1-af3ca593f971",
+    "track": "naqp",
+    "title": "Il Caso Musolino",
+    "rawTitle": "S13 E02 Il Caso Musolino",
+    "season": 13,
+    "episode": 2,
+    "tier": "pubblico",
+    "isSpecial": false,
+    "summary": "Calabria, fine Ottocento. Tra le montagne selvagge dell'Aspromonte, dove la giustizia dello Stato non arriva e quella degli uomini si fa con il coltello, un giovane taglialegna viene condannato per un crimine che giura di non aver commesso.",
+    "year": null,
+    "precision": null,
+    "confidence": null,
+    "publishedAt": "2026-01-14",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:06973532-e357-11f0-b894-b7fbce08fbcd",
+    "track": "naqp",
+    "title": "Il Caso Quinci - Sardine alla Cocaina",
+    "rawTitle": "S13 E01 Il Caso Quinci - Sardine alla Cocaina",
+    "season": 13,
+    "episode": 1,
+    "tier": "pubblico",
+    "isSpecial": false,
+    "summary": "Dopo 20 anni da Silent Hill, Christophe Gans torna alla regia con il nuovo, imperdibile Return to Silent Hill, dal 22 gennaio al cinema in anteprima mondiale. Guarda il trailer ufficiale ⁠⁠e partecipa alla promozione GameLife cliccando qui. #ad Giugno 2001, Azzorre, Portogallo. Una piccola comunità di pescatori su un'isola sperduta nell'Atlantico sta per vivere il più grande incubo della sua storia.",
+    "year": 2001,
+    "precision": "anno",
+    "confidence": "auto",
+    "publishedAt": "2026-01-07",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:9694d932-d132-11f0-adcf-2f366d0b53cc",
+    "track": "naqp",
+    "title": "Il Caso della Mantide di Parabiago",
+    "rawTitle": "S12 E11 Il Caso della Mantide di Parabiago",
+    "season": 12,
+    "episode": 11,
+    "tier": "pubblico",
+    "isSpecial": false,
+    "summary": "Parabiago, provincia di Milano, Italia. Nell'estate del 2024, una tranquilla cittadina dell'hinterland milanese diventa teatro di uno dei delitti più assurdi della cronaca italiana recente. Una donna brasiliana, madre di otto figli, è accusata di aver orchestrato un piano diabolico per eliminare il compagno e impossessarsi del suo patrimonio multimilionario.",
+    "year": 2024,
+    "precision": "anno",
+    "confidence": "auto",
+    "publishedAt": "2025-12-10",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:1248239a-bf18-11f0-9689-072738cac551",
+    "track": "naqp",
+    "title": "Il Colpo al Louvre feat Leonardo Notarbartolo",
+    "rawTitle": "S12 E10 Il Colpo al Louvre feat Leonardo Notarbartolo",
+    "season": 12,
+    "episode": 10,
+    "tier": "pubblico",
+    "isSpecial": false,
+    "summary": null,
+    "year": 2025,
+    "precision": "anno",
+    "confidence": "auto",
+    "publishedAt": "2025-11-12",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:7c979d40-ba93-11f0-9146-1fef8857a2ab",
+    "track": "naqp",
+    "title": "Il Caso della Bestia del Gévaudan",
+    "rawTitle": "S12 E09 Il Caso della Bestia del Gévaudan",
+    "season": 12,
+    "episode": 9,
+    "tier": "pubblico",
+    "isSpecial": false,
+    "summary": "Francia, regione del Gévaudan, estate del 1764. In una zona isolata dell'Occitania, circondata da fitte foreste e abitata principalmente da contadini, compare una creatura misteriosa che semina il terrore. Non è un lupo comune: attacca solo gli esseri umani, ignorando i greggi, decapita le sue vittime e sembra immune ai proiettili.",
+    "year": 1764,
+    "precision": "anno",
+    "confidence": "auto",
+    "publishedAt": "2025-11-05",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:5a13b43c-b4e1-11f0-9c75-cf347a3f43ef",
+    "track": "naqp",
+    "title": "Special Clown Malvagi Feat Jake La Furia",
+    "rawTitle": "S12 E08 Special Clown Malvagi Feat Jake La Furia",
+    "season": 12,
+    "episode": 8,
+    "tier": "pubblico",
+    "isSpecial": true,
+    "summary": "Segui \"IT: Welcome To Derry\" su NOW cliccando qui. #AD Esistono poche figure che riescono a incarnare contemporaneamente la gioia dell'infanzia e il terrore più profondo. Il clown è una di queste. Nato per far ridere i bambini, si è trasformato nel corso del tempo in un simbolo di paura, perversione e violenza.",
+    "year": null,
+    "precision": null,
+    "confidence": null,
+    "publishedAt": "2025-10-29",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:4ea04c04-aeb1-11f0-913e-6fc06e7e909a",
+    "track": "naqp",
+    "title": "Il Caso Gary Faulkner - Killing Osama",
+    "rawTitle": "S12 E07 Il Caso Gary Faulkner - Killing Osama",
+    "season": 12,
+    "episode": 7,
+    "tier": "pubblico",
+    "isSpecial": false,
+    "summary": "Greeley, Colorado, Stati Uniti. Nel 2010, un uomo di 50 anni con insufficienza renale cronica, una fedina penale sporca e una spada acquistata su un canale televisivo di televendite decide di fare qualcosa che nessun esercito al mondo era riuscito a fare: catturare Osama bin Laden.",
+    "year": 2010,
+    "precision": "anno",
+    "confidence": "auto",
+    "publishedAt": "2025-10-22",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:c55197b2-a9fd-11f0-a825-ab9d40004457",
+    "track": "naqp",
+    "title": "Il Caso Epstein - La Fine",
+    "rawTitle": "S12 E06 Il Caso Epstein - La Fine",
+    "season": 12,
+    "episode": 6,
+    "tier": "pubblico",
+    "isSpecial": false,
+    "summary": "Palm Beach, Florida, Stati Uniti. 2008. L'FBI ha raccolto prove schiaccianti contro Jeffrey Epstein: centinaia di testimonianze, vittime minorenni identificate, un sistema di traffico sessuale documentato nei minimi dettagli. Gli agenti sono pronti ad arrestarlo. L'incriminazione federale è pronta. Ottantadue pagine di accuse che potrebbero spedirlo in galera per decenni.",
+    "year": 2008,
+    "precision": "anno",
+    "confidence": "auto",
+    "publishedAt": "2025-10-15",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:f95c9b54-a441-11f0-83b4-2b2b51d2bd54",
+    "track": "naqp",
+    "title": "Il Caso Epstein - La Corruzione",
+    "rawTitle": "S12 E05 Il Caso Epstein - La Corruzione",
+    "season": 12,
+    "episode": 5,
+    "tier": "pubblico",
+    "isSpecial": false,
+    "summary": "Palm Beach, Florida, Stati Uniti. Nel 2005, una telefonata disperata di una madre alla polizia locale fa crollare la facciata di rispettabilità di uno dei miliardari più potenti d'America. Dietro le feste esclusive, i jet privati e le amicizie con presidenti e principi, si nasconde una macchina perfetta di abusi su minori protetta da avvocati spietati, procuratori corrotti e un sistema di potere che sembra…",
+    "year": 2005,
+    "precision": "anno",
+    "confidence": "auto",
+    "publishedAt": "2025-10-08",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:7264e176-9eea-11f0-8435-4b7f87d4c58e",
+    "track": "naqp",
+    "title": "Il Caso Epstein - Il Seme dell'Orrore",
+    "rawTitle": "S12 E04 Il Caso Epstein - Il Seme dell'Orrore",
+    "season": 12,
+    "episode": 4,
+    "tier": "pubblico",
+    "isSpecial": false,
+    "summary": "Palm Beach, Florida, Stati Uniti. Nel 2005, una telefonata anonima di una madre terrorizzata porta alla luce quello che diventerà uno dei più scioccanti scandali sessuali dell'era moderna. Un miliardario con connessioni ai più alti livelli del potere mondiale gestiva una rete di traffico sessuale di minorenni che operava alla luce del sole, protetta da un sistema corrotto di avvocati, procuratori e politici.",
+    "year": 2005,
+    "precision": "anno",
+    "confidence": "auto",
+    "publishedAt": "2025-10-01",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:9a92db6c-9981-11f0-968c-e7a8021cf3fb",
+    "track": "naqp",
+    "title": "Il Caso Charlie Kirk",
+    "rawTitle": "S12 E03 Il Caso Charlie Kirk",
+    "season": 12,
+    "episode": 3,
+    "tier": "pubblico",
+    "isSpecial": false,
+    "summary": "Utah Valley University, Orem, Utah. 10 settembre 2025. Un influencer politico conservatore con milioni di seguaci sta per iniziare uno dei suoi famosi dibattiti \"Prove Me Wrong\". Tra la folla di tremila persone, nessuno sa che un ragazzo di 22 anni con un fucile del nonno nascosto nei pantaloni sta per trasformare un evento universitario in una delle più scioccanti tragedie politiche dell'America contemporanea.",
+    "year": 2025,
+    "precision": "anno",
+    "confidence": "auto",
+    "publishedAt": "2025-09-24",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:1d1eef92-93a3-11f0-93c6-e3ccbcfcfef9",
+    "track": "naqp",
+    "title": "Il Caso dell'Esorcismo di Ossett",
+    "rawTitle": "S12 E02 Il Caso dell'Esorcismo di Ossett",
+    "season": 12,
+    "episode": 2,
+    "tier": "pubblico",
+    "isSpecial": false,
+    "summary": null,
+    "year": 1974,
+    "precision": "anno",
+    "confidence": "auto",
+    "publishedAt": "2025-09-17",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:29057050-8cd3-11f0-9490-3b92981a66cd",
+    "track": "naqp",
+    "title": "Il Caso Maudsley - Il Mangia-Pedofili",
+    "rawTitle": "S12 E01 Il Caso Maudsley - Il Mangia-Pedofili",
+    "season": 12,
+    "episode": 1,
+    "tier": "pubblico",
+    "isSpecial": false,
+    "summary": "Inghilterra, 1973. Un giovane di vent'anni irrompe nel suo minuscolo appartamento londinese, sbattendo la porta dietro di sé. I suoi vestiti sono completamente intrisi di sangue e in una mano stringe un coltello sporco. Mentre sorseggia un caffè amaro, le sue mani tremano ancora per l'adrenalina. Non riesce a smettere di ripensare agli eventi della notte precedente.",
+    "year": 1973,
+    "precision": "anno",
+    "confidence": "auto",
+    "publishedAt": "2025-09-10",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:95d41944-626b-11f0-89df-cbf15945fdab",
+    "track": "naqp",
+    "title": "Il Caso Falleni - Fallo Con Me",
+    "rawTitle": "S11 E10 Il Caso Falleni - Fallo Con Me",
+    "season": 11,
+    "episode": 10,
+    "tier": "pubblico",
+    "isSpecial": false,
+    "summary": "Sydney, Australia, primi anni del 1900. Un marinaio italiano con un segreto che potrebbe costargli la vita decide di abbandonare tutto per costruirsi una nuova identità. Per più di vent'anni vive come Harry Crawford, lavora duramente, si sposa due volte e sembra aver trovato la felicità.",
+    "year": 1900,
+    "precision": "anno",
+    "confidence": "auto",
+    "publishedAt": "2025-07-16",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:337cb984-5cff-11f0-9b55-27961824d2b6",
+    "track": "naqp",
+    "title": "Il Caso Jack Parsons - L'Omuncolo",
+    "rawTitle": "S11 E09 Il Caso Jack Parsons - L'Omuncolo",
+    "season": 11,
+    "episode": 9,
+    "tier": "pubblico",
+    "isSpecial": false,
+    "summary": "Pasadena, California, Stati Uniti. Marzo 1946. In una villa vittoriana su Orange Grove Avenue, un brillante scienziato missilistico si prepara a compiere il più pericoloso esperimento della sua vita. Non si tratta di razzi o propellenti, ma di un rituale magico che dovrebbe evocare un’antica creatura magica sulla Terra.",
+    "year": 1946,
+    "precision": "anno",
+    "confidence": "auto",
+    "publishedAt": "2025-07-09",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:b7858c34-5781-11f0-862c-4b3164f05cb8",
+    "track": "naqp",
+    "title": "Il Caso Jack Parsons - Sangue Versato",
+    "rawTitle": "S11 E08 Il Caso Jack Parsons - Sangue Versato",
+    "season": 11,
+    "episode": 8,
+    "tier": "pubblico",
+    "isSpecial": false,
+    "summary": "Pasadena, California, Stati Uniti. Anni '40. Un brillante scienziato, pioniere dei razzi e padre del programma spaziale della NASA, di giorno sviluppa tecnologie che porteranno l'uomo sulla Luna, di notte, invece, pratica rituali di magia sessuale tentando di evocare antiche divinità. Una storia di genio e follia, di scienza e occultismo, di invocazioni ed evocazioni di Grande Prostitute dell'Apocalisse.",
+    "year": null,
+    "precision": null,
+    "confidence": null,
+    "publishedAt": "2025-07-02",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:0908a33a-51f5-11f0-a5a4-4b3dc14e59d3",
+    "track": "naqp",
+    "title": "Intervista a un Capo della Scientifica",
+    "rawTitle": "S11 E07 Intervista a un Capo della Scientifica",
+    "season": 11,
+    "episode": 7,
+    "tier": "pubblico",
+    "isSpecial": false,
+    "summary": "In questo episodio speciale intervistiamo Emilio Scossa-Baggi, per ben 37 anni al servizio della polizia scientifica ticinese, di cui 33 come capo. È noto come \"l'uomo dei 100 omicidi\" in Ticino, avendo seguito o vissuto indirettamente un centinaio di casi.",
+    "year": 1980,
+    "precision": "anno",
+    "confidence": "auto",
+    "publishedAt": "2025-06-25",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:42a21fd2-4c54-11f0-ade1-ffe62c213083",
+    "track": "naqp",
+    "title": "Il Caso Pachita - Psicochirurgia",
+    "rawTitle": "S11 E06 Il Caso Pachita - Psicochirurgia",
+    "season": 11,
+    "episode": 6,
+    "tier": "pubblico",
+    "isSpecial": false,
+    "summary": "Messico, anni '70. Una donna anziana, quasi completamente cieca, senza alcuna formazione medica, diventa famosa per le sue \"operazioni chirurgiche\" eseguite in una stanza sporca, senza anestesia, utilizzando solo un coltello da caccia. Mentre centinaia di persone affermano di essere state guarite miracolosamente, uno scienziato messicano decide di documentare i suoi interventi, assistendola come aiutante.",
+    "year": 1970,
+    "precision": "decennio",
+    "confidence": "auto",
+    "publishedAt": "2025-06-18",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:58fc5934-46f3-11f0-a56d-efdffb831ed6",
+    "track": "naqp",
+    "title": "Il Caso Diddy #3 - Il Processo Feat Jake La Furia",
+    "rawTitle": "S11 05 Il Caso Diddy #3 - Il Processo Feat Jake La Furia",
+    "season": 11,
+    "episode": null,
+    "tier": "pubblico",
+    "isSpecial": false,
+    "summary": "New York, Stati Uniti, Maggio 2025. Nell'aula del tribunale federale di Manhattan, il processo dell'anno sta per iniziare. Sean \"Diddy\" Combs, 55 anni, magnate dell'hip hop e icona della musica mondiale, siede al banco degli imputati accusato di traffico sessuale, associazione a delinquere e di aver trasformato il suo impero musicale in un'organizzazione criminale per soddisfare ogni sua perversione.",
+    "year": 2025,
+    "precision": "anno",
+    "confidence": "auto",
+    "publishedAt": "2025-06-11",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:a2f4478a-3fa6-11f0-83a5-9fda016ceacf",
+    "track": "naqp",
+    "title": "Special Orrori Medici #2",
+    "rawTitle": "S11 E04 Special Orrori Medici #2",
+    "season": 11,
+    "episode": 4,
+    "tier": "pubblico",
+    "isSpecial": true,
+    "summary": "Chirurghi che amputano le mani dei loro assistenti insieme agli arti dei pazienti. Cocktail salutari di deiezioni. Pezzi di corpi umani presi come fossero farmaci. Benvenuti al nuovo speciale dedicato alla medicina di Non Aprite Quella Podcast.",
+    "year": null,
+    "precision": null,
+    "confidence": null,
+    "publishedAt": "2025-06-04",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:b5afae00-3bdc-11f0-997b-9f3e44efa5e4",
+    "track": "naqp",
+    "title": "Il Caso della Spedizione Donner - Una Famiglia Buona",
+    "rawTitle": "S11 E03 Il Caso della Spedizione Donner - Una Famiglia Buona",
+    "season": 11,
+    "episode": 3,
+    "tier": "pubblico",
+    "isSpecial": false,
+    "summary": "Sierra Nevada, Stati Uniti, inverno del 1846. Un gruppo di 87 coloni americani viene intrappolato da una tempesta di neve in alta montagna, isolati per mesi sotto metri di neve. Senza viveri e senza possibilità di fuga, il gruppo vede implacabile l'avanzare della fame.",
+    "year": 1846,
+    "precision": "anno",
+    "confidence": "auto",
+    "publishedAt": "2025-05-28",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:954dce36-368b-11f0-b244-c3dc772422c7",
+    "track": "naqp",
+    "title": "Il Caso della Spedizione Donner - Paiute",
+    "rawTitle": "S11 E02 Il Caso della Spedizione Donner - Paiute",
+    "season": 11,
+    "episode": 2,
+    "tier": "pubblico",
+    "isSpecial": false,
+    "summary": "Stati Uniti, 1846. Un gruppo di famiglie parte dall'Illinois per intraprendere un viaggio verso la California in cerca di fortuna, terre fertili e un futuro radioso. Per risparmiare tempo, decidono di prendere una scorciatoia mai testata prima attraverso le montagne della Sierra Nevada.",
+    "year": 1846,
+    "precision": "anno",
+    "confidence": "auto",
+    "publishedAt": "2025-05-22",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:31cf08d8-30e7-11f0-b6bd-df5c352bd6fc",
+    "track": "naqp",
+    "title": "Il Caso Gulotta - È Stato Nessuno",
+    "rawTitle": "S11 E01 Il Caso Gulotta - È Stato Nessuno",
+    "season": 11,
+    "episode": 1,
+    "tier": "pubblico",
+    "isSpecial": false,
+    "summary": "Alcamo Marina, provincia di Trapani, 27 gennaio 1976. È una notte di pioggia battente e vento forte quando qualcuno forza l'ingresso della piccola caserma dei carabinieri. All'interno dormono due giovani militari: Salvatore Falcetta, 35 anni, e Carmine Apuzzo, appena 19. Nessuno dei due si sveglierà più. Vengono uccisi nel sonno, a sangue freddo, con colpi di pistola esplosi a distanza ravvicinata.",
+    "year": 1976,
+    "precision": "anno",
+    "confidence": "auto",
+    "publishedAt": "2025-05-14",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:c7b3f45e-050d-11f0-a4c5-0b86ecdf6993",
+    "track": "naqp",
+    "title": "Special Metafonia - Nonna è Tornata",
+    "rawTitle": "S10 E10 Special Metafonia - Nonna è Tornata",
+    "season": 10,
+    "episode": 10,
+    "tier": "pubblico",
+    "isSpecial": true,
+    "summary": "Immaginate di trovarvi nella penombra di una stanza silenziosa. Davanti a voi, una radio spenta, un registratore a nastro e un vecchio televisore sintonizzato su un canale morto. Non c'è elettricità, eppure qualcosa sembra muoversi nell'aria. Un sussurro incomprensibile, una voce che emerge dal rumore bianco. Vi avvicinate al registratore e premete play.",
+    "year": null,
+    "precision": null,
+    "confidence": null,
+    "publishedAt": "2025-03-19",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:47514d8a-fddc-11ef-819b-ffcdaa04c7a6",
+    "track": "naqp",
+    "title": "Il Caso della Setta dei Gatti - Gatti Amari",
+    "rawTitle": "S10 E09 Il Caso della Setta dei Gatti - Gatti Amari",
+    "season": 10,
+    "episode": 9,
+    "tier": "pubblico",
+    "isSpecial": false,
+    "summary": "Washington, inizi anni 2000. Una donna carismatica e manipolatrice fonda una chiesa che parte con l’essere cristiana e ultra conservatrice e finisce con i cristalli magici, la stregoneria e i mici capaci di salvarti dall’Apocalisse imminente. La donna, però, non si accontenta di fare milioni con le cacate di migliaia di gatti, ora vuole coinvolgere tutti i seguaci della sua setta per uccidere il suo ex marito.",
+    "year": 2000,
+    "precision": "anno",
+    "confidence": "auto",
+    "publishedAt": "2025-03-12",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:babc1f86-f902-11ef-b09c-b7339db44d04",
+    "track": "naqp",
+    "title": "Il Caso della Setta dei Gatti - Apocalypse Miao",
+    "rawTitle": "S10 E08 Il Caso della Setta dei Gatti - Apocalypse Miao",
+    "season": 10,
+    "episode": 8,
+    "tier": "pubblico",
+    "isSpecial": false,
+    "summary": "Offerta ESCLUSIVA NordVPN ➼ Provate subito senza rischi con una garanzia di rimborso di 30 giorni. Washington, Stati Uniti. Agli inizi degli anni 2000, una donna con zero conoscenze bibliche inizia a predicare in una piccola chiesa pentecostale. Nel giro di pochi anni, trasforma un gruppo di fedeli in una setta che la venera come una divinità.",
+    "year": 2000,
+    "precision": "anno",
+    "confidence": "auto",
+    "publishedAt": "2025-03-05",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:56ef1a46-f2ed-11ef-8f38-4b98a284079a",
+    "track": "naqp",
+    "title": "Il Caso Bonanno - Pidocchi e Mariti",
+    "rawTitle": "S10 E07 Il Caso Bonanno - Pidocchi e Mariti",
+    "season": 10,
+    "episode": 7,
+    "tier": "pubblico",
+    "isSpecial": false,
+    "summary": "Offerta ESCLUSIVA NordVPN » Provate subito senza rischi con una garanzia di rimborso di 30 giorni. Palermo, 1788. In una città dominata da intrighi e superstizioni, una donna anziana si guadagna da vivere vendendo una misteriosa pozione. Quello che all'inizio sembra un innocuo rimedio contro i pidocchi si rivela presto un letale veleno, usato da mogli insoddisfatte per liberarsi dei mariti scomodi.",
+    "year": 1788,
+    "precision": "anno",
+    "confidence": "auto",
+    "publishedAt": "2025-02-26",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:dfb76dd6-eefd-11ef-9a23-5b61001932e5",
+    "track": "naqp",
+    "title": "Il Caso  del Conte Dante - Il Tamarro Colpisce Ancora",
+    "rawTitle": "S10 E06 Il Caso  del Conte Dante - Il Tamarro Colpisce Ancora",
+    "season": 10,
+    "episode": 6,
+    "tier": "pubblico",
+    "isSpecial": false,
+    "summary": "Chicago, 1974. Un uomo vestito come dracula, con la barba disegnata da una stampante 3d e con un leone domenistico è il più controverso e pericoloso maestro di arti marziali di tutti i tempi. Il suo nome è John Timothy Keehan, un ex marine di origini irlandese, ma per tutti ormai è Conte Dante, un nobile spagnolo capace di cavarti gli occhi con un singolo movimento.",
+    "year": 1974,
+    "precision": "anno",
+    "confidence": "auto",
+    "publishedAt": "2025-02-19",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:4c67a1f0-e998-11ef-b036-c3bd9d80f84e",
+    "track": "naqp",
+    "title": "Il Caso del Conte Dante - L'uomo più letale del mondo",
+    "rawTitle": "S10 E05 Il Caso del Conte Dante - L'uomo più letale del mondo",
+    "season": 10,
+    "episode": 5,
+    "tier": "pubblico",
+    "isSpecial": false,
+    "summary": "Chicago, anni '60. Un uomo con una barba nera scolpita che termina in punte affilate come artigli, capelli cotonati in un'acconciatura afro e occhi penetranti come lame, cammina per le strade della città indossando un mantello nero con risvolti rossi, brandendo un bastone da passeggio placcato in oro 24 carati. Al suo fianco, tenuto al guinzaglio con una robusta catena d'acciaio, un leone adulto.",
+    "year": 1960,
+    "precision": "decennio",
+    "confidence": "auto",
+    "publishedAt": "2025-02-13",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:db6da6be-e3ef-11ef-a792-2fa12d2a943d",
+    "track": "naqp",
+    "title": "Il Caso Juliane Koepcke - La Sopravvissuta",
+    "rawTitle": "S10 E04 Il Caso Juliane Koepcke - La Sopravvissuta",
+    "season": 10,
+    "episode": 4,
+    "tier": "pubblico",
+    "isSpecial": false,
+    "summary": "24 dicembre 1971, vigilia di Natale. Un aereo di linea peruviano sorvola la fitta foresta amazzonica con 92 persone a bordo. Improvvisamente, viene colpito da un fulmine e si disintegra in volo. I rottami e i corpi precipitano da un'altezza di oltre 3000 metri, spargendosi su un'area di diversi chilometri quadrati di impenetrabile giungla. Sembra impossibile che qualcuno possa sopravvivere a un simile disastro.",
+    "year": 1971,
+    "precision": "anno",
+    "confidence": "auto",
+    "publishedAt": "2025-02-05",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:d0e78c22-dd06-11ef-867a-6f429324fded",
+    "track": "naqp",
+    "title": "Il Caso Netta Fornario",
+    "rawTitle": "S10 E03 Il Caso Netta Fornario",
+    "season": 10,
+    "episode": 3,
+    "tier": "pubblico",
+    "isSpecial": false,
+    "summary": "Iona, Scozia, 1929. Un'isola remota e considerata magica, ricca di storia e spiritualità, diventa teatro di un mistero che ancora oggi affascina e divide. Una donna italiana, Netta Fornario, arriva sull'isola in cerca di risposte, di connessioni con il mondo spirituale, forse di se stessa. Pochi mesi dopo, il suo corpo viene ritrovato nudo su una collina.",
+    "year": 1929,
+    "precision": "anno",
+    "confidence": "auto",
+    "publishedAt": "2025-01-29",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:691884de-d9ff-11ef-bbb0-6b942653d8f9",
+    "track": "naqp",
+    "title": "Confronto con Amanda Knox: Calunnia &amp; Giustizia",
+    "rawTitle": "Confronto con Amanda Knox: Calunnia &amp; Giustizia",
+    "season": null,
+    "episode": null,
+    "tier": "pubblico",
+    "isSpecial": false,
+    "summary": "In questo episodio speciale, Amanda Knox discute della recente sentenza di diffamazione, le sue esperienze durante gli interrogatori e le tecniche utilizzate dalla polizia. Condivide la sua lotta per stabilire la verità e le conseguenze della sua condanna, nonché le sue riflessioni su Patrick Lumumba e il ruolo dei media nella narrazione del suo caso. In studio con noi: Palla di DPEN Crimini.",
+    "year": null,
+    "precision": null,
+    "confidence": null,
+    "publishedAt": "2025-01-24",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:a6e78300-d905-11ef-a1fd-075ff6d619b6",
+    "track": "naqp",
+    "title": "Il Caso Axeman - Il Serial Killer di Italiani",
+    "rawTitle": "S10 E02 Il Caso Axeman - Il Serial Killer di Italiani",
+    "season": 10,
+    "episode": 2,
+    "tier": "pubblico",
+    "isSpecial": false,
+    "summary": "New Orleans, Louisiana, Stati Uniti. Nei primi anni del '900, questa città, nota più che altro come patria del jazz e del divertimento, si trova ad affrontare una minaccia senza precedenti. Un misterioso assassino armato di ascia si aggira per le strade, prendendo di mira soprattutto gli italiani.",
+    "year": null,
+    "precision": null,
+    "confidence": null,
+    "publishedAt": "2025-01-22",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:2d2a5e4a-cfa8-11ef-9689-0bf5d9fce38d",
+    "track": "naqp",
+    "title": "Il Caso Luigi Mangione - Nega, Difendi, Deponi",
+    "rawTitle": "S10 E01 Il Caso Luigi Mangione - Nega, Difendi, Deponi",
+    "season": 10,
+    "episode": 1,
+    "tier": "pubblico",
+    "isSpecial": false,
+    "summary": "Baltimora, Maryland, Stati Uniti. Un giovane brillante proveniente da una famiglia benestante cresce con tutti i privilegi possibili. Eccelle negli studi, diventa un ingegnere informatico di successo, ma qualcosa dentro di lui si rompe.",
+    "year": 2024,
+    "precision": "anno",
+    "confidence": "auto",
+    "publishedAt": "2025-01-15",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:5fed7158-bd76-11ef-a5da-ebf26f03f0f6",
+    "track": "naqp",
+    "title": "Xmas Special '24 - Parte Seconda",
+    "rawTitle": "S09 E12 Xmas Special '24 - Parte Seconda",
+    "season": 9,
+    "episode": 12,
+    "tier": "pubblico",
+    "isSpecial": true,
+    "summary": "Famiglie distrutte, rapine mortali, persone svanite nel nulla. Esatto, questo è il contenuto natalizio da ascoltare tutti insieme in famiglia che cercavate. Benvenuti alla seconda parte dell'XMas Special '24 di Non Aprite Quella Podcast!",
+    "year": null,
+    "precision": null,
+    "confidence": null,
+    "publishedAt": "2024-12-18",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:61fb5a3e-b7d9-11ef-9ced-7f2ea0182566",
+    "track": "naqp",
+    "title": "Xmas Special '24 - Parte Prima",
+    "rawTitle": "S09 E11 Xmas Special '24 - Parte Prima",
+    "season": 9,
+    "episode": 11,
+    "tier": "pubblico",
+    "isSpecial": true,
+    "summary": "Sorpresa! Benvenuti al primo Speciale di Natale di Non Aprite Quella Podcast. Vieni a vederci dal vivo: nonapritequellapodcast.com/live Iscriviti al Patreon per ascoltare UN EPISODIO IN PIÙ a settimana: patreon.com/NAQP Seguici su Instagram per video esclusivi e molto altro: @nonapritequellapodcast Compra il nostro merch: merch.nonapritequellapodcast.com Per sponsor, collaborazioni o semplici mail:…",
+    "year": null,
+    "precision": null,
+    "confidence": null,
+    "publishedAt": "2024-12-11",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:3d719920-a1e6-11ef-8710-2bfe84b2b9a5",
+    "track": "naqp",
+    "title": "Il Caso del Generale Culo Nudo",
+    "rawTitle": "S09 E10 Il Caso del Generale Culo Nudo",
+    "season": 9,
+    "episode": 10,
+    "tier": "pubblico",
+    "isSpecial": false,
+    "summary": "Monrovia, Liberia, anni '90. Siamo in una nazione dilaniata da una delle guerre civili più disumane della storia; un conflitto combattuto da, in gran parte, bambini-soldato strafatti di cocaina e armati di machete e AK-47. Ecco, in questo inferno sulla Terra emerge una figura tanto assurda quanto terrificante: un uomo che combatte completamente nudo, convinto che la sua nudità lo renda invulnerabile alle pallottole.",
+    "year": 1990,
+    "precision": "decennio",
+    "confidence": "auto",
+    "publishedAt": "2024-11-13",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:050f93b6-9c78-11ef-9671-8350e0833a57",
+    "track": "naqp",
+    "title": "Il Caso Chiruzzi - Il Bandito",
+    "rawTitle": "S09 E09 Il Caso Chiruzzi - Il Bandito",
+    "season": 9,
+    "episode": 9,
+    "tier": "pubblico",
+    "isSpecial": false,
+    "summary": "Bruxelles, 27 settembre 1976. Quattro italiani armati hanno appena preso in ostaggio l'intero personale della Sede Centrale della Banca Inglese, a pochi passi dal Palazzo Reale. Mentre la polizia circonda l'edificio, il capo della banda guarda il cielo e sorride. In quel momento, a Pancrazio Chiruzzi non importa di vivere o morire.",
+    "year": 1976,
+    "precision": "anno",
+    "confidence": "auto",
+    "publishedAt": "2024-11-06",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:ee4ce02c-96ee-11ef-85ae-5bb0390a9ccd",
+    "track": "naqp",
+    "title": "Il Caso Chiruzzi - Il Falco della Basilicata",
+    "rawTitle": "S09 E08 Il Caso Chiruzzi - Il Falco della Basilicata",
+    "season": 9,
+    "episode": 8,
+    "tier": "pubblico",
+    "isSpecial": false,
+    "summary": "Bernalda, Basilicata, 1952. Un piccolo paese nel cuore di una terra che il resto d'Italia ha sfruttato e dimenticato. In una delle famiglie più in vista del posto nasce un bambino destinato a diventare uno dei rapinatori più sofisticati e prolifici della storia criminale italiana. Un uomo che trasformerà il trauma dell'emigrazione e l'umiliazione della discriminazione in una carriera criminale unica nel suo genere.",
+    "year": 1952,
+    "precision": "anno",
+    "confidence": "auto",
+    "publishedAt": "2024-10-30",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:3164a650-915f-11ef-96bb-375b8b2e88d8",
+    "track": "naqp",
+    "title": "Il Caso Urtubia",
+    "rawTitle": "S09 E07 Il Caso Urtubia",
+    "season": 9,
+    "episode": 7,
+    "tier": "pubblico",
+    "isSpecial": false,
+    "summary": "Spagna, anni '30. Un bambino cresce in un piccolo paese della Navarra, ignaro che la sua vita sarà segnata da una lotta costante contro l'oppressione e l'ingiustizia. Quel bambino diventerà l'anarchico che sfiderà il regime di Franco e metterà in ginocchio una delle più grandi banche del mondo.",
+    "year": 1930,
+    "precision": "decennio",
+    "confidence": "auto",
+    "publishedAt": "2024-10-23",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:43793f48-8b4e-11ef-b986-ab10bf0f9cb3",
+    "track": "naqp",
+    "title": "Il Caso Diddy #2 -  Le Nuove Accuse",
+    "rawTitle": "S09 E06 Il Caso Diddy #2 -  Le Nuove Accuse",
+    "season": 9,
+    "episode": 6,
+    "tier": "pubblico",
+    "isSpecial": false,
+    "summary": "16 settembre 2024, New York. P. Diddy, una delle figure leggendarie dell'hip-hop americano e magnate dell'intrattenimento, viene arrestato in un hotel dopo che scoppia uno scandalo senza precedenti. Accuse di traffico sessuale, violenza e abusi emergono una dopo l'altra, trascinando nel fango la sua reputazione e il suo impero.",
+    "year": 2024,
+    "precision": "anno",
+    "confidence": "auto",
+    "publishedAt": "2024-10-16",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:420a088a-864f-11ef-9927-d7a00304945f",
+    "track": "naqp",
+    "title": "Il Caso Sigonella",
+    "rawTitle": "S09 E05 Il Caso Sigonella",
+    "season": 9,
+    "episode": 5,
+    "tier": "pubblico",
+    "isSpecial": false,
+    "summary": "Siamo nell'ottobre del 1985. Una nave da crociera italiana che ha dato il nome a un giudice di X Factor viene dirottata nel Mediterraneo da un commando palestinese. Quello che sembra un \"semplice\" sequestro si trasforma rapidamente in una crisi internazionale che mette a dura prova le relazioni tra Italia e Stati Uniti.",
+    "year": 1985,
+    "precision": "anno",
+    "confidence": "auto",
+    "publishedAt": "2024-10-09",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:233ee994-8108-11ef-be3e-77a1cb145b36",
+    "track": "naqp",
+    "title": "Special Orrori Sessuali #2 - Cuck Edition",
+    "rawTitle": "S09 E04 Special Orrori Sessuali #2 - Cuck Edition",
+    "season": 9,
+    "episode": 4,
+    "tier": "pubblico",
+    "isSpecial": true,
+    "summary": "Siamo nel 2024, ma parliamo di una pratica antica quanto l'uomo stesso. Una dinamica di coppia che sfida le convenzioni sociali e mette alla prova i confini dell'amore, della gelosia e del desiderio. Un fenomeno che sta guadagnando sempre più visibilità grazie ai social media e ai forum online, ma che affonda le sue radici nella storia e nella biologia umana.",
+    "year": 2024,
+    "precision": "anno",
+    "confidence": "auto",
+    "publishedAt": "2024-10-02",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:d05fa52e-7abd-11ef-bd65-dffafba45df8",
+    "track": "naqp",
+    "title": "Il Caso Giovanni Vigliotto",
+    "rawTitle": "S09 E03 Il Caso Giovanni Vigliotto",
+    "season": 9,
+    "episode": 3,
+    "tier": "pubblico",
+    "isSpecial": false,
+    "summary": "Stati Uniti, anni '80. Un uomo dal fascino irresistibile gira l'America sposando decine di donne per poi abbandonarle dopo pochi giorni, portando via con sé i loro risparmi e i loro beni. Nessuno sa chi sia veramente: un ex agente CIA? Un orfano siciliano? O semplicemente un truffatore e manipolatore seriale?",
+    "year": 1980,
+    "precision": "decennio",
+    "confidence": "auto",
+    "publishedAt": "2024-09-25",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:7f4f0cf2-75df-11ef-a9b4-2be377811505",
+    "track": "naqp",
+    "title": "Il Caso Breivik - Isolati",
+    "rawTitle": "S09 E02 Il Caso Breivik - Isolati",
+    "season": 9,
+    "episode": 2,
+    "tier": "pubblico",
+    "isSpecial": false,
+    "summary": "Oslo, Norvegia, 22 luglio 2011. Un uomo vestito da poliziotto sbarca sull'isola di Utøya, dove si sta svolgendo il campo estivo della gioventù laburista. In 69 minuti uccide a sangue freddo 69 persone, la maggior parte adolescenti. Poche ore prima, una bomba era esplosa nel centro di Oslo, uccidendo altre 8 persone. Dietro entrambi gli attacchi c'è un solo uomo: Anders Breivik. Ma come si è arrivati a questo punto?",
+    "year": 2011,
+    "precision": "anno",
+    "confidence": "auto",
+    "publishedAt": "2024-09-18",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:5f916502-6ef7-11ef-98dd-d348090f4bd1",
+    "track": "naqp",
+    "title": "Il Caso Breivik - Il Toy",
+    "rawTitle": "S09 E01 Il Caso Breivik - Il Toy",
+    "season": 9,
+    "episode": 1,
+    "tier": "pubblico",
+    "isSpecial": false,
+    "summary": "Oslo, Norvegia, 22 luglio 2011. Un uomo vestito da poliziotto sbarca sull'isola di Utøya, dove si sta svolgendo il campo estivo della gioventù laburista. In 69 minuti uccide a sangue freddo 69 persone, la maggior parte adolescenti. Poche ore prima, una bomba era esplosa nel centro di Oslo, uccidendo altre 8 persone. Dietro entrambi gli attacchi c'è un solo uomo: Anders Behring Breivik.",
+    "year": 2011,
+    "precision": "anno",
+    "confidence": "auto",
+    "publishedAt": "2024-09-11",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:b6da6784-49fc-11ef-ba8e-4be6199ea645",
+    "track": "naqp",
+    "title": "Il Caso Pedro Rodrigues Filho - Il Matador",
+    "rawTitle": "S08 E10 Il Caso Pedro Rodrigues Filho - Il Matador",
+    "season": 8,
+    "episode": 10,
+    "tier": "pubblico",
+    "isSpecial": false,
+    "summary": "Immaginate di vivere in un mondo dove la giustizia viene amministrata da un uomo solo, senza tribunali, senza processi. Un uomo che decide chi vive e chi muore. Un uomo il cui nome evoca terrore anche tra i peggiori criminali del Brasile.",
+    "year": null,
+    "precision": null,
+    "confidence": null,
+    "publishedAt": "2024-07-24",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:81578ac6-4482-11ef-9d5c-ff48f02a66d3",
+    "track": "naqp",
+    "title": "Il Caso Abe Sada - L'amore a Pezzi",
+    "rawTitle": "S08 E09 Il Caso Abe Sada - L'amore a Pezzi",
+    "season": 8,
+    "episode": 9,
+    "tier": "pubblico",
+    "isSpecial": false,
+    "summary": "Tokyo, anni ‘30. In una città in cui la reputazione - propria, e della famiglia - sono ciò che determina il successo nella vita delle persone, i desideri e le passioni si consumano, in gran segreto, dietro porte chiuse. Ed è proprio in questo mondo che una donna ribelle di nome Abe Sada trasforma l’amore in un’arma letale.",
+    "year": null,
+    "precision": null,
+    "confidence": null,
+    "publishedAt": "2024-07-17",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:7f56199a-3df2-11ef-b91e-eb81899187d9",
+    "track": "naqp",
+    "title": "Il Caso Vukovic - L'angelo",
+    "rawTitle": "S08 E08 Il Caso Vukovic - L'angelo",
+    "season": 8,
+    "episode": 8,
+    "tier": "pubblico",
+    "isSpecial": false,
+    "summary": "Nella gelida notte di Anchorage, Alaska, tre uomini dormono ignari del pericolo imminente. Fuori, una figura si muove nell'ombra. Jason Vukovich, un criminale diventato vigilante, ha una lista e un piano. Le sue vittime? Pedofili condannati. La sua missione? Vendetta. Ma chi è davvero Jason Vukovich? Un vendicatore di bambini o un violento che ha oltrepassato il limite?",
+    "year": null,
+    "precision": null,
+    "confidence": null,
+    "publishedAt": "2024-07-10",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:61be53fe-3972-11ef-83e7-8bd15255826f",
+    "track": "naqp",
+    "title": "Il Caso Vukovic - Il Vendicatore dell’Alaska",
+    "rawTitle": "S08 E07 Il Caso Vukovic - Il Vendicatore dell’Alaska",
+    "season": 8,
+    "episode": 7,
+    "tier": "pubblico",
+    "isSpecial": false,
+    "summary": "Siamo in Alaska, in tempi non troppo lontani. Un uomo che ha subito, durante la sua infanzia, abusi, violenze e torture psicologiche e fisiche inumane decide, da adulto, di mettersi a cacciare e punire personalmente tutti quegli uomini che si sono macchiati del crimine più orribile esistente: quello della pedofilia.",
+    "year": null,
+    "precision": null,
+    "confidence": null,
+    "publishedAt": "2024-07-03",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:6141a292-3381-11ef-83d5-93e1485dff91",
+    "track": "naqp",
+    "title": "Il Caso Dennis Nilsen - Cena per Uno",
+    "rawTitle": "S08 E06 Il Caso Dennis Nilsen - Cena per Uno",
+    "season": 8,
+    "episode": 6,
+    "tier": "pubblico",
+    "isSpecial": false,
+    "summary": "Londra, fine anni ‘70. Dennis Nilsen, un impiegato tranquillo e riservato - con una decorata carriera da militare e poliziotto, nasconde un segreto oscuro. Nessuno sospetta che dietro il suo aspetto innocente si possa celare un serial killer metodico e calcolatore. Capace di sfruttare la solitudine e la vulnerabilità delle sue vittime, offrendo loro un rifugio, per poi condurle alla morte.",
+    "year": null,
+    "precision": null,
+    "confidence": null,
+    "publishedAt": "2024-06-26",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:7b8603e4-2e24-11ef-b969-db3b751684ad",
+    "track": "naqp",
+    "title": "Il Caso Dennis Nilsen - Case da Incubo",
+    "rawTitle": "S08 E05 Il Caso Dennis Nilsen - Case da Incubo",
+    "season": 8,
+    "episode": 5,
+    "tier": "pubblico",
+    "isSpecial": false,
+    "summary": "Londra, fine anni ‘70. Dennis Nilsen, un impiegato tranquillo e riservato - con una decorata carriera da militare e poliziotto, nasconde un segreto oscuro. Nessuno sospetta che dietro il suo aspetto innocente si possa celare un serial killer metodico e calcolatore. Capace di sfruttare la solitudine e la vulnerabilità delle sue vittime, offrendo loro un rifugio, per poi condurle alla morte.",
+    "year": null,
+    "precision": null,
+    "confidence": null,
+    "publishedAt": "2024-06-19",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:b84afa90-2911-11ef-8beb-1bd60b4e9ade",
+    "track": "naqp",
+    "title": "Amanda Knox - L'Intervista",
+    "rawTitle": "S08 E04 Amanda Knox - L'Intervista",
+    "season": 8,
+    "episode": 4,
+    "tier": "pubblico",
+    "isSpecial": false,
+    "summary": "Ax, insieme a Palla di Dpen Crimini, intervista Amanda Knox. Iscriviti al Patreon per ascoltare UN EPISODIO IN PIÙ a settimana: patreon.com/NAQP Seguici su Instagram per video esclusivi e molto altro: @nonapritequellapodcast Compra il nostro merch: merch.nonapritequellapodcast.com Per sponsor, collaborazioni o semplici mail: nonapritequellapodcast@gmail.com Segui Matteo su Instagram: @matteo.lenardon Segui Pedar su…",
+    "year": null,
+    "precision": null,
+    "confidence": null,
+    "publishedAt": "2024-06-13",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:c4243f34-238a-11ef-9ce7-4f1e44af8551",
+    "track": "naqp",
+    "title": "Il Caso Diddy #1 Feat Jake La Furia",
+    "rawTitle": "S08 E03 Il Caso Diddy #1 Feat Jake La Furia",
+    "season": 8,
+    "episode": 3,
+    "tier": "pubblico",
+    "isSpecial": false,
+    "summary": "Marzo 2024, Stati Uniti. Due enormi mansion, una a Los Angeles, l’altra a Miami Beach, vengono invase in contemporanea da un vero e proprio esercito. Il proprietario? L’uomo che avrebbe già dovuto essere arrestato anni fa per aver creato le tute di velluto “Sean John”, ovvero Puff Daddy AKA P Diddy AKA Diddy. L’accusa? Stupro, abusi, spaccio di droga, sfruttamento della prostituzione.",
+    "year": 2024,
+    "precision": "anno",
+    "confidence": "auto",
+    "publishedAt": "2024-06-06",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:d704d29c-1dc9-11ef-b750-f7bd252c3186",
+    "track": "naqp",
+    "title": "Il Caso Lolli - L'Italiano Vero",
+    "rawTitle": "S08 E02 Il Caso Lolli - L'Italiano Vero",
+    "season": 8,
+    "episode": 2,
+    "tier": "pubblico",
+    "isSpecial": false,
+    "summary": "Questa è la storia di un playboy di Rimini, un multimilionario venditore di yacht che aveva tutto: soldi, fama, modelle, connection politiche. La sua esistenza, insomma, era quella visione instagrammabile della vita che in tanti, oggi, sognano di avere. Ora immaginatevi questo stesso uomo che aveva tutto seduto in una delle peggiori prigioni della Libia, torturato dagli uomini di Gheddafi.",
+    "year": null,
+    "precision": null,
+    "confidence": null,
+    "publishedAt": "2024-05-29",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:4483b138-1877-11ef-9a24-d7637cd95935",
+    "track": "naqp",
+    "title": "Il Caso Bamberski",
+    "rawTitle": "S08 E01 Il Caso Bamberski",
+    "season": 8,
+    "episode": 1,
+    "tier": "pubblico",
+    "isSpecial": false,
+    "summary": "Estate del 1982, Francia. Un padre risponde al telefono e ascolta la peggiore notizia della sua vita: la figlia Kalinka, 14 anni, viene ritrovata morta nella casa dell’ex moglie in Germania. Le cause - viene velocemente dichiarato - sarebbero naturali.",
+    "year": 1982,
+    "precision": "anno",
+    "confidence": "auto",
+    "publishedAt": "2024-05-22",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:380e3a80-e6b9-11ee-aa28-2b3ef7e82e70",
+    "track": "naqp",
+    "title": "Il Caso Javier Milei - Dogman",
+    "rawTitle": "S07 E10 Il Caso Javier Milei - Dogman",
+    "season": 7,
+    "episode": 10,
+    "tier": "pubblico",
+    "isSpecial": false,
+    "summary": "Argentina, 2023. Un cosplayer con una cover band dei Rolling Stone che si crede la reincarnazione di un gladiatore romano e che lavora come istruttore di sesso tantrico e professore di economia decide - dopo aver parlato con il suo mastino inglese morto attraverso una strega veterinaria - di essere stato chiamato da Dio per compiere una missione: salvare l’Argentina dalla distruzione.",
+    "year": 2023,
+    "precision": "anno",
+    "confidence": "auto",
+    "publishedAt": "2024-03-20",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:c299f73e-df34-11ee-bced-cfba65bde329",
+    "track": "naqp",
+    "title": "Il Caso Paleokostas - L’imprendibile",
+    "rawTitle": "S07 E09 Il Caso Paleokostas - L’imprendibile",
+    "season": 7,
+    "episode": 9,
+    "tier": "pubblico",
+    "isSpecial": false,
+    "summary": "Le montagne della Grecia centrale nascondono storie incredibili di banditi leggendari. Fra questi spicca Vassilis Paleokostas, destinato a diventare il più celebre fuorilegge greco moderno. Fin da bambino, Vassilis ha dovuto arrangiarsi rubando per sopravvivere in un ambiente duro e spietato. Affiancato dal fratello Nikos, è ben presto passato da semplici furtarelli a rapine milionarie nelle banche più blindate.",
+    "year": null,
+    "precision": null,
+    "confidence": null,
+    "publishedAt": "2024-03-13",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:e4375ce6-db2a-11ee-9854-73251a7e5c79",
+    "track": "naqp",
+    "title": "Il Caso Paleokostas - Il Montanaro",
+    "rawTitle": "S07 E08 Il Caso Paleokostas - Il Montanaro",
+    "season": 7,
+    "episode": 8,
+    "tier": "pubblico",
+    "isSpecial": false,
+    "summary": "Tra le montagne remote della Grecia centrale si nasconde un misterioso fuorilegge che per tre decenni ha derubato banche, rapito industriali e umiliato la polizia, guadagnandosi una reputazione leggendaria. Conosciuto da molti come il \"Robin Hood greco\", Vassilis Paleokostas ha distribuito il bottino dei suoi crimini tra contadini poveri e senzatetto, diventando un eroe per la gente comune e uno dei ricercati più…",
+    "year": null,
+    "precision": null,
+    "confidence": null,
+    "publishedAt": "2024-03-06",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:a31e02de-d317-11ee-ad27-bfc659832ce2",
+    "track": "naqp",
+    "title": "Special Orrori Sessuali",
+    "rawTitle": "S07 E07 Special Orrori Sessuali",
+    "season": 7,
+    "episode": 7,
+    "tier": "pubblico",
+    "isSpecial": true,
+    "summary": "Usano la loro bocca come gabinetto. Creano orifizi sugli abeti centenari. Trasformano i trapani a percussione di Zio Mimmo in sex toy. Rubano cartoni del latte perché è l’unico modo che hanno per raggiungere un orgasmo - una cosa che tutti quelli che ascolteranno questo episodio non avranno più per almeno un paio di mesi… Iscrivi al Patreon per ascoltare UN EPISODIO IN PIÙ a settimana: patreon.com/NAQP Seguici su…",
+    "year": null,
+    "precision": null,
+    "confidence": null,
+    "publishedAt": "2024-02-28",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:02fd7a0e-d0e8-11ee-a9a3-db8ba31567c7",
+    "track": "naqp",
+    "title": "Il Caso Boursicot - L'amour è pieno di sorprese",
+    "rawTitle": "S07 E06 Il Caso Boursicot - L'amour è pieno di sorprese",
+    "season": 7,
+    "episode": 6,
+    "tier": "pubblico",
+    "isSpecial": false,
+    "summary": "Pechino, 1964: un giovane francese di nome Bernard arriva in città per lavorare all'ambasciata del suo Paese, pieno di sogni e di speranze. La scoperta che si ritrova davanti, però, è tetra: una metropoli grigia, chiusa e pericolosa per gli stranieri, in cui è persino proibito avvicinare i cinesi.",
+    "year": 1964,
+    "precision": "anno",
+    "confidence": "auto",
+    "publishedAt": "2024-02-21",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:13bcb554-cb3d-11ee-ba5b-53e7d6c1641e",
+    "track": "naqp",
+    "title": "Il Caso Boursicot - La spia che mi baciò",
+    "rawTitle": "S07 E05 Il Caso Boursicot - La spia che mi baciò",
+    "season": 7,
+    "episode": 5,
+    "tier": "pubblico",
+    "isSpecial": false,
+    "summary": "Siamo fra la Francia e la Cina, durante gli anni della Guerra Fredda. Bernard Boursicot - un importante diplomatico francese che lavora all’ambasciata di Pechino - si innamora perdutamente di una cantante d’opera cinese. Questa persona gli nasconderà, per 18 lunghi anni, un incredibile segreto capace di mettere entrambi al centro di uno dei più folli e surreali casi di spionaggio internazionale della storia.",
+    "year": null,
+    "precision": null,
+    "confidence": null,
+    "publishedAt": "2024-02-14",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:be0430cc-bddd-11ee-8d1c-1fc7fe7523a8",
+    "track": "naqp",
+    "title": "Il Caso dei Cosmonauti Perduti",
+    "rawTitle": "S07 E04 Il Caso dei Cosmonauti Perduti",
+    "season": 7,
+    "episode": 4,
+    "tier": "pubblico",
+    "isSpecial": false,
+    "summary": "Anni ’60, Torino. Due fratelli radio-amatori di a malapena vent’anni iniziano a costruire - con materiali di recupero - delle antenne sempre più sofisticate e maestose sopra il tetto della loro casa a due passi dalla Mole Antonelliana.",
+    "year": null,
+    "precision": null,
+    "confidence": null,
+    "publishedAt": "2024-02-07",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:dad15946-b9f0-11ee-9af2-132b6e715eac",
+    "track": "naqp",
+    "title": "Il Caso Serenissimi",
+    "rawTitle": "S07 E03 Il Caso Serenissimi",
+    "season": 7,
+    "episode": 3,
+    "tier": "pubblico",
+    "isSpecial": false,
+    "summary": "È il 9 maggio del 1997. Un manipolo di uomini che vogliono l’indipendenza del Veneto formano un commando e lanciano un attacco che sconvolgerà tutto il mondo: prendere possesso di Piazza San Marco a Venezia con un carro armato costruito con gli avanzi del Brico.",
+    "year": 1997,
+    "precision": "anno",
+    "confidence": "auto",
+    "publishedAt": "2024-01-31",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:8da6f508-b9ba-11ee-8ef1-93da4245b002",
+    "track": "naqp",
+    "title": "Speciale Necrofilia Pt.2",
+    "rawTitle": "S07 E02 Speciale Necrofilia Pt.2",
+    "season": 7,
+    "episode": 2,
+    "tier": "pubblico",
+    "isSpecial": true,
+    "summary": "Scavano a mani nude la terra, si intrufolano dentro gli obitori o le camere mortuarie delle pompe funebri, fanno a pezzi cadaveri o uccidono solo per il gusto di avere a propria disposizione un corpo fresco che non può rifiutarsi. Sono fra noi e sono molti di più di quanto pensiamo.",
+    "year": null,
+    "precision": null,
+    "confidence": null,
+    "publishedAt": "2024-01-24",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:5ce52554-b157-11ee-9fc5-8f387e306673",
+    "track": "naqp",
+    "title": "Speciale Necrofilia Pt.1",
+    "rawTitle": "S07 E01 Speciale Necrofilia Pt.1",
+    "season": 7,
+    "episode": 1,
+    "tier": "pubblico",
+    "isSpecial": true,
+    "summary": "Scavano a mani nude la terra, si intrufolano dentro gli obitori o le camere mortuarie delle pompe funebri, fanno a pezzi cadaveri o uccidono solo per il gusto di avere a propria disposizione un corpo fresco che non può rifiutarsi. Sono fra noi e sono molti di più di quanto pensiamo.",
+    "year": null,
+    "precision": null,
+    "confidence": null,
+    "publishedAt": "2024-01-17",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:da0557a4-8ae5-11ee-bcc4-c31a78d11f4f",
+    "track": "naqp",
+    "title": "Raffaele Sollecito - L'intervista",
+    "rawTitle": "S06 E12 Raffaele Sollecito - L'intervista",
+    "season": 6,
+    "episode": 12,
+    "tier": "pubblico",
+    "isSpecial": false,
+    "summary": "Nella seconda stagione in 3 puntate vi abbiamo raccontato la semplice - ma, per l’Italia, sconvolgente - verità su ciò che è successo a Meredith Kercher il primo novembre 2007, ora, invece, una delle 3 vittime di Perugia ci racconterà cosa significa essere ingiustamente perseguitati da un intero Paese.",
+    "year": 2007,
+    "precision": "anno",
+    "confidence": "auto",
+    "publishedAt": "2023-11-29",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:bef16b2c-87c7-11ee-898a-ab369324676e",
+    "track": "naqp",
+    "title": "Il Caso Ludwig - Vietato Scopare",
+    "rawTitle": "S06 E11 Il Caso Ludwig - Vietato Scopare",
+    "season": 6,
+    "episode": 11,
+    "tier": "pubblico",
+    "isSpecial": false,
+    "summary": "Siamo in Italia, durante gli Anni di Piombo. Una nuova organizzazione terroristica - ignorata da tutti - ha cominciato a seminare il terrore. Forze dell’ordine e giornalisti si convincono di avere di fronte, però, dei mitomani. Poi però Ludwig comincia uccidere, senza fermarsi più, arrivando perfino a bruciare vive 6 persone in un cinema di Milano. Qualcuno riuscirà a fermarli?",
+    "year": null,
+    "precision": null,
+    "confidence": null,
+    "publishedAt": "2023-11-22",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:66c59296-7e37-11ee-a0bf-5fcf86c59c78",
+    "track": "naqp",
+    "title": "Il Caso Ludwig - Dio è con Noi",
+    "rawTitle": "S06 E10 Il Caso Ludwig - Dio è con Noi",
+    "season": 6,
+    "episode": 10,
+    "tier": "pubblico",
+    "isSpecial": false,
+    "summary": "Siamo in Italia, durante gli Anni di Piombo. Mentre il paese è straziato dal terrorismo, un'inquietante sigla rivendica una serie di efferati omicidi con biglietti scritti in caratteri runici. Dietro si cela un'organizzazione neonazista che seminerà il terrore, con il fuoco e il ferro, per un decennio.",
+    "year": null,
+    "precision": null,
+    "confidence": null,
+    "publishedAt": "2023-11-15",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:39d560f4-7b30-11ee-b97e-a701144494f5",
+    "track": "naqp",
+    "title": "Special Creepypasta #3",
+    "rawTitle": "S06 E09 Special Creepypasta #3",
+    "season": 6,
+    "episode": 9,
+    "tier": "pubblico",
+    "isSpecial": true,
+    "summary": "Ci avete detto che era una perdita di tempo. Ci avete detto che non siete arrivati alla fine. Ci avete detto che le skippate quando le sentite e che vi fanno schifo. Per questo noi, ne abbiamo fatta un’altra. Questo è Il terzo speciale creepypasta di Non Aprite Quella Podcast! In questo episodio abbiamo letto: La morte di spongebob, La sindrome di Lavandonia, Lettere morte.",
+    "year": null,
+    "precision": null,
+    "confidence": null,
+    "publishedAt": "2023-11-08",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:49d5c1e2-7365-11ee-b9c6-b7d40afb5559",
+    "track": "naqp",
+    "title": "Il Caso Pizza Bomber - Morte di un fattorino viaggiatore",
+    "rawTitle": "S06 E08 Il Caso Pizza Bomber - Morte di un fattorino viaggiatore",
+    "season": 6,
+    "episode": 8,
+    "tier": "pubblico",
+    "isSpecial": false,
+    "summary": "28 agosto 2003, Pennsylvania. Una donna bipolare e narcisista escogita con il suo ex un piano tanto semplice quanto folle: costringere un ignaro fattorino di una pizzeria a rapinare una banca indossando un ordigno esplosivo al collo. Il piano sembra perfetto. Nessuno si sarebbe dovuto fare male - avevano detto al portapizze - solo un po' di sano terrore per impossessarsi di 250mila dollari.",
+    "year": 2003,
+    "precision": "anno",
+    "confidence": "auto",
+    "publishedAt": "2023-11-01",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:c059db4e-6c23-11ee-b30a-f71b91dd836e",
+    "track": "naqp",
+    "title": "Il Caso Pizza Bomber - Morte a Domicilio",
+    "rawTitle": "S06 E07 Il Caso Pizza Bomber - Morte a Domicilio",
+    "season": 6,
+    "episode": 7,
+    "tier": "pubblico",
+    "isSpecial": false,
+    "summary": "Siamo a Eerie, in Pennsylvania. È un giorno come un altro nella piccola cittadina americana, quando in una banca entra un uomo - Brian Wells, un consegna pizze a domicilio di 46 anni. Wells non è lì per depositare un assegno o chiedere un prestito. Indossa quello che sembra un enorme collare bomba intorno al collo e stringe tra le mani una nota scritta a mano che consegna al cassiere.",
+    "year": null,
+    "precision": null,
+    "confidence": null,
+    "publishedAt": "2023-10-25",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:a63e8040-6a05-11ee-88dd-aba24ea8f75a",
+    "track": "naqp",
+    "title": "Leonardo Notarbartolo - L'intervista",
+    "rawTitle": "S06 E06 Leonardo Notarbartolo - L'intervista",
+    "season": 6,
+    "episode": 6,
+    "tier": "pubblico",
+    "isSpecial": false,
+    "summary": "Ce lo avete chiesto. Ci avete scongiurato. Ci avete anche rotto le palle - e noi, in esclusiva, ve lo abbiamo portato: la mente dietro \"il colpo del secolo\", Leonardo Notarbartolo. Sponsored by: Questa incredibile storia ha (liberamente) ispirato la nuova serie Everybody Loves Diamonds, disponibile su Prime Video.",
+    "year": null,
+    "precision": null,
+    "confidence": null,
+    "publishedAt": "2023-10-18",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:bef15e26-5edb-11ee-b31f-379efd577fed",
+    "track": "naqp",
+    "title": "Il Caso del Protocollo Cazzaniga - L’angelo della morte",
+    "rawTitle": "S06 E05 Il Caso del Protocollo Cazzaniga - L’angelo della morte",
+    "season": 6,
+    "episode": 5,
+    "tier": "pubblico",
+    "isSpecial": false,
+    "summary": "È il 29 novembre 2016. Una notizia travolge un ospedale prestigioso di Saronno. Un vice-primario e la sua fedele infermiera vengono arrestati con l’accusa di aver ucciso un numero impressionante di persone - dentro e fuori le mura ospedaliere. La procura di Busto Arsizio ipotizza, addirittura, 15 omicidi: dodici di pazienti in corsia e tre di familiari della donna.",
+    "year": 2016,
+    "precision": "anno",
+    "confidence": "auto",
+    "publishedAt": "2023-10-11",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:bec07770-5edb-11ee-b31f-576a337432a5",
+    "track": "naqp",
+    "title": "Il Caso Malloy - L'uomo che non sapeva morire",
+    "rawTitle": "S06 E04 Il Caso Malloy - L'uomo che non sapeva morire",
+    "season": 6,
+    "episode": 4,
+    "tier": "pubblico",
+    "isSpecial": false,
+    "summary": "Siamo a New York, all’inizio degli anni ’30. Un variegato gruppo di italo-americani decide che il modo più veloce per fare i soldi è aiutare a morire di cause naturali un povero irlandese ubriaco su cui hanno precedentemente acceso una polizza sulla vita. Dopo numerosi tentativi falliti, ora proveranno a giocare la loro carta più crudele.",
+    "year": 1930,
+    "precision": "decennio",
+    "confidence": "auto",
+    "publishedAt": "2023-10-04",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:659ad6f2-5d3e-11ee-af1b-db056e21dde7",
+    "track": "naqp",
+    "title": "Il Caso Malloy - L'Irlandese di ferro",
+    "rawTitle": "S06 E03 Il Caso Malloy - L'Irlandese di ferro",
+    "season": 6,
+    "episode": 3,
+    "tier": "pubblico",
+    "isSpecial": false,
+    "summary": "Siamo a New York, nel pieno del proibizionismo. Il proprietario italiano di uno speakeasy - e la sua strana e assurda banda di amici criminali - credono di aver trovato un piano per fare una montagna di soldi facili: accendere polizze sulla vita di persone e quindi ucciderle per riscuotere il premio assicurativo.",
+    "year": null,
+    "precision": null,
+    "confidence": null,
+    "publishedAt": "2023-09-27",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:a0cf4206-5705-11ee-9b15-2f5162f7cff2",
+    "track": "naqp",
+    "title": "Il Caso Simone Pianetti",
+    "rawTitle": "S06 E02 Il Caso Simone Pianetti",
+    "season": 6,
+    "episode": 2,
+    "tier": "pubblico",
+    "isSpecial": false,
+    "summary": "È il 13 luglio 1913, in un piccolo villaggio della Valle Brembana. Un cacciatore di camosci si alza alle 5 di mattina; bacia la fronte della figlia più piccola, stacca dal muro il fucile a 3 canne e la rivoltella, prende 200 cartucce, dell’esplosivo e due fiale di stricnina. Il suo obiettivo? Farsi giustizia di tutte le persone che — ne è certo — lo abbiano rovinato.",
+    "year": 1913,
+    "precision": "anno",
+    "confidence": "auto",
+    "publishedAt": "2023-09-20",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:422050b2-5280-11ee-a8f1-432108e697f7",
+    "track": "naqp",
+    "title": "Il Caso OceanGate",
+    "rawTitle": "S06 E01 Il Caso OceanGate",
+    "season": 6,
+    "episode": 1,
+    "tier": "pubblico",
+    "isSpecial": false,
+    "summary": "È il 18 giugno 2023. Un sottomarino Titan costruito e pilotato da un ex pilota di aerei di linea e assemblato con parti scartate - o acquistate da negozi per il fai-da-te - e mai testate, comincia la sua discesa verso il relitto del Titanic, situato a 3.800 metri sotto il livello del mare.",
+    "year": 2023,
+    "precision": "anno",
+    "confidence": "auto",
+    "publishedAt": "2023-09-13",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:2be36487-1c52-4ca8-b9c2-61fb1d233750",
+    "track": "naqp",
+    "title": "Il Caso Narcosatanisti - La Muerte",
+    "rawTitle": "S05 E10 Il Caso Narcosatanisti - La Muerte",
+    "season": 5,
+    "episode": 10,
+    "tier": "pubblico",
+    "isSpecial": false,
+    "summary": "Siamo al confine fra il Messico e il Texas, a cavallo fra gli anni ’80 e ’90. La - ormai - setta di Adolfo Constanzo ha scatenato un orrore senza pari nella città di confine di Matamoros. Tutti sono sotto a El Padrino. Dalle famiglie di Narcos rivali ai più importanti esponenti delle forza dell’ordine messicane. Però, ora, Adolfo ha forse commesso un errore. Ha eliminato in maniera brutale, uno studente americano.",
+    "year": 1980,
+    "precision": "decennio",
+    "confidence": "auto",
+    "publishedAt": "2023-06-14",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:d814dad7-f01a-40af-836e-2ca3e762c4dc",
+    "track": "naqp",
+    "title": "Il Caso Narcosatanisti - El Padrino",
+    "rawTitle": "S05 E09 Il Caso Narcosatanisti - El Padrino",
+    "season": 5,
+    "episode": 9,
+    "tier": "pubblico",
+    "isSpecial": false,
+    "summary": "Messico, fine anni ’80. Un modello di intimo di Miami arriva a Città del Messico e comincia una scalata criminale che lo porterà a sterminare un’intera famiglia rivale di narcos. Il suo obiettivo? Prendersi tutto, protetto dalla magia nera di Palo Mayombe.",
+    "year": 1980,
+    "precision": "decennio",
+    "confidence": "auto",
+    "publishedAt": "2023-06-07",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:7f00e4a3-87ba-47a4-88d7-c1693f49e3eb",
+    "track": "naqp",
+    "title": "Il Caso Narcosatanisti - Palo Mayombe",
+    "rawTitle": "S05 E08 Il Caso Narcosatanisti - Palo Mayombe",
+    "season": 5,
+    "episode": 8,
+    "tier": "pubblico",
+    "isSpecial": false,
+    "summary": "Matamoros, Messico, 1989. Un modello di Miami addestrato da sua madre alle arti oscure di Palo Mayombe e della Santeria decide di trasferirsi nella terra dei mariachi per creare il primo - e finora unico - cartello della droga capace di operare tramite la magia nera il satanismo. La loro messa della domenica? Sacrifici umani, torture terrificanti e tonnellate di coco.",
+    "year": 1989,
+    "precision": "anno",
+    "confidence": "auto",
+    "publishedAt": "2023-05-31",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:c72903aa-567b-4272-88bf-cc0a7d1c4094",
+    "track": "naqp",
+    "title": "Il Caso Minichiello - 18 ore per morire",
+    "rawTitle": "S05 E07 Il Caso Minichiello - 18 ore per morire",
+    "season": 5,
+    "episode": 7,
+    "tier": "pubblico",
+    "isSpecial": false,
+    "summary": "È il 31 ottobre 1969. Il marine Raffaele Minichiello, armato di un fucile semiautomatico con 250 proiettili, è appena entrato nella cabina di pilotaggio di un Boeing 707. È lui ora a comandare. I passeggeri e l’equipaggio sono ora alla sua mercé, aspettando di capire le sue intenzioni.",
+    "year": 1969,
+    "precision": "anno",
+    "confidence": "auto",
+    "publishedAt": "2023-05-24",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:a58251f8-28d7-4257-a8c1-e47a6951e0d7",
+    "track": "naqp",
+    "title": "Il Caso Minichiello - First Blood",
+    "rawTitle": "S05 E06 Il Caso Minichiello - First Blood",
+    "season": 5,
+    "episode": 6,
+    "tier": "pubblico",
+    "isSpecial": false,
+    "summary": "Sono le 1.30 del mattino del 31 ottobre 1969. Da circa un quarto d’ora il Marine di Melito Irpino Raffaele Minichiello sta volando sopra Los Angeles su un Boeing 707 della TWA che può trasportare centosessanta persone. Quello che a bordo nessuno sa, però, è che il marine ha nel suo bagaglio a mano un fucile M1 e sta per tirarlo fuori.",
+    "year": 1969,
+    "precision": "anno",
+    "confidence": "auto",
+    "publishedAt": "2023-05-17",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:5f4b644c-471b-46ba-827c-bedce3274cbc",
+    "track": "naqp",
+    "title": "Il Caso del Golpe Borghese",
+    "rawTitle": "S05 E05 Il Caso del Golpe Borghese",
+    "season": 5,
+    "episode": 5,
+    "tier": "pubblico",
+    "isSpecial": false,
+    "summary": "È la notte fra il 7 e l’8 dicembre 1970. E a Roma e in tutta Italia migliaia di persone si preparano a compiere l’impensabile. Prendere il controllo dei più importanti apparati dello stato, occupare la Rai e rapire il Presidente della Repubblica.",
+    "year": 1970,
+    "precision": "anno",
+    "confidence": "auto",
+    "publishedAt": "2023-05-10",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:4edb2dfa-cfc0-41df-9095-04cb9f3ae4de",
+    "track": "naqp",
+    "title": "Il Caso Omeopatia",
+    "rawTitle": "S05 E04 Il Caso Omeopatia",
+    "season": 5,
+    "episode": 4,
+    "tier": "pubblico",
+    "isSpecial": false,
+    "summary": "Germania, inizio 800. Un medico incapace di curare i propri pazienti, ma molto esperto nella decorazione di porcellane, si convince, un giorno, che il futuro della medicina sarebbe stato quello di sbattere cento volte dei farmaci diluiti - fino a renderli solo pura acqua - contro una bibbia.",
+    "year": null,
+    "precision": null,
+    "confidence": null,
+    "publishedAt": "2023-05-03",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:051001cf-01a4-4365-80b0-d0f7ffa485e4",
+    "track": "naqp",
+    "title": "Il Caso Pont-Saint-Esprit",
+    "rawTitle": "S05 E03 Il Caso Pont-Saint-Esprit",
+    "season": 5,
+    "episode": 3,
+    "tier": "pubblico",
+    "isSpecial": false,
+    "summary": "Sud della Francia, 1951. Un piccolo e tranquillo villaggio si ritrova, in un giorno di agosto, protagonista di una vera e propria *isteria di massa.*Alcune persone, all’improvviso, sembrano prese da una strana e inquietante follia. C’è chi crede di essere inseguito da demoni, chi scappa da una casa avvolta da fiamme che non esistono, chi si trova all’improvviso con arti in cancrena.",
+    "year": 1951,
+    "precision": "anno",
+    "confidence": "auto",
+    "publishedAt": "2023-04-26",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:47955f62-79f7-41b9-909d-a9b3e4c6e7cf",
+    "track": "naqp",
+    "title": "Il Caso Aum Shinrikyo - Attacco a Tokyo",
+    "rawTitle": "S05 E02 Il Caso Aum Shinrikyo - Attacco a Tokyo",
+    "season": 5,
+    "episode": 2,
+    "tier": "pubblico",
+    "isSpecial": false,
+    "summary": "Giappone, metà anni ’90. Una setta di buddisti adoratori di Hitler comandati da un guru che quotidianamente fa la pupù nel suo pannolone, si convince che l’unico modo per salvare l’umanità dall’inferno e da una vita con un cattivo karma è sterminare ogni singola persona nel mondo attraverso raggi laser spaziali.",
+    "year": 1990,
+    "precision": "decennio",
+    "confidence": "auto",
+    "publishedAt": "2023-04-19",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:611543fb-f31e-4fdd-8d6b-7900b84a7efb",
+    "track": "naqp",
+    "title": "Il Caso Aum Shinrikyo - Aria di Morte",
+    "rawTitle": "S05 E01 Il Caso Aum Shinrikyo - Aria di Morte",
+    "season": 5,
+    "episode": 1,
+    "tier": "pubblico",
+    "isSpecial": false,
+    "summary": "Giappone, fine anni ’80. Un pingue ex spacciatore quasi-cieco scopre lo yoga e l’abilità di fluttuare nell’aria attraverso l’innovativa tecnologia chiamata “macchina fotografica”. In pochi anni riuscirà a mettere in piedi una setta con decine di migliaia di membri in tutto il mondo, a costruire fucili da guerra e armi di distruzione di massa e a collezionare peli pubici di donne in vasetti.",
+    "year": 1980,
+    "precision": "decennio",
+    "confidence": "auto",
+    "publishedAt": "2023-04-12",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:ef825e66-371e-4786-84b1-77469bb6814e",
+    "track": "naqp",
+    "title": "Il Caso Meiwes - Fatto in casa per voi",
+    "rawTitle": "S04 E10 Il Caso Meiwes - Fatto in casa per voi",
+    "season": 4,
+    "episode": 10,
+    "tier": "pubblico",
+    "isSpecial": false,
+    "summary": "Germania, 2001. Un uomo di 38 anni ossessionato dalla madre e dall’idea di mangiare altri esseri umani si mette alla ricerca online di potenziali vittime. Perché Armin non vuole semplicemente uccidere, no, vuole mangiare qualcuno con il suo esplicito consenso. E proprio un qualcuno si presenta una sera.",
+    "year": 2001,
+    "precision": "anno",
+    "confidence": "auto",
+    "publishedAt": "2023-03-22",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:4ad30f92-50fb-4df4-b17d-fd75f354e2f0",
+    "track": "naqp",
+    "title": "Il Caso Meiwes - Apericannibalismo",
+    "rawTitle": "S04 E09 Il Caso Meiwes - Apericannibalismo",
+    "season": 4,
+    "episode": 9,
+    "tier": "pubblico",
+    "isSpecial": false,
+    "summary": "Germania, 2001. È sera, e due uomini che si sono conosciuti",
+    "year": 2001,
+    "precision": "anno",
+    "confidence": "auto",
+    "publishedAt": "2023-03-15",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:f5083136-22bb-432a-ba82-34e3836d4258",
+    "track": "naqp",
+    "title": "Il Caso dell’uomo che fece esplodere il Papa",
+    "rawTitle": "S04 E08 Il Caso dell’uomo che fece esplodere il Papa",
+    "season": 4,
+    "episode": 8,
+    "tier": "pubblico",
+    "isSpecial": false,
+    "summary": "Siamo nel 1958 in Vaticano, Papa Pio XII è in fin di vita. Vicino a lui, però, ha il suo archiatra, ovvero il suo medico personale, un ruolo storicamente prestigioso e riservato ai massimi luminari della scienza e della medicina. In questo caso, però, a prendersi cura della salute del Papa sarà un oculista al centro di uno degli scandali più macabri della storia vaticana.",
+    "year": 1958,
+    "precision": "anno",
+    "confidence": "auto",
+    "publishedAt": "2023-03-08",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:91167723-9d68-4227-a3a9-674757d3ee51",
+    "track": "naqp",
+    "title": "Il Caso delle Olimpiadi del 1904",
+    "rawTitle": "S04 E07 Il Caso delle Olimpiadi del 1904",
+    "season": 4,
+    "episode": 7,
+    "tier": "pubblico",
+    "isSpecial": false,
+    "summary": "St. Louis, Missouri, Stati Uniti. Nel 1904, questa città industriale, bruttarella e priva di richiami turistici o culturali, si trova a ospitare in contemporanea due eventi epocali e di rilevanza globale: l’Esposizione Universale e, in particolare modo, le rinate-da-poco Olimpiadi.",
+    "year": 1904,
+    "precision": "anno",
+    "confidence": "auto",
+    "publishedAt": "2023-03-01",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:984ea16f-88ce-41a2-be43-961f9d84a034",
+    "track": "naqp",
+    "title": "Il Caso del Lupo Mannaro di Hannover - L’infamia",
+    "rawTitle": "S04 E06 Il Caso del Lupo Mannaro di Hannover - L’infamia",
+    "season": 4,
+    "episode": 6,
+    "tier": "pubblico",
+    "isSpecial": false,
+    "summary": "Hannover, Germania, Anni ’20. In una città impoverita dalla guerra si aggira un mostro capace di adescare, abusare, uccidere e mangiare giovani ragazzini indifesi. La polizia, invece di bloccarlo, resta a guardare.",
+    "year": null,
+    "precision": null,
+    "confidence": null,
+    "publishedAt": "2023-02-22",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:da473ff6-4736-4397-acb7-c0cf25edf794",
+    "track": "naqp",
+    "title": "Il Caso del Lupo Mannaro di Hannover - La Rabbia",
+    "rawTitle": "S04 E05 Il Caso del Lupo Mannaro di Hannover - La Rabbia",
+    "season": 4,
+    "episode": 5,
+    "tier": "pubblico",
+    "isSpecial": false,
+    "summary": "Hannover, Germania, Inizio Novecento. Nel fiume che divide la città tedesca distrutta dalla guerra vengono fatte inquietanti scoperte. L’acqua risputa fuori ossa, lembi, torsi, crani di ogni dimensione, ma non di soldati, bensì sempre e solo di giovani ragazzi. Ragazzi che sembrano svanire nel nulla ogni singolo giorno.",
+    "year": null,
+    "precision": null,
+    "confidence": null,
+    "publishedAt": "2023-02-15",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:88608170-a23f-4292-93e1-ae1a4a9c42b8",
+    "track": "naqp",
+    "title": "Speciale FanPaura",
+    "rawTitle": "S04 E04 Speciale FanPaura",
+    "season": 4,
+    "episode": 4,
+    "tier": "pubblico",
+    "isSpecial": true,
+    "summary": "Bambine abbandonate che svaniscono nel nulla. Assassini che escono da paludi ricoperti di fango in mezzo alla campagna buia. Armadi posseduti. Spiriti che controllano con chi stai perdendo la verginità. Queste non sono semplici storielle horror, ma vere esperienze vissute da voi che ci ascoltate, perché questo è lo Speciale FanPaura.",
+    "year": null,
+    "precision": null,
+    "confidence": null,
+    "publishedAt": "2023-02-08",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:94a673fc-84f0-47f9-9388-32b43b19e566",
+    "track": "naqp",
+    "title": "Il Caso Notarbartolo - La rapina del secolo",
+    "rawTitle": "S04 E03 Il Caso Notarbartolo - La rapina del secolo",
+    "season": 4,
+    "episode": 3,
+    "tier": "pubblico",
+    "isSpecial": false,
+    "summary": "È il giorno di San Valentino del 2003, siamo in Belgio. Una banda di ladri italiani si è ritrovata ad Anversa con un unico obbiettivo: entrare nel caveu protetto dal più sofisticato apparato di sicurezza del mondo per portarsi via un bottino da 200 milioni di euro. Prima di riuscirci dovranno passare oltre 10 livelli di protezione e sfuggire ai reparti d’elité della polizia belga, la temibile “Diamond Squad”.",
+    "year": 2003,
+    "precision": "anno",
+    "confidence": "auto",
+    "publishedAt": "2023-02-01",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:5366e38e-1d6e-46b1-a00f-eb05c54f31b4",
+    "track": "naqp",
+    "title": "Il Caso Damanhur",
+    "rawTitle": "S04 E02 Il Caso Damanhur",
+    "season": 4,
+    "episode": 2,
+    "tier": "pubblico",
+    "isSpecial": false,
+    "summary": "Siamo nel 1978 a Vidracco, 50km a nord di Torino. Un manipolo di persone che venerano un assicuratore-pranoterapeuta cominciano a demolire una collina scavando un tunnel a mano fra la natura incontaminata della Valchiusella.",
+    "year": 1978,
+    "precision": "anno",
+    "confidence": "auto",
+    "publishedAt": "2023-01-25",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:2a3d965f-d34c-48df-b427-bd4ab84e6bfa",
+    "track": "naqp",
+    "title": "Il Caso dei Misteri di Alleghe",
+    "rawTitle": "S04 E01 Il Caso dei Misteri di Alleghe",
+    "season": 4,
+    "episode": 1,
+    "tier": "pubblico",
+    "isSpecial": false,
+    "summary": "Siamo ad Alleghe, un placido villaggio di un migliaio - o poco più - di abitanti, incastonato fra le dolomiti bellunesi; è una mattina di maggio del 1933, e anche se il sole è in alto e illumina la vallata, il vento gelido punge le ossa dei tanti turisti venuti a rilassarsi sulle sponde del lago dopo una mattinata di sci.",
+    "year": 1933,
+    "precision": "anno",
+    "confidence": "auto",
+    "publishedAt": "2023-01-18",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:fc3fe34a-915b-4eee-9b65-acd3a21e9ea6",
+    "track": "naqp",
+    "title": "Il Caso del Black Metal Norvegese - Silenzio Mortale",
+    "rawTitle": "S03 E10 Il Caso del Black Metal Norvegese - Silenzio Mortale",
+    "season": 3,
+    "episode": 10,
+    "tier": "pubblico",
+    "isSpecial": false,
+    "summary": "Norvegia, anni ’90. Una band di 16enni diventa la capostipite di un genere musicale che sconvolgerà un intero Paese. Nemmeno il drammatico suicidio del leader della loro band riuscirà a fermarli. Anzi, ora, i protagonisti della scena vogliono alzare perfino il tiro. Nel loro mirino? Chiese e persone innocenti da uccidere.",
+    "year": 1990,
+    "precision": "decennio",
+    "confidence": "auto",
+    "publishedAt": "2022-12-21",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:70253830-bd78-4c1d-b8cc-e5cbd7d7e228",
+    "track": "naqp",
+    "title": "Il Caso del Black Metal Norvegese - L’alba dei Cuori Neri",
+    "rawTitle": "S03 E09 Il Caso del Black Metal Norvegese - L’alba dei Cuori Neri",
+    "season": 3,
+    "episode": 9,
+    "tier": "pubblico",
+    "isSpecial": false,
+    "summary": "Norvegia, anni ’80. Uno dei Paesi statisticamente più felici al mondo è in realtà l’inferno in terra per un gruppo di sedicenni metallari. La soluzione per il loro malessere? Condividere l’inferno con il resto del mondo. Leggi: “Lords of Chaos” di Michael Moynihan e Didrik Soderlind",
+    "year": 1980,
+    "precision": "decennio",
+    "confidence": "auto",
+    "publishedAt": "2022-12-14",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:9e932bd1-a598-4725-bd50-d64ee921d53e",
+    "track": "naqp",
+    "title": "Il Caso Emoscambio",
+    "rawTitle": "S03 E08 Il Caso Emoscambio",
+    "season": 3,
+    "episode": 8,
+    "tier": "pubblico",
+    "isSpecial": false,
+    "summary": "Siamo a Milano, negli anni ’70. Un uomo inizia a dipingere con caratteri giganteschi, su muri di ogni parte d’Italia, una misteriosa scritta con un numero di telefono. Il motivo? Pubblicizzare un progetto per diventare immortali.",
+    "year": 1970,
+    "precision": "decennio",
+    "confidence": "auto",
+    "publishedAt": "2022-12-07",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:b7a01c37-fce3-4a55-9ca8-615bea6a90cd",
+    "track": "naqp",
+    "title": "Il Caso Action Park",
+    "rawTitle": "S03 E07 Il Caso Action Park",
+    "season": 3,
+    "episode": 7,
+    "tier": "pubblico",
+    "isSpecial": false,
+    "summary": "Siamo nel New Jersey, Stati Uniti, nei primi anni 80. Un uomo ossessionato da Walt Disney decide di creare un parco di divertimenti in cui le persone possono fare tutto ciò che vogliono e le regole non esistono. Un luogo unico al mondo in cui poter sperimentare sulla propria pelle l’avventura, l’azione e l’Epatite A.",
+    "year": 1980,
+    "precision": "decennio",
+    "confidence": "auto",
+    "publishedAt": "2022-11-30",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:4b2f66d1-5a2e-444b-853e-1398583ad9fc",
+    "track": "naqp",
+    "title": "Il Caso del Conte Von Cosel - Finché morte non ci riunisca",
+    "rawTitle": "S03 E06 Il Caso del Conte Von Cosel - Finché morte non ci riunisca",
+    "season": 3,
+    "episode": 6,
+    "tier": "pubblico",
+    "isSpecial": false,
+    "summary": "Siamo in Florida negli anni ’40. Un immigrato tedesco trova, dopo 40 anni, la ragazza che lo tormentava come fantasma da ragazzino. E anche se, poco dopo, la ragazza perisce di tubercolosi, l’uomo decide che non avrebbe permesso alla morte di portargli via l’amore della sua vita.",
+    "year": 1940,
+    "precision": "decennio",
+    "confidence": "auto",
+    "publishedAt": "2022-11-23",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:088d1806-f9f4-4603-aa52-efdc6317f219",
+    "track": "naqp",
+    "title": "Il Caso del Conte Von Cosel - Amore Immortale",
+    "rawTitle": "S03 E05 Il Caso del Conte Von Cosel - Amore Immortale",
+    "season": 3,
+    "episode": 5,
+    "tier": "pubblico",
+    "isSpecial": false,
+    "summary": "Siamo in Florida negli anni ’30. È qui che si trasferisce un immigrato tedesco perseguitato dal fantasma di una ragazza con lunghe trecce nere, di cui, ben presto, si innamora. Dopo 40 anni di ricerche, davanti a lui, appare all’improvviso una ragazza dalle lunghe trecce nere - in carne e ossa. Il loro incontro scatenerà una serie di eventi che ancora oggi sconvolgono e scioccano chiunque li ascolta.",
+    "year": 1930,
+    "precision": "decennio",
+    "confidence": "auto",
+    "publishedAt": "2022-11-16",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:9a950b1d-fdd0-4f2e-91e7-c5bcc8aea376",
+    "track": "naqp",
+    "title": "Special Posseduti dal Diavolo",
+    "rawTitle": "S03 E04 Special Posseduti dal Diavolo",
+    "season": 3,
+    "episode": 4,
+    "tier": "pubblico",
+    "isSpecial": true,
+    "summary": "Vomitano, sputano, bestemmiano, si esprimono in lingue incomprensibili e si accoppiano con sconosciuti di cui non conoscono il nome. Questo non è l’Erasmus. Questo è lo Special Posseduti dal Diavolo. Leggi: “Il mio nome è Satana: Storie di esorcismi dal Vaticano a Medjugorje” di Fabio Ragona e “L’ultimo esorcista: La mia battaglia contro Satana” di Padre Amorth e Paolo Rodari.",
+    "year": null,
+    "precision": null,
+    "confidence": null,
+    "publishedAt": "2022-11-09",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:9e546674-876d-4edf-a4dc-a75914a2c072",
+    "track": "naqp",
+    "title": "Il Caso Amicizia",
+    "rawTitle": "S03 E03 Il Caso Amicizia",
+    "season": 3,
+    "episode": 3,
+    "tier": "pubblico",
+    "isSpecial": false,
+    "summary": "Siamo a metà anni ’50 a Montesilvano, a pochi km da Pescara. Un gruppo di giovani amici viene contattato da una razza aliena che afferma di vivere nel sottosuolo abruzzese da migliaia di anni. È l’inizio di un rapporto quarantennale che li vedrà testimoni di uomini immortali altri 3 metri, astronavi intergalattiche in guerra fra loro per il controllo della frutta e cani WI-FI.",
+    "year": 1950,
+    "precision": "decennio",
+    "confidence": "auto",
+    "publishedAt": "2022-11-02",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:66b277d8-d24c-44de-bb7b-55fed6dbae1d",
+    "track": "naqp",
+    "title": "Il Caso Padre Pio - Endgame",
+    "rawTitle": "S03 E02 Il Caso Padre Pio - Endgame",
+    "season": 3,
+    "episode": 2,
+    "tier": "pubblico",
+    "isSpecial": false,
+    "summary": "Siamo nel foggiano in piena epoca fascista. Un convento dimenticato di una piccola cittadina ospita un frate che ormai accoglie folle interminabili di fedeli da tutto il mondo. Un uomo che la Santa Sede cerca disperatamente di fermare. Fra il Santo e i più alti prelati del Vaticano scoppia una guerra che ancora oggi non ha eguali.",
+    "year": null,
+    "precision": null,
+    "confidence": null,
+    "publishedAt": "2022-10-26",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:e11d2229-2f31-4071-8fca-7aeef9f24acb",
+    "track": "naqp",
+    "title": "Il Caso Padre Pio - Il Risveglio della Forza",
+    "rawTitle": "S03 E01 Il Caso Padre Pio - Il Risveglio della Forza",
+    "season": 3,
+    "episode": 1,
+    "tier": "pubblico",
+    "isSpecial": false,
+    "summary": "Siamo in Puglia nella prima metà del Novecento. Una piccola cittadina scopre di accudire un frate che ha il dono dell’ubiquità, che blocca i bombardamenti abbracciando gli aeroplani in cielo e che odora di Ambipour. Il suo unico nemico? Il diavolo, l’intero establishment vaticano e chi non versa l’8x1000.",
+    "year": null,
+    "precision": null,
+    "confidence": null,
+    "publishedAt": "2022-10-19",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:ed0549ae-b419-4cfe-8b1d-8c8f70976d27",
+    "track": "naqp",
+    "title": "Il Caso Amanda Knox - Il processo",
+    "rawTitle": "S02 E10 Il Caso Amanda Knox - Il processo",
+    "season": 2,
+    "episode": 10,
+    "tier": "pubblico",
+    "isSpecial": false,
+    "summary": "Nel novembre 2007 la morte della 21enne inglese Meredith Kercher sconvolge il mondo intero. Tutti si chiedono chi l’abbia potuta uccidere e perché. La polizia italiana trova la risposta in una manciata di giorni: Amanda Knox e Raffaele Sollecito. Ma gli avvocati dei due vogliono portare alla luce un’altra verità.",
+    "year": 2007,
+    "precision": "anno",
+    "confidence": "auto",
+    "publishedAt": "2022-08-17",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:043d8b82-c769-4def-9422-968e62c277f5",
+    "track": "naqp",
+    "title": "Il Caso Amanda Knox - Le indagini",
+    "rawTitle": "S02 E09 Il Caso Amanda Knox - Le indagini",
+    "season": 2,
+    "episode": 9,
+    "tier": "pubblico",
+    "isSpecial": false,
+    "summary": "È il giorno dopo Halloween. Un uomo penetra dentro un appartamento di studentesse di Perugia e violenta e uccide una di loro, la 21enne inglese Meredith Kercher. Ma la polizia e la magistratura non si concentreranno sul ladro e assassino, ma su due giovani studenti modello.",
+    "year": null,
+    "precision": null,
+    "confidence": null,
+    "publishedAt": "2022-08-10",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:7ed27d42-bec6-4164-b194-5a8322756bd2",
+    "track": "naqp",
+    "title": "Il Caso Amanda Knox - L’omicidio",
+    "rawTitle": "S02 E08 Il Caso Amanda Knox - L’omicidio",
+    "season": 2,
+    "episode": 8,
+    "tier": "pubblico",
+    "isSpecial": false,
+    "summary": "È il giorno dopo Halloween. Ma a Perugia, in un’anonima casa di studenti universitari, l’orrore che si consuma è assolutamente reale. Meredith Kercher, una ragazza inglese di soli 21 anni, viene violentata e brutalmente uccisa.",
+    "year": null,
+    "precision": null,
+    "confidence": null,
+    "publishedAt": "2022-08-03",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:3b8e7207-18ed-4697-9ce2-5e46be78accd",
+    "track": "naqp",
+    "title": "Special Sette e Culti Mortali Feat. Michelle Hunziker",
+    "rawTitle": "S02 E07 Special Sette e Culti Mortali Feat. Michelle Hunziker",
+    "season": 2,
+    "episode": 7,
+    "tier": "pubblico",
+    "isSpecial": true,
+    "summary": "Donne vissute 534 volte. Uomini con 3 cuori. Navi spaziali aliene nascoste dietro comete. E le cene del venerdì sera di Michelle Hunziker. Questo è il nostro speciale dedicato ad alcune delle sette più pericolose della storia recente.",
+    "year": null,
+    "precision": null,
+    "confidence": null,
+    "publishedAt": "2022-07-27",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:0811de53-5e2e-4cff-b889-e23898383ec2",
+    "track": "naqp",
+    "title": "Il Caso del Vampiro della Bergamasca",
+    "rawTitle": "S02 E06 Il Caso del Vampiro della Bergamasca",
+    "season": 2,
+    "episode": 6,
+    "tier": "pubblico",
+    "isSpecial": false,
+    "summary": "Siamo nella provincia bergamasca di fine ‘800. Un uomo misterioso attacca giovani donne mordendo loro il collo per il puro piacere sessuale di nutrirsi del loro sangue. Un uomo, che alcuni definiscono addirittura un “vampiro”.",
+    "year": null,
+    "precision": null,
+    "confidence": null,
+    "publishedAt": "2022-07-20",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:994f7613-6499-40f2-9313-e1a90f147cc4",
+    "track": "naqp",
+    "title": "Il Caso del Boia di Albenga",
+    "rawTitle": "S02 E05 Il Caso del Boia di Albenga",
+    "season": 2,
+    "episode": 5,
+    "tier": "pubblico",
+    "isSpecial": false,
+    "summary": "È il più grande mostro della storia d’Italia, ma è stato completamente cancellato dalla memoria del nostro Paese. Un italiano capace di arruolarsi da volontario nelle SS per soggiogare, seviziare, torturare e uccidere altri italiani come lui. Un orrore che, purtroppo, non si è fermato alla seconda guerra mondiale.",
+    "year": null,
+    "precision": null,
+    "confidence": null,
+    "publishedAt": "2022-07-13",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:1d173c6f-f3bd-4cd4-a23e-fdf2bfafccf8",
+    "track": "naqp",
+    "title": "Special Orrori Medici",
+    "rawTitle": "S02 E04 Special Orrori Medici",
+    "season": 2,
+    "episode": 4,
+    "tier": "pubblico",
+    "isSpecial": true,
+    "summary": "Viaggio nell’esotico e inquietante mondo dei dottori del 1800 che curavano malattie a loro sconosciute - ma a noi oggi perfettamente note - infilando animali vivi negli orifizi delle persone. Leggi: “The Mystery of the Exploding Teeth” di Thomas Morris Seguici su Instagram per video esclusivi e molto altro: @nonapritequellapodcast Per sponsor, collaborazioni o semplici mail: nonapritequellapodcast@gmail.com Segui…",
+    "year": 1800,
+    "precision": "anno",
+    "confidence": "auto",
+    "publishedAt": "2022-07-06",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:4327a0b3-d246-4874-b3c0-d778438b482d",
+    "track": "naqp",
+    "title": "Il Caso degli incontri ravvicinati del IV tipo in Italia",
+    "rawTitle": "S02 E03 Il Caso degli incontri ravvicinati del IV tipo in Italia",
+    "season": 2,
+    "episode": 3,
+    "tier": "pubblico",
+    "isSpecial": false,
+    "summary": "Il nostro Paese, dagli anni ’50 in poi, è stato visitato da rapitori seriali provenienti da dimensioni e galassie sconosciute. Conosciamo gli italiani che hanno vissuto una relazione tossica con gli alieni. Leggi: “Noi e gli alieni: Incontri passati, presenti e futuri” di Roberto Pinotti Seguici su Instagram per video esclusivi e molto altro: @nonapritequellapodcast Per sponsor, collaborazioni o semplici mail:…",
+    "year": 1950,
+    "precision": "decennio",
+    "confidence": "auto",
+    "publishedAt": "2022-06-29",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:6fb39065-9822-4de3-9c75-9b38c1136545",
+    "track": "naqp",
+    "title": "Il Caso del Dr. Satana - Diavolo mangia Diavolo",
+    "rawTitle": "S02 E02 Il Caso del Dr. Satana - Diavolo mangia Diavolo",
+    "season": 2,
+    "episode": 2,
+    "tier": "pubblico",
+    "isSpecial": false,
+    "summary": "I francesi lo chiamano “Il Macellaio”, lo “Scotennatore di Etoile”, “L’Orco Demoniaco”, il “Lupo mannaro di Parigi”. E ora, in una Francia assediata dai nazisti, Marcel Petiot riesce perfino a terrorizzare la Gestapo.",
+    "year": null,
+    "precision": null,
+    "confidence": null,
+    "publishedAt": "2022-06-22",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:ed99fe52-0b87-4e75-9ff2-395d01592c6b",
+    "track": "naqp",
+    "title": "Il Caso del Dr. Satana - L’alba dell’orrore",
+    "rawTitle": "S02 E01 Il Caso del Dr. Satana - L’alba dell’orrore",
+    "season": 2,
+    "episode": 1,
+    "tier": "pubblico",
+    "isSpecial": false,
+    "summary": "Ha macellato una quantità inumana di persone sul suo cammino. Ha bruciato le sue amanti. È stato il Beppe Sala della Borgogna. Il più agghiacciante e surreale serial killer di cui non hai mai sentito parlare. Leggi: “Doctor Satan” di Ryan Green Seguici su Instagram per video esclusivi e molto altro: @nonapritequellapodcast Per sponsor, collaborazioni o semplici mail: nonapritequellapodcast@gmail.com Segui Matteo su…",
+    "year": null,
+    "precision": null,
+    "confidence": null,
+    "publishedAt": "2022-06-15",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:04dd8988-7521-11ec-b7df-5b5ef07eed17",
+    "track": "naqp",
+    "title": "Il caso della saponificatrice di Correggio",
+    "rawTitle": "S01 E10 Il caso della saponificatrice di Correggio",
+    "season": 1,
+    "episode": 10,
+    "tier": "pubblico",
+    "isSpecial": false,
+    "summary": "Siamo a Correggio in piena epoca fascista. Tre donne anziane spariscono senza spiegazioni, una dietro l’altra. Le loro famiglie ricevono misteriose cartoline che raccontano di nuove e felici vite lontane, ma in realtà i loro corpi finiscono smembrati per essere poi trasformati in saponette e pasticcini da Leonarda Cianciulli.",
+    "year": null,
+    "precision": null,
+    "confidence": null,
+    "publishedAt": "2022-03-23",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:04bce7c8-7521-11ec-b7df-bb6a87e7c87e",
+    "track": "naqp",
+    "title": "Special Creepypasta #2",
+    "rawTitle": "S01 E09 Special Creepypasta #2",
+    "season": 1,
+    "episode": 9,
+    "tier": "pubblico",
+    "isSpecial": true,
+    "summary": "Una storia per smettere di farsi volere bene dai propri figli per sempre. I peggiori agenti immobiliari della storia. Un inquietante nastro di sicurezza. Queste sono alcune delle storie horror più spaventose (o assurde) pubblicate su Internet che verranno lette - e interpretate - in questa puntata speciale.",
+    "year": null,
+    "precision": null,
+    "confidence": null,
+    "publishedAt": "2022-03-16",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:049bb698-7521-11ec-b7df-732f7fa62143",
+    "track": "naqp",
+    "title": "Il caso del metronotte Zanfretta rapito dagli alieni - Parte 2",
+    "rawTitle": "S01 E08 Il caso del metronotte Zanfretta rapito dagli alieni - Parte 2",
+    "season": 1,
+    "episode": 8,
+    "tier": "pubblico",
+    "isSpecial": false,
+    "summary": "Siamo in Liguria a fine anni ’70. Mentre l’Italia è sconvolta dagli “anni di piombo” del terrorismo, la provincia genovese è invasa da Vespe che volano, alieni che atterrano nei giardini di dentisti, rapimenti interspaziali e tette verdi. Al centro di tutto questo c’è un gruppo di metronotte la cui vita cambierà per sempre.",
+    "year": 1970,
+    "precision": "decennio",
+    "confidence": "auto",
+    "publishedAt": "2022-03-09",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:047a9152-7521-11ec-b7df-3f90da4c4345",
+    "track": "naqp",
+    "title": "Il caso del metronotte Zanfretta rapito dagli alieni - Parte 1",
+    "rawTitle": "S01 E07 Il caso del metronotte Zanfretta rapito dagli alieni - Parte 1",
+    "season": 1,
+    "episode": 7,
+    "tier": "pubblico",
+    "isSpecial": false,
+    "summary": "Pier Fortunato Zanfretta è un 26enne che lavora per una società di metronotte di Genova. Una notte di dicembre del 1978, un disco volante proveniente da una presunta “terza galassia”, atterra nel giardino di un dentista genovese proprio durante il suo turno. L’uomo viene ritrovato svenuto e solo dopo una seduta di ipnosi si scoprirà chi e cosa ha incontrato.",
+    "year": 1978,
+    "precision": "anno",
+    "confidence": "auto",
+    "publishedAt": "2022-03-02",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:0459e696-7521-11ec-b7df-df23276df373",
+    "track": "naqp",
+    "title": "Il caso Di Joseph Smith e della Chiesa Mormona",
+    "rawTitle": "S01 E06 Il caso Di Joseph Smith e della Chiesa Mormona",
+    "season": 1,
+    "episode": 6,
+    "tier": "pubblico",
+    "isSpecial": false,
+    "summary": "È il 1800 e siamo negli Stati Uniti. Cose strane e senza spiegazioni accadono a nord di New York. Un angelo appare a un ragazzo di 17 anni. Da quella visione, nascerà una religione capace di catturare 15 milioni di persone in tutto il mondo. Una religione - per molti, una setta - con innumerevoli punti oscuri.",
+    "year": 1800,
+    "precision": "anno",
+    "confidence": "auto",
+    "publishedAt": "2022-02-23",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:0438fda0-7521-11ec-b7df-6fefbad86f1d",
+    "track": "naqp",
+    "title": "Special Creepypasta #1",
+    "rawTitle": "S01 E05 Special Creepypasta #1",
+    "season": 1,
+    "episode": 5,
+    "tier": "pubblico",
+    "isSpecial": true,
+    "summary": "Un sito porno che vi curerà dalle erezioni. Un esperimento del sonno che non vi farà dormire. Una chat mortale. Queste sono alcune delle storie horror più spaventose (o assurde) pubblicate su Internet che verranno lette - e interpretate - in questa puntata speciale.",
+    "year": null,
+    "precision": null,
+    "confidence": null,
+    "publishedAt": "2022-02-16",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:04186950-7521-11ec-b7df-83023f277d86",
+    "track": "naqp",
+    "title": "Il caso del Mostro di Bolzano - Parte 2",
+    "rawTitle": "S01 E04 Il caso del Mostro di Bolzano - Parte 2",
+    "season": 1,
+    "episode": 4,
+    "tier": "pubblico",
+    "isSpecial": false,
+    "summary": "Marco Bergamo è stato arrestato per la morte di Marika Zorzi, ma il magistrato che segue il suo caso è convinto di avere trovato non un semplice assassino, ma un mostro capace di uccidere brutalmente almeno quattro altre donne prima di lei. Quattro delitti irrisolti poiché senza un movente e quindi un responsabile.",
+    "year": null,
+    "precision": null,
+    "confidence": null,
+    "publishedAt": "2022-02-09",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:03f776c8-7521-11ec-b7df-bb9fa6813b16",
+    "track": "naqp",
+    "title": "Il caso del Mostro di Bolzano - Parte 1",
+    "rawTitle": "S01 E03 Il caso del Mostro di Bolzano - Parte 1",
+    "season": 1,
+    "episode": 3,
+    "tier": "pubblico",
+    "isSpecial": false,
+    "summary": "Alla fine degli anni 80 la vita della placida e soporifera Bolzano viene sconvolta da una serie di inspiegabili omicidi. Cinque donne - quasi tutte prostitute - massacrate da dozzine di rabbiose coltellate. Le forze dell’ordine non hanno alcuna pista, anzi, sono così disperate da arrivare a utilizzare assurdi metodi da poliziesco anni 70 pur di trovare una traccia da seguire.",
+    "year": 1980,
+    "precision": "decennio",
+    "confidence": "auto",
+    "publishedAt": "2022-02-02",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:03d66456-7521-11ec-b7df-ef2ea0f9ec20",
+    "track": "naqp",
+    "title": "Il caso dei Bambini di Satana - Parte 2",
+    "rawTitle": "S01 E02 Il caso dei Bambini di Satana - Parte 2",
+    "season": 1,
+    "episode": 2,
+    "tier": "pubblico",
+    "isSpecial": false,
+    "summary": "Siamo nella Bologna di metà anni ’90. I media sono sicuri che la procura abbia catturato una banda capace di seviziare bambini, uccidere immigrati e - cosa ben più macabra di tutte - usare i dirigenti della ASL per celebrare orgiastiche messe nere. La folle conclusione di uno dei casi più surreali della storia d’Italia.",
+    "year": 1990,
+    "precision": "decennio",
+    "confidence": "auto",
+    "publishedAt": "2022-01-26",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:03b57fe8-7521-11ec-b7df-1f7551f39c4f",
+    "track": "naqp",
+    "title": "Il caso dei Bambini di Satana - Parte 1",
+    "rawTitle": "S01 E01 Il caso dei Bambini di Satana - Parte 1",
+    "season": 1,
+    "episode": 1,
+    "tier": "pubblico",
+    "isSpecial": false,
+    "summary": "Siamo nella Bologna dei primi anni ’90. La magistratura locale è sicura di aver scoperto una delle organizzazioni criminali più violente e sanguinarie della storia d’Italia: una setta satanica capace di smembrare dozzine di persone, di violentare serialmente adolescenti e bambini, di gestire il traffico di droga di intere regioni e di trasformare studentesse del DAMS in licantrope.",
+    "year": 1990,
+    "precision": "decennio",
+    "confidence": "auto",
+    "publishedAt": "2022-01-19",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  },
+  {
+    "id": "naqp:28d85e0c-752c-11ec-bac8-5ff0a5898cc1",
+    "track": "naqp",
+    "title": "Non Aprite Quella Podcast - Trailer",
+    "rawTitle": "Non Aprite Quella Podcast - Trailer",
+    "season": null,
+    "episode": null,
+    "tier": "pubblico",
+    "isSpecial": false,
+    "summary": null,
+    "year": null,
+    "precision": null,
+    "confidence": null,
+    "publishedAt": "2022-01-18",
+    "source": {
+      "kind": "rss",
+      "url": "https://feeds.megaphone.fm/naqp"
+    }
+  }
+]

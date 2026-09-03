@@ -1,0 +1,32 @@
+[
+  {
+    "id": "naqp:7c979d40-ba93-11f0-9146-1fef8857a2ab",
+    "track": "naqp",
+    "title": "Il Caso della Bestia del Gévaudan",
+    "summary": "Francia, regione del Gévaudan, estate del 1764. In una zona isolata dell'Occitania, circondata da fitte foreste e abitata principalmente da contadini, compare una creatura misteriosa che semina il terrore. Non è un lupo comune: attacca solo gli esseri umani, ignorando i greggi, decapita le sue vittime e sembra immune ai proiettili.",
+    "year": 1764,
+    "era": "dc",
+    "vul": -230,
+    "kind": "caso",
+    "weight": 1000,
+    "tier": "pubblico",
+    "season": 12,
+    "episode": 9,
+    "dateSource": "descrizione",
+    "url": "https://feeds.megaphone.fm/naqp",
+    "rank": 0
+  },
+  {
+    "id": "curated:pre1900:73",
+    "track": "storia",
+    "title": "Watt brevetta la macchina a vapore",
+    "summary": "Il motore della rivoluzione industriale.",
+    "year": 1769,
+    "era": "dc",
+    "vul": -225,
+    "kind": "invenzione",
+    "weight": 1000,
+    "curated": true,
+    "rank": 0
+  }
+]

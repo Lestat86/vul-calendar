@@ -1,0 +1,16 @@
+[
+  {
+    "id": "curated:pre1900:48",
+    "track": "storia",
+    "title": "Apogeo dell'impero Inca",
+    "summary": "Quattromila chilometri di strade senza ruota né scrittura.",
+    "year": 1400,
+    "era": "dc",
+    "vul": -594,
+    "precision": "secolo",
+    "kind": "politica",
+    "weight": 1000,
+    "curated": true,
+    "rank": 0
+  }
+]

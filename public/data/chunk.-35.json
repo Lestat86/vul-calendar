@@ -1,0 +1,28 @@
+[
+  {
+    "id": "curated:pre1900:69",
+    "track": "storia",
+    "title": "Pace di Vestfalia",
+    "summary": "Fine della guerra dei trent'anni e nascita dello stato sovrano moderno.",
+    "year": 1648,
+    "era": "dc",
+    "vul": -346,
+    "kind": "trattato",
+    "weight": 1000,
+    "curated": true,
+    "rank": 0
+  },
+  {
+    "id": "curated:pre1900:70",
+    "track": "storia",
+    "title": "Taj Mahal completato",
+    "summary": "Ventimila operai per una tomba.",
+    "year": 1653,
+    "era": "dc",
+    "vul": -341,
+    "kind": "architettura",
+    "weight": 1000,
+    "curated": true,
+    "rank": 0
+  }
+]

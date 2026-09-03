@@ -1,0 +1,29 @@
+[
+  {
+    "id": "curated:pre1900:80",
+    "track": "storia",
+    "title": "Prima ferrovia passeggeri",
+    "summary": "Stockton-Darlington: il mondo comincia a rimpicciolirsi.",
+    "year": 1825,
+    "era": "dc",
+    "vul": -169,
+    "kind": "trasporti",
+    "weight": 1000,
+    "curated": true,
+    "rank": 0
+  },
+  {
+    "id": "patreon:139926766",
+    "track": "naqp",
+    "title": "Il Caso Kaspar Hauser",
+    "year": 1828,
+    "era": "dc",
+    "vul": -166,
+    "kind": "caso",
+    "weight": 1000,
+    "tier": "esclusivo",
+    "dateSource": "manuale",
+    "url": "https://www.patreon.com/cw/NAQP",
+    "rank": 0
+  }
+]

@@ -1,0 +1,15 @@
+[
+  {
+    "id": "curated:pre1900:42",
+    "track": "storia",
+    "title": "Gengis Khan unifica i mongoli",
+    "summary": "Costruirà l'impero contiguo più vasto della storia.",
+    "year": 1206,
+    "era": "dc",
+    "vul": -788,
+    "kind": "politica",
+    "weight": 1000,
+    "curated": true,
+    "rank": 0
+  }
+]

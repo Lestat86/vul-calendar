@@ -1,0 +1,42 @@
+[
+  {
+    "id": "curated:pre1900:50",
+    "track": "storia",
+    "title": "Machu Picchu",
+    "summary": "Costruita e abbandonata nell'arco di un secolo.",
+    "year": 1450,
+    "era": "dc",
+    "vul": -544,
+    "precision": "circa",
+    "kind": "architettura",
+    "weight": 1000,
+    "curated": true,
+    "rank": 0
+  },
+  {
+    "id": "curated:pre1900:51",
+    "track": "storia",
+    "title": "Caduta di Costantinopoli",
+    "summary": "Finisce l'Impero romano d'Oriente, 977 anni dopo l'altro.",
+    "year": 1453,
+    "era": "dc",
+    "vul": -541,
+    "kind": "guerra",
+    "weight": 1000,
+    "curated": true,
+    "rank": 0
+  },
+  {
+    "id": "curated:pre1900:52",
+    "track": "storia",
+    "title": "Gutenberg stampa la Bibbia",
+    "summary": "Prima applicazione industriale dei caratteri mobili.",
+    "year": 1453,
+    "era": "dc",
+    "vul": -541,
+    "kind": "cultura",
+    "weight": 1000,
+    "curated": true,
+    "rank": 1
+  }
+]

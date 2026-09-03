@@ -1,0 +1,16 @@
+[
+  {
+    "id": "curated:pre1900:37",
+    "track": "storia",
+    "title": "Casa della Sapienza a Baghdad",
+    "summary": "Si traduce e si salva il sapere greco mentre l'Europa dorme.",
+    "year": 830,
+    "era": "dc",
+    "vul": -1164,
+    "precision": "circa",
+    "kind": "cultura",
+    "weight": 1000,
+    "curated": true,
+    "rank": 0
+  }
+]

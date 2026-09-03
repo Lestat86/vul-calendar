@@ -1,0 +1,36 @@
+[
+  {
+    "id": "naqp:0459e696-7521-11ec-b7df-df23276df373",
+    "track": "naqp",
+    "title": "Il caso Di Joseph Smith e della Chiesa Mormona",
+    "summary": "È il 1800 e siamo negli Stati Uniti. Cose strane e senza spiegazioni accadono a nord di New York. Un angelo appare a un ragazzo di 17 anni. Da quella visione, nascerà una religione capace di catturare 15 milioni di persone in tutto il mondo. Una religione - per molti, una setta - con innumerevoli punti oscuri.",
+    "year": 1800,
+    "era": "dc",
+    "vul": -194,
+    "kind": "caso",
+    "weight": 1000,
+    "tier": "pubblico",
+    "season": 1,
+    "episode": 6,
+    "dateSource": "descrizione",
+    "url": "https://feeds.megaphone.fm/naqp",
+    "rank": 0
+  },
+  {
+    "id": "naqp:1d173c6f-f3bd-4cd4-a23e-fdf2bfafccf8",
+    "track": "naqp",
+    "title": "Special Orrori Medici",
+    "summary": "Viaggio nell’esotico e inquietante mondo dei dottori del 1800 che curavano malattie a loro sconosciute - ma a noi oggi perfettamente note - infilando animali vivi negli orifizi delle persone. Leggi: “The Mystery of the Exploding Teeth” di Thomas Morris Seguici su Instagram per video esclusivi e molto altro: @nonapritequellapodcast Per sponsor, collaborazioni o semplici mail: nonapritequellapodcast@gmail.com Segui…",
+    "year": 1800,
+    "era": "dc",
+    "vul": -194,
+    "kind": "speciale",
+    "weight": 1000,
+    "tier": "pubblico",
+    "season": 2,
+    "episode": 4,
+    "dateSource": "descrizione",
+    "url": "https://feeds.megaphone.fm/naqp",
+    "rank": 1
+  }
+]

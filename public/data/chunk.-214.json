@@ -1,0 +1,15 @@
+[
+  {
+    "id": "curated:pre1900:23",
+    "track": "storia",
+    "title": "Distruzione di Cartagine",
+    "summary": "Delenda est, e infatti.",
+    "year": 146,
+    "era": "ac",
+    "vul": -2139,
+    "kind": "guerra",
+    "weight": 1000,
+    "curated": true,
+    "rank": 0
+  }
+]

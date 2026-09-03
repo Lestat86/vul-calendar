@@ -1,0 +1,15 @@
+[
+  {
+    "id": "curated:pre1900:40",
+    "track": "storia",
+    "title": "Prima crociata",
+    "summary": "Duecento anni di andirivieni armato verso Gerusalemme.",
+    "year": 1096,
+    "era": "dc",
+    "vul": -898,
+    "kind": "guerra",
+    "weight": 1000,
+    "curated": true,
+    "rank": 0
+  }
+]

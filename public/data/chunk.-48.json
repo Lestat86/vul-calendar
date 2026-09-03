@@ -1,0 +1,54 @@
+[
+  {
+    "id": "curated:pre1900:57",
+    "track": "storia",
+    "title": "Le 95 tesi di Lutero",
+    "summary": "Con la stampa appena inventata, la protesta diventa incontenibile.",
+    "year": 1517,
+    "era": "dc",
+    "vul": -477,
+    "kind": "religione",
+    "weight": 1000,
+    "curated": true,
+    "rank": 0
+  },
+  {
+    "id": "curated:pre1900:58",
+    "track": "storia",
+    "title": "Magellano parte per la circumnavigazione",
+    "summary": "Torna una nave su cinque, e senza di lui.",
+    "year": 1519,
+    "era": "dc",
+    "vul": -475,
+    "kind": "viaggio",
+    "weight": 1000,
+    "curated": true,
+    "rank": 0
+  },
+  {
+    "id": "curated:pre1900:59",
+    "track": "storia",
+    "title": "Solimano il Magnifico al trono",
+    "summary": "L'impero ottomano al massimo della sua estensione.",
+    "year": 1520,
+    "era": "dc",
+    "vul": -474,
+    "kind": "politica",
+    "weight": 1000,
+    "curated": true,
+    "rank": 0
+  },
+  {
+    "id": "curated:pre1900:60",
+    "track": "storia",
+    "title": "Caduta di Tenochtitlan",
+    "summary": "Cortés e il vaiolo cancellano l'impero azteco.",
+    "year": 1521,
+    "era": "dc",
+    "vul": -473,
+    "kind": "guerra",
+    "weight": 1000,
+    "curated": true,
+    "rank": 0
+  }
+]

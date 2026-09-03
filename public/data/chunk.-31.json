@@ -1,0 +1,15 @@
+[
+  {
+    "id": "curated:pre1900:71",
+    "track": "storia",
+    "title": "Newton pubblica i Principia",
+    "summary": "La gravitazione universale: il cielo e la Terra hanno le stesse leggi.",
+    "year": 1687,
+    "era": "dc",
+    "vul": -307,
+    "kind": "scienza",
+    "weight": 1000,
+    "curated": true,
+    "rank": 0
+  }
+]

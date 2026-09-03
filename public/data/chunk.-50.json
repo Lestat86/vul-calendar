@@ -1,0 +1,29 @@
+[
+  {
+    "id": "curated:pre1900:55",
+    "track": "storia",
+    "title": "Vasco da Gama arriva in India",
+    "summary": "La rotta delle spezie via mare: l'Europa scavalca i mediatori.",
+    "year": 1498,
+    "era": "dc",
+    "vul": -496,
+    "kind": "viaggio",
+    "weight": 1000,
+    "curated": true,
+    "rank": 0
+  },
+  {
+    "id": "curated:pre1900:56",
+    "track": "storia",
+    "title": "Leonardo dipinge la Gioconda",
+    "summary": "Il quadro più guardato del pianeta.",
+    "year": 1503,
+    "era": "dc",
+    "vul": -491,
+    "precision": "circa",
+    "kind": "arte",
+    "weight": 1000,
+    "curated": true,
+    "rank": 0
+  }
+]

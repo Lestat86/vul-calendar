@@ -1,0 +1,15 @@
+[
+  {
+    "id": "curated:pre1900:30",
+    "track": "storia",
+    "title": "Sacco di Roma",
+    "summary": "I visigoti di Alarico entrano in città: lo shock è più grande del danno.",
+    "year": 410,
+    "era": "dc",
+    "vul": -1584,
+    "kind": "guerra",
+    "weight": 1000,
+    "curated": true,
+    "rank": 0
+  }
+]

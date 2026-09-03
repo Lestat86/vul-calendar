@@ -1,0 +1,28 @@
+[
+  {
+    "id": "curated:pre1900:45",
+    "track": "storia",
+    "title": "Il pellegrinaggio di Mansa Musa",
+    "summary": "L'uomo più ricco di sempre distribuisce tanto oro da svalutarlo in Egitto.",
+    "year": 1324,
+    "era": "dc",
+    "vul": -670,
+    "kind": "viaggio",
+    "weight": 1000,
+    "curated": true,
+    "rank": 0
+  },
+  {
+    "id": "curated:pre1900:46",
+    "track": "storia",
+    "title": "Fondazione di Tenochtitlan",
+    "summary": "Gli aztechi costruiscono una città su un lago.",
+    "year": 1325,
+    "era": "dc",
+    "vul": -669,
+    "kind": "politica",
+    "weight": 1000,
+    "curated": true,
+    "rank": 0
+  }
+]

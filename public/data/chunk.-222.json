@@ -1,0 +1,28 @@
+[
+  {
+    "id": "curated:pre1900:21",
+    "track": "storia",
+    "title": "Qin Shi Huang unifica la Cina",
+    "summary": "Primo imperatore, esercito di terracotta, Grande Muraglia avviata.",
+    "year": 221,
+    "era": "ac",
+    "vul": -2214,
+    "kind": "politica",
+    "weight": 1000,
+    "curated": true,
+    "rank": 0
+  },
+  {
+    "id": "curated:pre1900:22",
+    "track": "storia",
+    "title": "Annibale valica le Alpi",
+    "summary": "Con gli elefanti, che è la parte che tutti ricordano.",
+    "year": 218,
+    "era": "ac",
+    "vul": -2211,
+    "kind": "guerra",
+    "weight": 1000,
+    "curated": true,
+    "rank": 0
+  }
+]

@@ -1,0 +1,28 @@
+[
+  {
+    "id": "curated:pre1900:53",
+    "track": "storia",
+    "title": "Colombo arriva in America",
+    "summary": "Cercava le Indie. Il malinteso più fruttuoso della storia.",
+    "year": 1492,
+    "era": "dc",
+    "vul": -502,
+    "kind": "viaggio",
+    "weight": 1000,
+    "curated": true,
+    "rank": 0
+  },
+  {
+    "id": "curated:pre1900:54",
+    "track": "storia",
+    "title": "Fine della Reconquista",
+    "summary": "Cade Granada: l'ultimo emirato di al-Andalus.",
+    "year": 1492,
+    "era": "dc",
+    "vul": -502,
+    "kind": "politica",
+    "weight": 1000,
+    "curated": true,
+    "rank": 1
+  }
+]

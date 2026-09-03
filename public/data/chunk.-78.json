@@ -1,0 +1,15 @@
+[
+  {
+    "id": "curated:pre1900:43",
+    "track": "storia",
+    "title": "Magna Carta",
+    "summary": "Il re inglese firma che nemmeno lui è sopra la legge.",
+    "year": 1215,
+    "era": "dc",
+    "vul": -779,
+    "kind": "diritto",
+    "weight": 1000,
+    "curated": true,
+    "rank": 0
+  }
+]

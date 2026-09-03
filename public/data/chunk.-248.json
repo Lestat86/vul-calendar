@@ -1,0 +1,15 @@
+[
+  {
+    "id": "curated:pre1900:15",
+    "track": "storia",
+    "title": "Termopili e Salamina",
+    "summary": "Trecento spartani, e poi la flotta che decide davvero la guerra.",
+    "year": 480,
+    "era": "ac",
+    "vul": -2473,
+    "kind": "battaglia",
+    "weight": 1000,
+    "curated": true,
+    "rank": 0
+  }
+]

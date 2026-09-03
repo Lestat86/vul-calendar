@@ -1,0 +1,15 @@
+[
+  {
+    "id": "curated:pre1900:39",
+    "track": "storia",
+    "title": "Battaglia di Hastings",
+    "summary": "Guglielmo il Conquistatore prende l'Inghilterra e le cambia la lingua.",
+    "year": 1066,
+    "era": "dc",
+    "vul": -928,
+    "kind": "battaglia",
+    "weight": 1000,
+    "curated": true,
+    "rank": 0
+  }
+]

@@ -1,0 +1,28 @@
+[
+  {
+    "id": "curated:pre1900:65",
+    "track": "storia",
+    "title": "Giordano Bruno al rogo",
+    "summary": "Campo de' Fiori, per aver immaginato altri mondi abitati.",
+    "year": 1600,
+    "era": "dc",
+    "vul": -394,
+    "kind": "religione",
+    "weight": 1000,
+    "curated": true,
+    "rank": 0
+  },
+  {
+    "id": "curated:pre1900:66",
+    "track": "storia",
+    "title": "Inizia lo shogunato Tokugawa",
+    "summary": "Il Giappone si chiude al mondo per 250 anni.",
+    "year": 1603,
+    "era": "dc",
+    "vul": -391,
+    "kind": "politica",
+    "weight": 1000,
+    "curated": true,
+    "rank": 0
+  }
+]

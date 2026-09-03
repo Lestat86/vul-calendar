@@ -1,0 +1,16 @@
+[
+  {
+    "id": "curated:pre1900:12",
+    "track": "storia",
+    "title": "Nasce Confucio",
+    "summary": "Il pensiero che organizzerà la Cina per due millenni e mezzo.",
+    "year": 551,
+    "era": "ac",
+    "vul": -2544,
+    "precision": "circa",
+    "kind": "filosofia",
+    "weight": 1000,
+    "curated": true,
+    "rank": 0
+  }
+]

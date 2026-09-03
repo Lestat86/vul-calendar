@@ -1,0 +1,16 @@
+[
+  {
+    "id": "curated:pre1900:4",
+    "track": "storia",
+    "title": "Eruzione di Santorini",
+    "summary": "L'esplosione che probabilmente ha spento la civiltà minoica.",
+    "year": 1600,
+    "era": "ac",
+    "vul": -3593,
+    "precision": "secolo",
+    "kind": "disastro",
+    "weight": 1000,
+    "curated": true,
+    "rank": 0
+  }
+]

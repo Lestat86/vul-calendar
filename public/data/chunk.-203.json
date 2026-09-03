@@ -1,0 +1,15 @@
+[
+  {
+    "id": "curated:pre1900:25",
+    "track": "storia",
+    "title": "Battaglia di Azio",
+    "summary": "Ottaviano batte Antonio e Cleopatra: nasce l'Impero.",
+    "year": 31,
+    "era": "ac",
+    "vul": -2024,
+    "kind": "battaglia",
+    "weight": 1000,
+    "curated": true,
+    "rank": 0
+  }
+]
