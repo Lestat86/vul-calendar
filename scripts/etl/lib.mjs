@@ -89,11 +89,19 @@ export function episodeSummary(raw, maxChars = 420) {
   d = d.replace(/\s+/g, ' ').trim().replace(/^[\s.\-–—:]+|[\s\-–—:]+$/g, '')
   if (d.length < 40) return null // rimasto solo un moncone: meglio niente
 
-  if (d.length <= maxChars) return d
-  // taglia a fine frase, non a metà parola
+  // I teaser Patreon arrivano già tagliati a 140 caratteri, spesso a metà
+  // parola ("...In una cit"): va ricucito qui, o finisce così nelle card.
+  if (d.length <= maxChars) return /[.!?…]$/.test(d) ? d : tidyTruncation(d)
+
   const cut = d.slice(0, maxChars)
   const stop = Math.max(cut.lastIndexOf('. '), cut.lastIndexOf('? '), cut.lastIndexOf('! '))
-  return (stop > maxChars * 0.5 ? cut.slice(0, stop + 1) : cut.replace(/\s\S*$/, '') + '…').trim()
+  // taglia a fine frase se ce n'è una ragionevolmente avanti, altrimenti a parola
+  return (stop > maxChars * 0.5 ? cut.slice(0, stop + 1) : tidyTruncation(cut)).trim()
+}
+
+/** Butta l'ultima parola mozzata e chiude con i puntini. */
+function tidyTruncation(d) {
+  return d.replace(/[\s,;:]*\S*$/, '').trim() + '…'
 }
 
 const DECADI = {
@@ -108,16 +116,29 @@ const DECADI = {
  */
 export function extractYear(text, window = 600) {
   const head = text.slice(0, window)
-  const exact = head.match(/\b(1[0-9]{3}|20[0-2][0-9])\b/)
-  if (exact) return { year: Number(exact[1]), precision: 'anno' }
 
-  const short = head.match(/anni\s+[’']?(\d0)\b/)
-  if (short) {
-    const v = Number(short[1])
-    return { year: v >= 10 ? 1900 + v : 2000 + v, precision: 'decennio' }
+  /* "anni 2000" e "primi anni '90" sono decenni, non anni. Vanno provati PRIMA
+     del match esatto, che altrimenti legge "anni 2000" come l'anno 2000 e
+     spaccia per preciso un dato che copre dieci anni. */
+  const decade = head.match(/anni\s+[’']?(\d{2}|\d{4})\b/)
+  if (decade) {
+    const v = Number(decade[1])
+    // due cifre = abbreviazione ("anni '90"); quattro = decennio pieno ("anni 2000")
+    const year = decade[1].length === 2 ? (v >= 10 ? 1900 + v : 2000 + v) : v
+    if (year % 10 === 0) return { year, precision: 'decennio' }
   }
   const named = head.match(new RegExp(`anni\\s+(${Object.keys(DECADI).join('|')})\\b`, 'i'))
   if (named) return { year: DECADI[named[1].toLowerCase()], precision: 'decennio' }
+
+  /* In italiano "alla fine del 1800" è il secolo, non l'anno: collocarlo nel
+     1800 sbaglia di novant'anni. Casi così restano senza anno e passano per
+     la curation a mano, che è meglio di un numero convincente e falso. */
+  if (/\b(?:fine|met[àa]|inizio|primi|inizi)\s+(?:del\s+|dell'|degli\s+)?1[6-9]00\b/i.test(head)) {
+    return null
+  }
+
+  const exact = head.match(/\b(1[0-9]{3}|20[0-2][0-9])\b/)
+  if (exact) return { year: Number(exact[1]), precision: 'anno' }
 
   return null
 }

@@ -65,3 +65,58 @@ describe('extractYear', () => {
       .toEqual({ year: 1980, precision: 'decennio' })
   })
 })
+
+describe('episodeSummary — teaser Patreon troncati a 140 caratteri', () => {
+  it('ricuce la parola mozzata invece di lasciarla a metà', () => {
+    const s = episodeSummary(
+      "Siamo in Francia, nell'est del paese, nel 1984. In una cit",
+    )
+    expect(s).toBe("Siamo in Francia, nell'est del paese, nel 1984. In una…")
+    expect(s).not.toMatch(/cit$/)
+  })
+
+  it('non tocca un incipit che finisce già con la punteggiatura', () => {
+    const done = 'Skidmore, Missouri, 10 luglio 1981. In pieno giorno davanti a tutti.'
+    expect(episodeSummary(done)).toBe(done)
+  })
+
+  it('non aggiunge puntini a chi ne ha già', () => {
+    const s = episodeSummary('Manaus, Brasile, primi anni 2000. Una città isolata…')
+    expect(s.endsWith('…')).toBe(true)
+    expect(s).not.toMatch(/…\s*…/)
+  })
+})
+
+describe('extractYear — trappole trovate sui dati veri', () => {
+  it('"anni 2000" è un decennio, non l\'anno 2000', () => {
+    expect(extractYear('Stati Uniti, anni 2000. Tuo figlio prende brutti voti'))
+      .toEqual({ year: 2000, precision: 'decennio' })
+    expect(extractYear('Manaus, Brasile, primi anni 2000. Una città isolata'))
+      .toEqual({ year: 2000, precision: 'decennio' })
+  })
+
+  it('"anni 2010" resta il decennio giusto', () => {
+    expect(extractYear('Siamo negli anni 2010, e tutto cambia'))
+      .toEqual({ year: 2010, precision: 'decennio' })
+  })
+
+  it('"alla fine del 1800" è il secolo: meglio nessun anno che sbagliare di 90', () => {
+    // collocare H.H. Holmes nel 1800 invece che negli anni 1890
+    expect(extractYear("Chicago. Siamo alla fine del 1800, in un'epoca in cui la medicina"))
+      .toBeNull()
+    expect(extractYear('Roma, metà del 1900, la città cambia faccia')).toBeNull()
+  })
+
+  it('un anno vero che finisce per 00 resta un anno', () => {
+    expect(extractYear('Siamo nel 1900 e nasce il secolo breve'))
+      .toEqual({ year: 1900, precision: 'anno' })
+  })
+
+  it('gli anni normali non sono toccati dalle due regole nuove', () => {
+    expect(extractYear('1914, Francia. È appena scoppiata la guerra'))
+      .toEqual({ year: 1914, precision: 'anno' })
+    expect(extractYear('New York, 2011. Sarma è la regina del crudismo'))
+      .toEqual({ year: 2011, precision: 'anno' })
+    expect(extractYear("anni '90 in Svezia")).toEqual({ year: 1990, precision: 'decennio' })
+  })
+})

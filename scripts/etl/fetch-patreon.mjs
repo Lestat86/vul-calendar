@@ -1,15 +1,20 @@
 /**
  * Traccia "naqp", esclusivi Patreon.
  *
- * L'endpoint che alimenta la pagina pubblica della campagna espone titolo e
- * data di pubblicazione di tutti i post senza autenticazione. Il CONTENUTO
- * (`content`, `teaser_text`) torna null perché è dietro il paywall: verificato,
- * non è un bug nostro. Quindi qui non c'è nessun anno da estrarre e la
- * datazione passa per resolve-dates.mjs + revisione manuale.
+ * L'endpoint che alimenta la pagina pubblica della campagna espone senza
+ * autenticazione titolo, data e `content_teaser_text`: l'incipit dell'episodio,
+ * troncato a 140 caratteri. È lo stesso testo che Patreon mostra a chi apre la
+ * pagina da un browser non loggato.
  *
- * Salviamo solo titolo, data e link. Niente contenuti a pagamento.
+ * ATTENZIONE AL NOME DEL CAMPO: `content` e `teaser_text` esistono nello schema
+ * ma tornano sempre null, e fanno sembrare che l'incipit sia dietro il paywall.
+ * Quello buono è `content_teaser_text`.
+ *
+ * Da qui l'anno si estrae come dal feed pubblico, perché è di nuovo
+ * l'inquadramento che l'episodio dà a sé stesso. Il corpo dell'episodio resta
+ * a pagamento e non lo toccchiamo.
  */
-import { getJSON, sleep, writeJSON } from './lib.mjs'
+import { episodeSummary, extractYear, getJSON, sleep, stripDescription, writeJSON } from './lib.mjs'
 
 const CAMPAIGN = '10678821' // Non Aprite Quella Podcast
 const CAMPAIGN_URL = 'https://www.patreon.com/cw/NAQP'
@@ -19,7 +24,7 @@ const page = (cursor) => 'https://www.patreon.com/api/posts?' + new URLSearchPar
   'filter[is_draft]': 'false',
   sort: '-published_at',
   'json-api-version': '1.0',
-  'fields[post]': 'title,published_at,post_type',
+  'fields[post]': 'title,published_at,post_type,content_teaser_text',
   'page[count]': '50',
   ...(cursor ? { 'page[cursor]': cursor } : {}),
 })
@@ -55,6 +60,8 @@ const items = posts.map((p) => {
   const a = p.attributes
   const title = a.title ?? ''
   const tier = classify(title, a.post_type)
+  const teaser = a.content_teaser_text ?? null
+  const found = extractYear(stripDescription(teaser))
   const clean = title
     .replace(/\((Patreon Exclusive|Ad-Free|Video|Audio)\)/gi, '')
     .replace(/^\s*S\d+\s*E?\d*\s*/i, '')
@@ -69,15 +76,18 @@ const items = posts.map((p) => {
     tier,
     postType: a.post_type,
     isSpecial: /special|speciale/i.test(title),
-    summary: null,       // il contenuto è dietro il paywall: verificato, torna null
-    year: null,          // le description sono a pagamento: si datano a mano
-    precision: null,
-    confidence: null,
+    summary: episodeSummary(teaser),
+    year: found?.year ?? null,
+    precision: found?.precision ?? null,
+    confidence: found ? 'auto' : null,
     publishedAt: (a.published_at ?? '').slice(0, 10) || null,
     source: { kind: 'patreon', url: CAMPAIGN_URL },
   }
 })
 
 const byTier = items.reduce((acc, i) => ({ ...acc, [i.tier]: (acc[i.tier] ?? 0) + 1 }), {})
+const episodi = items.filter((i) => i.tier === 'esclusivo')
 console.log(`  ${items.length} post:`, byTier)
+console.log(`  esclusivi con incipit: ${episodi.filter((i) => i.summary).length}/${episodi.length}`)
+console.log(`  esclusivi con anno   : ${episodi.filter((i) => i.year).length}/${episodi.length}`)
 await writeJSON('data/generated/naqp-patreon.json', items)
