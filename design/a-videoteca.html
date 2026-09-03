@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>A — Videoteca · VUL Calendar</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@500;700;900&family=Courier+Prime:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<style>
+:root{
+  --shelf:#241a12;        /* legno scuro dello scaffale */
+  --shelf-dark:#180f0a;
+  --plastic:#0f0b08;      /* plastica della custodia */
+  --red:#ff1919;          /* accent NAQP, dal loro CSS */
+  --label:#efe7d2;        /* etichetta adesiva ingiallita */
+  --label-edge:#d8ceb2;
+  --sticker:#f0663a;      /* bollino noleggio */
+  --ink:#1b1512;
+  --ink-soft:#6b5f52;
+}
+*{box-sizing:border-box}
+html{background:var(--shelf)}
+body{
+  margin:0;color:var(--label);
+  font-family:'Courier Prime',ui-monospace,monospace;
+  font-size:15px;line-height:1.5;
+  background:
+    repeating-linear-gradient(90deg,transparent 0 60px,rgba(0,0,0,.12) 60px 61px),
+    linear-gradient(180deg,var(--shelf-dark),var(--shelf) 40%);
+}
+.wrap{max-width:640px;margin:0 auto;padding:0 14px 80px}
+
+/* ---- intestazione: cartello della videoteca ---- */
+header{padding:34px 0 18px}
+.sign{
+  background:var(--red);color:#fff;display:inline-block;
+  padding:10px 16px 8px;transform:rotate(-1.2deg);
+  box-shadow:6px 6px 0 rgba(0,0,0,.45);
+}
+.sign h1{
+  font-family:'Big Shoulders Display',sans-serif;font-weight:900;
+  font-size:clamp(34px,10vw,54px);line-height:.82;margin:0;
+  letter-spacing:-.01em;
+}
+.sign p{margin:4px 0 0;font-size:12px;letter-spacing:.02em}
+.today{margin:16px 0 0;color:var(--label-edge);font-size:13px}
+.today b{font-family:'Big Shoulders Display',sans-serif;font-size:26px;color:#fff;font-weight:700}
+
+/* ---- una custodia per anno ---- */
+.case{
+  display:flex;margin:0 0 12px;background:var(--plastic);
+  border:1px solid #000;border-left:0;
+  box-shadow:0 10px 18px -10px rgba(0,0,0,.9), inset 0 1px 0 rgba(255,255,255,.05);
+}
+.spine{
+  flex:0 0 62px;background:var(--red);color:#fff;
+  display:flex;flex-direction:column;align-items:center;justify-content:center;
+  padding:14px 4px;position:relative;
+  /* la scanalatura verticale della plastica */
+  background-image:linear-gradient(90deg,rgba(0,0,0,.35),transparent 6px,transparent calc(100% - 5px),rgba(0,0,0,.3));
+}
+.spine .n{
+  font-family:'Big Shoulders Display',sans-serif;font-weight:900;
+  font-size:38px;line-height:.8;
+}
+.spine .u{font-size:10px;letter-spacing:.12em;opacity:.85;margin-top:3px}
+.spine .ad{font-size:10px;opacity:.7;margin-top:8px;border-top:1px solid rgba(255,255,255,.35);padding-top:5px}
+
+.sheet{flex:1;min-width:0;padding:10px 12px 12px}
+/* etichetta adesiva incollata sulla custodia */
+.label{
+  background:var(--label);color:var(--ink);
+  padding:8px 10px 9px;border:1px solid var(--label-edge);
+  box-shadow:1px 1px 0 rgba(0,0,0,.35);
+}
+.label + .label{margin-top:7px}
+.label h3{
+  margin:0;font-family:'Big Shoulders Display',sans-serif;font-weight:700;
+  font-size:20px;line-height:1;letter-spacing:.005em;
+}
+.meta{font-size:11.5px;color:var(--ink-soft);margin-top:3px}
+.desc{font-size:12.5px;margin:5px 0 0;line-height:1.45}
+.thumb{float:right;width:74px;height:56px;object-fit:cover;margin:0 0 6px 9px;
+  border:1px solid var(--ink-soft);filter:saturate(.5) contrast(1.1)}
+
+/* le tracce si distinguono per il MATERIALE dell'etichetta, non per un pallino */
+.t-lurido{background:var(--sticker);color:#2a1005;border-color:#c04a22}
+.t-lurido .meta{color:#5c2410}
+.t-naqp{background:var(--ink);color:var(--label);border-color:#000}
+.t-naqp h3{color:var(--red)}
+.t-naqp .meta{color:#9a8f83}
+
+/* ---- Anno Zero: l'unica custodia aperta ---- */
+.case.zero{border:2px solid var(--red);box-shadow:0 0 0 4px rgba(255,25,25,.16),0 14px 24px -12px #000}
+.case.zero .spine{flex-basis:78px}
+.case.zero .spine .n{font-size:60px}
+.tape{
+  background:#0b0906;border:1px solid #000;padding:12px;margin-bottom:8px;
+  display:flex;align-items:center;gap:12px;
+}
+.reel{width:44px;height:44px;border-radius:50%;flex:0 0 44px;
+  background:radial-gradient(circle,#241a12 0 30%,#0b0906 31% 34%,#1a120c 35%);
+  border:2px solid #3a2b1f}
+.tape .say{font-size:12px;color:#b9ac9c;line-height:1.35}
+.tape .say b{color:#fff;display:block;font-family:'Big Shoulders Display',sans-serif;
+  font-weight:900;font-size:24px;letter-spacing:.01em}
+
+/* ---- salto fra anni vuoti: lo spazio vuoto sullo scaffale ---- */
+.gap{display:flex;align-items:center;gap:10px;margin:0 0 12px 62px;
+  color:#8a7a6a;font-size:12px}
+.gap i{flex:1;height:1px;background:repeating-linear-gradient(90deg,#5a4b3d 0 6px,transparent 6px 12px)}
+@media (max-width:400px){
+  .spine{flex-basis:52px}.spine .n{font-size:30px}
+  .case.zero .spine{flex-basis:62px}.case.zero .spine .n{font-size:44px}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+:focus-visible{outline:3px solid var(--sticker);outline-offset:2px}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <div class="sign">
+    <h1>VUL Calendar</h1>
+    <p>noleggio storia &mdash; anno zero 1994</p>
+  </div>
+  <p class="today">Oggi siamo in <b>32 dVUL</b></p>
+</header>
+<main id="shelf"></main>
+</div>
+<script>
+const TRACK={storia:{cls:'',kind:e=>e.kind||'storia'},
+             lurido:{cls:'t-lurido',kind:e=>e.kind||'lurido'},
+             naqp:{cls:'t-naqp',kind:e=>'NAQP'+(e.season?' S'+e.season+'E'+e.episode:'')}};
+const img=f=>`https://commons.wikimedia.org/wiki/Special:FilePath/${encodeURIComponent(f)}?width=200`;
+const vulLabel=v=>v===0?['0','anno zero']:[String(Math.abs(v)),v>0?'dVUL':'aVUL'];
+
+fetch('slice.json').then(r=>r.json()).then(years=>{
+  const shelf=document.getElementById('shelf');
+  let prev=null;
+  for(const y of years){
+    if(prev!==null&&y.vul-prev>1){
+      const g=document.createElement('div');g.className='gap';
+      g.innerHTML=`<i></i><span>${y.vul-prev-1} anni fuori catalogo</span><i></i>`;
+      shelf.append(g);
+    }
+    prev=y.vul;
+    const [n,u]=vulLabel(y.vul), zero=y.vul===0;
+    const c=document.createElement('section');
+    c.className='case'+(zero?' zero':'');
+    c.innerHTML=`
+      <div class="spine"><span class="n">${n}</span><span class="u">${u}</span>
+        <span class="ad">${y.events[0].year}</span></div>
+      <div class="sheet">
+        ${zero?`<div class="tape"><div class="reel"></div><p class="say">
+          <b>Voglio Una Lurida</b>Articolo 31, 1994. Da qui si contano gli anni,
+          in su e in giù.</p></div>`:''}
+        ${y.events.map(e=>{
+          const t=TRACK[e.track];
+          return `<article class="label ${t.cls}">
+            ${e.image?`<img class="thumb" src="${img(e.image)}" alt="" loading="lazy">`:''}
+            <h3>${e.title}</h3>
+            <p class="meta">${e.year} ${e.era==='dc'?'d.C.':'a.C.'} &nbsp; ${t.kind(e)}${
+              e.precision!=='anno'?' &nbsp; ~'+e.precision:''}</p>
+            ${e.summary?`<p class="desc">${e.summary}</p>`:''}
+          </article>`}).join('')}
+      </div>`;
+    shelf.append(c);
+  }
+});
+</script>
+</body>
+</html>

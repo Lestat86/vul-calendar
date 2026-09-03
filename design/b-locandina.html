@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>B — Locandina · VUL Calendar</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Staatliches&family=Archivo:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#e4e1d3;      /* carta da manifesto, grigio-verde: non il crema di default */
+  --ink:#12100e;
+  --red:#ff1919;        /* la lastra rossa, accent NAQP */
+  --blue:#1f3fd8;       /* terza lastra, stampa economica a tre colori */
+  --soft:#6f6a5c;
+}
+*{box-sizing:border-box}
+html{background:var(--paper)}
+body{
+  margin:0;background:var(--paper);color:var(--ink);
+  font-family:Archivo,system-ui,sans-serif;font-size:15px;line-height:1.5;
+  /* grana di carta: due retini incrociati, costo zero */
+  background-image:
+    radial-gradient(circle at 1px 1px,rgba(0,0,0,.055) 1px,transparent 0),
+    radial-gradient(circle at 3px 4px,rgba(0,0,0,.03) 1px,transparent 0);
+  background-size:5px 5px,7px 7px;
+}
+.wrap{max-width:660px;margin:0 auto;padding:0 16px 90px}
+
+/* ---- testata: la lastra rossa fuori registro ---- */
+header{padding:40px 0 26px;position:relative}
+.tit{position:relative;display:block;
+  font-family:Staatliches,sans-serif;font-size:clamp(46px,15vw,96px);
+  line-height:.8;letter-spacing:.005em;margin:0}
+/* il fuori registro: la copia rossa scivolata sotto */
+.tit::before{content:attr(data-t);position:absolute;left:3px;top:4px;
+  color:var(--red);z-index:-1}
+.kicker{font-size:13px;letter-spacing:.14em;margin:14px 0 0;color:var(--soft)}
+.now{margin:6px 0 0;font-family:Staatliches,sans-serif;font-size:30px;color:var(--red)}
+
+/* ---- un anno = un blocco di manifesto ---- */
+.year{padding:26px 0 22px;border-top:3px solid var(--ink)}
+.year.zero{border-top-color:var(--red)}
+.stamp{display:flex;align-items:baseline;gap:12px;margin:0 0 14px}
+.stamp .n{font-family:Staatliches,sans-serif;font-size:clamp(52px,17vw,110px);
+  line-height:.72;color:var(--ink)}
+.stamp .u{font-family:Staatliches,sans-serif;font-size:20px;color:var(--red);
+  letter-spacing:.06em}
+.stamp .ad{margin-left:auto;font-size:13px;color:var(--soft);text-align:right;line-height:1.25}
+
+/* il titolo dell'evento È l'elemento grafico */
+.ev{margin:0 0 20px}
+.ev h3{position:relative;margin:0;font-family:Staatliches,sans-serif;
+  font-size:clamp(26px,7.4vw,44px);line-height:.9;letter-spacing:.004em}
+.ev h3::before{content:attr(data-t);position:absolute;left:2px;top:2.5px;z-index:-1}
+.ev.storia h3::before{color:var(--red)}
+.ev.lurido h3{color:var(--blue)}
+.ev.lurido h3::before{color:var(--red)}
+.ev.naqp h3{color:var(--red)}
+.ev.naqp h3::before{color:var(--ink)}
+/* blocco crediti in fondo, come sotto una locandina */
+.billing{margin:6px 0 0;font-size:11.5px;letter-spacing:.03em;color:var(--soft);
+  text-transform:none}
+.ev p.body{margin:8px 0 0;max-width:62ch;font-size:14px;line-height:1.55}
+.ev figure{margin:12px 0 0}
+/* duotone: la foto stampata a due lastre */
+.ev figure img{width:100%;display:block;filter:grayscale(1) contrast(1.35) brightness(1.05)}
+.ev figure{background:var(--red)}
+.ev figure img{mix-blend-mode:multiply}
+
+/* ---- Anno Zero: la locandina è tutta rossa ---- */
+.year.zero{background:var(--red);color:#fff;margin:0 -16px;padding:30px 16px 26px}
+.year.zero .stamp .n,.year.zero .stamp .u{color:#fff}
+.year.zero .stamp .ad{color:rgba(255,255,255,.8)}
+.year.zero .ev h3{color:#fff}
+.year.zero .ev h3::before{color:rgba(0,0,0,.45)}
+.year.zero .billing{color:rgba(255,255,255,.85)}
+.year.zero .ev p.body{color:rgba(255,255,255,.95)}
+.year.zero figure{background:#fff}
+
+.gap{padding:16px 0;font-size:12px;letter-spacing:.1em;color:var(--soft);
+  border-top:1px solid rgba(0,0,0,.28)}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+:focus-visible{outline:3px solid var(--blue);outline-offset:2px}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <h1 class="tit" data-t="VUL CALENDAR">VUL CALENDAR</h1>
+  <p class="kicker">la storia rimessa in fila sul 1994</p>
+  <p class="now">siamo in 32 dVUL</p>
+</header>
+<main id="reel"></main>
+</div>
+<script>
+const img=f=>`https://commons.wikimedia.org/wiki/Special:FilePath/${encodeURIComponent(f)}?width=760`;
+const KIND={storia:e=>e.kind||'fatto storico',lurido:e=>e.kind||'lurido',
+            naqp:e=>'Non Aprite Quella Podcast'+(e.season?', stagione '+e.season:'')};
+fetch('slice.json').then(r=>r.json()).then(years=>{
+  const reel=document.getElementById('reel');let prev=null;
+  for(const y of years){
+    if(prev!==null&&y.vul-prev>1){
+      const g=document.createElement('p');g.className='gap';
+      g.textContent=`${y.vul-prev-1} anni senza niente da mettere in cartellone`;
+      reel.append(g);
+    }
+    prev=y.vul;
+    const zero=y.vul===0;
+    const n=zero?'0':String(Math.abs(y.vul));
+    const u=zero?'anno zero':(y.vul>0?'dVUL':'aVUL');
+    const s=document.createElement('section');
+    s.className='year'+(zero?' zero':'');
+    s.innerHTML=`
+      <div class="stamp"><span class="n">${n}</span><span class="u">${u}</span>
+        <span class="ad">${y.events[0].year} ${y.events[0].era==='dc'?'d.C.':'a.C.'}<br>
+          ${y.events.length} voci</span></div>
+      ${y.events.map(e=>{
+        const T=e.title.toUpperCase();
+        return `<article class="ev ${e.track}">
+          <h3 data-t="${T.replace(/"/g,'&quot;')}">${T}</h3>
+          <p class="billing">${KIND[e.track](e)}${e.precision!=='anno'?' &middot; data ~'+e.precision:''}</p>
+          ${e.summary?`<p class="body">${e.summary}</p>`:''}
+          ${e.image?`<figure><img src="${img(e.image)}" alt="" loading="lazy"></figure>`:''}
+        </article>`}).join('')}`;
+    reel.append(s);
+  }
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Font alternativi · Bacheca</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@400;600;700&family=Permanent+Marker&family=Courier+Prime:ital,wght@0,400;0,700;1,400&family=Stardos+Stencil:wght@400;700&family=Caveat:wght@500;700&family=Caveat+Brush&family=Libre+Franklin:wght@400;600;800&family=Oswald:wght@400;600;700&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;1,6..72,400&family=Special+Elite&family=Rock+Salt&display=swap" rel="stylesheet">
+<style>
+:root{
+  --wall:#33352f;--wall-dark:#23251f;--paper:#e9e0c8;--paper-2:#ded3b6;
+  --ink:#221f19;--red:#ff1919;--marker:#f2e14a;--soft:#6d6552;
+}
+*{box-sizing:border-box}
+html{background:var(--wall)}
+body{margin:0;color:var(--paper);background:linear-gradient(180deg,var(--wall-dark),var(--wall) 20%);
+  font-family:'Archivo Narrow',system-ui,sans-serif;font-size:15px;line-height:1.5}
+.w{max-width:620px;margin:0 auto;padding:26px 16px 80px}
+.intro h1{font-family:'Permanent Marker',cursive;font-size:30px;margin:0 0 6px;transform:rotate(-1.2deg)}
+.intro p{color:#b6b3a3;margin:0 0 8px;max-width:52ch;font-size:14px}
+
+/* ---- ogni proposta è un set di variabili tipografiche ---- */
+.set{margin:34px 0 0}
+.set > .name{display:flex;align-items:baseline;gap:9px;margin:0 0 3px}
+.set > .name b{font-family:'Permanent Marker',cursive;font-size:21px;color:var(--marker)}
+.set > .name span{font-size:12px;color:#9d9a8a}
+.set > .why{margin:0 0 12px;font-size:13px;color:#b6b3a3;max-width:54ch}
+
+/* la card, identica a quella della bacheca, ma tipograficamente parametrica */
+.sheet{background:var(--paper);color:var(--ink);padding:12px 14px 14px;
+  box-shadow:3px 4px 10px rgba(0,0,0,.45);transform:rotate(-.5deg)}
+.head{display:flex;align-items:baseline;gap:8px;border-bottom:2px solid var(--ink);
+  padding-bottom:5px;margin-bottom:9px}
+.head .n{font-family:var(--hand);font-size:31px;line-height:.9;color:var(--red)}
+.head .u{font-family:var(--disp);font-size:12px;font-weight:700;color:var(--soft);letter-spacing:.02em}
+.head .ad{margin-left:auto;font-family:var(--body);font-size:12.5px;color:var(--soft)}
+.item{padding:8px 0;border-bottom:1px dotted #b6ab8c}
+.item:last-child{border-bottom:0;padding-bottom:0}
+.item h3{margin:0;font-family:var(--disp);font-size:var(--h3,17.5px);font-weight:700;line-height:1.15}
+.item .tag{font-family:var(--body);font-size:11.5px;color:var(--soft);margin-top:2px}
+.item p{font-family:var(--body);margin:5px 0 0;font-size:var(--p,13.5px);
+  line-height:var(--lh,1.45);color:#3a3529}
+.lurido h3{background:var(--marker);display:inline;padding:0 3px;box-decoration-break:clone}
+.naqp h3{color:var(--red)}
+.naqp .tag{color:#8a2b2b;font-weight:600}
+figure{margin:8px 0 0;position:relative;width:112px;float:right;margin-left:12px}
+figure img{width:100%;display:block;filter:grayscale(1) contrast(1.7) brightness(1.12)}
+figure::after{content:'';position:absolute;inset:0;mix-blend-mode:multiply;opacity:.55;
+  background-image:radial-gradient(circle at 1px 1px,#000 .9px,transparent 0);background-size:3px 3px}
+.naqp figure::before{content:'';position:absolute;inset:-7px -5px;border:2.5px solid var(--red);
+  border-radius:52% 48% 47% 53%/49% 52% 48% 51%;transform:rotate(-3deg);z-index:2}
+
+/* ============ i cinque set ============ */
+.s0{--body:'Archivo Narrow',sans-serif;--disp:'Archivo Narrow',sans-serif;--hand:'Permanent Marker',cursive}
+.s1{--body:'Courier Prime',monospace;--disp:'Stardos Stencil',sans-serif;--hand:'Caveat',cursive;
+    --p:13px;--lh:1.5;--h3:17px}
+.s2{--body:'Libre Franklin',sans-serif;--disp:Oswald,sans-serif;--hand:'Permanent Marker',cursive;
+    --p:13px;--lh:1.5}
+.s3{--body:Newsreader,serif;--disp:'Archivo Narrow',sans-serif;--hand:'Caveat Brush',cursive;
+    --p:14.5px;--lh:1.5}
+.s4{--body:'Special Elite',serif;--disp:'Special Elite',serif;--hand:'Rock Salt',cursive;
+    --p:13px;--lh:1.55;--h3:16px}
+.s1 .head .n,.s3 .head .n{font-size:34px}
+.s4 .head .n{font-size:22px}
+@media (max-width:400px){figure{width:88px}}
+</style>
+</head>
+<body><div class="w">
+<div class="intro">
+  <h1>Font alternativi</h1>
+  <p>La stessa card, cinque accoppiate. Testo vero: <i>Il Caso Bamberski</i>, S8E1,
+  che è la card della tua foto. Il primo set è quello attuale, per confronto.</p>
+</div>
+<div id="sets"></div>
+</div>
+<script>
+const CARD = `
+  <div class="head"><span class="n">12</span><span class="u">aVUL</span>
+    <span class="ad">1982 d.C.</span></div>
+  <div class="item naqp">
+    <h3>Il Caso Bamberski</h3>
+    <p class="tag">episodio S8E1</p>
+    <p>Estate del 1982, Francia. Un padre risponde al telefono e ascolta la peggiore
+    notizia della sua vita: la figlia Kalinka, 14 anni, viene ritrovata morta nella
+    casa dell&rsquo;ex moglie in Germania. Le cause &mdash; viene velocemente
+    dichiarato &mdash; sarebbero naturali.</p>
+  </div>
+  <div class="item storia">
+    <figure><img src="https://commons.wikimedia.org/wiki/Special:FilePath/1982%20Lebanon%20War%20XI.jpg?width=280" alt="" loading="lazy"></figure>
+    <h3>Guerra del Libano del 1982</h3>
+    <p class="tag">conflitto armato</p>
+    <p>L&rsquo;esercito israeliano entra in Libano il 6 giugno. Beirut sotto assedio
+    per settanta giorni.</p>
+  </div>
+  <div class="item lurido">
+    <h3>The Message</h3>
+    <p class="tag">hip hop</p>
+    <p>Grandmaster Flash: il rap scopre che pu&ograve; parlare di qualcosa.</p>
+  </div>`;
+
+const SETS = [
+  ['s0','Attuale','Archivo Narrow + Permanent Marker',
+   'Neutra e sicura. Il difetto è che Archivo Narrow non ha carattere: a 13px su carta ingiallita il testo si appiattisce, ed è probabilmente ciò che ti ha fatto storcere il naso.'],
+  ['s1','Fascicolo','Courier Prime + Stardos Stencil + Caveat',
+   'Il documento battuto a macchina, con le etichette a stampino come sulle scatole delle prove. Qui il monospace non è decorazione: è letteralmente ciò che il foglio sarebbe. Costa in larghezza — meno parole per riga.'],
+  ['s2','Cronaca','Libre Franklin + Oswald',
+   'Il quotidiano da edicola: titoli condensati stretti, testo di lettura molto solido. La più leggibile delle cinque, e la meno atmosferica.'],
+  ['s3','Editoriale','Newsreader + Archivo Narrow + Caveat Brush',
+   'Un graziato pensato per la lettura lunga, con vera personalità nelle terminazioni. Gli incipit del podcast sono racconti: questa li tratta come tali. Il set più adatto a leggere davvero.'],
+  ['s4','Dattiloscritto','Special Elite + Rock Salt',
+   'La macchina da scrivere consumata, con i caratteri irregolari. Il più atmosferico e il più rischioso: a 13px sui paragrafi lunghi affatica, e su mobile lo sentirai.'],
+];
+document.getElementById('sets').innerHTML = SETS.map(([cls,name,fonts,why])=>`
+  <section class="set">
+    <p class="name"><b>${name}</b><span>${fonts}</span></p>
+    <p class="why">${why}</p>
+    <div class="sheet ${cls}">${CARD}</div>
+  </section>`).join('');
+</script>
+</body></html>
