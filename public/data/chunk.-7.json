@@ -59,18 +59,34 @@
     "rank": 1
   },
   {
-    "id": "patreon:142678356",
+    "id": "patreon:101380862",
     "track": "naqp",
-    "title": "Il Caso Leopold e Loeb",
+    "title": "Il Caso Giuseppe Dosi - Orrore a Roma",
+    "summary": "Roma, 1924. Una serie di delitti e abusi che vedono, come vittime, bimbe di pochi anni, sconvolge la capitale. Nelle strade, fra i…",
     "year": 1924,
     "era": "dc",
     "vul": -70,
     "kind": "caso",
     "weight": 1000,
     "tier": "esclusivo",
-    "dateSource": "manuale",
+    "dateSource": "descrizione",
     "url": "https://www.patreon.com/cw/NAQP",
     "rank": 2
+  },
+  {
+    "id": "patreon:142678356",
+    "track": "naqp",
+    "title": "Il Caso Leopold e Loeb",
+    "summary": "Chicago, Illinois, Stati Uniti. Nel 1924, questa città industriale e violenta sta per essere scossa da quello che i giornali del tempo…",
+    "year": 1924,
+    "era": "dc",
+    "vul": -70,
+    "kind": "caso",
+    "weight": 1000,
+    "tier": "esclusivo",
+    "dateSource": "descrizione",
+    "url": "https://www.patreon.com/cw/NAQP",
+    "rank": 3
   },
   {
     "id": "wd:Q152925",
@@ -316,32 +332,6 @@
     "rank": 0
   },
   {
-    "id": "patreon:154614552",
-    "track": "naqp",
-    "title": "Il Caso Borley Rectory",
-    "year": 1929,
-    "era": "dc",
-    "vul": -65,
-    "kind": "caso",
-    "weight": 1000,
-    "tier": "esclusivo",
-    "dateSource": "manuale",
-    "url": "https://www.patreon.com/cw/NAQP",
-    "rank": 0
-  },
-  {
-    "id": "wd:Q1349575",
-    "track": "storia",
-    "title": "convenzione di Varsavia",
-    "summary": "1929 treaty governing commercial aviation liability",
-    "year": 1929,
-    "era": "dc",
-    "vul": -65,
-    "kind": "trattato internazionale",
-    "weight": 26,
-    "rank": 1
-  },
-  {
     "id": "naqp:d0e78c22-dd06-11ef-867a-6f429324fded",
     "track": "naqp",
     "title": "Il Caso Netta Fornario",
@@ -356,6 +346,18 @@
     "episode": 3,
     "dateSource": "descrizione",
     "url": "https://feeds.megaphone.fm/naqp",
+    "rank": 0
+  },
+  {
+    "id": "wd:Q1349575",
+    "track": "storia",
+    "title": "convenzione di Varsavia",
+    "summary": "1929 treaty governing commercial aviation liability",
+    "year": 1929,
+    "era": "dc",
+    "vul": -65,
+    "kind": "trattato internazionale",
+    "weight": 26,
     "rank": 1
   },
   {
@@ -414,6 +416,62 @@
     "rank": 1
   },
   {
+    "id": "patreon:134559698",
+    "track": "naqp",
+    "title": "Il Caso dell'Unità 731",
+    "summary": "Manciuria, Cina occupata dal Giappone, anni '30 e '40. In una fortezza segreta nascosta tra le montagne, un brillante medico giapponese e…",
+    "year": 1930,
+    "era": "dc",
+    "vul": -64,
+    "precision": "decennio",
+    "kind": "caso",
+    "weight": 1000,
+    "tier": "esclusivo",
+    "dateSource": "descrizione",
+    "url": "https://www.patreon.com/cw/NAQP",
+    "rank": 1
+  },
+  {
+    "id": "wd:Q704536",
+    "track": "storia",
+    "title": "trattato navale di Londra",
+    "summary": "trattato internazionale del 1930",
+    "year": 1930,
+    "era": "dc",
+    "vul": -64,
+    "kind": "trattato internazionale",
+    "weight": 25,
+    "rank": 2
+  },
+  {
+    "id": "patreon:101485003",
+    "track": "naqp",
+    "title": "Il Caso John Brinkley - Il Pallista",
+    "summary": "Kansas, Stati Uniti, 1930. Un chirurgo - o almeno così diceva lui - decide all’improvviso di curare incurabili malanni sperimentando - per…",
+    "year": 1930,
+    "era": "dc",
+    "vul": -64,
+    "kind": "caso",
+    "weight": 1000,
+    "tier": "esclusivo",
+    "dateSource": "descrizione",
+    "url": "https://www.patreon.com/cw/NAQP",
+    "rank": 2
+  },
+  {
+    "id": "wd:Q611027",
+    "track": "storia",
+    "title": "guerra castellammarese",
+    "summary": "Guerra della mafia italoamericana (1930-1931)",
+    "year": 1930,
+    "era": "dc",
+    "vul": -64,
+    "kind": "guerra",
+    "image": "The body of Ernest Rossi being removed from death car by police (Daily News, 1931).png",
+    "weight": 24,
+    "rank": 3
+  },
+  {
     "id": "naqp:bec07770-5edb-11ee-b31f-576a337432a5",
     "track": "naqp",
     "title": "Il Caso Malloy - L'uomo che non sapeva morire",
@@ -429,19 +487,20 @@
     "episode": 4,
     "dateSource": "descrizione",
     "url": "https://feeds.megaphone.fm/naqp",
-    "rank": 1
+    "rank": 3
   },
   {
-    "id": "wd:Q704536",
+    "id": "wd:Q717809",
     "track": "storia",
-    "title": "trattato navale di Londra",
-    "summary": "trattato internazionale del 1930",
+    "title": "guerra delle Pianure centrali",
+    "summary": "guerra civile nelle Pianure centrali cinesi",
     "year": 1930,
     "era": "dc",
     "vul": -64,
-    "kind": "trattato internazionale",
-    "weight": 25,
-    "rank": 2
+    "kind": "guerra civile",
+    "image": "Chiang Kai-shek's army in the Central Plains War.jpg",
+    "weight": 21,
+    "rank": 4
   },
   {
     "id": "naqp:3164a650-915f-11ef-96bb-375b8b2e88d8",
@@ -459,32 +518,6 @@
     "episode": 7,
     "dateSource": "descrizione",
     "url": "https://feeds.megaphone.fm/naqp",
-    "rank": 2
-  },
-  {
-    "id": "wd:Q611027",
-    "track": "storia",
-    "title": "guerra castellammarese",
-    "summary": "Guerra della mafia italoamericana (1930-1931)",
-    "year": 1930,
-    "era": "dc",
-    "vul": -64,
-    "kind": "guerra",
-    "image": "The body of Ernest Rossi being removed from death car by police (Daily News, 1931).png",
-    "weight": 24,
-    "rank": 3
-  },
-  {
-    "id": "wd:Q717809",
-    "track": "storia",
-    "title": "guerra delle Pianure centrali",
-    "summary": "guerra civile nelle Pianure centrali cinesi",
-    "year": 1930,
-    "era": "dc",
-    "vul": -64,
-    "kind": "guerra civile",
-    "image": "Chiang Kai-shek's army in the Central Plains War.jpg",
-    "weight": 21,
     "rank": 4
   },
   {
@@ -710,6 +743,33 @@
     "rank": 1
   },
   {
+    "id": "patreon:100551354",
+    "track": "naqp",
+    "title": "Il Caso dell'UFO di Mussolini",
+    "summary": "Un luogo imprecisato in Lombardia, 13 giugno 1933. In piena epoca fascista un Oggetto non identificato - si dice colpito da un fulmine -…",
+    "year": 1933,
+    "era": "dc",
+    "vul": -61,
+    "kind": "caso",
+    "weight": 1000,
+    "tier": "esclusivo",
+    "dateSource": "descrizione",
+    "url": "https://www.patreon.com/cw/NAQP",
+    "rank": 1
+  },
+  {
+    "id": "wd:Q328271",
+    "track": "storia",
+    "title": "Machtergreifung",
+    "summary": "Presa del potere del regime nazista",
+    "year": 1933,
+    "era": "dc",
+    "vul": -61,
+    "kind": "evento storico",
+    "weight": 32,
+    "rank": 2
+  },
+  {
     "id": "naqp:659ad6f2-5d3e-11ee-af1b-db056e21dde7",
     "track": "naqp",
     "title": "Il Caso Malloy - L'Irlandese di ferro",
@@ -724,18 +784,6 @@
     "episode": 3,
     "dateSource": "manuale",
     "url": "https://feeds.megaphone.fm/naqp",
-    "rank": 1
-  },
-  {
-    "id": "wd:Q328271",
-    "track": "storia",
-    "title": "Machtergreifung",
-    "summary": "Presa del potere del regime nazista",
-    "year": 1933,
-    "era": "dc",
-    "vul": -61,
-    "kind": "evento storico",
-    "weight": 32,
     "rank": 2
   },
   {

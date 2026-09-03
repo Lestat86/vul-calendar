@@ -43,6 +43,21 @@
     "rank": 1
   },
   {
+    "id": "patreon:115300656",
+    "track": "naqp",
+    "title": "Il Caso Miriam Rodriguez",
+    "summary": "San Fernando, Messico. È il 2014 quando una madre riceve la telefonata che nessun genitore vorrebbe mai ricevere: sua figlia è stata…",
+    "year": 2014,
+    "era": "dc",
+    "vul": 20,
+    "kind": "caso",
+    "weight": 1000,
+    "tier": "esclusivo",
+    "dateSource": "descrizione",
+    "url": "https://www.patreon.com/cw/NAQP",
+    "rank": 1
+  },
+  {
     "id": "wd:Q16335075",
     "track": "storia",
     "title": "guerra del Donbass",
@@ -919,16 +934,17 @@
     "rank": 1
   },
   {
-    "id": "patreon:164819004",
+    "id": "patreon:104956966",
     "track": "naqp",
-    "title": "Il Caso Sarma Melngailis",
+    "title": "Il Caso Eunuch Maker",
+    "summary": "Londra, 2016. Un pacioso trentenne norvegese si trasferisce nella capitale inglese dopo un brutto divorzio. L’idea è quella di cambiare…",
     "year": 2016,
     "era": "dc",
     "vul": 22,
     "kind": "caso",
     "weight": 1000,
     "tier": "esclusivo",
-    "dateSource": "manuale",
+    "dateSource": "descrizione",
     "url": "https://www.patreon.com/cw/NAQP",
     "rank": 1
   },
@@ -946,6 +962,34 @@
     "rank": 2
   },
   {
+    "id": "patreon:141585448",
+    "track": "naqp",
+    "title": "Il Caso Sherri Papini",
+    "summary": "Redding, California, Stati Uniti. 2 novembre 2016. Una madre perfetta esce per la sua corsa mattutina e scompare nel nulla, lasciando…",
+    "year": 2016,
+    "era": "dc",
+    "vul": 22,
+    "kind": "caso",
+    "weight": 1000,
+    "tier": "esclusivo",
+    "dateSource": "descrizione",
+    "url": "https://www.patreon.com/cw/NAQP",
+    "rank": 2
+  },
+  {
+    "id": "wd:Q24561572",
+    "track": "storia",
+    "title": "strage di Orlando",
+    "summary": "azione terroristica ad Orlando, Florida, USA",
+    "year": 2016,
+    "era": "dc",
+    "vul": 22,
+    "kind": "attentato terroristico",
+    "image": "Shooting at Pulse Nightclub.jpg",
+    "weight": 59,
+    "rank": 3
+  },
+  {
     "id": "naqp:33ebf08c-eaf9-11f0-84cf-ff1c1acf98a0",
     "track": "naqp",
     "title": "Il Caso Zizians - Jedi Vegani",
@@ -960,19 +1004,6 @@
     "episode": 3,
     "dateSource": "descrizione",
     "url": "https://feeds.megaphone.fm/naqp",
-    "rank": 2
-  },
-  {
-    "id": "wd:Q24561572",
-    "track": "storia",
-    "title": "strage di Orlando",
-    "summary": "azione terroristica ad Orlando, Florida, USA",
-    "year": 2016,
-    "era": "dc",
-    "vul": 22,
-    "kind": "attentato terroristico",
-    "image": "Shooting at Pulse Nightclub.jpg",
-    "weight": 59,
     "rank": 3
   },
   {
@@ -1514,6 +1545,21 @@
     "kind": "massacro",
     "image": "Las Vegas Strip shooting site 2017 (overlay).jpg",
     "weight": 51,
+    "rank": 1
+  },
+  {
+    "id": "patreon:142122075",
+    "track": "naqp",
+    "title": "Il Caso Rosa Peral",
+    "summary": "Barcellona, Spagna, maggio 2017. Una guardia urbana, bella, carismatica e manipolatrice, si trova intrappolata in un triangolo amoroso che…",
+    "year": 2017,
+    "era": "dc",
+    "vul": 23,
+    "kind": "caso",
+    "weight": 1000,
+    "tier": "esclusivo",
+    "dateSource": "descrizione",
+    "url": "https://www.patreon.com/cw/NAQP",
     "rank": 1
   },
   {
@@ -2088,6 +2134,21 @@
     "rank": 0
   },
   {
+    "id": "patreon:140517873",
+    "track": "naqp",
+    "title": "Il Caso Massimiliano Farci - Senza Speranza",
+    "summary": "Alghero, Sardegna, dicembre 2019. Una donna scompare nel nulla lasciando solo strani messaggi WhatsApp, post su Facebook da Barcellona e…",
+    "year": 2019,
+    "era": "dc",
+    "vul": 25,
+    "kind": "caso",
+    "weight": 1000,
+    "tier": "esclusivo",
+    "dateSource": "descrizione",
+    "url": "https://www.patreon.com/cw/NAQP",
+    "rank": 0
+  },
+  {
     "id": "wd:Q62066211",
     "track": "storia",
     "title": "attentati di Christchurch",
@@ -2405,6 +2466,21 @@
     "rank": 0
   },
   {
+    "id": "patreon:160421602",
+    "track": "naqp",
+    "title": "Il Caso dell'Operazione Irene",
+    "summary": "Nanchino, Cina, estate del 2020. Mentre il mondo intero è paralizzato dalla pandemia, una studentessa di ventun anni che sogna di…",
+    "year": 2020,
+    "era": "dc",
+    "vul": 26,
+    "kind": "caso",
+    "weight": 1000,
+    "tier": "esclusivo",
+    "dateSource": "descrizione",
+    "url": "https://www.patreon.com/cw/NAQP",
+    "rank": 0
+  },
+  {
     "id": "wd:Q99659280",
     "track": "storia",
     "title": "guerra del Nagorno Karabakh del 2020",
@@ -2415,6 +2491,21 @@
     "kind": "guerra",
     "image": "Russian peacekeepers and Azerbaijani military personnel near Vank village.png",
     "weight": 73,
+    "rank": 1
+  },
+  {
+    "id": "patreon:98062659",
+    "track": "naqp",
+    "title": "Il Caso GameStop",
+    "summary": "Siamo nel 2020. Mentre il mondo affoga nella pandemia, su Reddit un utente di nome Roaring Kitty sta perdendo tutti i suoi risparmi. In…",
+    "year": 2020,
+    "era": "dc",
+    "vul": 26,
+    "kind": "caso",
+    "weight": 1000,
+    "tier": "esclusivo",
+    "dateSource": "descrizione",
+    "url": "https://www.patreon.com/cw/NAQP",
     "rank": 1
   },
   {
@@ -5327,6 +5418,21 @@
     "rank": 1
   },
   {
+    "id": "patreon:126070661",
+    "track": "naqp",
+    "title": "Il Caso Paria - Trappola in Alto Mare",
+    "summary": "Trinidad e Tobago, 25 febbraio 2022. Cinque esperti sommozzatori si immergono nelle acque del Golfo di Paria per effettuare una semplice…",
+    "year": 2022,
+    "era": "dc",
+    "vul": 28,
+    "kind": "caso",
+    "weight": 1000,
+    "tier": "esclusivo",
+    "dateSource": "descrizione",
+    "url": "https://www.patreon.com/cw/NAQP",
+    "rank": 1
+  },
+  {
     "id": "wd:Q114065797",
     "track": "storia",
     "title": "proteste per la morte di Mahsa Amini",
@@ -6169,20 +6275,18 @@
     "rank": 0
   },
   {
-    "id": "naqp:380e3a80-e6b9-11ee-aa28-2b3ef7e82e70",
+    "id": "patreon:161042646",
     "track": "naqp",
-    "title": "Il Caso Javier Milei - Dogman",
-    "summary": "Argentina, 2023. Un cosplayer con una cover band dei Rolling Stone che si crede la reincarnazione di un gladiatore romano e che lavora come istruttore di sesso tantrico e professore di economia decide - dopo aver parlato con il suo mastino inglese morto attraverso una strega veterinaria - di essere stato chiamato da Dio per compiere una missione: salvare l’Argentina dalla distruzione.",
+    "title": "Il Caso Daniel Krug",
+    "summary": "Broomfield, Colorado, 2023. Una donna inizia a ricevere messaggi da un numero sconosciuto. Foto della sua macchina parcheggiata davanti al…",
     "year": 2023,
     "era": "dc",
     "vul": 29,
     "kind": "caso",
     "weight": 1000,
-    "tier": "pubblico",
-    "season": 7,
-    "episode": 10,
+    "tier": "esclusivo",
     "dateSource": "descrizione",
-    "url": "https://feeds.megaphone.fm/naqp",
+    "url": "https://www.patreon.com/cw/NAQP",
     "rank": 0
   },
   {
@@ -6212,18 +6316,18 @@
     "rank": 1
   },
   {
-    "id": "naqp:422050b2-5280-11ee-a8f1-432108e697f7",
+    "id": "naqp:380e3a80-e6b9-11ee-aa28-2b3ef7e82e70",
     "track": "naqp",
-    "title": "Il Caso OceanGate",
-    "summary": "È il 18 giugno 2023. Un sottomarino Titan costruito e pilotato da un ex pilota di aerei di linea e assemblato con parti scartate - o acquistate da negozi per il fai-da-te - e mai testate, comincia la sua discesa verso il relitto del Titanic, situato a 3.800 metri sotto il livello del mare.",
+    "title": "Il Caso Javier Milei - Dogman",
+    "summary": "Argentina, 2023. Un cosplayer con una cover band dei Rolling Stone che si crede la reincarnazione di un gladiatore romano e che lavora come istruttore di sesso tantrico e professore di economia decide - dopo aver parlato con il suo mastino inglese morto attraverso una strega veterinaria - di essere stato chiamato da Dio per compiere una missione: salvare l’Argentina dalla distruzione.",
     "year": 2023,
     "era": "dc",
     "vul": 29,
     "kind": "caso",
     "weight": 1000,
     "tier": "pubblico",
-    "season": 6,
-    "episode": 1,
+    "season": 7,
+    "episode": 10,
     "dateSource": "descrizione",
     "url": "https://feeds.megaphone.fm/naqp",
     "rank": 1
@@ -6242,6 +6346,21 @@
     "rank": 2
   },
   {
+    "id": "patreon:144752631",
+    "track": "naqp",
+    "title": "Il Caso Jung Yoo-Jung",
+    "summary": "Corea del Sud, 2023. Una ragazza di ventiquattro anni, invisibile agli occhi della società, trascorre cinque anni chiusa in camera a…",
+    "year": 2023,
+    "era": "dc",
+    "vul": 29,
+    "kind": "caso",
+    "weight": 1000,
+    "tier": "esclusivo",
+    "dateSource": "descrizione",
+    "url": "https://www.patreon.com/cw/NAQP",
+    "rank": 2
+  },
+  {
     "id": "wd:Q122351413",
     "track": "storia",
     "title": "terremoto in Marocco del 2023",
@@ -6252,6 +6371,23 @@
     "kind": "terremoto",
     "image": "Damages in Moulay Brahim 03.jpg",
     "weight": 59,
+    "rank": 3
+  },
+  {
+    "id": "naqp:422050b2-5280-11ee-a8f1-432108e697f7",
+    "track": "naqp",
+    "title": "Il Caso OceanGate",
+    "summary": "È il 18 giugno 2023. Un sottomarino Titan costruito e pilotato da un ex pilota di aerei di linea e assemblato con parti scartate - o acquistate da negozi per il fai-da-te - e mai testate, comincia la sua discesa verso il relitto del Titanic, situato a 3.800 metri sotto il livello del mare.",
+    "year": 2023,
+    "era": "dc",
+    "vul": 29,
+    "kind": "caso",
+    "weight": 1000,
+    "tier": "pubblico",
+    "season": 6,
+    "episode": 1,
+    "dateSource": "descrizione",
+    "url": "https://feeds.megaphone.fm/naqp",
     "rank": 3
   },
   {

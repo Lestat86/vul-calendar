@@ -1051,6 +1051,35 @@
     "rank": 0
   },
   {
+    "id": "patreon:143196867",
+    "track": "naqp",
+    "title": "Il Caso Barbieri - Il Bandito dell'Isola",
+    "summary": "Milano, anni Quaranta. Mentre la Seconda Guerra Mondiale infuria, un giovane boxeur di belle speranze di nome Ezio Barbieri cresce tra le…",
+    "year": 1940,
+    "era": "dc",
+    "vul": -54,
+    "precision": "decennio",
+    "kind": "caso",
+    "weight": 1000,
+    "tier": "esclusivo",
+    "dateSource": "descrizione",
+    "url": "https://www.patreon.com/cw/NAQP",
+    "rank": 0
+  },
+  {
+    "id": "wd:Q134301",
+    "track": "storia",
+    "title": "massacro di Katyn'",
+    "summary": "massacro di quasi 22.000 polacchi per ordine di Stalin nella primavera del 1940, durante la Seconda Guerra Mondiale, in diverse zone della Russia europea, incluso il Katyn, che divenne un nome simbolo per l’intero massacro",
+    "year": 1940,
+    "era": "dc",
+    "vul": -54,
+    "kind": "massacro",
+    "image": "Trzy krzyze.jpg",
+    "weight": 75,
+    "rank": 1
+  },
+  {
     "id": "naqp:4b2f66d1-5a2e-444b-853e-1398583ad9fc",
     "track": "naqp",
     "title": "Il Caso del Conte Von Cosel - Finché morte non ci riunisca",
@@ -1066,19 +1095,6 @@
     "episode": 6,
     "dateSource": "descrizione",
     "url": "https://feeds.megaphone.fm/naqp",
-    "rank": 0
-  },
-  {
-    "id": "wd:Q134301",
-    "track": "storia",
-    "title": "massacro di Katyn'",
-    "summary": "massacro di quasi 22.000 polacchi per ordine di Stalin nella primavera del 1940, durante la Seconda Guerra Mondiale, in diverse zone della Russia europea, incluso il Katyn, che divenne un nome simbolo per l’intero massacro",
-    "year": 1940,
-    "era": "dc",
-    "vul": -54,
-    "kind": "massacro",
-    "image": "Trzy krzyze.jpg",
-    "weight": 75,
     "rank": 1
   },
   {
@@ -1624,6 +1640,21 @@
     "rank": 0
   },
   {
+    "id": "patreon:148535280",
+    "track": "naqp",
+    "title": "Il Caso Guillet - Parte Duex",
+    "summary": "Eritrea, 1941. Amedeo Guillet, dopo aver combattuto una guerra personale contro l'esercito britannico a cavallo, si ritrova braccato…",
+    "year": 1941,
+    "era": "dc",
+    "vul": -53,
+    "kind": "caso",
+    "weight": 1000,
+    "tier": "esclusivo",
+    "dateSource": "descrizione",
+    "url": "https://www.patreon.com/cw/NAQP",
+    "rank": 0
+  },
+  {
     "id": "wd:Q52418",
     "track": "storia",
     "title": "Attacco di Pearl Harbor",
@@ -1634,6 +1665,21 @@
     "kind": "battaglia",
     "image": "USS SHAW exploding Pearl Harbor Nara 80-G-16871 2.jpg",
     "weight": 88,
+    "rank": 1
+  },
+  {
+    "id": "patreon:147941897",
+    "track": "naqp",
+    "title": "Il Caso Guillet - Parte Prima",
+    "summary": "Eritrea, Africa Orientale Italiana, 1941. Mentre l'impero coloniale di Mussolini crolla sotto i colpi dell'esercito britannico, un giovane…",
+    "year": 1941,
+    "era": "dc",
+    "vul": -53,
+    "kind": "caso",
+    "weight": 1000,
+    "tier": "esclusivo",
+    "dateSource": "descrizione",
+    "url": "https://www.patreon.com/cw/NAQP",
     "rank": 1
   },
   {

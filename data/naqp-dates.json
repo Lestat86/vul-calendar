@@ -10,77 +10,17 @@
     "Formato:  \"<id>\": { \"year\": 1981, \"precision\": \"anno\", \"note\": \"...\" }",
     "precision: \"anno\" | \"decennio\" | \"secolo\""
   ],
-  "patreon:168079416": {
-    "year": 1984,
-    "precision": "anno",
-    "title": "Il Caso Grégory Villemin",
-    "note": "omicidio del 16 ottobre 1984"
-  },
   "patreon:164209005": {
     "year": 1987,
     "precision": "anno",
     "title": "Il Caso Goiania",
     "note": "incidente radiologico di Goiânia"
   },
-  "patreon:148946209": {
-    "year": 1972,
-    "precision": "anno",
-    "title": "Il Caso Macchiarini",
-    "note": "sequestro BR del marzo 1972"
-  },
-  "patreon:144230780": {
-    "year": 1989,
-    "precision": "anno",
-    "title": "Il Caso Carretta",
-    "note": "strage familiare a Parma, scoperta nel 1998"
-  },
-  "patreon:143690090": {
-    "year": 1726,
-    "precision": "anno",
-    "title": "Il Caso Mary Toft",
-    "note": "la truffa dei parti di coniglio"
-  },
-  "patreon:142678356": {
-    "year": 1924,
-    "precision": "anno",
-    "title": "Il Caso Leopold e Loeb",
-    "note": "omicidio di Bobby Franks"
-  },
-  "patreon:139926766": {
-    "year": 1828,
-    "precision": "anno",
-    "title": "Il Caso Kaspar Hauser",
-    "note": "comparsa a Norimberga"
-  },
-  "patreon:135064159": {
-    "year": 1948,
-    "precision": "anno",
-    "title": "Il Caso dell'Uomo di Somerton",
-    "note": "corpo trovato il 1 dicembre 1948"
-  },
-  "patreon:118842101": {
-    "year": 1922,
-    "precision": "anno",
-    "title": "Il Caso Hinterkaifeck",
-    "note": "strage del marzo 1922"
-  },
-  "patreon:112565781": {
-    "year": 1960,
-    "precision": "anno",
-    "title": "Il Caso del Lago di Bodom",
-    "note": "massacro del giugno 1960"
-  },
   "naqp:56fe0a7c-ebff-11f0-a27a-df65b2c4841a": {
     "year": 1916,
     "precision": "anno",
     "title": "Il Caso Rasputin",
     "note": "CORRETTO: la proposta 2011 era un libro, non l'omicidio"
-  },
-  "patreon:139403560": {
-    "year": 1999,
-    "precision": "anno",
-    "title": "Il Caso di Woodstock '99",
-    "note": "CORRETTO: il resolver aveva agganciato Woodstock 1969"
   },
   "patreon:137258153": {
     "year": 1893,
@@ -93,12 +33,6 @@
     "precision": "anno",
     "title": "Il Caso Musolino",
     "note": "CORRETTO: la proposta 2006 era un saggio sul bandito"
-  },
-  "patreon:154614552": {
-    "year": 1929,
-    "precision": "anno",
-    "title": "Il Caso Borley Rectory",
-    "note": "CORRETTO: 1863 era l'anno di costruzione, non le apparizioni"
   },
   "naqp:7d3ebc64-1232-11f1-bb69-83cf2a8b3d71": {
     "year": 2018,
@@ -231,35 +165,5 @@
     "precision": "anno",
     "title": "Il caso della saponificatrice di Correggio",
     "note": "Leonarda Cianciulli, 1939-40"
-  },
-  "patreon:167439379": {
-    "year": 1915,
-    "precision": "anno",
-    "title": "Il Caso Landru - Il Vero Barbablù",
-    "note": "primi omicidi di Landru"
-  },
-  "patreon:166811941": {
-    "year": 1981,
-    "precision": "anno",
-    "title": "Il Caso Ken Rex McElroy",
-    "note": "ucciso in piazza a Skidmore nel 1981"
-  },
-  "patreon:164819004": {
-    "year": 2016,
-    "precision": "anno",
-    "title": "Il Caso Sarma Melngailis",
-    "note": "arresto per frode"
-  },
-  "patreon:162919527": {
-    "year": 1998,
-    "precision": "anno",
-    "title": "Il Caso WWASP — Le Scuole del Terrore",
-    "note": "fondazione della rete WWASP"
-  },
-  "patreon:161708555": {
-    "year": 2009,
-    "precision": "anno",
-    "title": "Il Caso Wallace Souza",
-    "note": "lo scandalo esplode nel 2009"
   }
 }

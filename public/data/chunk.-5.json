@@ -1084,6 +1084,21 @@
     "rank": 0
   },
   {
+    "id": "patreon:103225210",
+    "track": "naqp",
+    "title": "Il Caso del Mistero di Bargagli",
+    "summary": "Bargagli, 1945. Un appuntato dei carabinieri viene ritrovato morto, dopo essere stato brutalmente torturato, in un paesino a 20km a nord…",
+    "year": 1945,
+    "era": "dc",
+    "vul": -49,
+    "kind": "caso",
+    "weight": 1000,
+    "tier": "esclusivo",
+    "dateSource": "descrizione",
+    "url": "https://www.patreon.com/cw/NAQP",
+    "rank": 0
+  },
+  {
     "id": "wd:Q154182",
     "track": "storia",
     "title": "battaglia di Berlino",
@@ -1721,6 +1736,21 @@
     "rank": 1
   },
   {
+    "id": "patreon:116188917",
+    "track": "naqp",
+    "title": "Il Caso Rina Fort",
+    "summary": "Milano, 30 novembre 1946. Una commessa si reca come ogni mattina al negozio di stoffe dove lavora. Salendo le scale del palazzo di via San…",
+    "year": 1946,
+    "era": "dc",
+    "vul": -48,
+    "kind": "caso",
+    "weight": 1000,
+    "tier": "esclusivo",
+    "dateSource": "descrizione",
+    "url": "https://www.patreon.com/cw/NAQP",
+    "rank": 1
+  },
+  {
     "id": "wd:Q188972",
     "track": "storia",
     "title": "guerra civile greca",
@@ -2004,13 +2034,14 @@
     "id": "patreon:135064159",
     "track": "naqp",
     "title": "Il Caso dell'Uomo di Somerton",
+    "summary": "Australia, 1948. Una coppia passeggia tranquillamente sulla spiaggia di Somerton quando nota un uomo appoggiato al muro che separa la…",
     "year": 1948,
     "era": "dc",
     "vul": -46,
     "kind": "caso",
     "weight": 1000,
     "tier": "esclusivo",
-    "dateSource": "manuale",
+    "dateSource": "descrizione",
     "url": "https://www.patreon.com/cw/NAQP",
     "rank": 0
   },
@@ -2220,6 +2251,21 @@
     "rank": 0
   },
   {
+    "id": "patreon:136707604",
+    "track": "naqp",
+    "title": "Il Caso Mr. Haigh - La Vasca D'Acido",
+    "summary": "Londra, Regno Unito, 1949. In un elegante hotel di Kensington vivono tranquillamente pensionati benestanti, cullati dalla routine…",
+    "year": 1949,
+    "era": "dc",
+    "vul": -45,
+    "kind": "caso",
+    "weight": 1000,
+    "tier": "esclusivo",
+    "dateSource": "descrizione",
+    "url": "https://www.patreon.com/cw/NAQP",
+    "rank": 0
+  },
+  {
     "id": "wd:Q583921",
     "track": "storia",
     "title": "seconda Convenzione di Ginevra",
@@ -2344,7 +2390,7 @@
     "id": "naqp:4327a0b3-d246-4874-b3c0-d778438b482d",
     "track": "naqp",
     "title": "Il Caso degli incontri ravvicinati del IV tipo in Italia",
-    "summary": "Il nostro Paese, dagli anni ’50 in poi, è stato visitato da rapitori seriali provenienti da dimensioni e galassie sconosciute. Conosciamo gli italiani che hanno vissuto una relazione tossica con gli alieni. Leggi: “Noi e gli alieni: Incontri passati, presenti e futuri” di Roberto Pinotti Seguici su Instagram per video esclusivi e molto altro: @nonapritequellapodcast Per sponsor, collaborazioni o semplici mail:…",
+    "summary": "Il nostro Paese, dagli anni ’50 in poi, è stato visitato da rapitori seriali provenienti da dimensioni e galassie sconosciute. Conosciamo gli italiani che hanno vissuto una relazione tossica con gli alieni. Leggi: “Noi e gli alieni: Incontri passati, presenti e futuri” di Roberto Pinotti Seguici su Instagram per video esclusivi e molto altro: @nonapritequellapodcast Per sponsor, collaborazioni o semplici mail…",
     "year": 1950,
     "era": "dc",
     "vul": -44,
@@ -2372,6 +2418,22 @@
     "rank": 2
   },
   {
+    "id": "patreon:122399219",
+    "track": "naqp",
+    "title": "Il Caso dei Gemelli Kray",
+    "summary": "Londra, anni '50 e '60. Due gemelli identici terrorizzano l'East End con una ferocia mai vista prima. Racket, estorsioni, omicidi - per…",
+    "year": 1950,
+    "era": "dc",
+    "vul": -44,
+    "precision": "decennio",
+    "kind": "caso",
+    "weight": 1000,
+    "tier": "esclusivo",
+    "dateSource": "descrizione",
+    "url": "https://www.patreon.com/cw/NAQP",
+    "rank": 2
+  },
+  {
     "id": "wd:Q277337",
     "track": "storia",
     "title": "battaglia del bacino di Chosin",
@@ -2382,6 +2444,21 @@
     "kind": "battaglia",
     "image": "1st Marine Division at Chosin Reservoir in Korea, December 1950.jpg",
     "weight": 20,
+    "rank": 3
+  },
+  {
+    "id": "patreon:113928348",
+    "track": "naqp",
+    "title": "Il Caso Hubbard - Il Capitano dell'Anima",
+    "summary": "Los Angeles, California, 1950. Un ex scrittore di fantascienza di nome L. Ron Hubbard sta per trasformarsi nel fondatore di una delle…",
+    "year": 1950,
+    "era": "dc",
+    "vul": -44,
+    "kind": "caso",
+    "weight": 1000,
+    "tier": "esclusivo",
+    "dateSource": "descrizione",
+    "url": "https://www.patreon.com/cw/NAQP",
     "rank": 3
   },
   {
@@ -2397,6 +2474,22 @@
     "rank": 4
   },
   {
+    "id": "patreon:113489423",
+    "track": "naqp",
+    "title": "Il Caso Hubbard - Il Founder",
+    "summary": "Stati Uniti, anni '50. Un uomo con un passato oscuro e una fervida immaginazione sta per rivoluzionare il mondo della psicologia e della…",
+    "year": 1950,
+    "era": "dc",
+    "vul": -44,
+    "precision": "decennio",
+    "kind": "caso",
+    "weight": 1000,
+    "tier": "esclusivo",
+    "dateSource": "descrizione",
+    "url": "https://www.patreon.com/cw/NAQP",
+    "rank": 4
+  },
+  {
     "id": "wd:Q482979",
     "track": "storia",
     "title": "Battle of Pusan Perimeter",
@@ -2407,6 +2500,22 @@
     "kind": "battaglia",
     "image": "27th Infantry Regiment soldiers at the Pusan Perimeter, September 4, 1950.jpg",
     "weight": 19,
+    "rank": 5
+  },
+  {
+    "id": "patreon:111661990",
+    "track": "naqp",
+    "title": "Il Caso MKULTRA - Fatti di CIA",
+    "summary": "Stati Uniti, anni '50. Nel pieno della Guerra Fredda, la CIA lancia un programma top secret per sviluppare tecniche di controllo mentale.…",
+    "year": 1950,
+    "era": "dc",
+    "vul": -44,
+    "precision": "decennio",
+    "kind": "caso",
+    "weight": 1000,
+    "tier": "esclusivo",
+    "dateSource": "descrizione",
+    "url": "https://www.patreon.com/cw/NAQP",
     "rank": 5
   },
   {
@@ -2636,6 +2745,21 @@
     "kind": "rivoluzione",
     "image": "Fidel Castro - MATS Terminal Washington 1959.jpg",
     "weight": 88,
+    "rank": 0
+  },
+  {
+    "id": "patreon:128704050",
+    "track": "naqp",
+    "title": "Il Caso Wilma Montesi",
+    "summary": "Roma, 1953. L'Italia del dopoguerra è in pieno fermento. La Dolce Vita, il boom economico e le celebrità riempiono la capitale. Una…",
+    "year": 1953,
+    "era": "dc",
+    "vul": -41,
+    "kind": "caso",
+    "weight": 1000,
+    "tier": "esclusivo",
+    "dateSource": "descrizione",
+    "url": "https://www.patreon.com/cw/NAQP",
     "rank": 0
   },
   {

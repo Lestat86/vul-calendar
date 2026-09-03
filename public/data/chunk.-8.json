@@ -12,6 +12,21 @@
     "rank": 0
   },
   {
+    "id": "patreon:167439379",
+    "track": "naqp",
+    "title": "Il Caso Landru - Il Vero Barbablù",
+    "summary": "1914, Francia. È appena scoppiata la Prima Guerra Mondiale: gli uomini partono per il fronte e a casa restano centinaia di migliaia di…",
+    "year": 1914,
+    "era": "dc",
+    "vul": -80,
+    "kind": "caso",
+    "weight": 1000,
+    "tier": "esclusivo",
+    "dateSource": "descrizione",
+    "url": "https://www.patreon.com/cw/NAQP",
+    "rank": 0
+  },
+  {
     "id": "wd:Q852236",
     "track": "storia",
     "title": "genocidio assiro",
@@ -577,20 +592,6 @@
     "kind": "genocidio",
     "image": "Ambassador Morgenthau's Story p314.jpg",
     "weight": 125,
-    "rank": 0
-  },
-  {
-    "id": "patreon:167439379",
-    "track": "naqp",
-    "title": "Il Caso Landru - Il Vero Barbablù",
-    "year": 1915,
-    "era": "dc",
-    "vul": -79,
-    "kind": "caso",
-    "weight": 1000,
-    "tier": "esclusivo",
-    "dateSource": "manuale",
-    "url": "https://www.patreon.com/cw/NAQP",
     "rank": 0
   },
   {
@@ -3041,13 +3042,14 @@
     "id": "patreon:118842101",
     "track": "naqp",
     "title": "Il Caso Hinterkaifeck",
+    "summary": "Baviera, Germania, 1922. In una piccola e isolata fattoria, una famiglia vive reclusa dal resto del mondo. Per mesi, strani eventi…",
     "year": 1922,
     "era": "dc",
     "vul": -72,
     "kind": "caso",
     "weight": 1000,
     "tier": "esclusivo",
-    "dateSource": "manuale",
+    "dateSource": "descrizione",
     "url": "https://www.patreon.com/cw/NAQP",
     "rank": 0
   },

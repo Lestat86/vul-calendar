@@ -50,5 +50,20 @@
     "weight": 1000,
     "curated": true,
     "rank": 0
+  },
+  {
+    "id": "patreon:154614552",
+    "track": "naqp",
+    "title": "Il Caso Borley Rectory",
+    "summary": "Siamo nell'Essex inglese, a circa 60 km da Londra, in un paesino di campagna così piccolo che oggi conta meno di 200 abitanti. Nel 1863…",
+    "year": 1863,
+    "era": "dc",
+    "vul": -131,
+    "kind": "caso",
+    "weight": 1000,
+    "tier": "esclusivo",
+    "dateSource": "descrizione",
+    "url": "https://www.patreon.com/cw/NAQP",
+    "rank": 0
   }
 ]

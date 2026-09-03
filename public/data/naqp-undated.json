@@ -186,48 +186,6 @@
     "isSpecial": false
   },
   {
-    "id": "patreon:161042646",
-    "title": "Il Caso Daniel Krug",
-    "tier": "esclusivo",
-    "isSpecial": false
-  },
-  {
-    "id": "patreon:160421602",
-    "title": "Il Caso dell'Operazione Irene",
-    "tier": "esclusivo",
-    "isSpecial": false
-  },
-  {
-    "id": "patreon:159722609",
-    "title": "Il Caso dei Bambini del Formicaio",
-    "tier": "esclusivo",
-    "isSpecial": false
-  },
-  {
-    "id": "patreon:159092036",
-    "title": "Il Caso Thomas Quick",
-    "tier": "esclusivo",
-    "isSpecial": false
-  },
-  {
-    "id": "patreon:158479827",
-    "title": "Il Caso Pamela Smart",
-    "tier": "esclusivo",
-    "isSpecial": false
-  },
-  {
-    "id": "patreon:157869171",
-    "title": "Il Caso Yang Jin-ho",
-    "tier": "esclusivo",
-    "isSpecial": false
-  },
-  {
-    "id": "patreon:157261620",
-    "title": "Il Caso dei 3 Cristi",
-    "tier": "esclusivo",
-    "isSpecial": false
-  },
-  {
     "id": "patreon:156448404",
     "title": "Il Caso Final Fantasy VII House",
     "tier": "esclusivo",
@@ -248,12 +206,6 @@
   {
     "id": "patreon:154236625",
     "title": "Il Caso Satoru Takaba",
-    "tier": "esclusivo",
-    "isSpecial": false
-  },
-  {
-    "id": "patreon:153671056",
-    "title": "Il Caso Midnight Assassin",
     "tier": "esclusivo",
     "isSpecial": false
   },
@@ -294,86 +246,14 @@
     "isSpecial": false
   },
   {
-    "id": "patreon:149659749",
-    "title": "Il Caso del Macellaio Vietnamita",
-    "tier": "esclusivo",
-    "isSpecial": false
-  },
-  {
-    "id": "patreon:148535280",
-    "title": "Il Caso Guillet - Parte Duex",
-    "tier": "esclusivo",
-    "isSpecial": false
-  },
-  {
-    "id": "patreon:147941897",
-    "title": "Il Caso Guillet - Parte Prima",
-    "tier": "esclusivo",
-    "isSpecial": false
-  },
-  {
-    "id": "patreon:147170410",
-    "title": "Il Caso Colliguay",
-    "tier": "esclusivo",
-    "isSpecial": false
-  },
-  {
-    "id": "patreon:146712402",
-    "title": "Il Caso Mark Twitchell",
-    "tier": "esclusivo",
-    "isSpecial": false
-  },
-  {
     "id": "patreon:146304559",
     "title": "Il Caso Carnation - XMas '25 Special",
     "tier": "esclusivo",
     "isSpecial": true
   },
   {
-    "id": "patreon:145827900",
-    "title": "Il Caso dell'Ordine del Tempio Solare",
-    "tier": "esclusivo",
-    "isSpecial": false
-  },
-  {
     "id": "patreon:145283910",
     "title": "Il Caso Wanda Holloway - Madre Pom Pom",
-    "tier": "esclusivo",
-    "isSpecial": false
-  },
-  {
-    "id": "patreon:144752631",
-    "title": "Il Caso Jung Yoo-Jung",
-    "tier": "esclusivo",
-    "isSpecial": false
-  },
-  {
-    "id": "patreon:143196867",
-    "title": "Il Caso Barbieri - Il Bandito dell'Isola",
-    "tier": "esclusivo",
-    "isSpecial": false
-  },
-  {
-    "id": "patreon:142122075",
-    "title": "Il Caso Rosa Peral",
-    "tier": "esclusivo",
-    "isSpecial": false
-  },
-  {
-    "id": "patreon:141585448",
-    "title": "Il Caso Sherri Papini",
-    "tier": "esclusivo",
-    "isSpecial": false
-  },
-  {
-    "id": "patreon:141047986",
-    "title": "Il Caso Sonja Farak",
-    "tier": "esclusivo",
-    "isSpecial": false
-  },
-  {
-    "id": "patreon:140517873",
-    "title": "Il Caso Massimiliano Farci - Senza Speranza",
     "tier": "esclusivo",
     "isSpecial": false
   },
@@ -384,20 +264,8 @@
     "isSpecial": false
   },
   {
-    "id": "patreon:138296948",
-    "title": "Il Caso William Palmer",
-    "tier": "esclusivo",
-    "isSpecial": false
-  },
-  {
     "id": "patreon:137788861",
     "title": "Il Caso Madre Teresa",
-    "tier": "esclusivo",
-    "isSpecial": false
-  },
-  {
-    "id": "patreon:136707604",
-    "title": "Il Caso Mr. Haigh - La Vasca D'Acido",
     "tier": "esclusivo",
     "isSpecial": false
   },
@@ -408,38 +276,8 @@
     "isSpecial": false
   },
   {
-    "id": "patreon:135380210",
-    "title": "Il Caso Carl Panzram",
-    "tier": "esclusivo",
-    "isSpecial": false
-  },
-  {
-    "id": "patreon:134559698",
-    "title": "Il Caso dell'Unità 731",
-    "tier": "esclusivo",
-    "isSpecial": false
-  },
-  {
     "id": "patreon:134026870",
     "title": "Il Caso Mr. Crowley",
-    "tier": "esclusivo",
-    "isSpecial": false
-  },
-  {
-    "id": "patreon:132701177",
-    "title": "Il Caso Lavorini - Fare Ingiustizia",
-    "tier": "esclusivo",
-    "isSpecial": false
-  },
-  {
-    "id": "patreon:132017564",
-    "title": "Il Caso del Sosia di Elvis vs il Maestro di Karate - Uccidere il Presidente",
-    "tier": "esclusivo",
-    "isSpecial": false
-  },
-  {
-    "id": "patreon:131536749",
-    "title": "Il Caso del Diavolo in Fuga",
     "tier": "esclusivo",
     "isSpecial": false
   },
@@ -450,74 +288,8 @@
     "isSpecial": true
   },
   {
-    "id": "patreon:130282726",
-    "title": "Il Caso Facchinetti - Rapire Berlusconi",
-    "tier": "esclusivo",
-    "isSpecial": false
-  },
-  {
-    "id": "patreon:129822149",
-    "title": "Il Caso Facchinetti - Berghem",
-    "tier": "esclusivo",
-    "isSpecial": false
-  },
-  {
     "id": "patreon:129287246",
     "title": "Il Caso Tony Galento",
-    "tier": "esclusivo",
-    "isSpecial": false
-  },
-  {
-    "id": "patreon:128704050",
-    "title": "Il Caso Wilma Montesi",
-    "tier": "esclusivo",
-    "isSpecial": false
-  },
-  {
-    "id": "patreon:128138444",
-    "title": "Il Caso Barney & Betty Hill - Tazze Aliene",
-    "tier": "esclusivo",
-    "isSpecial": false
-  },
-  {
-    "id": "patreon:127585468",
-    "title": "Il Caso Barney & Betty Hill - Malattie Sessualmente Trasmissibili del Terzo Tipo",
-    "tier": "esclusivo",
-    "isSpecial": false
-  },
-  {
-    "id": "patreon:127088098",
-    "title": "Il Caso Jan Broberg",
-    "tier": "esclusivo",
-    "isSpecial": false
-  },
-  {
-    "id": "patreon:126493337",
-    "title": "Il Caso Jenelle Potter - Catfish Mortale",
-    "tier": "esclusivo",
-    "isSpecial": false
-  },
-  {
-    "id": "patreon:126070661",
-    "title": "Il Caso Paria - Trappola in Alto Mare",
-    "tier": "esclusivo",
-    "isSpecial": false
-  },
-  {
-    "id": "patreon:125537282",
-    "title": "Il Caso Kuno Hofmann",
-    "tier": "esclusivo",
-    "isSpecial": false
-  },
-  {
-    "id": "patreon:124996429",
-    "title": "Il Caso Charles Sobhraj",
-    "tier": "esclusivo",
-    "isSpecial": false
-  },
-  {
-    "id": "patreon:124512357",
-    "title": "Il Caso Pauline & Juliet",
     "tier": "esclusivo",
     "isSpecial": false
   },
@@ -528,140 +300,14 @@
     "isSpecial": false
   },
   {
-    "id": "patreon:123475001",
-    "title": "Il Caso Buenos Aires - L'attacco dei Ladrones",
-    "tier": "esclusivo",
-    "isSpecial": false
-  },
-  {
     "id": "patreon:122944273",
     "title": "Il Caso Victor Lustig",
     "tier": "esclusivo",
     "isSpecial": false
   },
   {
-    "id": "patreon:122399219",
-    "title": "Il Caso dei Gemelli Kray",
-    "tier": "esclusivo",
-    "isSpecial": false
-  },
-  {
     "id": "patreon:121849419",
     "title": "Il Caso Carlos Henrique Raposo- Il Kaiser",
-    "tier": "esclusivo",
-    "isSpecial": false
-  },
-  {
-    "id": "patreon:121333679",
-    "title": "Il Caso Mari Carmen Garcia - Fuoco cammina con me",
-    "tier": "esclusivo",
-    "isSpecial": false
-  },
-  {
-    "id": "patreon:120835553",
-    "title": "Il Caso Omaima Nelson",
-    "tier": "esclusivo",
-    "isSpecial": false
-  },
-  {
-    "id": "patreon:120337815",
-    "title": "Il Caso Helmut Kentler",
-    "tier": "esclusivo",
-    "isSpecial": false
-  },
-  {
-    "id": "patreon:118804501",
-    "title": "Il Caso Mark & John - MI6 vs MSN",
-    "tier": "esclusivo",
-    "isSpecial": false
-  },
-  {
-    "id": "patreon:118545062",
-    "title": "Il Caso Yuba Five",
-    "tier": "esclusivo",
-    "isSpecial": false
-  },
-  {
-    "id": "patreon:118498860",
-    "title": "Il Caso McDermott",
-    "tier": "esclusivo",
-    "isSpecial": false
-  },
-  {
-    "id": "patreon:117578752",
-    "title": "Il Caso della Rapina Loomis Fargo",
-    "tier": "esclusivo",
-    "isSpecial": false
-  },
-  {
-    "id": "patreon:116971337",
-    "title": "Il Caso Curko",
-    "tier": "esclusivo",
-    "isSpecial": false
-  },
-  {
-    "id": "patreon:116630144",
-    "title": "Il Caso Aleksandr Komin",
-    "tier": "esclusivo",
-    "isSpecial": false
-  },
-  {
-    "id": "patreon:116188917",
-    "title": "Il Caso Rina Fort",
-    "tier": "esclusivo",
-    "isSpecial": false
-  },
-  {
-    "id": "patreon:115643284",
-    "title": "Il Caso Bela Kiss - Il Vampiro di Budapest",
-    "tier": "esclusivo",
-    "isSpecial": false
-  },
-  {
-    "id": "patreon:115300656",
-    "title": "Il Caso Miriam Rodriguez",
-    "tier": "esclusivo",
-    "isSpecial": false
-  },
-  {
-    "id": "patreon:114824341",
-    "title": "Il Caso Garbo - 00Serpe",
-    "tier": "esclusivo",
-    "isSpecial": false
-  },
-  {
-    "id": "patreon:114378884",
-    "title": "Il Caso Hubbard - Con Ogni Mezzo",
-    "tier": "esclusivo",
-    "isSpecial": false
-  },
-  {
-    "id": "patreon:113928348",
-    "title": "Il Caso Hubbard - Il Capitano dell'Anima",
-    "tier": "esclusivo",
-    "isSpecial": false
-  },
-  {
-    "id": "patreon:113489423",
-    "title": "Il Caso Hubbard - Il Founder",
-    "tier": "esclusivo",
-    "isSpecial": false
-  },
-  {
-    "id": "patreon:112961246",
-    "title": "Il Caso Snowtown",
-    "tier": "esclusivo",
-    "isSpecial": false
-  },
-  {
-    "id": "patreon:112000991",
-    "title": "Il Caso MKUltra - PuttanCIAtour",
-    "tier": "esclusivo",
-    "isSpecial": false
-  },
-  {
-    "id": "patreon:111661990",
-    "title": "Il Caso MKULTRA - Fatti di CIA",
     "tier": "esclusivo",
     "isSpecial": false
   },
@@ -678,44 +324,8 @@
     "isSpecial": false
   },
   {
-    "id": "patreon:109721943",
-    "title": "Il Caso Kallinger - Il Mostro",
-    "tier": "esclusivo",
-    "isSpecial": false
-  },
-  {
-    "id": "patreon:109592193",
-    "title": "Il Caso Kallinger - Il Calzolaio",
-    "tier": "esclusivo",
-    "isSpecial": false
-  },
-  {
-    "id": "patreon:109239770",
-    "title": "Il Caso Krystian Bala - Inchiostro Rosso",
-    "tier": "esclusivo",
-    "isSpecial": false
-  },
-  {
-    "id": "patreon:108967718",
-    "title": "Il Caso Killdozer",
-    "tier": "esclusivo",
-    "isSpecial": false
-  },
-  {
     "id": "patreon:108560702",
     "title": "Il Caso Di Stefano - Campobasso Love",
-    "tier": "esclusivo",
-    "isSpecial": false
-  },
-  {
-    "id": "patreon:108135300",
-    "title": "Il Caso Di Stefano - L'avvocato dei Diavoli",
-    "tier": "esclusivo",
-    "isSpecial": false
-  },
-  {
-    "id": "patreon:107566620",
-    "title": "Il Caso Petrosino - Il Mastino del Cilento",
     "tier": "esclusivo",
     "isSpecial": false
   },
@@ -732,26 +342,8 @@
     "isSpecial": false
   },
   {
-    "id": "patreon:106321921",
-    "title": "Il Caso Vastberga",
-    "tier": "esclusivo",
-    "isSpecial": false
-  },
-  {
-    "id": "patreon:105883950",
-    "title": "Il Caso Mesrine Pt.2",
-    "tier": "esclusivo",
-    "isSpecial": false
-  },
-  {
     "id": "patreon:105450476",
     "title": "Il Caso Mesrine Nemico Pubblico N1",
-    "tier": "esclusivo",
-    "isSpecial": false
-  },
-  {
-    "id": "patreon:104956966",
-    "title": "Il Caso Eunuch Maker",
     "tier": "esclusivo",
     "isSpecial": false
   },
@@ -774,92 +366,14 @@
     "isSpecial": false
   },
   {
-    "id": "patreon:103225210",
-    "title": "Il Caso del Mistero di Bargagli",
-    "tier": "esclusivo",
-    "isSpecial": false
-  },
-  {
-    "id": "patreon:102785752",
-    "title": "Il Caso Zanfretta 3: La Via dell'Acqua",
-    "tier": "esclusivo",
-    "isSpecial": false
-  },
-  {
-    "id": "patreon:101728960",
-    "title": "Il Caso della Piccola Persona di Termini",
-    "tier": "esclusivo",
-    "isSpecial": false
-  },
-  {
-    "id": "patreon:101485003",
-    "title": "Il Caso John Brinkley - Il Pallista",
-    "tier": "esclusivo",
-    "isSpecial": false
-  },
-  {
-    "id": "patreon:101380862",
-    "title": "Il Caso Giuseppe Dosi - Orrore a Roma",
-    "tier": "esclusivo",
-    "isSpecial": false
-  },
-  {
-    "id": "patreon:100994838",
-    "title": "Il Caso Giuseppe Dosi - Lurido Sbirro",
-    "tier": "esclusivo",
-    "isSpecial": false
-  },
-  {
-    "id": "patreon:100551354",
-    "title": "Il Caso dell'UFO di Mussolini",
-    "tier": "esclusivo",
-    "isSpecial": false
-  },
-  {
-    "id": "patreon:100015442",
-    "title": "Il Caso Marianne Bachmeier - La vendetta",
-    "tier": "esclusivo",
-    "isSpecial": false
-  },
-  {
-    "id": "patreon:99650459",
-    "title": "Il Caso Marianne Bachmeier - La mamma di Anna",
-    "tier": "esclusivo",
-    "isSpecial": false
-  },
-  {
-    "id": "patreon:99188398",
-    "title": "Il Caso Lurongyu 2682",
-    "tier": "esclusivo",
-    "isSpecial": false
-  },
-  {
-    "id": "patreon:98062659",
-    "title": "Il Caso GameStop",
-    "tier": "esclusivo",
-    "isSpecial": false
-  },
-  {
     "id": "patreon:98000421",
     "title": "Speciale FanPaura #2",
     "tier": "esclusivo",
     "isSpecial": true
   },
   {
-    "id": "patreon:97736699",
-    "title": "Il Caso Mr. Hands",
-    "tier": "esclusivo",
-    "isSpecial": false
-  },
-  {
     "id": "patreon:97041655",
     "title": "Il Caso McAfee - Virus Letale",
-    "tier": "esclusivo",
-    "isSpecial": false
-  },
-  {
-    "id": "patreon:96592093",
-    "title": "Il Caso McAfee - Errore di Sistema",
     "tier": "esclusivo",
     "isSpecial": false
   }

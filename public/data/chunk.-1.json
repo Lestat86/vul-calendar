@@ -29,13 +29,14 @@
     "id": "patreon:168079416",
     "track": "naqp",
     "title": "Il Caso Grégory Villemin",
+    "summary": "Siamo in Francia, nell'est del paese, nel 1984. In una cittadina di nemmeno mille abitanti, un bambino di 4 anni scompare dal cortile di…",
     "year": 1984,
     "era": "dc",
     "vul": -10,
     "kind": "caso",
     "weight": 1000,
     "tier": "esclusivo",
-    "dateSource": "manuale",
+    "dateSource": "descrizione",
     "url": "https://www.patreon.com/cw/NAQP",
     "rank": 0
   },
@@ -819,13 +820,14 @@
     "id": "patreon:144230780",
     "track": "naqp",
     "title": "Il Caso Carretta",
+    "summary": "Parma, Italia, agosto 1989. Una famiglia di quattro persone parte per le vacanze in camper, direzione Marocco. Non torneranno mai più. Per…",
     "year": 1989,
     "era": "dc",
     "vul": -5,
     "kind": "caso",
     "weight": 1000,
     "tier": "esclusivo",
-    "dateSource": "manuale",
+    "dateSource": "descrizione",
     "url": "https://www.patreon.com/cw/NAQP",
     "rank": 0
   },
@@ -1301,21 +1303,18 @@
     "rank": 6
   },
   {
-    "id": "naqp:af1e38e2-698d-11f1-81e6-0312ce62e590",
+    "id": "patreon:101728960",
     "track": "naqp",
-    "title": "Il Caso Suor Mariangela",
-    "summary": "Busto Arsizio, provincia di Varese, fine anni '90. Esiste un posto che ogni genitore italiano considera il più sicuro del mondo, quello dove mandi tuo figlio proprio perché lì, tra catechismo e tornei di pallacanestro, non può succedergli niente di male: l'oratorio. È qui che una ragazzina di quindici anni, fragile e in cerca di un posto nel mondo, incontra una suora carismatica, solare e amata da tutti.",
+    "title": "Il Caso della Piccola Persona di Termini",
+    "summary": "Roma, 1990. Uno stimato professore di educazione tecnica di scuola media di 1 metro e 30 ha una turpe vita segreta: groomer di adolescenti…",
     "year": 1990,
     "era": "dc",
     "vul": -4,
-    "precision": "decennio",
     "kind": "caso",
     "weight": 1000,
-    "tier": "pubblico",
-    "season": 14,
-    "episode": 10,
+    "tier": "esclusivo",
     "dateSource": "descrizione",
-    "url": "https://feeds.megaphone.fm/naqp",
+    "url": "https://www.patreon.com/cw/NAQP",
     "rank": 6
   },
   {
@@ -1332,6 +1331,21 @@
     "rank": 7
   },
   {
+    "id": "patreon:158479827",
+    "track": "naqp",
+    "title": "Il Caso Pamela Smart",
+    "summary": "Derry, New Hampshire, Stati Uniti, primavera del 1990. Una giovane insegnante di scuola superiore, bella, ambiziosa e ossessionata dai Van…",
+    "year": 1990,
+    "era": "dc",
+    "vul": -4,
+    "kind": "caso",
+    "weight": 1000,
+    "tier": "esclusivo",
+    "dateSource": "descrizione",
+    "url": "https://www.patreon.com/cw/NAQP",
+    "rank": 7
+  },
+  {
     "id": "wd:Q1783955",
     "track": "storia",
     "title": "Jana Andolan 1990",
@@ -1342,6 +1356,22 @@
     "kind": "rivoluzione",
     "image": "An Iconic Photograph of 1990 Nepalese revolution.jpg",
     "weight": 20,
+    "rank": 8
+  },
+  {
+    "id": "patreon:112961246",
+    "track": "naqp",
+    "title": "Il Caso Snowtown",
+    "summary": "Siamo ad Adelaide, Australia Meridionale, sul finire degli anni '90. In questa città apparentemente tranquilla e sicura, un gruppo di…",
+    "year": 1990,
+    "era": "dc",
+    "vul": -4,
+    "precision": "decennio",
+    "kind": "caso",
+    "weight": 1000,
+    "tier": "esclusivo",
+    "dateSource": "descrizione",
+    "url": "https://www.patreon.com/cw/NAQP",
     "rank": 8
   },
   {
@@ -1357,6 +1387,24 @@
     "rank": 9
   },
   {
+    "id": "naqp:af1e38e2-698d-11f1-81e6-0312ce62e590",
+    "track": "naqp",
+    "title": "Il Caso Suor Mariangela",
+    "summary": "Busto Arsizio, provincia di Varese, fine anni '90. Esiste un posto che ogni genitore italiano considera il più sicuro del mondo, quello dove mandi tuo figlio proprio perché lì, tra catechismo e tornei di pallacanestro, non può succedergli niente di male: l'oratorio. È qui che una ragazzina di quindici anni, fragile e in cerca di un posto nel mondo, incontra una suora carismatica, solare e amata da tutti.",
+    "year": 1990,
+    "era": "dc",
+    "vul": -4,
+    "precision": "decennio",
+    "kind": "caso",
+    "weight": 1000,
+    "tier": "pubblico",
+    "season": 14,
+    "episode": 10,
+    "dateSource": "descrizione",
+    "url": "https://feeds.megaphone.fm/naqp",
+    "rank": 9
+  },
+  {
     "id": "wd:Q6019809",
     "track": "storia",
     "title": "Volo Indian Airlines 605",
@@ -1366,6 +1414,22 @@
     "vul": -4,
     "kind": "incidente aereo",
     "weight": 17,
+    "rank": 10
+  },
+  {
+    "id": "patreon:159092036",
+    "track": "naqp",
+    "title": "Il Caso Thomas Quick",
+    "summary": "Svezia, anni '90. Un uomo viene arrestato dopo aver tentato una rapina vestito da Babbo Natale. Le autorità, scoperto che ha un passato di…",
+    "year": 1990,
+    "era": "dc",
+    "vul": -4,
+    "precision": "decennio",
+    "kind": "caso",
+    "weight": 1000,
+    "tier": "esclusivo",
+    "dateSource": "descrizione",
+    "url": "https://www.patreon.com/cw/NAQP",
     "rank": 10
   },
   {
@@ -1418,6 +1482,21 @@
     "kind": "italia",
     "weight": 1000,
     "curated": true,
+    "rank": 0
+  },
+  {
+    "id": "patreon:120835553",
+    "track": "naqp",
+    "title": "Il Caso Omaima Nelson",
+    "summary": "Costa Mesa, California, Stati Uniti. Siamo nel 1991. Una giovane modella egiziana di 23 anni bussa alla porta del suo ex fidanzato…",
+    "year": 1991,
+    "era": "dc",
+    "vul": -3,
+    "kind": "caso",
+    "weight": 1000,
+    "tier": "esclusivo",
+    "dateSource": "descrizione",
+    "url": "https://www.patreon.com/cw/NAQP",
     "rank": 0
   },
   {

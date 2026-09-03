@@ -854,20 +854,18 @@
     "rank": 0
   },
   {
-    "id": "naqp:dad15946-b9f0-11ee-9af2-132b6e715eac",
+    "id": "patreon:116630144",
     "track": "naqp",
-    "title": "Il Caso Serenissimi",
-    "summary": "È il 9 maggio del 1997. Un manipolo di uomini che vogliono l’indipendenza del Veneto formano un commando e lanciano un attacco che sconvolgerà tutto il mondo: prendere possesso di Piazza San Marco a Venezia con un carro armato costruito con gli avanzi del Brico.",
+    "title": "Il Caso Aleksandr Komin",
+    "summary": "Russia, 1997. In una grigia città industriale di provincia, un uomo ossessionato dal potere e dal controllo sulle donne crea un inferno…",
     "year": 1997,
     "era": "dc",
     "vul": 3,
     "kind": "caso",
     "weight": 1000,
-    "tier": "pubblico",
-    "season": 7,
-    "episode": 3,
+    "tier": "esclusivo",
     "dateSource": "descrizione",
-    "url": "https://feeds.megaphone.fm/naqp",
+    "url": "https://www.patreon.com/cw/NAQP",
     "rank": 0
   },
   {
@@ -884,6 +882,21 @@
     "rank": 1
   },
   {
+    "id": "patreon:117578752",
+    "track": "naqp",
+    "title": "Il Caso della Rapina Loomis Fargo",
+    "summary": "Siamo nel North Carolina, Stati Uniti, nell'ottobre del 1997. Un dipendente della Loomis Fargo - un’azienda portavalori - frustrato dalla…",
+    "year": 1997,
+    "era": "dc",
+    "vul": 3,
+    "kind": "caso",
+    "weight": 1000,
+    "tier": "esclusivo",
+    "dateSource": "descrizione",
+    "url": "https://www.patreon.com/cw/NAQP",
+    "rank": 1
+  },
+  {
     "id": "wd:Q485120",
     "track": "storia",
     "title": "Volo Korean Air 801",
@@ -894,6 +907,23 @@
     "kind": "incidente aereo",
     "image": "Flight 801747-3.png",
     "weight": 26,
+    "rank": 2
+  },
+  {
+    "id": "naqp:dad15946-b9f0-11ee-9af2-132b6e715eac",
+    "track": "naqp",
+    "title": "Il Caso Serenissimi",
+    "summary": "È il 9 maggio del 1997. Un manipolo di uomini che vogliono l’indipendenza del Veneto formano un commando e lanciano un attacco che sconvolgerà tutto il mondo: prendere possesso di Piazza San Marco a Venezia con un carro armato costruito con gli avanzi del Brico.",
+    "year": 1997,
+    "era": "dc",
+    "vul": 3,
+    "kind": "caso",
+    "weight": 1000,
+    "tier": "pubblico",
+    "season": 7,
+    "episode": 3,
+    "dateSource": "descrizione",
+    "url": "https://feeds.megaphone.fm/naqp",
     "rank": 2
   },
   {
@@ -1031,20 +1061,6 @@
     "kind": "articolo31",
     "weight": 1000,
     "curated": true,
-    "rank": 0
-  },
-  {
-    "id": "patreon:162919527",
-    "track": "naqp",
-    "title": "Il Caso WWASP — Le Scuole del Terrore",
-    "year": 1998,
-    "era": "dc",
-    "vul": 4,
-    "kind": "caso",
-    "weight": 1000,
-    "tier": "esclusivo",
-    "dateSource": "manuale",
-    "url": "https://www.patreon.com/cw/NAQP",
     "rank": 0
   },
   {
@@ -1243,13 +1259,14 @@
     "id": "patreon:139403560",
     "track": "naqp",
     "title": "Il Caso di Woodstock '99",
+    "summary": "Rome, New York, Stati Uniti. Luglio 1999. Su una ex base militare di 8 chilometri quadrati, 400.000 giovani americani si ritrovano per…",
     "year": 1999,
     "era": "dc",
     "vul": 5,
     "kind": "caso",
     "weight": 1000,
     "tier": "esclusivo",
-    "dateSource": "manuale",
+    "dateSource": "descrizione",
     "url": "https://www.patreon.com/cw/NAQP",
     "rank": 0
   },
@@ -1561,20 +1578,19 @@
     "rank": 0
   },
   {
-    "id": "naqp:babc1f86-f902-11ef-b09c-b7339db44d04",
+    "id": "patreon:116971337",
     "track": "naqp",
-    "title": "Il Caso della Setta dei Gatti - Apocalypse Miao",
-    "summary": "Offerta ESCLUSIVA NordVPN ➼ Provate subito senza rischi con una garanzia di rimborso di 30 giorni. Washington, Stati Uniti. Agli inizi degli anni 2000, una donna con zero conoscenze bibliche inizia a predicare in una piccola chiesa pentecostale. Nel giro di pochi anni, trasforma un gruppo di fedeli in una setta che la venera come una divinità.",
+    "title": "Il Caso Curko",
+    "summary": "Slovacchia, primi anni 2000. Un tecnico informatico, con moglie e due figlie piccole, nasconde un lato oscuro che nessuno sospetta.…",
     "year": 2000,
     "era": "dc",
     "vul": 6,
+    "precision": "decennio",
     "kind": "caso",
     "weight": 1000,
-    "tier": "pubblico",
-    "season": 10,
-    "episode": 8,
+    "tier": "esclusivo",
     "dateSource": "descrizione",
-    "url": "https://feeds.megaphone.fm/naqp",
+    "url": "https://www.patreon.com/cw/NAQP",
     "rank": 0
   },
   {
@@ -1591,18 +1607,19 @@
     "rank": 1
   },
   {
-    "id": "naqp:47514d8a-fddc-11ef-819b-ffcdaa04c7a6",
+    "id": "naqp:babc1f86-f902-11ef-b09c-b7339db44d04",
     "track": "naqp",
-    "title": "Il Caso della Setta dei Gatti - Gatti Amari",
-    "summary": "Washington, inizi anni 2000. Una donna carismatica e manipolatrice fonda una chiesa che parte con l’essere cristiana e ultra conservatrice e finisce con i cristalli magici, la stregoneria e i mici capaci di salvarti dall’Apocalisse imminente. La donna, però, non si accontenta di fare milioni con le cacate di migliaia di gatti, ora vuole coinvolgere tutti i seguaci della sua setta per uccidere il suo ex marito.",
+    "title": "Il Caso della Setta dei Gatti - Apocalypse Miao",
+    "summary": "Offerta ESCLUSIVA NordVPN ➼ Provate subito senza rischi con una garanzia di rimborso di 30 giorni. Washington, Stati Uniti. Agli inizi degli anni 2000, una donna con zero conoscenze bibliche inizia a predicare in una piccola chiesa pentecostale. Nel giro di pochi anni, trasforma un gruppo di fedeli in una setta che la venera come una divinità.",
     "year": 2000,
     "era": "dc",
     "vul": 6,
+    "precision": "decennio",
     "kind": "caso",
     "weight": 1000,
     "tier": "pubblico",
     "season": 10,
-    "episode": 9,
+    "episode": 8,
     "dateSource": "descrizione",
     "url": "https://feeds.megaphone.fm/naqp",
     "rank": 1
@@ -1621,6 +1638,24 @@
     "rank": 2
   },
   {
+    "id": "naqp:47514d8a-fddc-11ef-819b-ffcdaa04c7a6",
+    "track": "naqp",
+    "title": "Il Caso della Setta dei Gatti - Gatti Amari",
+    "summary": "Washington, inizi anni 2000. Una donna carismatica e manipolatrice fonda una chiesa che parte con l’essere cristiana e ultra conservatrice e finisce con i cristalli magici, la stregoneria e i mici capaci di salvarti dall’Apocalisse imminente. La donna, però, non si accontenta di fare milioni con le cacate di migliaia di gatti, ora vuole coinvolgere tutti i seguaci della sua setta per uccidere il suo ex marito.",
+    "year": 2000,
+    "era": "dc",
+    "vul": 6,
+    "precision": "decennio",
+    "kind": "caso",
+    "weight": 1000,
+    "tier": "pubblico",
+    "season": 10,
+    "episode": 9,
+    "dateSource": "descrizione",
+    "url": "https://feeds.megaphone.fm/naqp",
+    "rank": 2
+  },
+  {
     "id": "wd:Q478172",
     "track": "storia",
     "title": "volo Singapore Airlines 006",
@@ -1630,6 +1665,22 @@
     "vul": 6,
     "kind": "incidente aereo",
     "weight": 24,
+    "rank": 3
+  },
+  {
+    "id": "patreon:108135300",
+    "track": "naqp",
+    "title": "Il Caso Di Stefano - L'avvocato dei Diavoli",
+    "summary": "Ci troviamo a Londra, nei primi anni 2000. Sulla scena rigida e imbalsamata del diritto penale Britannico, in cui i legali ancora…",
+    "year": 2000,
+    "era": "dc",
+    "vul": 6,
+    "precision": "decennio",
+    "kind": "caso",
+    "weight": 1000,
+    "tier": "esclusivo",
+    "dateSource": "descrizione",
+    "url": "https://www.patreon.com/cw/NAQP",
     "rank": 3
   },
   {
@@ -1646,6 +1697,22 @@
     "rank": 4
   },
   {
+    "id": "patreon:109239770",
+    "track": "naqp",
+    "title": "Il Caso Krystian Bala - Inchiostro Rosso",
+    "summary": "Siamo in Polonia, all'inizio degli anni 2000. Un brillante studente di filosofia pubblica un romanzo scioccante pieno di sesso e violenza.…",
+    "year": 2000,
+    "era": "dc",
+    "vul": 6,
+    "precision": "decennio",
+    "kind": "caso",
+    "weight": 1000,
+    "tier": "esclusivo",
+    "dateSource": "descrizione",
+    "url": "https://www.patreon.com/cw/NAQP",
+    "rank": 4
+  },
+  {
     "id": "wd:Q770935",
     "track": "storia",
     "title": "volo Alaska Airlines 261",
@@ -1656,6 +1723,22 @@
     "kind": "incidente aereo",
     "image": "Airplane animation 261 still lg.PNG",
     "weight": 23,
+    "rank": 5
+  },
+  {
+    "id": "patreon:148946209",
+    "track": "naqp",
+    "title": "Il Caso Macchiarini",
+    "summary": "Stoccolma, Svezia. Nei primi anni 2000, uno dei centri di ricerca medica più prestigiosi al mondo, il Karolinska Institute - quello che…",
+    "year": 2000,
+    "era": "dc",
+    "vul": 6,
+    "precision": "decennio",
+    "kind": "caso",
+    "weight": 1000,
+    "tier": "esclusivo",
+    "dateSource": "descrizione",
+    "url": "https://www.patreon.com/cw/NAQP",
     "rank": 5
   },
   {
@@ -1672,6 +1755,22 @@
     "rank": 6
   },
   {
+    "id": "patreon:118804501",
+    "track": "naqp",
+    "title": "Il Caso Mark & John - MI6 vs MSN",
+    "summary": "Manchester, Inghilterra, primi anni 2000. Due adolescenti si conoscono in una chat room online e stringono un'amicizia virtuale che presto…",
+    "year": 2000,
+    "era": "dc",
+    "vul": 6,
+    "precision": "decennio",
+    "kind": "caso",
+    "weight": 1000,
+    "tier": "esclusivo",
+    "dateSource": "descrizione",
+    "url": "https://www.patreon.com/cw/NAQP",
+    "rank": 6
+  },
+  {
     "id": "wd:Q1153249",
     "track": "storia",
     "title": "volo Kenya Airways 431",
@@ -1682,6 +1781,21 @@
     "kind": "incidente aereo",
     "image": "Kenya Airways A310-300 5Y-BEN FCO Mar 1993.png",
     "weight": 17,
+    "rank": 7
+  },
+  {
+    "id": "patreon:118498860",
+    "track": "naqp",
+    "title": "Il Caso McDermott",
+    "summary": "26 dicembre 2000, Wakefield, Massachusetts. È il primo giorno lavorativo dopo Natale. Anche nei moderni uffici di Edgewater Technologies…",
+    "year": 2000,
+    "era": "dc",
+    "vul": 6,
+    "kind": "caso",
+    "weight": 1000,
+    "tier": "esclusivo",
+    "dateSource": "descrizione",
+    "url": "https://www.patreon.com/cw/NAQP",
     "rank": 7
   },
   {
@@ -1698,6 +1812,22 @@
     "rank": 8
   },
   {
+    "id": "patreon:161708555",
+    "track": "naqp",
+    "title": "Il Caso Wallace Souza",
+    "summary": "Manaus, Brasile, primi anni 2000. Una città isolata nel cuore della foresta amazzonica, raggiungibile solo in aereo o risalendo il Rio…",
+    "year": 2000,
+    "era": "dc",
+    "vul": 6,
+    "precision": "decennio",
+    "kind": "caso",
+    "weight": 1000,
+    "tier": "esclusivo",
+    "dateSource": "descrizione",
+    "url": "https://www.patreon.com/cw/NAQP",
+    "rank": 8
+  },
+  {
     "id": "wd:Q3156912",
     "track": "storia",
     "title": "volo Air Philippines 541",
@@ -1711,6 +1841,22 @@
     "rank": 9
   },
   {
+    "id": "patreon:162919527",
+    "track": "naqp",
+    "title": "Il Caso WWASP — Le Scuole del Terrore",
+    "summary": "Stati Uniti, anni 2000. Tuo figlio prende brutti voti, risponde male, forse ha fumato una canna. Nessun problema: paghi 3.500 dollari al…",
+    "year": 2000,
+    "era": "dc",
+    "vul": 6,
+    "precision": "decennio",
+    "kind": "caso",
+    "weight": 1000,
+    "tier": "esclusivo",
+    "dateSource": "descrizione",
+    "url": "https://www.patreon.com/cw/NAQP",
+    "rank": 9
+  },
+  {
     "id": "wd:Q1530585",
     "track": "storia",
     "title": "Battle for Height 776",
@@ -1721,6 +1867,22 @@
     "kind": "battaglia",
     "image": "776-Battle-DE.svg",
     "weight": 15,
+    "rank": 10
+  },
+  {
+    "id": "patreon:157869171",
+    "track": "naqp",
+    "title": "Il Caso Yang Jin-ho",
+    "summary": "Siamo nella Corea del Sud dei primi anni 2000. Un venditore porta a porta di centrifugati, ossessionato dal sogno di diventare ricco…",
+    "year": 2000,
+    "era": "dc",
+    "vul": 6,
+    "precision": "decennio",
+    "kind": "caso",
+    "weight": 1000,
+    "tier": "esclusivo",
+    "dateSource": "descrizione",
+    "url": "https://www.patreon.com/cw/NAQP",
     "rank": 10
   },
   {
@@ -1765,7 +1927,7 @@
     "id": "naqp:4ad30f92-50fb-4df4-b17d-fd75f354e2f0",
     "track": "naqp",
     "title": "Il Caso Meiwes - Apericannibalismo",
-    "summary": "Germania, 2001. È sera, e due uomini che si sono conosciuti",
+    "summary": "Germania, 2001. È sera, e due uomini che si sono…",
     "year": 2001,
     "era": "dc",
     "vul": 7,

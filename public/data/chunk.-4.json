@@ -13,6 +13,21 @@
     "rank": 0
   },
   {
+    "id": "patreon:124512357",
+    "track": "naqp",
+    "title": "Il Caso Pauline & Juliet",
+    "summary": "Christchurch, Nuova Zelanda, 1954. Pauline Parker e Juliet Hulme, quindici anni, sono unite da un rapporto talmente intenso da creare un…",
+    "year": 1954,
+    "era": "dc",
+    "vul": -40,
+    "kind": "caso",
+    "weight": 1000,
+    "tier": "esclusivo",
+    "dateSource": "descrizione",
+    "url": "https://www.patreon.com/cw/NAQP",
+    "rank": 0
+  },
+  {
     "id": "wd:Q604897",
     "track": "storia",
     "title": "battaglia di Dien Bien Phu",
@@ -241,6 +256,21 @@
     "rank": 0
   },
   {
+    "id": "patreon:112000991",
+    "track": "naqp",
+    "title": "Il Caso MKUltra - PuttanCIAtour",
+    "summary": "Montreal, Canada, 1957. Una donna entra in una clinica per curare una lieve depressione post-partum. Ne uscirà mesi dopo, incapace di…",
+    "year": 1957,
+    "era": "dc",
+    "vul": -37,
+    "kind": "caso",
+    "weight": 1000,
+    "tier": "esclusivo",
+    "dateSource": "descrizione",
+    "url": "https://www.patreon.com/cw/NAQP",
+    "rank": 0
+  },
+  {
     "id": "wd:Q1640107",
     "track": "storia",
     "title": "guerra di Ifni",
@@ -346,6 +376,21 @@
     "kind": "pandemia",
     "image": "Human Immunodeficency Virus - stylized rendering.jpg",
     "weight": 209,
+    "rank": 0
+  },
+  {
+    "id": "patreon:157261620",
+    "track": "naqp",
+    "title": "Il Caso dei 3 Cristi",
+    "summary": "Michigan, Stati Uniti, 1959. Uno psicologo ha un'idea geniale: riunire tre pazienti psichiatrici convinti di essere Gesù Cristo nella…",
+    "year": 1959,
+    "era": "dc",
+    "vul": -35,
+    "kind": "caso",
+    "weight": 1000,
+    "tier": "esclusivo",
+    "dateSource": "descrizione",
+    "url": "https://www.patreon.com/cw/NAQP",
     "rank": 0
   },
   {
@@ -486,13 +531,14 @@
     "id": "patreon:112565781",
     "track": "naqp",
     "title": "Il Caso del Lago di Bodom",
+    "summary": "Finlandia, 1960. Quattro adolescenti decidono di trascorrere un tranquillo weekend di campeggio sulle rive del pittoresco lago Bodom. Ma…",
     "year": 1960,
     "era": "dc",
     "vul": -34,
     "kind": "caso",
     "weight": 1000,
     "tier": "esclusivo",
-    "dateSource": "manuale",
+    "dateSource": "descrizione",
     "url": "https://www.patreon.com/cw/NAQP",
     "rank": 1
   },
@@ -510,6 +556,22 @@
     "rank": 2
   },
   {
+    "id": "patreon:120337815",
+    "track": "naqp",
+    "title": "Il Caso Helmut Kentler",
+    "summary": "Berlino, Germania, anni '60. Un influente e rispettato sessuologo e professore di psicologia decide di combattere la maleducazione degli…",
+    "year": 1960,
+    "era": "dc",
+    "vul": -34,
+    "precision": "decennio",
+    "kind": "caso",
+    "weight": 1000,
+    "tier": "esclusivo",
+    "dateSource": "descrizione",
+    "url": "https://www.patreon.com/cw/NAQP",
+    "rank": 2
+  },
+  {
     "id": "wd:Q748379",
     "track": "storia",
     "title": "crisi degli U-2",
@@ -520,6 +582,22 @@
     "kind": "incidente aereo",
     "image": "U-2 wreckage, 1960.jpg",
     "weight": 42,
+    "rank": 3
+  },
+  {
+    "id": "patreon:114378884",
+    "track": "naqp",
+    "title": "Il Caso Hubbard - Con Ogni Mezzo",
+    "summary": "Siamo negli anni '60. L. Ron Hubbard decide di creare una flotta navale per sfuggire alle crescenti pressioni governative. Nasce così la…",
+    "year": 1960,
+    "era": "dc",
+    "vul": -34,
+    "precision": "decennio",
+    "kind": "caso",
+    "weight": 1000,
+    "tier": "esclusivo",
+    "dateSource": "descrizione",
+    "url": "https://www.patreon.com/cw/NAQP",
     "rank": 3
   },
   {
@@ -614,6 +692,34 @@
     "rank": 0
   },
   {
+    "id": "patreon:127585468",
+    "track": "naqp",
+    "title": "Il Caso Barney & Betty Hill - Malattie Sessualmente Trasmissibili del Terzo Tipo",
+    "summary": "New Hampshire, 19 settembre 1961. Una coppia interrazziale torna a casa dopo una vacanza in Canada. La notte è buia, la strada deserta.…",
+    "year": 1961,
+    "era": "dc",
+    "vul": -33,
+    "kind": "caso",
+    "weight": 1000,
+    "tier": "esclusivo",
+    "dateSource": "descrizione",
+    "url": "https://www.patreon.com/cw/NAQP",
+    "rank": 0
+  },
+  {
+    "id": "wd:Q609836",
+    "track": "storia",
+    "title": "guerra coloniale portoghese",
+    "summary": "conflitto armato (1961-1974)",
+    "year": 1961,
+    "era": "dc",
+    "vul": -33,
+    "kind": "guerra",
+    "image": "MatasdorioOnzo.jpg",
+    "weight": 38,
+    "rank": 1
+  },
+  {
     "id": "naqp:be0430cc-bddd-11ee-8d1c-1fc7fe7523a8",
     "track": "naqp",
     "title": "Il Caso dei Cosmonauti Perduti",
@@ -628,19 +734,6 @@
     "episode": 4,
     "dateSource": "manuale",
     "url": "https://feeds.megaphone.fm/naqp",
-    "rank": 0
-  },
-  {
-    "id": "wd:Q609836",
-    "track": "storia",
-    "title": "guerra coloniale portoghese",
-    "summary": "conflitto armato (1961-1974)",
-    "year": 1961,
-    "era": "dc",
-    "vul": -33,
-    "kind": "guerra",
-    "image": "MatasdorioOnzo.jpg",
-    "weight": 38,
     "rank": 1
   },
   {

@@ -151,6 +151,21 @@
     "rank": 0
   },
   {
+    "id": "patreon:107566620",
+    "track": "naqp",
+    "title": "Il Caso Petrosino - Il Mastino del Cilento",
+    "summary": "Il 14 aprile 1903, a New York, una domestica irlandese scopre un barile abbandonato all’angolo tra l’11ma strada e Avenue D. Dentro, un…",
+    "year": 1903,
+    "era": "dc",
+    "vul": -91,
+    "kind": "caso",
+    "weight": 1000,
+    "tier": "esclusivo",
+    "dateSource": "descrizione",
+    "url": "https://www.patreon.com/cw/NAQP",
+    "rank": 0
+  },
+  {
     "id": "wd:Q2403418",
     "track": "storia",
     "title": "May Coup",

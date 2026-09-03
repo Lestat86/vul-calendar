@@ -13,6 +13,21 @@
     "rank": 0
   },
   {
+    "id": "patreon:108967718",
+    "track": "naqp",
+    "title": "Il Caso Killdozer",
+    "summary": "Granby, Colorado, 4 giugno 2004. Immaginate una tranquilla cittadina circondata dalle maestose Montagne Rocciose, dove la vita scorre…",
+    "year": 2004,
+    "era": "dc",
+    "vul": 10,
+    "kind": "caso",
+    "weight": 1000,
+    "tier": "esclusivo",
+    "dateSource": "descrizione",
+    "url": "https://www.patreon.com/cw/NAQP",
+    "rank": 0
+  },
+  {
     "id": "wd:Q836386",
     "track": "storia",
     "title": "Rivoluzione arancione",
@@ -291,6 +306,21 @@
     "rank": 2
   },
   {
+    "id": "patreon:121333679",
+    "track": "naqp",
+    "title": "Il Caso Mari Carmen Garcia - Fuoco cammina con me",
+    "summary": "Benejúzar, Spagna, 2005. Una tranquilla cittadina della provincia di Alicante diventa il teatro di un crimine che scuoterà l'intera nazione.",
+    "year": 2005,
+    "era": "dc",
+    "vul": 11,
+    "kind": "caso",
+    "weight": 1000,
+    "tier": "esclusivo",
+    "dateSource": "descrizione",
+    "url": "https://www.patreon.com/cw/NAQP",
+    "rank": 2
+  },
+  {
     "id": "wd:Q184310",
     "track": "storia",
     "title": "Rivoluzione del Cedro",
@@ -301,6 +331,21 @@
     "kind": "rivoluzione",
     "image": "Cedar Revolution Demonstrators.jpg",
     "weight": 27,
+    "rank": 3
+  },
+  {
+    "id": "patreon:97736699",
+    "track": "naqp",
+    "title": "Il Caso Mr. Hands",
+    "summary": "2 luglio 2005, Enumclaw, Washington. Una tranquilla cittadina rurale diventa improvvisamente il centro di un caso capace di sconvolgere…",
+    "year": 2005,
+    "era": "dc",
+    "vul": 11,
+    "kind": "caso",
+    "weight": 1000,
+    "tier": "esclusivo",
+    "dateSource": "descrizione",
+    "url": "https://www.patreon.com/cw/NAQP",
     "rank": 3
   },
   {
@@ -522,6 +567,21 @@
     "rank": 0
   },
   {
+    "id": "patreon:123475001",
+    "track": "naqp",
+    "title": "Il Caso Buenos Aires - L'attacco dei Ladrones",
+    "summary": "Buenos Aires, 2006. Un uomo con la passione per la marijuana inizia a progettare un colpo in banca come fosse una performance artistica.…",
+    "year": 2006,
+    "era": "dc",
+    "vul": 12,
+    "kind": "caso",
+    "weight": 1000,
+    "tier": "esclusivo",
+    "dateSource": "descrizione",
+    "url": "https://www.patreon.com/cw/NAQP",
+    "rank": 0
+  },
+  {
     "id": "wd:Q192135",
     "track": "storia",
     "title": "accordo commerciale anticontraffazione",
@@ -545,6 +605,21 @@
     "kind": "italia",
     "weight": 1000,
     "curated": true,
+    "rank": 1
+  },
+  {
+    "id": "patreon:131536749",
+    "track": "naqp",
+    "title": "Il Caso del Diavolo in Fuga",
+    "summary": "Medicine Hat, Alberta, Canada. Nel 2006, questa tranquilla cittadina di provincia viene sconvolta da uno degli omicidi più brutali e…",
+    "year": 2006,
+    "era": "dc",
+    "vul": 12,
+    "kind": "caso",
+    "weight": 1000,
+    "tier": "esclusivo",
+    "dateSource": "descrizione",
+    "url": "https://www.patreon.com/cw/NAQP",
     "rank": 1
   },
   {
@@ -1012,6 +1087,21 @@
     "rank": 1
   },
   {
+    "id": "patreon:146712402",
+    "track": "naqp",
+    "title": "Il Caso Mark Twitchell",
+    "summary": "Edmonton, Canada, 2008. Una città tranquilla e ordinata dove tutti si conoscono, dove la cortesia è quasi una religione. Ma dentro uno di…",
+    "year": 2008,
+    "era": "dc",
+    "vul": 14,
+    "kind": "caso",
+    "weight": 1000,
+    "tier": "esclusivo",
+    "dateSource": "descrizione",
+    "url": "https://www.patreon.com/cw/NAQP",
+    "rank": 1
+  },
+  {
     "id": "wd:Q152033",
     "track": "storia",
     "title": "terremoto del Sichuan",
@@ -1255,16 +1345,17 @@
     "rank": 0
   },
   {
-    "id": "patreon:161708555",
+    "id": "patreon:147170410",
     "track": "naqp",
-    "title": "Il Caso Wallace Souza",
+    "title": "Il Caso Colliguay",
+    "summary": "Santiago del Cile, 2009. Un giovane musicista carismatico convince un gruppo di persone che lui è la reincarnazione di Dio. Tra…",
     "year": 2009,
     "era": "dc",
     "vul": 15,
     "kind": "caso",
     "weight": 1000,
     "tier": "esclusivo",
-    "dateSource": "manuale",
+    "dateSource": "descrizione",
     "url": "https://www.patreon.com/cw/NAQP",
     "rank": 0
   },
@@ -1279,6 +1370,21 @@
     "kind": "incidente aereo",
     "image": "Voo Air France 447-2006-06-14.jpg",
     "weight": 58,
+    "rank": 1
+  },
+  {
+    "id": "patreon:106321921",
+    "track": "naqp",
+    "title": "Il Caso Vastberga",
+    "summary": "Ci troviamo in Svezia nel 2009. La terra che ha permesso ai Ricchi e Poveri di guadagnare quanto Elon Musk, di produttori di ottime…",
+    "year": 2009,
+    "era": "dc",
+    "vul": 15,
+    "kind": "caso",
+    "weight": 1000,
+    "tier": "esclusivo",
+    "dateSource": "descrizione",
+    "url": "https://www.patreon.com/cw/NAQP",
     "rank": 1
   },
   {
@@ -1490,6 +1596,21 @@
     "kind": "disastro naturale",
     "image": "Ruins of Haiti National Palace - Port au Prince 2012.jpg",
     "weight": 83,
+    "rank": 1
+  },
+  {
+    "id": "patreon:99188398",
+    "track": "naqp",
+    "title": "Il Caso Lurongyu 2682",
+    "summary": "Nel dicembre 2010, il peschereccio \"Lurongyu 2682\" salpa dalla Cina con un equipaggio di trentatré uomini, diretto verso le coste del Cile…",
+    "year": 2010,
+    "era": "dc",
+    "vul": 16,
+    "kind": "caso",
+    "weight": 1000,
+    "tier": "esclusivo",
+    "dateSource": "descrizione",
+    "url": "https://www.patreon.com/cw/NAQP",
     "rank": 1
   },
   {
@@ -1898,6 +2019,21 @@
     "kind": "attentato terroristico",
     "image": "Regjeringsbygget 22.7.2011.jpg",
     "weight": 87,
+    "rank": 2
+  },
+  {
+    "id": "patreon:164819004",
+    "track": "naqp",
+    "title": "Il Caso Sarma Melngailis",
+    "summary": "New York, 2011. Sarma Melngailis è la regina della cucina vegana crudista: il suo ristorante, il Pure Food and Wine, è il locale del…",
+    "year": 2011,
+    "era": "dc",
+    "vul": 17,
+    "kind": "caso",
+    "weight": 1000,
+    "tier": "esclusivo",
+    "dateSource": "descrizione",
+    "url": "https://www.patreon.com/cw/NAQP",
     "rank": 2
   },
   {
@@ -2326,6 +2462,21 @@
     "rank": 0
   },
   {
+    "id": "patreon:126493337",
+    "track": "naqp",
+    "title": "Il Caso Jenelle Potter - Catfish Mortale",
+    "summary": "Mountain City, Tennessee, Stati Uniti, gennaio 2012. In questa piccola e tranquilla cittadina immersa tra le montagne dell'Appalachia, un…",
+    "year": 2012,
+    "era": "dc",
+    "vul": 18,
+    "kind": "caso",
+    "weight": 1000,
+    "tier": "esclusivo",
+    "dateSource": "descrizione",
+    "url": "https://www.patreon.com/cw/NAQP",
+    "rank": 0
+  },
+  {
     "id": "wd:Q53692",
     "track": "storia",
     "title": "conflitto Israele-Striscia di Gaza del 2012",
@@ -2336,6 +2487,21 @@
     "kind": "operazione militare",
     "image": "Gazastrook Nederlandstalige kaart.svg",
     "weight": 43,
+    "rank": 1
+  },
+  {
+    "id": "patreon:96592093",
+    "track": "naqp",
+    "title": "Il Caso McAfee - Errore di Sistema",
+    "summary": "Belize, 2012. Il multimilionario creatore del primo anti-virus sul mercato, improvvisamente scappa dagli Stati Uniti per questioni di…",
+    "year": 2012,
+    "era": "dc",
+    "vul": 18,
+    "kind": "caso",
+    "weight": 1000,
+    "tier": "esclusivo",
+    "dateSource": "descrizione",
+    "url": "https://www.patreon.com/cw/NAQP",
     "rank": 1
   },
   {
@@ -2608,6 +2774,21 @@
     "rank": 0
   },
   {
+    "id": "patreon:132017564",
+    "track": "naqp",
+    "title": "Il Caso del Sosia di Elvis vs il Maestro di Karate - Uccidere il Presidente",
+    "summary": "17 aprile 2013, Stati Uniti. Quattro buste contenenti ricina - un veleno mortale - vengono inviate ai più alti funzionari del governo…",
+    "year": 2013,
+    "era": "dc",
+    "vul": 19,
+    "kind": "caso",
+    "weight": 1000,
+    "tier": "esclusivo",
+    "dateSource": "descrizione",
+    "url": "https://www.patreon.com/cw/NAQP",
+    "rank": 0
+  },
+  {
     "id": "wd:Q15989108",
     "track": "storia",
     "title": "Epidemia di febbre emorragica di Ebola in Africa Occidentale del 2014",
@@ -2618,6 +2799,21 @@
     "kind": "epidemia di malattia",
     "image": "2014 ebola virus epidemic in West Africa simplified.svg",
     "weight": 60,
+    "rank": 1
+  },
+  {
+    "id": "patreon:141047986",
+    "track": "naqp",
+    "title": "Il Caso Sonja Farak",
+    "summary": "Massachusetts, Stati Uniti. Nel 2013, un laboratorio di chimica forense che analizza prove per migliaia di casi penali all'anno nasconde…",
+    "year": 2013,
+    "era": "dc",
+    "vul": 19,
+    "kind": "caso",
+    "weight": 1000,
+    "tier": "esclusivo",
+    "dateSource": "descrizione",
+    "url": "https://www.patreon.com/cw/NAQP",
     "rank": 1
   },
   {

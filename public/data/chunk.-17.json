@@ -1,5 +1,20 @@
 [
   {
+    "id": "patreon:138296948",
+    "track": "naqp",
+    "title": "Il Caso William Palmer",
+    "summary": "Rugeley, Staffordshire, Inghilterra Vittoriana. Nel 1824 nasce in questa tranquilla cittadina agricola un bambino che la madre considera…",
+    "year": 1824,
+    "era": "dc",
+    "vul": -170,
+    "kind": "caso",
+    "weight": 1000,
+    "tier": "esclusivo",
+    "dateSource": "descrizione",
+    "url": "https://www.patreon.com/cw/NAQP",
+    "rank": 0
+  },
+  {
     "id": "curated:pre1900:80",
     "track": "storia",
     "title": "Prima ferrovia passeggeri",
@@ -16,13 +31,14 @@
     "id": "patreon:139926766",
     "track": "naqp",
     "title": "Il Caso Kaspar Hauser",
+    "summary": "Norimberga, Germania, 26 maggio 1828. Nel giorno di Pentecoste, quando le strade della città sono deserte e tutti sono chiusi in casa a…",
     "year": 1828,
     "era": "dc",
     "vul": -166,
     "kind": "caso",
     "weight": 1000,
     "tier": "esclusivo",
-    "dateSource": "manuale",
+    "dateSource": "descrizione",
     "url": "https://www.patreon.com/cw/NAQP",
     "rank": 0
   }

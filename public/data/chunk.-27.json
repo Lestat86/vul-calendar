@@ -3,13 +3,14 @@
     "id": "patreon:143690090",
     "track": "naqp",
     "title": "Il Caso Mary Toft",
+    "summary": "Inghilterra, 1726. In una piccola cittadina di campagna, una donna povera e analfabeta sta per mettere in ginocchio l'intera comunità…",
     "year": 1726,
     "era": "dc",
     "vul": -268,
     "kind": "caso",
     "weight": 1000,
     "tier": "esclusivo",
-    "dateSource": "manuale",
+    "dateSource": "descrizione",
     "url": "https://www.patreon.com/cw/NAQP",
     "rank": 0
   }

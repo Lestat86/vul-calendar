@@ -392,6 +392,21 @@
     "rank": 0
   },
   {
+    "id": "patreon:100994838",
+    "track": "naqp",
+    "title": "Il Caso Giuseppe Dosi - Lurido Sbirro",
+    "summary": "Italia, 1910. Un attore, ma anche poeta, scrittore e drammaturgo, decide di applicare il suo straordinario talento artistico in un teatro…",
+    "year": 1910,
+    "era": "dc",
+    "vul": -84,
+    "kind": "caso",
+    "weight": 1000,
+    "tier": "esclusivo",
+    "dateSource": "descrizione",
+    "url": "https://www.patreon.com/cw/NAQP",
+    "rank": 0
+  },
+  {
     "id": "wd:Q638903",
     "track": "storia",
     "title": "Rivoluzione del 5 ottobre 1910",
@@ -496,6 +511,21 @@
     "rank": 0
   },
   {
+    "id": "patreon:115643284",
+    "track": "naqp",
+    "title": "Il Caso Bela Kiss - Il Vampiro di Budapest",
+    "summary": "Ungheria, 1912. In una grande casa della cittadina di Cinkota, un uomo affascinante e colto gestisce la sua attività di stagnino. Il suo…",
+    "year": 1912,
+    "era": "dc",
+    "vul": -82,
+    "kind": "caso",
+    "weight": 1000,
+    "tier": "esclusivo",
+    "dateSource": "descrizione",
+    "url": "https://www.patreon.com/cw/NAQP",
+    "rank": 0
+  },
+  {
     "id": "wd:Q931982",
     "track": "storia",
     "title": "trattato di Fez",
@@ -505,6 +535,21 @@
     "vul": -82,
     "kind": "trattato internazionale",
     "weight": 33,
+    "rank": 1
+  },
+  {
+    "id": "patreon:114824341",
+    "track": "naqp",
+    "title": "Il Caso Garbo - 00Serpe",
+    "summary": "Barcellona, Spagna, 1912. Un bambino nasce in una famiglia borghese, crescendo con i valori di libertà e giustizia instillati dal padre.…",
+    "year": 1912,
+    "era": "dc",
+    "vul": -82,
+    "kind": "caso",
+    "weight": 1000,
+    "tier": "esclusivo",
+    "dateSource": "descrizione",
+    "url": "https://www.patreon.com/cw/NAQP",
     "rank": 1
   },
   {

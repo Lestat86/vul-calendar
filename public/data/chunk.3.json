@@ -132,6 +132,34 @@
     "rank": 4
   },
   {
+    "id": "patreon:102785752",
+    "track": "naqp",
+    "title": "Il Caso Zanfretta 3: La Via dell'Acqua",
+    "summary": "Titania, Terza Galassia, 2024. I Dargos, tramite un microchip infilato nel cervello, riescono a comunicare con un ex metronotte…",
+    "year": 2024,
+    "era": "dc",
+    "vul": 30,
+    "kind": "caso",
+    "weight": 1000,
+    "tier": "esclusivo",
+    "dateSource": "descrizione",
+    "url": "https://www.patreon.com/cw/NAQP",
+    "rank": 4
+  },
+  {
+    "id": "wd:Q128686808",
+    "track": "storia",
+    "title": "offensiva di Kursk del 2024-2025",
+    "summary": "operazione militare nel conflitto russo-ucraino (2024-)",
+    "year": 2024,
+    "era": "dc",
+    "vul": 30,
+    "kind": "operazione militare",
+    "image": "The 80th Air Assault Brigade captured a T-90M Proryv tank in the Kursk region.jpg",
+    "weight": 40,
+    "rank": 5
+  },
+  {
     "id": "naqp:233ee994-8108-11ef-be3e-77a1cb145b36",
     "track": "naqp",
     "title": "Special Orrori Sessuali #2 - Cuck Edition",
@@ -146,19 +174,6 @@
     "episode": 4,
     "dateSource": "descrizione",
     "url": "https://feeds.megaphone.fm/naqp",
-    "rank": 4
-  },
-  {
-    "id": "wd:Q128686808",
-    "track": "storia",
-    "title": "offensiva di Kursk del 2024-2025",
-    "summary": "operazione militare nel conflitto russo-ucraino (2024-)",
-    "year": 2024,
-    "era": "dc",
-    "vul": 30,
-    "kind": "operazione militare",
-    "image": "The 80th Air Assault Brigade captured a T-90M Proryv tank in the Kursk region.jpg",
-    "weight": 40,
     "rank": 5
   },
   {
@@ -617,19 +632,18 @@
     "rank": 2
   },
   {
-    "id": "naqp:58fc5934-46f3-11f0-a56d-efdffb831ed6",
+    "id": "patreon:149659749",
     "track": "naqp",
-    "title": "Il Caso Diddy #3 - Il Processo Feat Jake La Furia",
-    "summary": "New York, Stati Uniti, Maggio 2025. Nell'aula del tribunale federale di Manhattan, il processo dell'anno sta per iniziare. Sean \"Diddy\" Combs, 55 anni, magnate dell'hip hop e icona della musica mondiale, siede al banco degli imputati accusato di traffico sessuale, associazione a delinquere e di aver trasformato il suo impero musicale in un'organizzazione criminale per soddisfare ogni sua perversione.",
+    "title": "Il Caso del Macellaio Vietnamita",
+    "summary": "Siamo nel gennaio 2025, in Vietnam. Su Telegram e altre piattaforme iniziano a circolare 11 video scioccanti: un uomo mascherato decapita…",
     "year": 2025,
     "era": "dc",
     "vul": 31,
     "kind": "caso",
     "weight": 1000,
-    "tier": "pubblico",
-    "season": 11,
+    "tier": "esclusivo",
     "dateSource": "descrizione",
-    "url": "https://feeds.megaphone.fm/naqp",
+    "url": "https://www.patreon.com/cw/NAQP",
     "rank": 2
   },
   {
@@ -645,17 +659,17 @@
     "rank": 3
   },
   {
-    "id": "naqp:1248239a-bf18-11f0-9689-072738cac551",
+    "id": "naqp:58fc5934-46f3-11f0-a56d-efdffb831ed6",
     "track": "naqp",
-    "title": "Il Colpo al Louvre feat Leonardo Notarbartolo",
+    "title": "Il Caso Diddy #3 - Il Processo Feat Jake La Furia",
+    "summary": "New York, Stati Uniti, Maggio 2025. Nell'aula del tribunale federale di Manhattan, il processo dell'anno sta per iniziare. Sean \"Diddy\" Combs, 55 anni, magnate dell'hip hop e icona della musica mondiale, siede al banco degli imputati accusato di traffico sessuale, associazione a delinquere e di aver trasformato il suo impero musicale in un'organizzazione criminale per soddisfare ogni sua perversione.",
     "year": 2025,
     "era": "dc",
     "vul": 31,
     "kind": "caso",
     "weight": 1000,
     "tier": "pubblico",
-    "season": 12,
-    "episode": 10,
+    "season": 11,
     "dateSource": "descrizione",
     "url": "https://feeds.megaphone.fm/naqp",
     "rank": 3
@@ -671,6 +685,22 @@
     "kind": "attentato terroristico",
     "image": "Pedestrian bridge across carpark, Bondi (47931944248) (cropped).jpg",
     "weight": 44,
+    "rank": 4
+  },
+  {
+    "id": "naqp:1248239a-bf18-11f0-9689-072738cac551",
+    "track": "naqp",
+    "title": "Il Colpo al Louvre feat Leonardo Notarbartolo",
+    "year": 2025,
+    "era": "dc",
+    "vul": 31,
+    "kind": "caso",
+    "weight": 1000,
+    "tier": "pubblico",
+    "season": 12,
+    "episode": 10,
+    "dateSource": "descrizione",
+    "url": "https://feeds.megaphone.fm/naqp",
     "rank": 4
   },
   {

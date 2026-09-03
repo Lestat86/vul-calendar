@@ -13,6 +13,34 @@
     "rank": 0
   },
   {
+    "id": "patreon:128138444",
+    "track": "naqp",
+    "title": "Il Caso Barney & Betty Hill - Tazze Aliene",
+    "summary": "New Hampshire, 1964. Tre anni dopo il loro presunto incontro con esseri non terrestri, Betty e Barney Hill si sottopongono a ipnosi…",
+    "year": 1964,
+    "era": "dc",
+    "vul": -30,
+    "kind": "caso",
+    "weight": 1000,
+    "tier": "esclusivo",
+    "dateSource": "descrizione",
+    "url": "https://www.patreon.com/cw/NAQP",
+    "rank": 0
+  },
+  {
+    "id": "wd:Q75844",
+    "track": "storia",
+    "title": "Rivoluzione di Zanzibar",
+    "summary": "evento storico (1964)",
+    "year": 1964,
+    "era": "dc",
+    "vul": -30,
+    "kind": "rivoluzione",
+    "image": "Spice Islands (Zanzibar highlighted).svg",
+    "weight": 38,
+    "rank": 1
+  },
+  {
     "id": "naqp:02fd7a0e-d0e8-11ee-a9a3-db8ba31567c7",
     "track": "naqp",
     "title": "Il Caso Boursicot - L'amour è pieno di sorprese",
@@ -27,19 +55,6 @@
     "episode": 6,
     "dateSource": "descrizione",
     "url": "https://feeds.megaphone.fm/naqp",
-    "rank": 0
-  },
-  {
-    "id": "wd:Q75844",
-    "track": "storia",
-    "title": "Rivoluzione di Zanzibar",
-    "summary": "evento storico (1964)",
-    "year": 1964,
-    "era": "dc",
-    "vul": -30,
-    "kind": "rivoluzione",
-    "image": "Spice Islands (Zanzibar highlighted).svg",
-    "weight": 38,
     "rank": 1
   },
   {
@@ -622,20 +637,18 @@
     "rank": 0
   },
   {
-    "id": "naqp:c72903aa-567b-4272-88bf-cc0a7d1c4094",
+    "id": "patreon:132701177",
     "track": "naqp",
-    "title": "Il Caso Minichiello - 18 ore per morire",
-    "summary": "È il 31 ottobre 1969. Il marine Raffaele Minichiello, armato di un fucile semiautomatico con 250 proiettili, è appena entrato nella cabina di pilotaggio di un Boeing 707. È lui ora a comandare. I passeggeri e l’equipaggio sono ora alla sua mercé, aspettando di capire le sue intenzioni.",
+    "title": "Il Caso Lavorini - Fare Ingiustizia",
+    "summary": "Viareggio, Toscana, Italia. Nel gennaio del 1969, questa tranquilla cittadina di provincia viene sconvolta dalla scomparsa di un bambino…",
     "year": 1969,
     "era": "dc",
     "vul": -25,
     "kind": "caso",
     "weight": 1000,
-    "tier": "pubblico",
-    "season": 5,
-    "episode": 7,
+    "tier": "esclusivo",
     "dateSource": "descrizione",
-    "url": "https://feeds.megaphone.fm/naqp",
+    "url": "https://www.patreon.com/cw/NAQP",
     "rank": 0
   },
   {
@@ -652,10 +665,10 @@
     "rank": 1
   },
   {
-    "id": "naqp:a58251f8-28d7-4257-a8c1-e47a6951e0d7",
+    "id": "naqp:c72903aa-567b-4272-88bf-cc0a7d1c4094",
     "track": "naqp",
-    "title": "Il Caso Minichiello - First Blood",
-    "summary": "Sono le 1.30 del mattino del 31 ottobre 1969. Da circa un quarto d’ora il Marine di Melito Irpino Raffaele Minichiello sta volando sopra Los Angeles su un Boeing 707 della TWA che può trasportare centosessanta persone. Quello che a bordo nessuno sa, però, è che il marine ha nel suo bagaglio a mano un fucile M1 e sta per tirarlo fuori.",
+    "title": "Il Caso Minichiello - 18 ore per morire",
+    "summary": "È il 31 ottobre 1969. Il marine Raffaele Minichiello, armato di un fucile semiautomatico con 250 proiettili, è appena entrato nella cabina di pilotaggio di un Boeing 707. È lui ora a comandare. I passeggeri e l’equipaggio sono ora alla sua mercé, aspettando di capire le sue intenzioni.",
     "year": 1969,
     "era": "dc",
     "vul": -25,
@@ -663,7 +676,7 @@
     "weight": 1000,
     "tier": "pubblico",
     "season": 5,
-    "episode": 6,
+    "episode": 7,
     "dateSource": "descrizione",
     "url": "https://feeds.megaphone.fm/naqp",
     "rank": 1
@@ -679,6 +692,23 @@
     "kind": "attentato terroristico",
     "image": "Milano - Piazza Fontana - Banca Nazionale dell'Agricoltura.jpg",
     "weight": 21,
+    "rank": 2
+  },
+  {
+    "id": "naqp:a58251f8-28d7-4257-a8c1-e47a6951e0d7",
+    "track": "naqp",
+    "title": "Il Caso Minichiello - First Blood",
+    "summary": "Sono le 1.30 del mattino del 31 ottobre 1969. Da circa un quarto d’ora il Marine di Melito Irpino Raffaele Minichiello sta volando sopra Los Angeles su un Boeing 707 della TWA che può trasportare centosessanta persone. Quello che a bordo nessuno sa, però, è che il marine ha nel suo bagaglio a mano un fucile M1 e sta per tirarlo fuori.",
+    "year": 1969,
+    "era": "dc",
+    "vul": -25,
+    "kind": "caso",
+    "weight": 1000,
+    "tier": "pubblico",
+    "season": 5,
+    "episode": 6,
+    "dateSource": "descrizione",
+    "url": "https://feeds.megaphone.fm/naqp",
     "rank": 2
   },
   {
@@ -708,20 +738,19 @@
     "rank": 0
   },
   {
-    "id": "naqp:5f4b644c-471b-46ba-827c-bedce3274cbc",
+    "id": "patreon:124996429",
     "track": "naqp",
-    "title": "Il Caso del Golpe Borghese",
-    "summary": "È la notte fra il 7 e l’8 dicembre 1970. E a Roma e in tutta Italia migliaia di persone si preparano a compiere l’impensabile. Prendere il controllo dei più importanti apparati dello stato, occupare la Rai e rapire il Presidente della Repubblica.",
+    "title": "Il Caso Charles Sobhraj",
+    "summary": "Asia, anni '70. Le strade del famoso \"Hippie Trail\" brulicano di giovani occidentali in cerca di spiritualità, avventura e libertà - e per…",
     "year": 1970,
     "era": "dc",
     "vul": -24,
+    "precision": "decennio",
     "kind": "caso",
     "weight": 1000,
-    "tier": "pubblico",
-    "season": 5,
-    "episode": 5,
+    "tier": "esclusivo",
     "dateSource": "descrizione",
-    "url": "https://feeds.megaphone.fm/naqp",
+    "url": "https://www.patreon.com/cw/NAQP",
     "rank": 0
   },
   {
@@ -738,21 +767,19 @@
     "rank": 1
   },
   {
-    "id": "naqp:049bb698-7521-11ec-b7df-732f7fa62143",
+    "id": "patreon:159722609",
     "track": "naqp",
-    "title": "Il caso del metronotte Zanfretta rapito dagli alieni - Parte 2",
-    "summary": "Siamo in Liguria a fine anni ’70. Mentre l’Italia è sconvolta dagli “anni di piombo” del terrorismo, la provincia genovese è invasa da Vespe che volano, alieni che atterrano nei giardini di dentisti, rapimenti interspaziali e tette verdi. Al centro di tutto questo c’è un gruppo di metronotte la cui vita cambierà per sempre.",
+    "title": "Il Caso dei Bambini del Formicaio",
+    "summary": "Siamo in Quebec, Canada, alla fine degli anni '70. Un uomo carismatico, ossessionato dall'Apocalisse e da una versione tutta sua di Dio…",
     "year": 1970,
     "era": "dc",
     "vul": -24,
     "precision": "decennio",
     "kind": "caso",
     "weight": 1000,
-    "tier": "pubblico",
-    "season": 1,
-    "episode": 8,
+    "tier": "esclusivo",
     "dateSource": "descrizione",
-    "url": "https://feeds.megaphone.fm/naqp",
+    "url": "https://www.patreon.com/cw/NAQP",
     "rank": 1
   },
   {
@@ -769,19 +796,18 @@
     "rank": 2
   },
   {
-    "id": "naqp:9e932bd1-a598-4725-bd50-d64ee921d53e",
+    "id": "naqp:5f4b644c-471b-46ba-827c-bedce3274cbc",
     "track": "naqp",
-    "title": "Il Caso Emoscambio",
-    "summary": "Siamo a Milano, negli anni ’70. Un uomo inizia a dipingere con caratteri giganteschi, su muri di ogni parte d’Italia, una misteriosa scritta con un numero di telefono. Il motivo? Pubblicizzare un progetto per diventare immortali.",
+    "title": "Il Caso del Golpe Borghese",
+    "summary": "È la notte fra il 7 e l’8 dicembre 1970. E a Roma e in tutta Italia migliaia di persone si preparano a compiere l’impensabile. Prendere il controllo dei più importanti apparati dello stato, occupare la Rai e rapire il Presidente della Repubblica.",
     "year": 1970,
     "era": "dc",
     "vul": -24,
-    "precision": "decennio",
     "kind": "caso",
     "weight": 1000,
     "tier": "pubblico",
-    "season": 3,
-    "episode": 8,
+    "season": 5,
+    "episode": 5,
     "dateSource": "descrizione",
     "url": "https://feeds.megaphone.fm/naqp",
     "rank": 2
@@ -799,10 +825,10 @@
     "rank": 3
   },
   {
-    "id": "naqp:42a21fd2-4c54-11f0-ade1-ffe62c213083",
+    "id": "naqp:049bb698-7521-11ec-b7df-732f7fa62143",
     "track": "naqp",
-    "title": "Il Caso Pachita - Psicochirurgia",
-    "summary": "Messico, anni '70. Una donna anziana, quasi completamente cieca, senza alcuna formazione medica, diventa famosa per le sue \"operazioni chirurgiche\" eseguite in una stanza sporca, senza anestesia, utilizzando solo un coltello da caccia. Mentre centinaia di persone affermano di essere state guarite miracolosamente, uno scienziato messicano decide di documentare i suoi interventi, assistendola come aiutante.",
+    "title": "Il caso del metronotte Zanfretta rapito dagli alieni - Parte 2",
+    "summary": "Siamo in Liguria a fine anni ’70. Mentre l’Italia è sconvolta dagli “anni di piombo” del terrorismo, la provincia genovese è invasa da Vespe che volano, alieni che atterrano nei giardini di dentisti, rapimenti interspaziali e tette verdi. Al centro di tutto questo c’è un gruppo di metronotte la cui vita cambierà per sempre.",
     "year": 1970,
     "era": "dc",
     "vul": -24,
@@ -810,8 +836,8 @@
     "kind": "caso",
     "weight": 1000,
     "tier": "pubblico",
-    "season": 11,
-    "episode": 6,
+    "season": 1,
+    "episode": 8,
     "dateSource": "descrizione",
     "url": "https://feeds.megaphone.fm/naqp",
     "rank": 3
@@ -830,6 +856,22 @@
     "rank": 4
   },
   {
+    "id": "patreon:145827900",
+    "track": "naqp",
+    "title": "Il Caso dell'Ordine del Tempio Solare",
+    "summary": "Svizzera, anni '70. In una villa sulle colline di Ginevra, un gruppo di persone decide di vivere secondo un ideale: condividere tutto…",
+    "year": 1970,
+    "era": "dc",
+    "vul": -24,
+    "precision": "decennio",
+    "kind": "caso",
+    "weight": 1000,
+    "tier": "esclusivo",
+    "dateSource": "descrizione",
+    "url": "https://www.patreon.com/cw/NAQP",
+    "rank": 4
+  },
+  {
     "id": "wd:Q658048",
     "track": "storia",
     "title": "trattato di Varsavia",
@@ -842,6 +884,24 @@
     "rank": 5
   },
   {
+    "id": "naqp:9e932bd1-a598-4725-bd50-d64ee921d53e",
+    "track": "naqp",
+    "title": "Il Caso Emoscambio",
+    "summary": "Siamo a Milano, negli anni ’70. Un uomo inizia a dipingere con caratteri giganteschi, su muri di ogni parte d’Italia, una misteriosa scritta con un numero di telefono. Il motivo? Pubblicizzare un progetto per diventare immortali.",
+    "year": 1970,
+    "era": "dc",
+    "vul": -24,
+    "precision": "decennio",
+    "kind": "caso",
+    "weight": 1000,
+    "tier": "pubblico",
+    "season": 3,
+    "episode": 8,
+    "dateSource": "descrizione",
+    "url": "https://feeds.megaphone.fm/naqp",
+    "rank": 5
+  },
+  {
     "id": "wd:Q770372",
     "track": "storia",
     "title": "Operazione Mare Verde",
@@ -851,6 +911,22 @@
     "vul": -24,
     "kind": "operazione militare",
     "weight": 19,
+    "rank": 6
+  },
+  {
+    "id": "patreon:127088098",
+    "track": "naqp",
+    "title": "Il Caso Jan Broberg",
+    "summary": "Pocatello, Idaho, Stati Uniti. Primi anni '70. Una famiglia mormona accoglie come un fratello un nuovo vicino di casa dal fascino…",
+    "year": 1970,
+    "era": "dc",
+    "vul": -24,
+    "precision": "decennio",
+    "kind": "caso",
+    "weight": 1000,
+    "tier": "esclusivo",
+    "dateSource": "descrizione",
+    "url": "https://www.patreon.com/cw/NAQP",
     "rank": 6
   },
   {
@@ -867,6 +943,22 @@
     "rank": 7
   },
   {
+    "id": "patreon:109592193",
+    "track": "naqp",
+    "title": "Il Caso Kallinger - Il Calzolaio",
+    "summary": "Siamo negli Stati Uniti degli anni ’70. I cittadini americani sono ancora scossi dagli scontri sociali degli anni ‘60 e il crimine…",
+    "year": 1970,
+    "era": "dc",
+    "vul": -24,
+    "precision": "decennio",
+    "kind": "caso",
+    "weight": 1000,
+    "tier": "esclusivo",
+    "dateSource": "descrizione",
+    "url": "https://www.patreon.com/cw/NAQP",
+    "rank": 7
+  },
+  {
     "id": "wd:Q14947304",
     "track": "storia",
     "title": "Corrective Movement",
@@ -877,6 +969,22 @@
     "kind": "colpo di Stato",
     "image": "General Hafez al-Assad (1930-2000), the new president of Syria in November 1970.png",
     "weight": 18,
+    "rank": 8
+  },
+  {
+    "id": "patreon:109721943",
+    "track": "naqp",
+    "title": "Il Caso Kallinger - Il Mostro",
+    "summary": "America, anni 70. Joe, ora è proprietario della casa dei suoi genitori adottivi in cui veniva abusato.. Tornare nel luogo dove ha subito…",
+    "year": 1970,
+    "era": "dc",
+    "vul": -24,
+    "precision": "decennio",
+    "kind": "caso",
+    "weight": 1000,
+    "tier": "esclusivo",
+    "dateSource": "descrizione",
+    "url": "https://www.patreon.com/cw/NAQP",
     "rank": 8
   },
   {
@@ -892,6 +1000,22 @@
     "rank": 9
   },
   {
+    "id": "patreon:125537282",
+    "track": "naqp",
+    "title": "Il Caso Kuno Hofmann",
+    "summary": "Amburgo, Germania Occidentale, primi anni '70. Un cimitero nella quiete della notte viene profanato in un modo che lascia inorriditi anche…",
+    "year": 1970,
+    "era": "dc",
+    "vul": -24,
+    "precision": "decennio",
+    "kind": "caso",
+    "weight": 1000,
+    "tier": "esclusivo",
+    "dateSource": "descrizione",
+    "url": "https://www.patreon.com/cw/NAQP",
+    "rank": 9
+  },
+  {
     "id": "wd:Q791186",
     "track": "storia",
     "title": "Massacro dello scuolabus di Avivim",
@@ -903,6 +1027,40 @@
     "image": "Avivim school bus bombing I.jpg",
     "weight": 15,
     "rank": 10
+  },
+  {
+    "id": "patreon:105883950",
+    "track": "naqp",
+    "title": "Il Caso Mesrine Pt.2",
+    "summary": "Francia, anni 70. Jacques Mesrine, conosciuto come “Jacky”, non è solo un nome nella storia criminale francese, ma una leggenda vivente. È…",
+    "year": 1970,
+    "era": "dc",
+    "vul": -24,
+    "precision": "decennio",
+    "kind": "caso",
+    "weight": 1000,
+    "tier": "esclusivo",
+    "dateSource": "descrizione",
+    "url": "https://www.patreon.com/cw/NAQP",
+    "rank": 10
+  },
+  {
+    "id": "naqp:42a21fd2-4c54-11f0-ade1-ffe62c213083",
+    "track": "naqp",
+    "title": "Il Caso Pachita - Psicochirurgia",
+    "summary": "Messico, anni '70. Una donna anziana, quasi completamente cieca, senza alcuna formazione medica, diventa famosa per le sue \"operazioni chirurgiche\" eseguite in una stanza sporca, senza anestesia, utilizzando solo un coltello da caccia. Mentre centinaia di persone affermano di essere state guarite miracolosamente, uno scienziato messicano decide di documentare i suoi interventi, assistendola come aiutante.",
+    "year": 1970,
+    "era": "dc",
+    "vul": -24,
+    "precision": "decennio",
+    "kind": "caso",
+    "weight": 1000,
+    "tier": "pubblico",
+    "season": 11,
+    "episode": 6,
+    "dateSource": "descrizione",
+    "url": "https://feeds.megaphone.fm/naqp",
+    "rank": 11
   },
   {
     "id": "wd:Q371394",
@@ -1057,20 +1215,6 @@
     "kind": "attentato terroristico",
     "image": "Germany Israel Olympics Attack.jpg",
     "weight": 61,
-    "rank": 0
-  },
-  {
-    "id": "patreon:148946209",
-    "track": "naqp",
-    "title": "Il Caso Macchiarini",
-    "year": 1972,
-    "era": "dc",
-    "vul": -22,
-    "kind": "caso",
-    "weight": 1000,
-    "tier": "esclusivo",
-    "dateSource": "manuale",
-    "url": "https://www.patreon.com/cw/NAQP",
     "rank": 0
   },
   {

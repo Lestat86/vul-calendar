@@ -13,6 +13,21 @@
     "rank": 0
   },
   {
+    "id": "patreon:153671056",
+    "track": "naqp",
+    "title": "Il Caso Midnight Assassin",
+    "summary": "Austin, Texas, 1884. Una città in piena crescita, orgogliosa della sua rinascita, viene scossa da una serie di omicidi brutali. Le vittime…",
+    "year": 1884,
+    "era": "dc",
+    "vul": -110,
+    "kind": "caso",
+    "weight": 1000,
+    "tier": "esclusivo",
+    "dateSource": "descrizione",
+    "url": "https://www.patreon.com/cw/NAQP",
+    "rank": 0
+  },
+  {
     "id": "curated:pre1900:93",
     "track": "storia",
     "title": "Prima automobile di Benz",
@@ -39,9 +54,25 @@
     "rank": 0
   },
   {
+    "id": "patreon:135380210",
+    "track": "naqp",
+    "title": "Il Caso Carl Panzram",
+    "summary": "Minnesota, Stati Uniti, 1891. In una piccola fattoria nasce un bambino che diventerà uno dei serial killer più spietati della storia…",
+    "year": 1891,
+    "era": "dc",
+    "vul": -103,
+    "kind": "caso",
+    "weight": 1000,
+    "tier": "esclusivo",
+    "dateSource": "descrizione",
+    "url": "https://www.patreon.com/cw/NAQP",
+    "rank": 0
+  },
+  {
     "id": "patreon:137258153",
     "track": "naqp",
     "title": "Il Caso H.H. Holmes",
+    "summary": "Chicago, Illinois, Stati Uniti. Siamo alla fine del 1800, in un'epoca in cui la medicina moderna muove i primi passi e le grandi città…",
     "year": 1893,
     "era": "dc",
     "vul": -101,
