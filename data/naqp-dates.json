@@ -1,0 +1,265 @@
+{
+  "_": [
+    "Anni confermati a mano per gli episodi NAQP. Questo file è l'AUTORITÀ:",
+    "il bundle usa solo ciò che sta qui, più gli anni estratti dalle description",
+    "del feed pubblico (che sono affidabili perché sono l'incipit dell'episodio).",
+    "",
+    "Le proposte automatiche stanno in data/generated/naqp-dates.proposals.json",
+    "e non entrano in timeline: vanno lette, verificate e copiate qui.",
+    "",
+    "Formato:  \"<id>\": { \"year\": 1981, \"precision\": \"anno\", \"note\": \"...\" }",
+    "precision: \"anno\" | \"decennio\" | \"secolo\""
+  ],
+  "patreon:168079416": {
+    "year": 1984,
+    "precision": "anno",
+    "title": "Il Caso Grégory Villemin",
+    "note": "omicidio del 16 ottobre 1984"
+  },
+  "patreon:164209005": {
+    "year": 1987,
+    "precision": "anno",
+    "title": "Il Caso Goiania",
+    "note": "incidente radiologico di Goiânia"
+  },
+  "patreon:148946209": {
+    "year": 1972,
+    "precision": "anno",
+    "title": "Il Caso Macchiarini",
+    "note": "sequestro BR del marzo 1972"
+  },
+  "patreon:144230780": {
+    "year": 1989,
+    "precision": "anno",
+    "title": "Il Caso Carretta",
+    "note": "strage familiare a Parma, scoperta nel 1998"
+  },
+  "patreon:143690090": {
+    "year": 1726,
+    "precision": "anno",
+    "title": "Il Caso Mary Toft",
+    "note": "la truffa dei parti di coniglio"
+  },
+  "patreon:142678356": {
+    "year": 1924,
+    "precision": "anno",
+    "title": "Il Caso Leopold e Loeb",
+    "note": "omicidio di Bobby Franks"
+  },
+  "patreon:139926766": {
+    "year": 1828,
+    "precision": "anno",
+    "title": "Il Caso Kaspar Hauser",
+    "note": "comparsa a Norimberga"
+  },
+  "patreon:135064159": {
+    "year": 1948,
+    "precision": "anno",
+    "title": "Il Caso dell'Uomo di Somerton",
+    "note": "corpo trovato il 1 dicembre 1948"
+  },
+  "patreon:118842101": {
+    "year": 1922,
+    "precision": "anno",
+    "title": "Il Caso Hinterkaifeck",
+    "note": "strage del marzo 1922"
+  },
+  "patreon:112565781": {
+    "year": 1960,
+    "precision": "anno",
+    "title": "Il Caso del Lago di Bodom",
+    "note": "massacro del giugno 1960"
+  },
+  "naqp:56fe0a7c-ebff-11f0-a27a-df65b2c4841a": {
+    "year": 1916,
+    "precision": "anno",
+    "title": "Il Caso Rasputin",
+    "note": "CORRETTO: la proposta 2011 era un libro, non l'omicidio"
+  },
+  "patreon:139403560": {
+    "year": 1999,
+    "precision": "anno",
+    "title": "Il Caso di Woodstock '99",
+    "note": "CORRETTO: il resolver aveva agganciato Woodstock 1969"
+  },
+  "patreon:137258153": {
+    "year": 1893,
+    "precision": "anno",
+    "title": "Il Caso H.H. Holmes",
+    "note": "CORRETTO: il resolver aveva agganciato Sherlock Holmes"
+  },
+  "naqp:755584be-e88a-11f0-9eb1-af3ca593f971": {
+    "year": 1897,
+    "precision": "anno",
+    "title": "Il Caso Musolino",
+    "note": "CORRETTO: la proposta 2006 era un saggio sul bandito"
+  },
+  "patreon:154614552": {
+    "year": 1929,
+    "precision": "anno",
+    "title": "Il Caso Borley Rectory",
+    "note": "CORRETTO: 1863 era l'anno di costruzione, non le apparizioni"
+  },
+  "naqp:7d3ebc64-1232-11f1-bb69-83cf2a8b3d71": {
+    "year": 2018,
+    "precision": "anno",
+    "title": "Il Caso Ecatepec - Tacos al Cannibale",
+    "note": "coppia di Ecatepec arrestata nel 2018"
+  },
+  "naqp:b7858c34-5781-11f0-862c-4b3164f05cb8": {
+    "year": 1952,
+    "precision": "anno",
+    "title": "Il Caso Jack Parsons - Sangue Versato",
+    "note": "morte di Jack Parsons"
+  },
+  "naqp:a6e78300-d905-11ef-a1fd-075ff6d619b6": {
+    "year": 1918,
+    "precision": "anno",
+    "title": "Il Caso Axeman - Il Serial Killer di Italiani",
+    "note": "Axeman di New Orleans, 1918-19"
+  },
+  "naqp:b6da6784-49fc-11ef-ba8e-4be6199ea645": {
+    "year": 1973,
+    "precision": "anno",
+    "title": "Il Caso Pedro Rodrigues Filho - Il Matador",
+    "note": "arresto del Matador"
+  },
+  "naqp:81578ac6-4482-11ef-9d5c-ff48f02a66d3": {
+    "year": 1936,
+    "precision": "anno",
+    "title": "Il Caso Abe Sada - L'amore a Pezzi",
+    "note": "Tokyo, maggio 1936"
+  },
+  "naqp:6141a292-3381-11ef-83d5-93e1485dff91": {
+    "year": 1983,
+    "precision": "anno",
+    "title": "Il Caso Dennis Nilsen - Cena per Uno",
+    "note": "arresto di Nilsen"
+  },
+  "naqp:7b8603e4-2e24-11ef-b969-db3b751684ad": {
+    "year": 1983,
+    "precision": "anno",
+    "title": "Il Caso Dennis Nilsen - Case da Incubo",
+    "note": "arresto di Nilsen"
+  },
+  "naqp:13bcb554-cb3d-11ee-ba5b-53e7d6c1641e": {
+    "year": 1983,
+    "precision": "anno",
+    "title": "Il Caso Boursicot - La spia che mi baciò",
+    "note": "lo scandalo Shi Pei Pu emerge nel 1983"
+  },
+  "naqp:be0430cc-bddd-11ee-8d1c-1fc7fe7523a8": {
+    "year": 1961,
+    "precision": "anno",
+    "title": "Il Caso dei Cosmonauti Perduti",
+    "note": "le voci nascono col volo di Gagarin"
+  },
+  "naqp:bef16b2c-87c7-11ee-898a-ab369324676e": {
+    "year": 1977,
+    "precision": "anno",
+    "title": "Il Caso Ludwig - Vietato Scopare",
+    "note": "primo omicidio del gruppo Ludwig"
+  },
+  "naqp:66c59296-7e37-11ee-a0bf-5fcf86c59c78": {
+    "year": 1977,
+    "precision": "anno",
+    "title": "Il Caso Ludwig - Dio è con Noi",
+    "note": "primo omicidio del gruppo Ludwig"
+  },
+  "naqp:c059db4e-6c23-11ee-b30a-f71b91dd836e": {
+    "year": 2003,
+    "precision": "anno",
+    "title": "Il Caso Pizza Bomber - Morte a Domicilio",
+    "note": "Brian Wells, agosto 2003"
+  },
+  "naqp:659ad6f2-5d3e-11ee-af1b-db056e21dde7": {
+    "year": 1933,
+    "precision": "anno",
+    "title": "Il Caso Malloy - L'Irlandese di ferro",
+    "note": "Michael Malloy, New York"
+  },
+  "naqp:984ea16f-88ce-41a2-be43-961f9d84a034": {
+    "year": 1924,
+    "precision": "anno",
+    "title": "Il Caso del Lupo Mannaro di Hannover - L’infamia",
+    "note": "Fritz Haarmann, processo 1924"
+  },
+  "naqp:da473ff6-4736-4397-acb7-c0cf25edf794": {
+    "year": 1924,
+    "precision": "anno",
+    "title": "Il Caso del Lupo Mannaro di Hannover - La Rabbia",
+    "note": "Fritz Haarmann, processo 1924"
+  },
+  "naqp:66b277d8-d24c-44de-bb7b-55fed6dbae1d": {
+    "year": 1918,
+    "precision": "anno",
+    "title": "Il Caso Padre Pio - Endgame",
+    "note": "le stigmate, settembre 1918"
+  },
+  "naqp:e11d2229-2f31-4071-8fca-7aeef9f24acb": {
+    "year": 1918,
+    "precision": "anno",
+    "title": "Il Caso Padre Pio - Il Risveglio della Forza",
+    "note": "le stigmate, settembre 1918"
+  },
+  "naqp:043d8b82-c769-4def-9422-968e62c277f5": {
+    "year": 2007,
+    "precision": "anno",
+    "title": "Il Caso Amanda Knox - Le indagini",
+    "note": "omicidio di Meredith Kercher, novembre 2007"
+  },
+  "naqp:7ed27d42-bec6-4164-b194-5a8322756bd2": {
+    "year": 2007,
+    "precision": "anno",
+    "title": "Il Caso Amanda Knox - L’omicidio",
+    "note": "omicidio di Meredith Kercher, novembre 2007"
+  },
+  "naqp:6fb39065-9822-4de3-9c75-9b38c1136545": {
+    "year": 1944,
+    "precision": "anno",
+    "title": "Il Caso del Dr. Satana - Diavolo mangia Diavolo",
+    "note": "Marcel Petiot, scoperta del 1944"
+  },
+  "naqp:ed99fe52-0b87-4e75-9ff2-395d01592c6b": {
+    "year": 1944,
+    "precision": "anno",
+    "title": "Il Caso del Dr. Satana - L’alba dell’orrore",
+    "note": "Marcel Petiot, scoperta del 1944"
+  },
+  "naqp:04dd8988-7521-11ec-b7df-5b5ef07eed17": {
+    "year": 1939,
+    "precision": "anno",
+    "title": "Il caso della saponificatrice di Correggio",
+    "note": "Leonarda Cianciulli, 1939-40"
+  },
+  "patreon:167439379": {
+    "year": 1915,
+    "precision": "anno",
+    "title": "Il Caso Landru - Il Vero Barbablù",
+    "note": "primi omicidi di Landru"
+  },
+  "patreon:166811941": {
+    "year": 1981,
+    "precision": "anno",
+    "title": "Il Caso Ken Rex McElroy",
+    "note": "ucciso in piazza a Skidmore nel 1981"
+  },
+  "patreon:164819004": {
+    "year": 2016,
+    "precision": "anno",
+    "title": "Il Caso Sarma Melngailis",
+    "note": "arresto per frode"
+  },
+  "patreon:162919527": {
+    "year": 1998,
+    "precision": "anno",
+    "title": "Il Caso WWASP — Le Scuole del Terrore",
+    "note": "fondazione della rete WWASP"
+  },
+  "patreon:161708555": {
+    "year": 2009,
+    "precision": "anno",
+    "title": "Il Caso Wallace Souza",
+    "note": "lo scandalo esplode nel 2009"
+  }
+}

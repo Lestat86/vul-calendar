@@ -1,0 +1,786 @@
+[
+  {
+    "year": 3300,
+    "era": "ac",
+    "precision": "secolo",
+    "kind": "invenzione",
+    "title": "Nasce la scrittura in Mesopotamia",
+    "summary": "I Sumeri incidono i primi cuneiformi: da qui in poi la storia è scritta."
+  },
+  {
+    "year": 3100,
+    "era": "ac",
+    "precision": "secolo",
+    "kind": "politica",
+    "title": "Unificazione dell'Alto e Basso Egitto",
+    "summary": "Comincia la vicenda faraonica, con tremila anni di anticipo sull'Anno Zero."
+  },
+  {
+    "year": 2560,
+    "era": "ac",
+    "precision": "circa",
+    "kind": "architettura",
+    "title": "Piramide di Cheope",
+    "summary": "Il monumento più alto del mondo per i successivi 3800 anni."
+  },
+  {
+    "year": 1754,
+    "era": "ac",
+    "precision": "circa",
+    "kind": "diritto",
+    "title": "Codice di Hammurabi",
+    "summary": "Occhio per occhio, messo per iscritto."
+  },
+  {
+    "year": 1600,
+    "era": "ac",
+    "precision": "secolo",
+    "kind": "disastro",
+    "title": "Eruzione di Santorini",
+    "summary": "L'esplosione che probabilmente ha spento la civiltà minoica."
+  },
+  {
+    "year": 1279,
+    "era": "ac",
+    "precision": "anno",
+    "kind": "politica",
+    "title": "Ramses II sale al trono",
+    "summary": "Sessantasei anni di regno e la prima grande campagna di propaganda."
+  },
+  {
+    "year": 1274,
+    "era": "ac",
+    "precision": "anno",
+    "kind": "battaglia",
+    "title": "Battaglia di Qadesh",
+    "summary": "Il primo trattato di pace di cui conosciamo il testo da entrambe le parti."
+  },
+  {
+    "year": 1200,
+    "era": "ac",
+    "precision": "secolo",
+    "kind": "crollo",
+    "title": "Crollo dell'età del bronzo",
+    "summary": "Nel giro di due generazioni sparisce quasi tutto il Mediterraneo civilizzato."
+  },
+  {
+    "year": 776,
+    "era": "ac",
+    "precision": "anno",
+    "kind": "sport",
+    "title": "Prime Olimpiadi ad Olimpia",
+    "summary": "L'unica cosa su cui i greci riuscivano a smettere di combattere."
+  },
+  {
+    "year": 753,
+    "era": "ac",
+    "precision": "anno",
+    "kind": "politica",
+    "title": "Fondazione di Roma",
+    "summary": "Data tradizionale, fratricidio incluso."
+  },
+  {
+    "year": 586,
+    "era": "ac",
+    "precision": "anno",
+    "kind": "guerra",
+    "title": "Distruzione del Tempio di Salomone",
+    "summary": "Nabucodonosor rade al suolo Gerusalemme: comincia l'esilio babilonese."
+  },
+  {
+    "year": 563,
+    "era": "ac",
+    "precision": "circa",
+    "kind": "religione",
+    "title": "Nasce il Buddha",
+    "summary": "Siddhartha Gautama: la prima grande dottrina senza dio."
+  },
+  {
+    "year": 551,
+    "era": "ac",
+    "precision": "circa",
+    "kind": "filosofia",
+    "title": "Nasce Confucio",
+    "summary": "Il pensiero che organizzerà la Cina per due millenni e mezzo."
+  },
+  {
+    "year": 509,
+    "era": "ac",
+    "precision": "anno",
+    "kind": "politica",
+    "title": "Nasce la Repubblica romana",
+    "summary": "Cacciato l'ultimo re, Roma passa ai consoli."
+  },
+  {
+    "year": 490,
+    "era": "ac",
+    "precision": "anno",
+    "kind": "battaglia",
+    "title": "Battaglia di Maratona",
+    "summary": "Gli ateniesi fermano i persiani e inventano una gara di corsa."
+  },
+  {
+    "year": 480,
+    "era": "ac",
+    "precision": "anno",
+    "kind": "battaglia",
+    "title": "Termopili e Salamina",
+    "summary": "Trecento spartani, e poi la flotta che decide davvero la guerra."
+  },
+  {
+    "year": 447,
+    "era": "ac",
+    "precision": "anno",
+    "kind": "architettura",
+    "title": "Si comincia il Partenone",
+    "summary": "L'età di Pericle si costruisce il suo manifesto."
+  },
+  {
+    "year": 399,
+    "era": "ac",
+    "precision": "anno",
+    "kind": "cultura",
+    "title": "Condanna a morte di Socrate",
+    "summary": "Corruzione dei giovani: la prima censura contro un maestro scomodo."
+  },
+  {
+    "year": 336,
+    "era": "ac",
+    "precision": "anno",
+    "kind": "politica",
+    "title": "Alessandro Magno prende il trono",
+    "summary": "In tredici anni arriva all'Indo."
+  },
+  {
+    "year": 264,
+    "era": "ac",
+    "precision": "anno",
+    "kind": "guerra",
+    "title": "Prima guerra punica",
+    "summary": "Roma capisce che le serve una flotta."
+  },
+  {
+    "year": 260,
+    "era": "ac",
+    "precision": "circa",
+    "kind": "politica",
+    "title": "Ashoka si converte al buddismo",
+    "summary": "Un imperatore vince una guerra, ne resta disgustato e cambia religione."
+  },
+  {
+    "year": 221,
+    "era": "ac",
+    "precision": "anno",
+    "kind": "politica",
+    "title": "Qin Shi Huang unifica la Cina",
+    "summary": "Primo imperatore, esercito di terracotta, Grande Muraglia avviata."
+  },
+  {
+    "year": 218,
+    "era": "ac",
+    "precision": "anno",
+    "kind": "guerra",
+    "title": "Annibale valica le Alpi",
+    "summary": "Con gli elefanti, che è la parte che tutti ricordano."
+  },
+  {
+    "year": 146,
+    "era": "ac",
+    "precision": "anno",
+    "kind": "guerra",
+    "title": "Distruzione di Cartagine",
+    "summary": "Delenda est, e infatti."
+  },
+  {
+    "year": 44,
+    "era": "ac",
+    "precision": "anno",
+    "kind": "politica",
+    "title": "Assassinio di Giulio Cesare",
+    "summary": "Idi di marzo, ventitré coltellate, fine della Repubblica."
+  },
+  {
+    "year": 31,
+    "era": "ac",
+    "precision": "anno",
+    "kind": "battaglia",
+    "title": "Battaglia di Azio",
+    "summary": "Ottaviano batte Antonio e Cleopatra: nasce l'Impero."
+  },
+  {
+    "year": 79,
+    "era": "dc",
+    "precision": "anno",
+    "kind": "disastro",
+    "title": "Eruzione del Vesuvio",
+    "summary": "Pompei ed Ercolano sottovuoto per diciassette secoli."
+  },
+  {
+    "year": 80,
+    "era": "dc",
+    "precision": "anno",
+    "kind": "architettura",
+    "title": "Inaugurazione del Colosseo",
+    "summary": "Cento giorni di giochi per il taglio del nastro."
+  },
+  {
+    "year": 105,
+    "era": "dc",
+    "precision": "circa",
+    "kind": "invenzione",
+    "title": "Invenzione della carta in Cina",
+    "summary": "Millecinquecento anni prima che serva a Gutenberg."
+  },
+  {
+    "year": 313,
+    "era": "dc",
+    "precision": "anno",
+    "kind": "religione",
+    "title": "Editto di Milano",
+    "summary": "Costantino legalizza il cristianesimo."
+  },
+  {
+    "year": 410,
+    "era": "dc",
+    "precision": "anno",
+    "kind": "guerra",
+    "title": "Sacco di Roma",
+    "summary": "I visigoti di Alarico entrano in città: lo shock è più grande del danno."
+  },
+  {
+    "year": 476,
+    "era": "dc",
+    "precision": "anno",
+    "kind": "crollo",
+    "title": "Cade l'Impero romano d'Occidente",
+    "summary": "Odoacre depone Romolo Augustolo. La data più convenzionale della storia."
+  },
+  {
+    "year": 610,
+    "era": "dc",
+    "precision": "circa",
+    "kind": "infrastruttura",
+    "title": "Gran Canale cinese completato",
+    "summary": "Millesettecento chilometri scavati a mano."
+  },
+  {
+    "year": 622,
+    "era": "dc",
+    "precision": "anno",
+    "kind": "religione",
+    "title": "Egira di Maometto",
+    "summary": "Anno zero del calendario islamico: un altro modo di contare gli anni."
+  },
+  {
+    "year": 732,
+    "era": "dc",
+    "precision": "anno",
+    "kind": "battaglia",
+    "title": "Battaglia di Poitiers",
+    "summary": "Carlo Martello ferma l'avanzata araba in Francia."
+  },
+  {
+    "year": 800,
+    "era": "dc",
+    "precision": "anno",
+    "kind": "politica",
+    "title": "Carlo Magno imperatore",
+    "summary": "Natale a San Pietro, e l'Occidente si rifà un impero."
+  },
+  {
+    "year": 820,
+    "era": "dc",
+    "precision": "circa",
+    "kind": "scienza",
+    "title": "Al-Khwarizmi e l'algebra",
+    "summary": "Dal suo nome viene \"algoritmo\": tutta l'informatica gli deve il titolo."
+  },
+  {
+    "year": 830,
+    "era": "dc",
+    "precision": "circa",
+    "kind": "cultura",
+    "title": "Casa della Sapienza a Baghdad",
+    "summary": "Si traduce e si salva il sapere greco mentre l'Europa dorme."
+  },
+  {
+    "year": 1054,
+    "era": "dc",
+    "precision": "anno",
+    "kind": "religione",
+    "title": "Scisma d'Oriente",
+    "summary": "Roma e Costantinopoli si scomunicano a vicenda."
+  },
+  {
+    "year": 1066,
+    "era": "dc",
+    "precision": "anno",
+    "kind": "battaglia",
+    "title": "Battaglia di Hastings",
+    "summary": "Guglielmo il Conquistatore prende l'Inghilterra e le cambia la lingua."
+  },
+  {
+    "year": 1096,
+    "era": "dc",
+    "precision": "anno",
+    "kind": "guerra",
+    "title": "Prima crociata",
+    "summary": "Duecento anni di andirivieni armato verso Gerusalemme."
+  },
+  {
+    "year": 1150,
+    "era": "dc",
+    "precision": "circa",
+    "kind": "architettura",
+    "title": "Angkor Wat",
+    "summary": "Il più grande complesso religioso mai costruito."
+  },
+  {
+    "year": 1206,
+    "era": "dc",
+    "precision": "anno",
+    "kind": "politica",
+    "title": "Gengis Khan unifica i mongoli",
+    "summary": "Costruirà l'impero contiguo più vasto della storia."
+  },
+  {
+    "year": 1215,
+    "era": "dc",
+    "precision": "anno",
+    "kind": "diritto",
+    "title": "Magna Carta",
+    "summary": "Il re inglese firma che nemmeno lui è sopra la legge."
+  },
+  {
+    "year": 1271,
+    "era": "dc",
+    "precision": "anno",
+    "kind": "viaggio",
+    "title": "Marco Polo parte per la Cina",
+    "summary": "Il primo grande racconto di viaggio europeo, forse un po' gonfiato."
+  },
+  {
+    "year": 1324,
+    "era": "dc",
+    "precision": "anno",
+    "kind": "viaggio",
+    "title": "Il pellegrinaggio di Mansa Musa",
+    "summary": "L'uomo più ricco di sempre distribuisce tanto oro da svalutarlo in Egitto."
+  },
+  {
+    "year": 1325,
+    "era": "dc",
+    "precision": "anno",
+    "kind": "politica",
+    "title": "Fondazione di Tenochtitlan",
+    "summary": "Gli aztechi costruiscono una città su un lago."
+  },
+  {
+    "year": 1348,
+    "era": "dc",
+    "precision": "anno",
+    "kind": "epidemia",
+    "title": "Peste nera in Europa",
+    "summary": "Muore fra un terzo e metà del continente."
+  },
+  {
+    "year": 1400,
+    "era": "dc",
+    "precision": "secolo",
+    "kind": "politica",
+    "title": "Apogeo dell'impero Inca",
+    "summary": "Quattromila chilometri di strade senza ruota né scrittura."
+  },
+  {
+    "year": 1440,
+    "era": "dc",
+    "precision": "circa",
+    "kind": "invenzione",
+    "title": "Gutenberg e i caratteri mobili",
+    "summary": "La prima tecnologia che rende le idee incontenibili."
+  },
+  {
+    "year": 1450,
+    "era": "dc",
+    "precision": "circa",
+    "kind": "architettura",
+    "title": "Machu Picchu",
+    "summary": "Costruita e abbandonata nell'arco di un secolo."
+  },
+  {
+    "year": 1453,
+    "era": "dc",
+    "precision": "anno",
+    "kind": "guerra",
+    "title": "Caduta di Costantinopoli",
+    "summary": "Finisce l'Impero romano d'Oriente, 977 anni dopo l'altro."
+  },
+  {
+    "year": 1453,
+    "era": "dc",
+    "precision": "anno",
+    "kind": "cultura",
+    "title": "Gutenberg stampa la Bibbia",
+    "summary": "Prima applicazione industriale dei caratteri mobili."
+  },
+  {
+    "year": 1492,
+    "era": "dc",
+    "precision": "anno",
+    "kind": "viaggio",
+    "title": "Colombo arriva in America",
+    "summary": "Cercava le Indie. Il malinteso più fruttuoso della storia."
+  },
+  {
+    "year": 1492,
+    "era": "dc",
+    "precision": "anno",
+    "kind": "politica",
+    "title": "Fine della Reconquista",
+    "summary": "Cade Granada: l'ultimo emirato di al-Andalus."
+  },
+  {
+    "year": 1498,
+    "era": "dc",
+    "precision": "anno",
+    "kind": "viaggio",
+    "title": "Vasco da Gama arriva in India",
+    "summary": "La rotta delle spezie via mare: l'Europa scavalca i mediatori."
+  },
+  {
+    "year": 1503,
+    "era": "dc",
+    "precision": "circa",
+    "kind": "arte",
+    "title": "Leonardo dipinge la Gioconda",
+    "summary": "Il quadro più guardato del pianeta."
+  },
+  {
+    "year": 1517,
+    "era": "dc",
+    "precision": "anno",
+    "kind": "religione",
+    "title": "Le 95 tesi di Lutero",
+    "summary": "Con la stampa appena inventata, la protesta diventa incontenibile."
+  },
+  {
+    "year": 1519,
+    "era": "dc",
+    "precision": "anno",
+    "kind": "viaggio",
+    "title": "Magellano parte per la circumnavigazione",
+    "summary": "Torna una nave su cinque, e senza di lui."
+  },
+  {
+    "year": 1520,
+    "era": "dc",
+    "precision": "anno",
+    "kind": "politica",
+    "title": "Solimano il Magnifico al trono",
+    "summary": "L'impero ottomano al massimo della sua estensione."
+  },
+  {
+    "year": 1521,
+    "era": "dc",
+    "precision": "anno",
+    "kind": "guerra",
+    "title": "Caduta di Tenochtitlan",
+    "summary": "Cortés e il vaiolo cancellano l'impero azteco."
+  },
+  {
+    "year": 1526,
+    "era": "dc",
+    "precision": "anno",
+    "kind": "politica",
+    "title": "Nasce l'impero Moghul",
+    "summary": "Babur vince a Panipat e apre tre secoli di splendore indiano."
+  },
+  {
+    "year": 1532,
+    "era": "dc",
+    "precision": "anno",
+    "kind": "guerra",
+    "title": "Pizarro cattura Atahualpa",
+    "summary": "Centosessantotto uomini rovesciano l'impero Inca."
+  },
+  {
+    "year": 1543,
+    "era": "dc",
+    "precision": "anno",
+    "kind": "scienza",
+    "title": "Copernico sposta la Terra",
+    "summary": "Il De revolutionibus mette il Sole al centro."
+  },
+  {
+    "year": 1571,
+    "era": "dc",
+    "precision": "anno",
+    "kind": "battaglia",
+    "title": "Battaglia di Lepanto",
+    "summary": "L'ultima grande battaglia navale a remi."
+  },
+  {
+    "year": 1600,
+    "era": "dc",
+    "precision": "anno",
+    "kind": "religione",
+    "title": "Giordano Bruno al rogo",
+    "summary": "Campo de' Fiori, per aver immaginato altri mondi abitati."
+  },
+  {
+    "year": 1603,
+    "era": "dc",
+    "precision": "anno",
+    "kind": "politica",
+    "title": "Inizia lo shogunato Tokugawa",
+    "summary": "Il Giappone si chiude al mondo per 250 anni."
+  },
+  {
+    "year": 1609,
+    "era": "dc",
+    "precision": "anno",
+    "kind": "scienza",
+    "title": "Galileo punta il telescopio al cielo",
+    "summary": "Le lune di Giove, e il cielo smette di essere perfetto."
+  },
+  {
+    "year": 1633,
+    "era": "dc",
+    "precision": "anno",
+    "kind": "scienza",
+    "title": "Abiura di Galileo",
+    "summary": "Eppur si muove, ma a bassa voce."
+  },
+  {
+    "year": 1648,
+    "era": "dc",
+    "precision": "anno",
+    "kind": "trattato",
+    "title": "Pace di Vestfalia",
+    "summary": "Fine della guerra dei trent'anni e nascita dello stato sovrano moderno."
+  },
+  {
+    "year": 1653,
+    "era": "dc",
+    "precision": "anno",
+    "kind": "architettura",
+    "title": "Taj Mahal completato",
+    "summary": "Ventimila operai per una tomba."
+  },
+  {
+    "year": 1687,
+    "era": "dc",
+    "precision": "anno",
+    "kind": "scienza",
+    "title": "Newton pubblica i Principia",
+    "summary": "La gravitazione universale: il cielo e la Terra hanno le stesse leggi."
+  },
+  {
+    "year": 1755,
+    "era": "dc",
+    "precision": "anno",
+    "kind": "disastro",
+    "title": "Terremoto di Lisbona",
+    "summary": "Trentamila morti in una mattina di Ognissanti: l'Illuminismo perde la fede."
+  },
+  {
+    "year": 1769,
+    "era": "dc",
+    "precision": "anno",
+    "kind": "invenzione",
+    "title": "Watt brevetta la macchina a vapore",
+    "summary": "Il motore della rivoluzione industriale."
+  },
+  {
+    "year": 1776,
+    "era": "dc",
+    "precision": "anno",
+    "kind": "politica",
+    "title": "Indipendenza degli Stati Uniti",
+    "summary": "Quattro luglio, tredici colonie, un documento."
+  },
+  {
+    "year": 1789,
+    "era": "dc",
+    "precision": "anno",
+    "kind": "rivoluzione",
+    "title": "Rivoluzione francese",
+    "summary": "Presa della Bastiglia. Inventeranno anche un calendario nuovo, e falliranno."
+  },
+  {
+    "year": 1791,
+    "era": "dc",
+    "precision": "anno",
+    "kind": "rivoluzione",
+    "title": "Rivoluzione haitiana",
+    "summary": "L'unica rivolta di schiavi che fonda uno stato."
+  },
+  {
+    "year": 1804,
+    "era": "dc",
+    "precision": "anno",
+    "kind": "politica",
+    "title": "Napoleone si incorona imperatore",
+    "summary": "Si prende la corona dalle mani del papa e se la mette da solo."
+  },
+  {
+    "year": 1807,
+    "era": "dc",
+    "precision": "anno",
+    "kind": "diritto",
+    "title": "Abolizione della tratta atlantica",
+    "summary": "Il Regno Unito mette fuori legge il commercio di schiavi."
+  },
+  {
+    "year": 1815,
+    "era": "dc",
+    "precision": "anno",
+    "kind": "battaglia",
+    "title": "Waterloo",
+    "summary": "Fine di Napoleone e del sogno di un'Europa unificata con la forza."
+  },
+  {
+    "year": 1825,
+    "era": "dc",
+    "precision": "anno",
+    "kind": "trasporti",
+    "title": "Prima ferrovia passeggeri",
+    "summary": "Stockton-Darlington: il mondo comincia a rimpicciolirsi."
+  },
+  {
+    "year": 1839,
+    "era": "dc",
+    "precision": "anno",
+    "kind": "guerra",
+    "title": "Prima guerra dell'oppio",
+    "summary": "Il \"secolo dell'umiliazione\" cinese comincia per una questione di droga."
+  },
+  {
+    "year": 1848,
+    "era": "dc",
+    "precision": "anno",
+    "kind": "rivoluzione",
+    "title": "Primavera dei popoli",
+    "summary": "Mezza Europa in rivolta nello stesso anno, e il Manifesto di Marx."
+  },
+  {
+    "year": 1857,
+    "era": "dc",
+    "precision": "anno",
+    "kind": "rivoluzione",
+    "title": "Rivolta indiana",
+    "summary": "Finisce la Compagnia delle Indie, comincia il Raj britannico."
+  },
+  {
+    "year": 1859,
+    "era": "dc",
+    "precision": "anno",
+    "kind": "scienza",
+    "title": "L'origine delle specie",
+    "summary": "Darwin spiega da dove veniamo, e non piace a tutti."
+  },
+  {
+    "year": 1861,
+    "era": "dc",
+    "precision": "anno",
+    "kind": "politica",
+    "title": "Proclamazione del Regno d'Italia",
+    "summary": "Fatta l'Italia, restava da fare il resto."
+  },
+  {
+    "year": 1863,
+    "era": "dc",
+    "precision": "anno",
+    "kind": "diritto",
+    "title": "Proclama di emancipazione",
+    "summary": "Lincoln libera gli schiavi degli stati confederati."
+  },
+  {
+    "year": 1868,
+    "era": "dc",
+    "precision": "anno",
+    "kind": "politica",
+    "title": "Restaurazione Meiji",
+    "summary": "Il Giappone decide di industrializzarsi in una generazione, e ci riesce."
+  },
+  {
+    "year": 1869,
+    "era": "dc",
+    "precision": "anno",
+    "kind": "infrastruttura",
+    "title": "Apertura del Canale di Suez",
+    "summary": "L'Asia si avvicina all'Europa di seimila chilometri."
+  },
+  {
+    "year": 1876,
+    "era": "dc",
+    "precision": "anno",
+    "kind": "invenzione",
+    "title": "Bell brevetta il telefono",
+    "summary": "Meucci ci era arrivato prima, ma non aveva i soldi del brevetto."
+  },
+  {
+    "year": 1879,
+    "era": "dc",
+    "precision": "anno",
+    "kind": "invenzione",
+    "title": "Lampadina di Edison",
+    "summary": "La giornata di lavoro si allunga oltre il tramonto."
+  },
+  {
+    "year": 1883,
+    "era": "dc",
+    "precision": "anno",
+    "kind": "disastro",
+    "title": "Eruzione del Krakatoa",
+    "summary": "Il boato più forte mai registrato: sentito a 4800 km."
+  },
+  {
+    "year": 1884,
+    "era": "dc",
+    "precision": "anno",
+    "kind": "politica",
+    "title": "Conferenza di Berlino",
+    "summary": "L'Africa spartita a tavolino da chi non l'aveva mai vista."
+  },
+  {
+    "year": 1885,
+    "era": "dc",
+    "precision": "anno",
+    "kind": "invenzione",
+    "title": "Prima automobile di Benz",
+    "summary": "Tre ruote, un cilindro, 0,75 cavalli."
+  },
+  {
+    "year": 1889,
+    "era": "dc",
+    "precision": "anno",
+    "kind": "architettura",
+    "title": "Torre Eiffel",
+    "summary": "Doveva essere temporanea."
+  },
+  {
+    "year": 1895,
+    "era": "dc",
+    "precision": "anno",
+    "kind": "cultura",
+    "title": "Prima proiezione dei Lumière",
+    "summary": "Nasce il cinema, e con lui il modo in cui ci racconteremo tutto."
+  },
+  {
+    "year": 1896,
+    "era": "dc",
+    "precision": "anno",
+    "kind": "sport",
+    "title": "Prime Olimpiadi moderne",
+    "summary": "Atene, 2672 anni dopo le altre."
+  },
+  {
+    "year": 1898,
+    "era": "dc",
+    "precision": "anno",
+    "kind": "scienza",
+    "title": "I Curie isolano il radio",
+    "summary": "Comincia il secolo nucleare."
+  }
+]
