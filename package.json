@@ -1,0 +1,33 @@
+{
+  "name": "vul-calendar",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "etl": "node scripts/etl/run-all.mjs",
+    "etl:wikidata": "node scripts/etl/fetch-wikidata.mjs",
+    "etl:naqp": "node scripts/etl/fetch-naqp.mjs",
+    "etl:patreon": "node scripts/etl/fetch-patreon.mjs",
+    "etl:dates": "node scripts/etl/resolve-dates.mjs",
+    "etl:bundle": "node scripts/etl/bundle.mjs"
+  },
+  "dependencies": {
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.3.3",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "@vitejs/plugin-react": "^6.1.1",
+    "jsdom": "^29.1.1",
+    "tailwindcss": "^4.3.3",
+    "typescript": "~5.9.0",
+    "vite": "^8.2.2",
+    "vitest": "^4.1.11"
+  }
+}
