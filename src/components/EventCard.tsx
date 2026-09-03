@@ -79,11 +79,11 @@ export function EventCard({ event, credits }: {
             <p className="mt-1.5 text-[13px] leading-relaxed text-bone/75">{event.summary}</p>
           )}
 
-          {/* Gli esclusivi Patreon non hanno description pubblica: al posto
-              dell'incipit si dice perché manca, invece di lasciare il vuoto. */}
+          {/* Qualche episodio non ha incipit nel feed (speciali, puntate senza
+              testo): meglio dirlo che lasciare la card muta. */}
           {event.track === 'naqp' && !event.summary && (
             <p className="mt-1.5 text-[11px] italic text-bone-dim">
-              Episodio esclusivo: la descrizione non è pubblica.
+              Questo episodio non ha una descrizione nel feed.
             </p>
           )}
 

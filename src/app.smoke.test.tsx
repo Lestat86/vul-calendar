@@ -73,17 +73,17 @@ describe('rendering', () => {
     const html = render(<EventCard event={ep} credits={null} />)
     expect(html).toContain('S14E7')
     expect(html).toContain('Contea di Riverside')
-    expect(html).not.toContain('non è pubblica')
+    expect(html).not.toContain('non ha una descrizione')
   })
 
-  it('senza incipit la card NAQP spiega perché manca', () => {
+  it('senza incipit la card NAQP lo dichiara invece di restare muta', () => {
     const ep = event({
       id: 'naqp:2', track: 'naqp', title: 'Il Caso Landru',
       year: 1915, vul: -79, tier: 'esclusivo', image: undefined, summary: undefined,
     })
     const html = render(<EventCard event={ep} credits={null} />)
     expect(html).toContain('esclusivo')
-    expect(html).toContain('non è pubblica')
+    expect(html).toContain('non ha una descrizione')
   })
 
   it('il pulsante per l\'Anno Zero c\'è ed è etichettato', () => {

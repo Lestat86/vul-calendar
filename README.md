@@ -31,23 +31,36 @@ non chiama nessuna API a runtime: si apre anche se Wikidata è giù.
 - `npm run etl` — pipeline completa
 - `npm run etl:dates` — propone anni per gli episodi NAQP non datati
 
-### Perché gli anni NAQP si confermano a mano
+### Da dove viene l'anno di un episodio
 
-Gli esclusivi Patreon non hanno description pubbliche, quindi l'unico aggancio
-è il nome del caso nel titolo. Risolverlo automaticamente su Wikipedia dà **67%
-di precisione**, e il 33% restante sono anni *sbagliati con sicurezza*:
+Dall'incipit che l'episodio dà a sé stesso — "*Siamo a Napoli, nel 1993…*" —
+disponibile sia nel feed pubblico sia sulla campagna Patreon.
+
+Sul lato Patreon il campo giusto è **`content_teaser_text`**: `content` e
+`teaser_text` esistono nello schema ma tornano sempre `null`, e fanno sembrare
+che l'incipit sia dietro il paywall. Non lo è: è lo stesso testo che si vede
+aprendo la pagina da un browser non loggato. Il corpo dell'episodio invece resta
+a pagamento e non viene toccato.
+
+Restano una sessantina di episodi che non si datano da sé. Per quelli
+`resolve-dates.mjs` propone un anno cercando il nome del caso su Wikipedia, ma
+scrive solo **proposte** in `data/generated/naqp-dates.proposals.json`, perché
+quel metodo ha il **67% di precisione** e il 33% restante sono anni *sbagliati
+con sicurezza*:
 
 - `Il Caso Rasputin` → un libro del 2011, non l'omicidio del 1916
 - `Il Caso di Woodstock '99` → il festival del 1969
 - `Il Caso H.H. Holmes` → Sherlock Holmes
 
-Su una timeline un anno sbagliato non si vede: è peggio di un buco. Quindi
-`resolve-dates.mjs` scrive solo **proposte** in
-`data/generated/naqp-dates.proposals.json`, e in timeline finisce esclusivamente
-ciò che è stato confermato in `data/naqp-dates.json`.
+Su una timeline un anno sbagliato non si vede: è peggio di un buco. In timeline
+finisce solo ciò che è confermato in `data/naqp-dates.json`, che serve a coprire
+i buchi: se l'episodio si data da sé, vince il suo inquadramento.
 
-Il feed pubblico è diverso: l'anno viene dall'incipit dell'episodio stesso
-("*Siamo a Napoli, nel 1993…*"), quindi è affidabile e viene usato direttamente.
+Due trappole dell'italiano, trovate sui dati veri e coperte da test:
+
+- "*anni 2000*" è un decennio, non l'anno 2000
+- "*alla fine del 1800*" è il secolo: collocarlo nel 1800 sbaglia di novant'anni,
+  quindi quei casi restano senza anno e passano per la curation
 
 ### Limiti noti
 
@@ -55,7 +68,8 @@ Il feed pubblico è diverso: l'anno viene dall'incipit dell'episodio stesso
   lo snapshot committato è l'unica copia degli episodi che ne sono usciti.
 - Prima del 1582 il gregoriano è prolettico e non coincide col giuliano. Le
   conversioni antiche sono goliardiche, non filologiche, e l'app lo dichiara.
-- Di NAQP salviamo solo titolo, anno e link. Nessun contenuto a pagamento.
+- Di NAQP salviamo titolo, anno, incipit pubblico e link. Il contenuto a
+  pagamento non viene toccato.
 
 ## Deploy
 
