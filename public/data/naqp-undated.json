@@ -1,57 +1,9 @@
 [
   {
-    "id": "naqp:5a809ac0-a4b9-11f1-a4c6-ab37c2296cbf",
-    "title": "Speciale Preti Malandrini",
-    "tier": "pubblico",
-    "isSpecial": true
-  },
-  {
-    "id": "naqp:d98a5854-3a62-11f1-9735-330baabbe917",
-    "title": "Special Looksmaxxing",
-    "tier": "pubblico",
-    "isSpecial": true
-  },
-  {
     "id": "naqp:9f0a2bb6-0775-11f1-9cd7-bb2806bde774",
     "title": "Il Caso Epstein Files - La Pista Italiana",
     "tier": "pubblico",
     "isSpecial": false
-  },
-  {
-    "id": "naqp:a264f54c-fce0-11f0-aaf3-6bffc760669b",
-    "title": "Speciale Orrori Sessuali #3",
-    "tier": "pubblico",
-    "isSpecial": true
-  },
-  {
-    "id": "naqp:5a13b43c-b4e1-11f0-9c75-cf347a3f43ef",
-    "title": "Special Clown Malvagi Feat Jake La Furia",
-    "tier": "pubblico",
-    "isSpecial": true
-  },
-  {
-    "id": "naqp:a2f4478a-3fa6-11f0-83a5-9fda016ceacf",
-    "title": "Special Orrori Medici #2",
-    "tier": "pubblico",
-    "isSpecial": true
-  },
-  {
-    "id": "naqp:c7b3f45e-050d-11f0-a4c5-0b86ecdf6993",
-    "title": "Special Metafonia - Nonna è Tornata",
-    "tier": "pubblico",
-    "isSpecial": true
-  },
-  {
-    "id": "naqp:5fed7158-bd76-11ef-a5da-ebf26f03f0f6",
-    "title": "Xmas Special '24 - Parte Seconda",
-    "tier": "pubblico",
-    "isSpecial": true
-  },
-  {
-    "id": "naqp:61fb5a3e-b7d9-11ef-9ced-7f2ea0182566",
-    "title": "Xmas Special '24 - Parte Prima",
-    "tier": "pubblico",
-    "isSpecial": true
   },
   {
     "id": "naqp:7f56199a-3df2-11ef-b91e-eb81899187d9",
@@ -84,76 +36,10 @@
     "isSpecial": false
   },
   {
-    "id": "naqp:a31e02de-d317-11ee-ad27-bfc659832ce2",
-    "title": "Special Orrori Sessuali",
-    "tier": "pubblico",
-    "isSpecial": true
-  },
-  {
-    "id": "naqp:8da6f508-b9ba-11ee-8ef1-93da4245b002",
-    "title": "Speciale Necrofilia Pt.2",
-    "tier": "pubblico",
-    "isSpecial": true
-  },
-  {
-    "id": "naqp:5ce52554-b157-11ee-9fc5-8f387e306673",
-    "title": "Speciale Necrofilia Pt.1",
-    "tier": "pubblico",
-    "isSpecial": true
-  },
-  {
-    "id": "naqp:39d560f4-7b30-11ee-b97e-a701144494f5",
-    "title": "Special Creepypasta #3",
-    "tier": "pubblico",
-    "isSpecial": true
-  },
-  {
-    "id": "naqp:4edb2dfa-cfc0-41df-9095-04cb9f3ae4de",
-    "title": "Il Caso Omeopatia",
-    "tier": "pubblico",
-    "isSpecial": false
-  },
-  {
-    "id": "naqp:88608170-a23f-4292-93e1-ae1a4a9c42b8",
-    "title": "Speciale FanPaura",
-    "tier": "pubblico",
-    "isSpecial": true
-  },
-  {
-    "id": "naqp:9a950b1d-fdd0-4f2e-91e7-c5bcc8aea376",
-    "title": "Special Posseduti dal Diavolo",
-    "tier": "pubblico",
-    "isSpecial": true
-  },
-  {
-    "id": "naqp:3b8e7207-18ed-4697-9ce2-5e46be78accd",
-    "title": "Special Sette e Culti Mortali Feat. Michelle Hunziker",
-    "tier": "pubblico",
-    "isSpecial": true
-  },
-  {
-    "id": "naqp:0811de53-5e2e-4cff-b889-e23898383ec2",
-    "title": "Il Caso del Vampiro della Bergamasca",
-    "tier": "pubblico",
-    "isSpecial": false
-  },
-  {
     "id": "naqp:994f7613-6499-40f2-9313-e1a90f147cc4",
     "title": "Il Caso del Boia di Albenga",
     "tier": "pubblico",
     "isSpecial": false
-  },
-  {
-    "id": "naqp:04bce7c8-7521-11ec-b7df-bb6a87e7c87e",
-    "title": "Special Creepypasta #2",
-    "tier": "pubblico",
-    "isSpecial": true
-  },
-  {
-    "id": "naqp:0438fda0-7521-11ec-b7df-6fefbad86f1d",
-    "title": "Special Creepypasta #1",
-    "tier": "pubblico",
-    "isSpecial": true
   },
   {
     "id": "naqp:04186950-7521-11ec-b7df-83023f277d86",
@@ -182,12 +68,6 @@
   {
     "id": "patreon:162163784",
     "title": "Il Caso del Museo Fallologico - Battaglia per il Pene",
-    "tier": "esclusivo",
-    "isSpecial": false
-  },
-  {
-    "id": "patreon:156448404",
-    "title": "Il Caso Final Fantasy VII House",
     "tier": "esclusivo",
     "isSpecial": false
   },
@@ -246,46 +126,10 @@
     "isSpecial": false
   },
   {
-    "id": "patreon:146304559",
-    "title": "Il Caso Carnation - XMas '25 Special",
-    "tier": "esclusivo",
-    "isSpecial": true
-  },
-  {
-    "id": "patreon:145283910",
-    "title": "Il Caso Wanda Holloway - Madre Pom Pom",
-    "tier": "esclusivo",
-    "isSpecial": false
-  },
-  {
-    "id": "patreon:138807254",
-    "title": "Il Caso del Mostro di Stretta Bagnera",
-    "tier": "esclusivo",
-    "isSpecial": false
-  },
-  {
     "id": "patreon:137788861",
     "title": "Il Caso Madre Teresa",
     "tier": "esclusivo",
     "isSpecial": false
-  },
-  {
-    "id": "patreon:136142142",
-    "title": "Il Caso Belle Gunness",
-    "tier": "esclusivo",
-    "isSpecial": false
-  },
-  {
-    "id": "patreon:134026870",
-    "title": "Il Caso Mr. Crowley",
-    "tier": "esclusivo",
-    "isSpecial": false
-  },
-  {
-    "id": "patreon:131017218",
-    "title": "Special Penicidi",
-    "tier": "esclusivo",
-    "isSpecial": true
   },
   {
     "id": "patreon:129287246",
@@ -330,46 +174,10 @@
     "isSpecial": false
   },
   {
-    "id": "patreon:107155703",
-    "title": "Il Caso Joe Petrosino - Uno VS Tutti",
-    "tier": "esclusivo",
-    "isSpecial": false
-  },
-  {
     "id": "patreon:106746127",
     "title": "Il Caso Tilly",
     "tier": "esclusivo",
     "isSpecial": false
-  },
-  {
-    "id": "patreon:105450476",
-    "title": "Il Caso Mesrine Nemico Pubblico N1",
-    "tier": "esclusivo",
-    "isSpecial": false
-  },
-  {
-    "id": "patreon:104549102",
-    "title": "Speciale Piccoli Grandi Casi Pt.2",
-    "tier": "esclusivo",
-    "isSpecial": true
-  },
-  {
-    "id": "patreon:104124768",
-    "title": "Special Piccoli Grandi Casi Pt.1",
-    "tier": "esclusivo",
-    "isSpecial": true
-  },
-  {
-    "id": "patreon:103670768",
-    "title": "Il Caso Dozier: Medium Americani Vs Brigate Rosse",
-    "tier": "esclusivo",
-    "isSpecial": false
-  },
-  {
-    "id": "patreon:98000421",
-    "title": "Speciale FanPaura #2",
-    "tier": "esclusivo",
-    "isSpecial": true
   },
   {
     "id": "patreon:97041655",

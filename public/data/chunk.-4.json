@@ -614,6 +614,22 @@
     "rank": 4
   },
   {
+    "id": "patreon:105450476",
+    "track": "naqp",
+    "title": "Il Caso Mesrine Nemico Pubblico N1",
+    "summary": "Siamo in Francia, tra gli anni ‘60 e ‘70. Ma anche in Spagna, Canada, Stati Uniti e Venezuela. Un bandito inarrestabile attraversa cinque…",
+    "year": 1960,
+    "era": "dc",
+    "vul": -34,
+    "precision": "decennio",
+    "kind": "caso",
+    "weight": 1000,
+    "tier": "esclusivo",
+    "dateSource": "descrizione",
+    "url": "https://www.patreon.com/cw/NAQP",
+    "rank": 4
+  },
+  {
     "id": "wd:Q694604",
     "track": "storia",
     "title": "trattato di mutua cooperazione e sicurezza tra Stati Uniti d'America e Giappone",

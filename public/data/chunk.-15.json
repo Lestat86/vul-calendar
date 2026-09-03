@@ -45,5 +45,21 @@
     "weight": 1000,
     "curated": true,
     "rank": 0
+  },
+  {
+    "id": "patreon:138807254",
+    "track": "naqp",
+    "title": "Il Caso del Mostro di Stretta Bagnera",
+    "summary": "Milano, metà dell'Ottocento. Nelle strade strette e buie del quartiere Carrobbio, tra operai e muratori che cercano fortuna nella città…",
+    "year": 1850,
+    "era": "dc",
+    "vul": -144,
+    "precision": "decennio",
+    "kind": "caso",
+    "weight": 1000,
+    "tier": "esclusivo",
+    "dateSource": "descrizione",
+    "url": "https://www.patreon.com/cw/NAQP",
+    "rank": 0
   }
 ]

@@ -1,14 +1,23 @@
 {
   "_": [
-    "Anni confermati a mano per gli episodi NAQP. Questo file è l'AUTORITÀ:",
-    "il bundle usa solo ciò che sta qui, più gli anni estratti dalle description",
-    "del feed pubblico (che sono affidabili perché sono l'incipit dell'episodio).",
+    "Anni confermati a mano per gli episodi NAQP. Questo file VINCE sempre:",
+    "è un override, non un tappabuchi.",
+    "",
+    "Serve a due cose:",
+    "  1. coprire gli episodi che non si datano da sé",
+    "  2. sostituire l'inquadramento dell'episodio quando è troppo largo.",
+    "     Es: Rasputin dice 'inizio del XX secolo', ma l'omicidio è del 1916;",
+    "     su una timeline 1916 è più utile del decennio 1900.",
+    "",
+    "NON cancellare una voce solo perché l'estrazione ora produce un valore:",
+    "verifica prima quale dei due è piu' preciso, leggendo l'incipit.",
     "",
     "Le proposte automatiche stanno in data/generated/naqp-dates.proposals.json",
-    "e non entrano in timeline: vanno lette, verificate e copiate qui.",
+    "e non entrano in timeline. Gli episodi ancora da datare, con incipit,",
+    "stanno in data/naqp-dates.todo.json (generato da npm run etl:todo).",
     "",
-    "Formato:  \"<id>\": { \"year\": 1981, \"precision\": \"anno\", \"note\": \"...\" }",
-    "precision: \"anno\" | \"decennio\" | \"secolo\""
+    "Formato:  \"<id>\": { \"year\": 1916, \"precision\": \"anno\", \"note\": \"...\" }",
+    "precision: \"anno\" | \"circa\" | \"decennio\" | \"secolo\""
   ],
   "patreon:164209005": {
     "year": 1987,

@@ -1446,6 +1446,22 @@
     "rank": 11
   },
   {
+    "id": "patreon:145283910",
+    "track": "naqp",
+    "title": "Il Caso Wanda Holloway - Madre Pom Pom",
+    "summary": "Channelview, Texas, Stati Uniti. Anni '90. In questa piccola cittadina operaia, dove la vita ruota intorno alle fabbriche, alle chiese e…",
+    "year": 1990,
+    "era": "dc",
+    "vul": -4,
+    "precision": "decennio",
+    "kind": "caso",
+    "weight": 1000,
+    "tier": "esclusivo",
+    "dateSource": "descrizione",
+    "url": "https://www.patreon.com/cw/NAQP",
+    "rank": 11
+  },
+  {
     "id": "wd:Q2647284",
     "track": "storia",
     "title": "Volo Alitalia 404",

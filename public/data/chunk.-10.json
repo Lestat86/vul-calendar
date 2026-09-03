@@ -69,6 +69,22 @@
     "rank": 0
   },
   {
+    "id": "patreon:136142142",
+    "track": "naqp",
+    "title": "Il Caso Belle Gunness",
+    "summary": "La Porte, Indiana, Stati Uniti. Nei primi anni del '900, questa tranquilla cittadina agricola del Midwest si ritrova ad essere teatro di…",
+    "year": 1900,
+    "era": "dc",
+    "vul": -94,
+    "precision": "decennio",
+    "kind": "caso",
+    "weight": 1000,
+    "tier": "esclusivo",
+    "dateSource": "descrizione",
+    "url": "https://www.patreon.com/cw/NAQP",
+    "rank": 0
+  },
+  {
     "id": "naqp:95d41944-626b-11f0-89df-cbf15945fdab",
     "track": "naqp",
     "title": "Il Caso Falleni - Fallo Con Me",
@@ -76,6 +92,7 @@
     "year": 1900,
     "era": "dc",
     "vul": -94,
+    "precision": "decennio",
     "kind": "caso",
     "weight": 1000,
     "tier": "pubblico",
@@ -83,7 +100,7 @@
     "episode": 10,
     "dateSource": "descrizione",
     "url": "https://feeds.megaphone.fm/naqp",
-    "rank": 0
+    "rank": 1
   },
   {
     "id": "wd:Q672556",

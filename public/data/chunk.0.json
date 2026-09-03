@@ -1697,10 +1697,10 @@
     "rank": 4
   },
   {
-    "id": "patreon:109239770",
+    "id": "patreon:156448404",
     "track": "naqp",
-    "title": "Il Caso Krystian Bala - Inchiostro Rosso",
-    "summary": "Siamo in Polonia, all'inizio degli anni 2000. Un brillante studente di filosofia pubblica un romanzo scioccante pieno di sesso e violenza.…",
+    "title": "Il Caso Final Fantasy VII House",
+    "summary": "Siamo nei primi anni duemila, nell'internet delle connessioni lente e dei nickname anonimi. Una donna si convince di essere un personaggio…",
     "year": 2000,
     "era": "dc",
     "vul": 6,
@@ -1726,10 +1726,10 @@
     "rank": 5
   },
   {
-    "id": "patreon:148946209",
+    "id": "patreon:109239770",
     "track": "naqp",
-    "title": "Il Caso Macchiarini",
-    "summary": "Stoccolma, Svezia. Nei primi anni 2000, uno dei centri di ricerca medica più prestigiosi al mondo, il Karolinska Institute - quello che…",
+    "title": "Il Caso Krystian Bala - Inchiostro Rosso",
+    "summary": "Siamo in Polonia, all'inizio degli anni 2000. Un brillante studente di filosofia pubblica un romanzo scioccante pieno di sesso e violenza.…",
     "year": 2000,
     "era": "dc",
     "vul": 6,
@@ -1755,10 +1755,10 @@
     "rank": 6
   },
   {
-    "id": "patreon:118804501",
+    "id": "patreon:148946209",
     "track": "naqp",
-    "title": "Il Caso Mark & John - MI6 vs MSN",
-    "summary": "Manchester, Inghilterra, primi anni 2000. Due adolescenti si conoscono in una chat room online e stringono un'amicizia virtuale che presto…",
+    "title": "Il Caso Macchiarini",
+    "summary": "Stoccolma, Svezia. Nei primi anni 2000, uno dei centri di ricerca medica più prestigiosi al mondo, il Karolinska Institute - quello che…",
     "year": 2000,
     "era": "dc",
     "vul": 6,
@@ -1784,13 +1784,14 @@
     "rank": 7
   },
   {
-    "id": "patreon:118498860",
+    "id": "patreon:118804501",
     "track": "naqp",
-    "title": "Il Caso McDermott",
-    "summary": "26 dicembre 2000, Wakefield, Massachusetts. È il primo giorno lavorativo dopo Natale. Anche nei moderni uffici di Edgewater Technologies…",
+    "title": "Il Caso Mark & John - MI6 vs MSN",
+    "summary": "Manchester, Inghilterra, primi anni 2000. Due adolescenti si conoscono in una chat room online e stringono un'amicizia virtuale che presto…",
     "year": 2000,
     "era": "dc",
     "vul": 6,
+    "precision": "decennio",
     "kind": "caso",
     "weight": 1000,
     "tier": "esclusivo",
@@ -1812,14 +1813,13 @@
     "rank": 8
   },
   {
-    "id": "patreon:161708555",
+    "id": "patreon:118498860",
     "track": "naqp",
-    "title": "Il Caso Wallace Souza",
-    "summary": "Manaus, Brasile, primi anni 2000. Una città isolata nel cuore della foresta amazzonica, raggiungibile solo in aereo o risalendo il Rio…",
+    "title": "Il Caso McDermott",
+    "summary": "26 dicembre 2000, Wakefield, Massachusetts. È il primo giorno lavorativo dopo Natale. Anche nei moderni uffici di Edgewater Technologies…",
     "year": 2000,
     "era": "dc",
     "vul": 6,
-    "precision": "decennio",
     "kind": "caso",
     "weight": 1000,
     "tier": "esclusivo",
@@ -1841,10 +1841,10 @@
     "rank": 9
   },
   {
-    "id": "patreon:162919527",
+    "id": "patreon:161708555",
     "track": "naqp",
-    "title": "Il Caso WWASP — Le Scuole del Terrore",
-    "summary": "Stati Uniti, anni 2000. Tuo figlio prende brutti voti, risponde male, forse ha fumato una canna. Nessun problema: paghi 3.500 dollari al…",
+    "title": "Il Caso Wallace Souza",
+    "summary": "Manaus, Brasile, primi anni 2000. Una città isolata nel cuore della foresta amazzonica, raggiungibile solo in aereo o risalendo il Rio…",
     "year": 2000,
     "era": "dc",
     "vul": 6,
@@ -1870,10 +1870,10 @@
     "rank": 10
   },
   {
-    "id": "patreon:157869171",
+    "id": "patreon:162919527",
     "track": "naqp",
-    "title": "Il Caso Yang Jin-ho",
-    "summary": "Siamo nella Corea del Sud dei primi anni 2000. Un venditore porta a porta di centrifugati, ossessionato dal sogno di diventare ricco…",
+    "title": "Il Caso WWASP — Le Scuole del Terrore",
+    "summary": "Stati Uniti, anni 2000. Tuo figlio prende brutti voti, risponde male, forse ha fumato una canna. Nessun problema: paghi 3.500 dollari al…",
     "year": 2000,
     "era": "dc",
     "vul": 6,
@@ -1895,6 +1895,22 @@
     "vul": 6,
     "kind": "incidente aereo",
     "weight": 15,
+    "rank": 11
+  },
+  {
+    "id": "patreon:157869171",
+    "track": "naqp",
+    "title": "Il Caso Yang Jin-ho",
+    "summary": "Siamo nella Corea del Sud dei primi anni 2000. Un venditore porta a porta di centrifugati, ossessionato dal sogno di diventare ricco…",
+    "year": 2000,
+    "era": "dc",
+    "vul": 6,
+    "precision": "decennio",
+    "kind": "caso",
+    "weight": 1000,
+    "tier": "esclusivo",
+    "dateSource": "descrizione",
+    "url": "https://www.patreon.com/cw/NAQP",
     "rank": 11
   },
   {
