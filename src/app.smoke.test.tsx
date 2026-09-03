@@ -45,7 +45,7 @@ describe('rendering', () => {
         credits={null} focus={null} byVul={new Map()} ensureChunk={async () => {}} />,
     )
     expect(html).toContain('anno zero')
-    expect(html).toContain('anni senza niente') // i vuoti sono compressi
+    expect(html).toContain('anni senza prove') // i vuoti sono compressi
     expect(html).toContain('giubileo')          // il 2025 è 31 dVUL
   })
 
@@ -86,14 +86,36 @@ describe('rendering', () => {
     expect(html).toContain('non ha una descrizione')
   })
 
-  it('il pulsante per l\'Anno Zero c\'è ed è etichettato', () => {
+  it('il timbro per l\'Anno Zero c\'è, etichettato e con la freccia disegnata', () => {
     const html = render(<ZeroFab onJump={() => {}} />)
-    expect(html).toContain('anno')
     expect(html).toContain("Torna all'Anno Zero, 1994")
+    expect(html).toContain('ANNO ZERO')
+    // la freccia è un tracciato, non un carattere tipografico
+    expect(html).toContain('<svg')
+    expect(html).not.toContain('↑')
+    expect(html).not.toContain('↓')
   })
 
   it('convertitore e calendari si montano', () => {
-    expect(render(<Converter onGoTo={() => {}} />)).toContain('Convertitore')
+    expect(render(<Converter onGoTo={() => {}} />)).toContain("Da un calendario all'altro")
     expect(render(<CalendarPanel />)).toContain('Ebraico')
+  })
+
+  it('le tracce si annotano sul foglio, non con un pallino colorato', () => {
+    const lurido = render(<EventCard event={event({ track: 'lurido', image: undefined })} credits={null} />)
+    expect(lurido).toContain('highlighted') // passato a evidenziatore
+    const naqp = render(<EventCard
+      event={event({ track: 'naqp', title: 'Il Caso X', image: 'X.jpg', summary: undefined })}
+      credits={null} />)
+    expect(naqp).toContain('circled')       // foto cerchiata a pennarello
+    expect(naqp).toContain('halftone')      // fotocopia retinata
+  })
+
+  it('i filtri sono etichette appuntate: la puntina c\'è solo se attiva', () => {
+    const html = render(<App />)
+    // tre etichette, tutte appuntate all'avvio
+    expect(html.match(/aria-pressed="true"/g)?.length).toBeGreaterThanOrEqual(3)
+    expect(html).toContain('sulla bacheca:')
+    expect(html).toContain('tape')          // la barra sticky è nastro adesivo
   })
 })
