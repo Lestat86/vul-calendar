@@ -13,6 +13,7 @@
     "etl:naqp": "node scripts/etl/fetch-naqp.mjs",
     "etl:patreon": "node scripts/etl/fetch-patreon.mjs",
     "etl:dates": "node scripts/etl/resolve-dates.mjs",
+    "etl:todo": "node scripts/etl/todo-dates.mjs",
     "etl:bundle": "node scripts/etl/bundle.mjs"
   },
   "dependencies": {
