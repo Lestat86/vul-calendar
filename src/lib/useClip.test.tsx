@@ -14,7 +14,10 @@ class FakeAudio {
   plays = 0
   src: string
   constructor(src: string) { this.src = src; FakeAudio.made.push(this) }
+  loads = 0
   addEventListener() {}
+  removeEventListener() {}
+  load() { this.loads += 1 }
   pause() { this.paused = true }
   play() {
     this.plays += 1
@@ -55,20 +58,24 @@ afterEach(async () => {
 })
 
 describe('useClip', () => {
-  it('non scarica niente finché nessuno lo chiede', async () => {
+  it('scarica e decodifica al mount, non al click', async () => {
+    // creare l'elemento al primo click risparmiava 47KB ma introduceva un
+    // ritardo udibile fra il click e il suono: compromesso sbagliato qui
     await mount()
-    expect(FakeAudio.made).toHaveLength(0)
-    expect(api.playing).toBe(false)
-  })
-
-  it('al primo click costruisce l\'audio e lo fa partire', async () => {
-    await mount()
-    await act(async () => { api.toggle() })
     expect(FakeAudio.made).toHaveLength(1)
     const el = FakeAudio.made[0]!
     expect(el.src).toContain('lurida-cut.mp3')
-    expect(el.preload).toBe('none') // niente prefetch
-    expect(el.plays).toBe(1)
+    expect(el.preload).toBe('auto')
+    expect(el.loads).toBe(1)
+    expect(el.plays).toBe(0)   // pronto, ma muto finché non glielo chiedi
+    expect(api.playing).toBe(false)
+  })
+
+  it('al click parte subito, senza costruire niente', async () => {
+    await mount()
+    await act(async () => { api.toggle() })
+    expect(FakeAudio.made).toHaveLength(1) // nessun elemento nuovo
+    expect(FakeAudio.made[0]!.plays).toBe(1)
     expect(api.playing).toBe(true)
   })
 
@@ -80,7 +87,7 @@ describe('useClip', () => {
     expect(el.paused).toBe(true)
     expect(el.currentTime).toBe(0)
     expect(api.playing).toBe(false)
-    expect(FakeAudio.made).toHaveLength(1) // riusa lo stesso elemento
+    expect(FakeAudio.made).toHaveLength(1) // riusa sempre lo stesso elemento
   })
 
   it('riparte da capo, non da dove era rimasto', async () => {
